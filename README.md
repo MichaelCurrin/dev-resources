@@ -1,5 +1,5 @@
 # Code Resources
-> Resources for learning programming languages and dev tools
+> Links to resources around programming languages, developers tools and services
 
 
 ## About

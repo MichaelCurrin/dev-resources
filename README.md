@@ -3,12 +3,16 @@
 
 A dev encyclopedia quick reference - including 
 
-- definitions
-- links to the homepage, tutorials and docs
-- links to installation guides (in my gists or other repos). 
+- Definitions
+- Links to the homepage, tutorials and docs
+- Links to installation guides (in my gists or other repos). 
 
-The idea is to focus on **links** to resources, as a quick reference or favorite links or bookmarks, but shared publically. 
+The idea is to focus on **links** to resources, as a quick reference or favorite links or bookmarks, but shared publically. With the aim to reduce friction so I can drop in links and titles in a CMS and not care about styling except at a theme level. 
 
 And **not** to cover detailed paragraphs or actual syntax rules or samples (except maybe for Hello World)
 
-See also [MichaelCurrin/learn-to-code](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/).
+
+## Related projects
+
+- [MichaelCurrin/code-cookbook](https://github.com/MichaelCurrin/code-cookbook)
+- [MichaelCurrin/learn-to-code](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/).

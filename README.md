@@ -7,6 +7,26 @@
 [![License - MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 
+## Website
+
+<div align="center">
+
+[![View site - GH Pages](https://img.shields.io/static/v1?label=View+site&message=GH+Pages&color=green&style=for-the-badge)](https://michaelcurrin.github.io/dev-resources/)
+
+</div>
+
+
+## Documentation
+
+To setup and run this project (or a fork), see the project docs:
+
+<div align="center">
+
+[![Docs](https://img.shields.io/badge/View-Docs-blue?style=for-the-badge)](/docs/)
+
+</div>
+
+
 ## License
 
 Released under [MIT](/LICENSE).

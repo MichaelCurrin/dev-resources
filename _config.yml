@@ -36,6 +36,10 @@ titles_from_headings:
 
 defaults:
   - scope:
+      path: "resources"
+    values:
+      layout: "resources"
+  - scope:
       path: ""
     values:
       layout: "page"

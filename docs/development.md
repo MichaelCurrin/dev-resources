@@ -2,3 +2,20 @@
 > Notes for developers working on this project
 
 See [Development](https://github.com/MichaelCurrin/minima/blob/master/docs/development.md) in the theme.
+
+
+## Resource lists
+
+Here is a template:
+
+```liquid
+---
+links:
+  - title:
+    url:
+
+  - title:
+    url:
+    description:
+---
+```

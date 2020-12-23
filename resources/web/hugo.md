@@ -1,4 +1,6 @@
 ---
+logo: hugo
+
 links:
   - title: Hugo homepage
     url: https://gohugo.io/

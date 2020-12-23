@@ -1,4 +1,6 @@
 ---
+logo: visualstudiocode
+
 links:
   - title: VS Code homepage
     url: https://code.visualstudio.com/

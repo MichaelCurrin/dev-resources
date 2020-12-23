@@ -1,4 +1,5 @@
 ---
+logo: githubactions
 links:
     - title: GH Actions feature page
       url: https://github.com/actions

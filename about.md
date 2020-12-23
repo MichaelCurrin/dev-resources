@@ -8,7 +8,8 @@ Including:
 - Links to the homepage, tutorials and docs
 - Links to installation guides (in my gists or other repos).
 
-### Aim
+
+## Aim
 
 The idea is to focus on **links** to resources, as a quick reference or favorite links or bookmarks, but shared publically.
 

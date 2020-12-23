@@ -3,11 +3,10 @@
 
 ## About
 
-
 It also runs tests for you daily without Github Action hooked up.
 
-- About - https://developers.google.com/web/tools/lighthouse
-- Test your site using the online service - https://developers.google.com/speed/pagespeed/insights/
+- [About](https://developers.google.com/web/tools/lighthouse)
+- [Test your site using the online service](https://developers.google.com/speed/pagespeed/insights/)
 
 
 ## GitHub Actions
@@ -25,7 +24,7 @@ That is an action is managed by "Foo", the same org that provides the UI service
 ## Automated Lighthouse Check
 > Service to run and store checks for you, with free and pair tiers
 
-- https://www.automated-lighthouse-check.com/
+- [automated-lighthouse-check.com](https://www.automated-lighthouse-check.com/)
 
 > Maintain historical records of Lighthouse tests with automated monitoring. Report to stakeholders with confidence about improvements and stay on top of degradation introduced by code changes when they happen! When you create a premium account, login to view charts reflecting automated Lighthouse runs.
 
@@ -33,7 +32,7 @@ The service lets you run tests in your own container using CI/CD e.g. GitHub Act
 
 ### How to setup Automated Lighthouse Check service
 
-- https://www.foo.software/automated-lighthouse-check-getting-started/
+- [Getting Started](https://www.foo.software/automated-lighthouse-check-getting-started/)
 
 To get started follow these steps to start tracking web pages.
 
@@ -46,4 +45,4 @@ To get started follow these steps to start tracking web pages.
 
 You can also use the GH Action without the Automated Lighthouse service. Just upload HTML reports to your own S3 storage.
 
-[lighthouse-check#screenshot-save-html-reports-as-artifacts](https://github.com/marketplace/actions/lighthouse-check#screenshot-save-html-reports-as-artifacts)
+[Save HTML reports as artifacts](https://github.com/marketplace/actions/lighthouse-check#screenshot-save-html-reports-as-artifacts)

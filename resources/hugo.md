@@ -1,6 +1,15 @@
-# Hugo
+---
+links:
+  - title: Hugo homepage
+    url: https://gohugo.io/
 
-- [Hugo homepage - gohugo.io](https://gohugo.io/)
-- [Quick Start](https://gohugo.io/getting-started/quick-start/) page in Hugo docs
-- [Hugo Basic Usage](https://gohugo.io/getting-started/usage/)
-- [Hosting and Deployment](https://gohugo.io/hosting-and-deployment/)
+  - title: Quick Start in Hugo docs
+    url: https://gohugo.io/getting-started/quick-start/
+
+  - title: Hugo Basic Usage
+    url: https://gohugo.io/getting-started/usage/
+
+  - title: Hosting and Deployment
+    url: https://gohugo.io/hosting-and-deployment/
+---
+# Hugo

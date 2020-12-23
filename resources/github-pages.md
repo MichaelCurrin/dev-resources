@@ -1,3 +1,6 @@
+---
+links:
+  - title: GitHub Pages homepage
+    url: https://pages.github.com/
+---
 # GitHub Pages
-
-- [GitHub Pages](https://pages.github.com/) homepage.

@@ -1,0 +1,45 @@
+### Site metadata ###
+
+title: Dev Resources
+description: Links to resources around programming languages, developers tools and services
+
+github_username: MichaelCurrin
+
+### Build settings ###
+
+url: "https://michaelcurrin.github.io"
+baseurl: "/dev-resources"
+
+google_analytics:
+
+header_pages:
+  - index.md
+  - resources/index.md
+  - about.md
+
+exclude:
+  - docs/
+  - vendor/
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - Makefile
+  - README.md
+
+### Theme boilerplate ###
+
+remote_theme: MichaelCurrin/minima
+
+titles_from_headings:
+  strip_title: true
+
+defaults:
+  - scope:
+      path: "resources"
+    values:
+      layout: "resources"
+  - scope:
+      path: ""
+    values:
+      layout: "page"

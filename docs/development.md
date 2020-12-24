@@ -19,3 +19,22 @@ links:
     description:
 ---
 ```
+
+
+## Conversion
+
+Regex pattern to convert from bullet list of links to frontmatter.
+
+Find:
+
+```re
+- \[(.+)\]\((.+)\)\
+```
+
+Replace:
+
+```
+- title: $1
+  url: $2
+
+```

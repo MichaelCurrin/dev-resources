@@ -2,6 +2,8 @@
 layout: page
 ---
 
+{{ content }}
+
 {% if page.links %}
 
 <h2>Resources</h2>
@@ -9,5 +11,3 @@ layout: page
 {% include links-list.html links=page.links %}
 
 {% endif %}
-
-{{ content }}

@@ -1,4 +1,6 @@
 ---
+title: Libraries
+
 links:
   - title: Python standard library
     url: https://docs.python.org/3/library/index.html
@@ -15,4 +17,3 @@ links:
   - title: File and directory access
     url: https://docs.python.org/3/library/filesys.html
 ---
-# Libraries

@@ -1,4 +1,5 @@
 ---
+title: VS Code
 logo: visualstudiocode
 
 links:
@@ -11,4 +12,3 @@ links:
   - title: Working with GitHub in VS Code
     url: https://code.visualstudio.com/docs/editor/github
 ---
-# VS Code

@@ -4,10 +4,13 @@ layout: page
 
 {{ content }}
 
-{% if page.links %}
+{% if page.links or page.link_sections %}
+    <h2>Resources</h2>
 
-<h2>Resources</h2>
+    {% include links-list.html links=page.links %}
 
-{% include links-list.html links=page.links %}
-
+    {% for section in page.link_sections %}
+        <h3>{{ section.name }}</h3>
+        {% include links-list.html links=section.links %}
+    {% endfor %}
 {% endif %}

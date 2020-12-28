@@ -43,6 +43,6 @@ link_sections:
         url: https://datatables.net/examples/plug-ins/range_filtering.html
       - title: Range filter numbers
         url: https://datatables.net/plug-ins/filtering/row-based/range_numbers
-      - title: Droplist
+      - title: Add droplist to columns
         url: https://datatables.net/examples/api/multi_filter_select.html
 ---

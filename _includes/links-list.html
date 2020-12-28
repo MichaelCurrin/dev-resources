@@ -1,16 +1,18 @@
 <ul>
-    {% for link in include.links %}
+{% for link in include.links %}
     <li>
         <a href="{{ link.url }}">
             {{ link.title }}
         </a>
+
         {% if link.description %}
-        <ul>
-            <li>
-                {{ link.description }}
-            </li>
-        </ul>
+            <ul>
+                {%- comment -%} Borrowed from minima's blockquote CSS {%- endcomment -%}
+                <li style="color: #828282;">
+                    {{ link.description | markdownify }}</blockquote>
+                </li>
+            </ul>
         {% endif -%}
     </li>
-    {% endfor %}
+{% endfor %}
 </ul>

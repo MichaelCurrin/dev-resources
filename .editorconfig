@@ -1,10 +1,11 @@
 root = true
 
+# Markdown is kept as 2 to ease use of frontmatter.
 [*]
 indent_style = space
 indent_size = 2
 
-[*.{html,md}]
+[*.html]
 indent_size = 4
 
 [Makefile]

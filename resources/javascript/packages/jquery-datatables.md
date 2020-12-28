@@ -4,8 +4,8 @@ title: jQuery DataTables
 link_sections:
   - name: Overview
     links:
-      - title: Plugins on GitHub
-        url: https://github.com/DataTables/Plugins
+      - title: Homepage
+        url: https://datatables.net/
       - title: Download
         url: https://datatables.net/download/
       - title: Setting options
@@ -17,6 +17,8 @@ link_sections:
 
   - name: Plugins
     links:
+    - title: Plugins on GitHub
+      url: https://github.com/DataTables/Plugins
     - title: Extensions
       url: https://datatables.net/extensions/
     - title: Search plugin development

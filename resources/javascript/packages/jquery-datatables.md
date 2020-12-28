@@ -11,20 +11,20 @@ link_sections:
       - title: Setting options
         url: https://datatables.net/manual/options
       - title: Options
-        url:  https://datatables.net/reference/option/
+        url: https://datatables.net/reference/option/
       - title: Column types
         url: https://datatables.net/reference/option/columns.type
 
   - name: Plugins
     links:
-    - title: Plugins on GitHub
-      url: https://github.com/DataTables/Plugins
-    - title: Extensions
-      url: https://datatables.net/extensions/
-    - title: Search plugin development
-      url: https://datatables.net/manual/plug-ins/search
-    - title: Fixed header
-      url: https://datatables.net/extensions/fixedheader/
+      - title: Plugins on GitHub
+        url: https://github.com/DataTables/Plugins
+      - title: Extensions
+        url: https://datatables.net/extensions/
+      - title: Search plugin development
+        url: https://datatables.net/manual/plug-ins/search
+      - title: Fixed header
+        url: https://datatables.net/extensions/fixedheader/
 
   - name: Filtering
     links:

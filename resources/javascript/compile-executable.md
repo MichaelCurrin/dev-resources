@@ -4,7 +4,7 @@ If you have a Node app, you can package it as standalone executable that can be 
 
 Look at:
 
-- nexe 
-- pkg
+- `nexe`
+- `pkg`
 
 Deno also added support for this.

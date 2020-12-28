@@ -38,3 +38,8 @@ Replace:
     url: $2
 
 ```
+
+
+## Frontmatter
+
+Tip - set a given `.md` file with only frontmatter to use the YAML format. You'll get formatting and validation.

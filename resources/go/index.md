@@ -2,7 +2,7 @@
 title: Go
 logo: go
 
-attributes:
+key_links:
   homepage: https://golang.org/
   wiki: https://github.com/golang/go/wiki
   packages: https://golang.org/pkg/

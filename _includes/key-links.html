@@ -1,17 +1,17 @@
-{% assign homepage = include.item.homepage %}
-{% assign docs = include.item.docs %}
-{% assign wiki = include.item.wiki %}
-{% assign repo = include.item.repo %}
-{% assign packages = include.item.packages %}
-{% assign learn_x = include.item.learn_x %}
-{% assign cheatsheet = include.item.cheatsheet %}
-{% assign tutorials_point = include.item.tutorials_point %}
-{% assign rosetta_code = include.item.rosetta_code %}
-
 {%- comment -%} TODO: Convert to table {%- endcomment -%}
 
-{% if home or docs or wiki or repo or packages or learn_x or cheatsheet or tutorials_point %}
-    <h2>Overview</h2>
+{% if include.key_links %}
+    <h2>Key links</h2>
+
+    {% assign homepage = include.key_links.homepage %}
+    {% assign docs = include.key_links.docs %}
+    {% assign wiki = include.key_links.wiki %}
+    {% assign repo = include.key_links.repo %}
+    {% assign packages = include.key_links.packages %}
+    {% assign learn_x = include.key_links.learn_x %}
+    {% assign cheatsheet = include.key_links.cheatsheet %}
+    {% assign tutorials_point = include.key_links.tutorials_point %}
+    {% assign rosetta_code = include.key_links.rosetta_code %}
 
     <ul>
         {% if homepage %}
@@ -68,4 +68,5 @@
             </li>
         {% endif %}
     </ul>
+
 {% endif %}

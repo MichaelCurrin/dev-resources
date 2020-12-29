@@ -6,6 +6,7 @@
 {% assign learn_x = include.item.learn_x %}
 {% assign cheatsheet = include.item.cheatsheet %}
 {% assign tutorials_point = include.item.tutorials_point %}
+{% assign rosetta_code = include.item.rosetta_code %}
 
 {%- comment -%} TODO: Convert to table {%- endcomment -%}
 
@@ -58,6 +59,12 @@
         {% if tutorials_point %}
             <li>
                 <b>Tutorials Point:</b> <a href="{{ tutorials_point }}">{{ tutorials_point }}</a>
+            </li>
+        {% endif %}
+
+        {% if rosetta_code %}
+            <li>
+                <b>Rosetta Code:</b> <a href="{{ rosetta_code }}">{{ rosetta_code }}</a>
             </li>
         {% endif %}
     </ul>

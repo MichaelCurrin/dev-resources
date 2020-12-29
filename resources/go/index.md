@@ -10,6 +10,7 @@ attributes:
   learn_x: https://learnxinyminutes.com/docs/go/
   cheatsheet: https://devhints.io/go
   tutorials_point: https://www.tutorialspoint.com/go/index.htm
+  rosetta_code: http://rosettacode.org/wiki/Category:Go
 
 link_sections:
   - title: The Go Blog

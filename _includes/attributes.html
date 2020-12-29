@@ -1,0 +1,34 @@
+{% assign homepage = include.item.homepage %}
+{% assign docs = include.item.docs %}
+{% assign wiki = include.item.wiki %}
+{% assign repo = include.item.repo %}
+
+{% if home or docs or wiki or repo %}
+    <h2>Overview</h2>
+
+    <ul>
+        {% if homepage %}
+            <li>
+                <b>Homepage: </b> <a href="{{ homepage }}">{{ homepage }}</a>
+            </li>
+        {% endif %}
+
+        {% if docs %}
+            <li>
+                <b>Docs: </b> <a href="{{ docs }}">{{ docs }}</a>
+            </li>
+        {% endif %}
+
+        {% if wiki %}
+            <li>
+                <b>Wiki: </b> <a href="{{ wiki }}">{{ wiki }}</a>
+            </li>
+        {% endif %}
+
+        {% if repo %}
+            <li>
+                <b>Repo: </b> <a href="{{ repo }}">{{ repo }}</a>
+            </li>
+        {% endif %}
+    </ul>
+{% endif %}

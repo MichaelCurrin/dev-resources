@@ -28,5 +28,6 @@ layout: page
 
 {% for section in page.link_sections %}
     <h2>{{ section.title }}</h2>
+
     {% include links-list.html links=section.links %}
 {% endfor %}

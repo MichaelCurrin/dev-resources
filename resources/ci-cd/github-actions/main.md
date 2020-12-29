@@ -20,7 +20,7 @@ links:
     url: https://github.community/c/github-actions
 
 link_sections:
-  - name: Tutorials
+  - title: Tutorials
     links:
       - title: Intro to GitHub Actions blog post series
         url: https://dev.to/michaelcurrin/series/9032
@@ -30,7 +30,7 @@ link_sections:
         description: |
           My blog post on how to use GitHub Actions to deploy use any tech stack (Python, Jekyll, Node) to build and deploy a static site or SPA to GH Pages.
 
-  - name: Limitations
+  - title: Limitations
     links:
       - title: Intro to GitHub Actions blog post
         url: https://gabrieltanner.org/blog/an-introduction-to-github-actions

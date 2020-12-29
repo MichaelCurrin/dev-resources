@@ -2,7 +2,7 @@
 title: jQuery DataTables
 
 link_sections:
-  - name: Overview
+  - title: Overview
     links:
       - title: Homepage
         url: https://datatables.net/
@@ -15,7 +15,7 @@ link_sections:
       - title: Column types
         url: https://datatables.net/reference/option/columns.type
 
-  - name: Plugins
+  - title: Plugins
     links:
       - title: Plugins on GitHub
         url: https://github.com/DataTables/Plugins
@@ -26,7 +26,7 @@ link_sections:
       - title: Fixed header
         url: https://datatables.net/extensions/fixedheader/
 
-  - name: Filtering
+  - title: Filtering
     links:
       - title: Filtering plugins
         url: https://datatables.net/plug-ins/filtering/

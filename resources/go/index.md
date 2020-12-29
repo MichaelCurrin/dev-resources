@@ -4,6 +4,7 @@ logo: go
 
 key_links:
   homepage: https://golang.org/
+  docs: https://golang.org/doc/
   wiki: https://github.com/golang/go/wiki
   packages: https://golang.org/pkg/
   repo: https://github.com/golang/go
@@ -13,7 +14,7 @@ key_links:
   rosetta_code: http://rosettacode.org/wiki/Category:Go
 
 link_sections:
-  - title: The Go Blog
+  - title: The Go blog
     links:
       - title: Homepage
         url: https://blog.golang.org
@@ -24,23 +25,6 @@ link_sections:
           The builtin tool to format your code. We use _tabs_ for indentation and `gofmt` emits
           them by default. Use spaces only if you must.
 
-  - title: Learn
-    links:
-      - title: Go track on Exercism
-        url: https://exercism.io/tracks/go
-
-      - title: Go Tour welcome page
-        url: https://tour.golang.org/welcome/1
-
-      - title: Learn Go with Tests
-        url: https://quii.gitbook.io/learn-go-with-tests/
-
-      - title: Go for Python programmers
-        url: https://golang-for-python-programmers.readthedocs.io/en/latest/index.html
-
-      - title: Gophercises
-        url: https://gophercises.com/
-        description: FREE coding exercises for budding gophers
   - title: Tutorials
     links:
       - title: Wiki list
@@ -104,4 +88,38 @@ link_sections:
 
       - title: Tutorials Point Go playground
         url: https://www.tutorialspoint.com/execute_golang_online.php
+
+  - title: Recommended reading
+    links:
+      - title: Source code of the standard library
+        url: https://golang.org/src/
+        description: |
+          Comprehensively documented, it demonstrates the best of readable and understandable Go,
+          Go style, and Go idioms.
+
+      - title: Packages
+        url: http://golang.org/pkg/
+        description: Includes example use for the standard library. Click on a function to see the soure code.
+
+      - title: Language spec
+        url: https://golang.org/ref/spec
+        description: This is a reference manual for the Go programming language.
+
+  - title: Practical coding
+    links:
+      - title: Go track on Exercism
+        url: https://exercism.io/tracks/go
+
+      - title: Go Tour welcome page
+        url: https://tour.golang.org/welcome/1
+
+      - title: Learn Go with Tests
+        url: https://quii.gitbook.io/learn-go-with-tests/
+
+      - title: Go for Python programmers
+        url: https://golang-for-python-programmers.readthedocs.io/en/latest/index.html
+
+      - title: Gophercises
+        url: https://gophercises.com/
+        description: FREE coding exercises for budding gophers
 ---

@@ -1,7 +1,7 @@
 ---
+title: Vue
 logo: vue-dot-js
 ---
-# Vue
 
 See also my [Resources](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/libraries/vue.md) for Vue in Learn to Code.
 

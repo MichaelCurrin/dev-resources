@@ -1,8 +1,7 @@
 ---
 logo: typescript
+title: TypeScript
 ---
-# TypeScript
-
 
 - [TypeScript Cheatsheet](https://devhints.io/typescript) on DevHints.
 - My [TypeScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript) guide.

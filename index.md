@@ -1,7 +1,7 @@
 ---
 layout: home
+title: Home
 ---
-# Home
 
 > {{ site.description }}
 

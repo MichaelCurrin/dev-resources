@@ -1,4 +1,4 @@
 ---
+title: Resources
 layout: listing
 ---
-# Resources

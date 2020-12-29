@@ -1,4 +1,5 @@
 ---
+title: Hugo
 logo: hugo
 
 links:
@@ -14,4 +15,3 @@ links:
   - title: Hosting and Deployment
     url: https://gohugo.io/hosting-and-deployment/
 ---
-# Hugo

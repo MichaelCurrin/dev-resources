@@ -1,5 +1,5 @@
 ---
-layout: listing
+title: Version control
 logo: github
+layout: listing
 ---
-# Version control

@@ -1,4 +1,4 @@
 ---
+title: Other
 layout: listing
 ---
-# Other

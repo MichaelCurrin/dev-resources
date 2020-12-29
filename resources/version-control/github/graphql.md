@@ -1,4 +1,5 @@
 ---
+title: GraphQL API
 logo: graphql
 description: Resources around GitHub's GraphQL API
 
@@ -14,7 +15,6 @@ links:
     url: https://docs.github.com/en/free-pro-team@latest/developers
     description: Go deeper with GitHub by integrating with our APIs, customizing your GitHub workflow, and building and sharing apps with the community.
 ---
-# GraphQL API
 
 I have a couple of examples of requests as gists - see my [Gist viewer](https://michaelcurrin.github.io/gist-viewer/).
 

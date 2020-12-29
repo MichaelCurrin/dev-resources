@@ -12,8 +12,11 @@ attributes:
   tutorials_point: https://www.tutorialspoint.com/go/index.htm
 
 link_sections:
-  - title: Main
+  - title: The Go Blog
     links:
+      - title: Homepage
+        url: https://blog.golang.org
+
       - title: Go fmt
         url: https://blog.golang.org/go-fmt-your-code
         description: |
@@ -34,6 +37,9 @@ link_sections:
       - title: Go for Python programmers
         url: https://golang-for-python-programmers.readthedocs.io/en/latest/index.html
 
+      - title: Gophercises
+        url: https://gophercises.com/
+        description: FREE coding exercises for budding gophers
   - title: Tutorials
     links:
       - title: Wiki list

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Create file structure.
+# Create file structure for adding new pages.
 #
-# Make sure to run this from with resources dir.
+# Make sure to run this from the resources dir.
 
 if [ $# -eq 0 ]; then
   echo 'Required argument: NAME'

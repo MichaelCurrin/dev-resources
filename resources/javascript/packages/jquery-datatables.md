@@ -1,11 +1,14 @@
 ---
 title: jQuery DataTables
+description: Tables plug-in for jQuery
+
+key_links:
+  homepage: https://datatables.net/
+  github: https://github.com/DataTables/DataTables
 
 link_sections:
   - title: Overview
     links:
-      - title: Homepage
-        url: https://datatables.net/
       - title: Download
         url: https://datatables.net/download/
       - title: Setting options

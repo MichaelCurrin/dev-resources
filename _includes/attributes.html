@@ -2,32 +2,62 @@
 {% assign docs = include.item.docs %}
 {% assign wiki = include.item.wiki %}
 {% assign repo = include.item.repo %}
+{% assign packages = include.item.packages %}
+{% assign learn_x = include.item.learn_x %}
+{% assign cheatsheet = include.item.cheatsheet %}
+{% assign tutorials_point = include.item.tutorials_point %}
 
-{% if home or docs or wiki or repo %}
+{%- comment -%} TODO: Convert to table {%- endcomment -%}
+
+{% if home or docs or wiki or repo or packages or learn_x or cheatsheet or tutorials_point %}
     <h2>Overview</h2>
 
     <ul>
         {% if homepage %}
             <li>
-                <b>Homepage: </b> <a href="{{ homepage }}">{{ homepage }}</a>
+                <b>Homepage:</b> <a href="{{ homepage }}">{{ homepage }}</a>
             </li>
         {% endif %}
 
         {% if docs %}
             <li>
-                <b>Docs: </b> <a href="{{ docs }}">{{ docs }}</a>
+                <b>Docs:</b> <a href="{{ docs }}">{{ docs }}</a>
             </li>
         {% endif %}
 
         {% if wiki %}
             <li>
-                <b>Wiki: </b> <a href="{{ wiki }}">{{ wiki }}</a>
+                <b>Wiki:</b> <a href="{{ wiki }}">{{ wiki }}</a>
             </li>
         {% endif %}
 
         {% if repo %}
             <li>
-                <b>Repo: </b> <a href="{{ repo }}">{{ repo }}</a>
+                <b>Repo:</b> <a href="{{ repo }}">{{ repo }}</a>
+            </li>
+        {% endif %}
+
+        {% if packages %}
+            <li>
+                <b>Packages index:</b> <a href="{{ packages }}">{{ packages }}</a>
+            </li>
+        {% endif %}
+
+        {% if learn_x %}
+            <li>
+                <b>Learn X in Y Minutes:</b> <a href="{{ learn_x }}">{{ learn_x }}</a>
+            </li>
+        {% endif %}
+
+        {% if cheatsheet %}
+            <li>
+                <b>Cheatsheet:</b> <a href="{{ cheatsheet }}">{{ cheatsheet }}</a>
+            </li>
+        {% endif %}
+
+        {% if tutorials_point %}
+            <li>
+                <b>Tutorials Point:</b> <a href="{{ tutorials_point }}">{{ tutorials_point }}</a>
             </li>
         {% endif %}
     </ul>

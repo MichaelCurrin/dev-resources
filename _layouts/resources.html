@@ -6,13 +6,27 @@ layout: page
 
 {% include key-links.html key_links=page.key_links %}
 
-{% if page.links or page.link_sections %}
-    <h2>Resources</h2>
+{% include links-list.html links=page.links %}
 
-    {% include links-list.html links=page.links %}
+{% if page.tutorials %}
+    <h2>Tutorials</h2>
 
-    {% for section in page.link_sections %}
-        <h3>{{ section.title }}</h3>
-        {% include links-list.html links=section.links %}
-    {% endfor %}
+    {% include links-list.html links=page.tutorials %}
 {% endif %}
+
+{% if page.blog_posts %}
+    <h2>Blog posts</h2>
+
+    {% include links-list.html links=page.blog_posts %}
+{% endif %}
+
+{% if page.playgrounds %}
+    <h2>Online playgrounds</h2>
+
+    {% include links-list.html links=page.playgrounds %}
+{% endif %}
+
+{% for section in page.link_sections %}
+    <h2>{{ section.title }}</h2>
+    {% include links-list.html links=section.links %}
+{% endfor %}

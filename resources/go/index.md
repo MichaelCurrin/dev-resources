@@ -88,6 +88,9 @@ link_sections:
 
   - title: Recommended reading
     links:
+      - title: The golang-standards org on GitHub
+        url: https://github.com/golang-standards
+
       - title: Source code of the standard library
         url: https://golang.org/src/
         description: |

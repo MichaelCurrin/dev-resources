@@ -11,7 +11,7 @@
 
 <div align="center">
 
-[![View site - GH Pages](https://img.shields.io/static/v1?label=View+site&message=GH+Pages&color=green&style=for-the-badge)](https://michaelcurrin.github.io/dev-resources/)
+[![View site - GH Pages](https://img.shields.io/static/v1?label=View+site&message=GH+Pages&color=2ea44f&style=for-the-badge)](https://michaelcurrin.github.io/dev-resources/)
 
 </div>
 
@@ -29,4 +29,4 @@ To setup and run this project (or a fork), see the project docs:
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).

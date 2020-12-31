@@ -1,10 +1,11 @@
 ---
-logo: typescript
 title: TypeScript
+logo: typescript
 ---
 
 - [TypeScript Cheatsheet](https://devhints.io/typescript) on DevHints.
-- My [TypeScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript) guide.
+- [TypeScript Cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/typescript/) on my Dev Cheatsheets site
+- [TypeScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript) guide on Learn to Code.
 - TS docs
     - [Basic types](https://www.typescriptlang.org/docs/handbook/basic-types.html)
     - [Interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html) - type checking based on the _shape_ of the data.

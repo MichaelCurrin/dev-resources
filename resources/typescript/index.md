@@ -1,8 +1,18 @@
 ---
 title: TypeScript
 logo: typescript
+
+description: |
+    JavaScript that scales.
+    TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+    Any browser. Any host. Any OS. Open source.
+
+key_links:
+  homepage: https://www.typescriptlang.org/
+  docs: https://www.typescriptlang.org/docs/
 ---
 
+- [Download](https://www.typescriptlang.org/download)
 - [TypeScript Cheatsheet](https://devhints.io/typescript) on DevHints.
 - [TypeScript Cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/typescript/) on my Dev Cheatsheets site
 - [TypeScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript) guide on Learn to Code.

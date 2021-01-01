@@ -8,7 +8,7 @@ key_links:
   homepage: https://golang.org/
   docs: https://golang.org/doc/
   wiki: https://github.com/golang/go/wiki
-  packages: https://golang.org/pkg/
+  packages: https://pkg.go.dev/
   repo: https://github.com/golang/go
   learn_x: https://learnxinyminutes.com/docs/go/
   cheatsheet: https://devhints.io/go
@@ -16,6 +16,12 @@ key_links:
   rosetta_code: http://rosettacode.org/wiki/Category:Go
 
 tutorials:
+  - title: Getting started on the docs
+    url: https://golang.org/doc/tutorial/getting-started
+
+  - title: Learning resources on Go Dev
+    url: https://learn.go.dev/
+
   - title: Wiki list
     url: https://github.com/golang/go/wiki
     description: See the table of contents for list of tutorials
@@ -76,6 +82,21 @@ playgrounds:
     url: https://www.tutorialspoint.com/execute_golang_online.php
 
 link_sections:
+  - title: Go Dev
+    links:
+      - title: go.dev
+        url: https://go.dev/
+
+  - title: Community
+    links:
+      - title: pkg.go.dev 
+        url: https://pkg.go.dev
+        description: The Go package discovery site.
+
+      - title: Projects at the Go Wiki
+        url: https://golang.org/wiki/Projects
+        description: A curated list of Go projects.
+
   - title: The Go blog
     links:
       - title: Homepage
@@ -100,7 +121,7 @@ link_sections:
 
       - title: Packages
         url: http://golang.org/pkg/
-        description: Includes example use for the standard library. Click on a function to see the soure code.
+        description: Includes example use for the standard library - click on a function to see the soure code. Also includes link to submodules and community packages
 
       - title: Language spec
         url: https://golang.org/ref/spec

@@ -1,6 +1,8 @@
 ---
 title: Go
 logo: go
+description: |
+  "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software"
 
 key_links:
   homepage: https://golang.org/
@@ -50,7 +52,6 @@ blog_posts:
 
   - title: Asynchronous Programming with Go
     url: https://medium.com/@gauravsingharoy/asynchronous-programming-with-go-546b96cd50c1
-    description:
 
   - title: Learn Golang by Solving Real World Problems
     url: https://medium.com/golang-jedi-knight/learn-golang-by-solving-real-world-problems-955c609ff0db

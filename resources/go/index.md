@@ -122,4 +122,31 @@ link_sections:
       - title: Gophercises
         url: https://gophercises.com/
         description: FREE coding exercises for budding gophers
+        
+  - title: Lists of recommended packages
+    links:
+      - title: Best Golang Libraries and Packages
+        url: https://dev.to/cathysmith/best-golang-libraries-and-packages-3hj1
+        description: Blog post
+    
+      - title: Awesome go
+        url: https://github.com/avelino/awesome-go
+        description: A curated list of awesome Go frameworks, libraries and software
+
+      - title: Web scraping packages guide
+        url: https://github.com/lorien/awesome-web-scraping/blob/master/golang.md)
+    
+  - title: Recommended packages
+    links:
+      - title: Colly
+        url: https://github.com/gocolly/colly
+        description: For web scraping
+        
+      - title: gocui
+        url: https://github.com/jroimartin/gocui
+        description: For user interface
+        
+      - title: color
+        url: https://github.com/fatih/color
+        description: For colored text
 ---

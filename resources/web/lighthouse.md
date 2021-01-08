@@ -3,24 +3,37 @@ title: Lighthouse
 description: Site performance scoring tool by Google
 ---
 
-## Google
+## About
 
-Run Lighthouse tests manually or daily.
-
-Google's docs:
-
-- [About](https://developers.google.com/web/tools/lighthouse)
-- [Test your site using the online service](https://developers.google.com/speed/pagespeed/insights/)
+- [Lighthouse overview](https://developers.google.com/web/tools/lighthouse) page on Google dev docs.
 
 
-## Browser
+## How to run
 
-In your dev tools for your browser, you can run a Lighthouse check on a page. No extra downloading or coding needed.
+### Google PageSpeed Insights
+
+Run a Lighthouse test manually on Google's service.
+
+- [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+
+Enter your URL and click "Analyze".
+
+### Browser
+
+In your dev tools for your browser, you can run a Lighthouse check on a page. 
+
+See [Run Lighthouse in Chrome DevTools](https://developers.google.com/web/tools/lighthouse#devtools) instructions.
+
+No extra downloading or coding needed.
 
 The disadvantage is that it is limited by your machine's resources and your internet speed.
 
+### Lighthouse CI
 
-## GitHub Actions
+- [GoogleChrome/lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci)
+- [Getting started](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/getting-started.md)
+
+### GitHub Actions
 
 Run Lighthouse checks on schedule in the cloud for free.
 
@@ -37,8 +50,7 @@ You have full control over the frequency and where you persist results.
 
 You can run a test on a daily schedule, or perhaps on a release on a Pull Request.
 
-
-## Automated Lighthouse Check
+### Automated Lighthouse Check service
 
 A service to run and store checks for you, with free and pair tiers. No coding needed. 
 
@@ -65,4 +77,4 @@ To get started follow these steps to start tracking web pages.
 
 You can also use the GH Action without the Automated Lighthouse service. Just upload HTML reports to your own S3 storage.
 
-[Save HTML reports as artifacts](https://github.com/marketplace/actions/lighthouse-check#screenshot-save-html-reports-as-artifacts)
+- [Save HTML reports as artifacts](https://github.com/marketplace/actions/lighthouse-check#screenshot-save-html-reports-as-artifacts)

@@ -3,9 +3,9 @@ title: Lighthouse
 description: Site performance scoring tool by Google
 ---
 
-## About
+## Google
 
-Run Lighthouse tests daily without GitHub Action hooked up.
+Run Lighthouse tests manually or daily.
 
 Google's docs:
 
@@ -13,20 +13,36 @@ Google's docs:
 - [Test your site using the online service](https://developers.google.com/speed/pagespeed/insights/)
 
 
+## Browser
+
+In your dev tools for your browser, you can run a Lighthouse check on a page. No extra downloading or coding needed.
+
+The disadvantage is that it is limited by your machine's resources and your internet speed.
+
+
 ## GitHub Actions
+
+Run Lighthouse checks on schedule in the cloud for free.
 
 - [Search: Lighthouse](https://github.com/marketplace?query=lighthouse) in the GH Actions marketplace
 
-Focus on the `lighthouse-check`.
+Focus on `lighthouse-check`.
 
 - [action](https://github.com/marketplace/actions/lighthouse-check) page
 - [foo-software/lighthouse-check-action](https://github.com/foo-software/lighthouse-check-action) repo
 
 That is an action is managed by "Foo", the same org that provides the UI service next. You can use the action alone or together with the service.
 
+You have full control over the frequency and where you persist results.
+
+You can run a test on a daily schedule, or perhaps on a release on a Pull Request.
+
 
 ## Automated Lighthouse Check
-> Service to run and store checks for you, with free and pair tiers
+
+A service to run and store checks for you, with free and pair tiers. No coding needed. 
+
+You have less control and you don't own the results. You can go for the self-hosted option for private data storage and a private dashboard.
 
 - [automated-lighthouse-check.com](https://www.automated-lighthouse-check.com/)
 

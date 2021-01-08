@@ -1,9 +1,13 @@
-# Lighthouse
-
+---
+title: Lighthouse
+description: Site performance scoring tool by Google
+---
 
 ## About
 
-It also runs tests for you daily without Github Action hooked up.
+Run Lighthouse tests daily without GitHub Action hooked up.
+
+Google's docs:
 
 - [About](https://developers.google.com/web/tools/lighthouse)
 - [Test your site using the online service](https://developers.google.com/speed/pagespeed/insights/)

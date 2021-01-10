@@ -22,7 +22,7 @@ To setup and run this project (or a fork), see the project docs:
 
 <div align="center">
 
-[![Docs](https://img.shields.io/badge/View-Docs-blue?style=for-the-badge)](/docs/)
+[![Docs](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](/docs/)
 
 </div>
 

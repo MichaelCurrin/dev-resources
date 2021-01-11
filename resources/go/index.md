@@ -82,6 +82,14 @@ playgrounds:
     url: https://www.tutorialspoint.com/execute_golang_online.php
 
 link_sections:
+  - title: Installation
+    links:
+      - title: Install Go (my gist)
+        url: https://gist.github.com/MichaelCurrin/ca6b3b955172ff993184d39807dd68d4
+      
+      - title: Install Go - in the Go docs
+        url: https://golang.org/doc/install
+
   - title: Go Dev
     links:
       - title: go.dev
@@ -121,7 +129,9 @@ link_sections:
 
       - title: Packages
         url: http://golang.org/pkg/
-        description: Includes example use for the standard library - click on a function to see the soure code. Also includes link to submodules and community packages
+        description: |
+          Includes example use for the standard library - click on a function to see the soure code. 
+          Also includes link to submodules and community packages
 
       - title: Language spec
         url: https://golang.org/ref/spec
@@ -171,4 +181,16 @@ link_sections:
       - title: color
         url: https://github.com/fatih/color
         description: For colored text
+        
+      - title: go-octokit
+        url: https://github.com/octokit/go-octokit
+        description: Simple wrapper for the GitHub REST API
+
+      - title: go-github (by Google)
+        url: https://github.com/google/go-github
+        description: Client library for access GitHub REST API
+        
+      - title: shurcooL/githubv4
+        url: https://github.com/shurcooL/githubv4
+        description: Client library for accessing GitHub GraphQL API - this was recommended in the go-github docs
 ---

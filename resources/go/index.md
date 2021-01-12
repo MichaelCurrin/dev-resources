@@ -155,6 +155,20 @@ link_sections:
         url: https://gophercises.com/
         description: FREE coding exercises for budding gophers
         
+  - title: Project template repos
+    links:
+      - title: golang-templates/seed
+        url: https://github.com/
+        description: Go application GitHub repository template.
+    
+      - title: golang-standards/project-layout
+        url: https://github.com/golang-standards/project-layout
+        description: Standard Go Project Layout
+
+      - title: MichaelCurrin/go-project-template
+        url: https://github.com/MichaelCurrin/go-project-template
+        description: Scaffolding for a Go app
+
   - title: Lists of recommended packages
     links:
       - title: Best Golang Libraries and Packages

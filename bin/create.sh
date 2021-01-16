@@ -22,7 +22,6 @@ echo
 
 TEMPLATE="\
 ---
-layout: listing
 logo: $LNAME
 ---
 # $UNAME

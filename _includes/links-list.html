@@ -7,7 +7,7 @@
 
         {% if link.description %}
             <ul>
-                {%- comment -%} Borrowed from minima's blockquote CSS {%- endcomment -%}
+                {%- comment -%} Borrowed from Minima's blockquote CSS {%- endcomment -%}
                 <li style="color: #828282;">
                     {%- comment -%} Remove the p tag that markdownify generates - to avoid the unnecessary spacing. {%- endcomment -%}
                     {{ link.description | markdownify | replace: '<p>', '' | replace: '</p>', '' }}

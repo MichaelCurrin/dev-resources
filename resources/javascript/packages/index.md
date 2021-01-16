@@ -1,4 +1,3 @@
 ---
 title: Packages
-layout: listing
 ---

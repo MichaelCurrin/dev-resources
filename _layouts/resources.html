@@ -8,26 +8,26 @@ layout: page
 
 {% include links-list.html links=page.links %}
 
-{% if page.tutorials %}
+{%- if page.tutorials %}
     <h2>Tutorials</h2>
 
     {% include links-list.html links=page.tutorials %}
-{% endif %}
+{% endif -%}
 
-{% if page.blog_posts %}
+{%- if page.blog_posts %}
     <h2>Blog posts</h2>
 
     {% include links-list.html links=page.blog_posts %}
-{% endif %}
+{% endif -%}
 
-{% if page.playgrounds %}
+{%- if page.playgrounds %}
     <h2>Online playgrounds</h2>
 
     {% include links-list.html links=page.playgrounds %}
-{% endif %}
+{% endif -%}
 
-{% for section in page.link_sections %}
+{%- for section in page.link_sections %}
     <h2>{{ section.title }}</h2>
 
     {% include links-list.html links=section.links %}
-{% endfor %}
+{% endfor -%}

@@ -38,6 +38,7 @@ remote_theme: MichaelCurrin/fractal
 titles_from_headings:
   strip_title: true
 
+# All pages except a few top-level pages are resource listings.
 defaults:
   - scope:
       path: "resources"

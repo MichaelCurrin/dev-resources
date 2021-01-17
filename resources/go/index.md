@@ -150,6 +150,7 @@ link_sections:
 
       - title: Go for Python programmers
         url: https://golang-for-python-programmers.readthedocs.io/en/latest/index.html
+        description: Warning this project hasn't been maintained since around 2015. I've already gleaned things from it and added to my own Cheatsheet notes.
 
       - title: Gophercises
         url: https://gophercises.com/

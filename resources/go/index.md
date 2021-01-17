@@ -32,7 +32,7 @@ tutorials:
   - title: Effective Go
     url: https://golang.org/doc/effective_go.html
     description: |
-      Tutorial on the official site. That covers examples, formatting guide and how to do many things in the language such as errors, functions and concurrency.
+      Tutorial on the official site. This covers examples, formatting guide and how to do many things in the language such as errors, functions and concurrency.
 
   - title: "Learn Go: Top 30 Go Tutorials for Programmers Of All Levels"
     url: https://stackify.com/learn-go-tutorials/

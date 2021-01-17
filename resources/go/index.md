@@ -169,6 +169,11 @@ link_sections:
         url: https://github.com/MichaelCurrin/go-project-template
         description: Scaffolding for a Go app
 
+  - title: Books
+    links:
+      - title: Introduction to Go books
+        url: http://www.golang-book.com/
+
   - title: Lists of recommended packages
     links:
       - title: Best Golang Libraries and Packages

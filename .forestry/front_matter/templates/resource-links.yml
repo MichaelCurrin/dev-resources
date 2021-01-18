@@ -28,8 +28,8 @@ fields:
     name: wiki
     label: wiki
   - type: text
-    name: packages
-    label: packages
+    name: pkg_registry
+    label: pkg_registry
   - type: text
     name: repo
     label: repo

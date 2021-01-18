@@ -7,7 +7,7 @@
     {% assign docs = include.key_links.docs %}
     {% assign wiki = include.key_links.wiki %}
     {% assign repo = include.key_links.repo %}
-    {% assign packages = include.key_links.packages %}
+    {% assign pkg_registry = include.key_links.pkg_registry %}
     {% assign learn_x = include.key_links.learn_x %}
     {% assign cheatsheet = include.key_links.cheatsheet %}
     {% assign tutorials_point = include.key_links.tutorials_point %}
@@ -38,9 +38,9 @@
             </li>
         {% endif %}
 
-        {% if packages %}
+        {% if pkg_registry %}
             <li>
-                Packages index: <a href="{{ packages }}">{{ packages }}</a>
+                Package registry: <a href="{{ pkg_registry }}">{{ pkg_registry }}</a>
             </li>
         {% endif %}
 

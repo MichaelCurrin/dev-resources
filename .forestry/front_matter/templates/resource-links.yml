@@ -148,3 +148,5 @@ fields:
       label: description
     config:
       min: 
+pages:
+- resources/python/index.md

@@ -31,6 +31,7 @@ key_links:
   devhints: ''
   tutorials_point: ''
   rosetta_code: ''
+  wikipedia: https://en.wikipedia.org/wiki/Python_(programming_language)
 tutorials: []
 blog_posts: []
 

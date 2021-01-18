@@ -4,7 +4,7 @@ description: Tables plug-in for jQuery
 
 key_links:
   homepage: https://datatables.net/
-  github: https://github.com/DataTables/DataTables
+  repo: https://github.com/DataTables/DataTables
 
 link_sections:
   - title: Overview

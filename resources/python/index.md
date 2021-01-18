@@ -22,8 +22,8 @@ link_sections:
     description: ''
 description: ''
 key_links:
-  homepage: ''
-  docs: ''
+  homepage: https://python.org
+  docs: https://docs.python.org/3/
   wiki: ''
   packages: ''
   repo: ''

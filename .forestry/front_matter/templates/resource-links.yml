@@ -1,0 +1,91 @@
+---
+label: Resource links
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: logo
+  label: logo
+- type: textarea
+  name: description
+  label: description
+- type: field_group
+  name: key_links
+  label: key_links
+  fields:
+  - type: text
+    name: homepage
+    label: homepage
+  - type: text
+    name: docs
+    label: docs
+  - type: text
+    name: wiki
+    label: wiki
+  - type: text
+    name: packages
+    label: packages
+  - type: text
+    name: repo
+    label: repo
+  - type: text
+    name: learn_x
+    label: learn_x
+  - type: text
+    name: devhints
+    label: devhints
+  - type: text
+    name: tutorials_point
+    label: tutorials_point
+  - type: text
+    name: rosetta_code
+    label: rosetta_code
+- type: field_group_list
+  name: tutorials
+  label: tutorials
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+- type: field_group_list
+  name: blog_posts
+  label: blog_posts
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+- type: field_group_list
+  name: playgrounds
+  label: playgrounds
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+- type: field_group_list
+  name: link_sections
+  label: link_sections
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: links
+    label: links
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url

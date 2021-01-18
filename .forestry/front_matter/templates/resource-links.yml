@@ -33,6 +33,11 @@ fields:
   - type: text
     name: repo
     label: repo
+  - name: wikipedia
+    type: text
+    config:
+      required: false
+    label: wikipedia
   - type: text
     name: learn_x
     label: learn_x

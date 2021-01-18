@@ -10,9 +10,10 @@ key_links:
   docs: https://www.typescriptlang.org/docs/
   wikipedia: https://en.wikipedia.org/wiki/TypeScript
   repo: https://github.com/Microsoft/TypeScript
-  cheatsheet: https://devhints.io/typescript
+  devhints: https://devhints.io/typescript
 
 ---
+
 - [Download](https://www.typescriptlang.org/download)
 - [TypeScript Cheatsheet](https://devhints.io/typescript) on DevHints.
 - [TypeScript Cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/typescript/) on my Dev Cheatsheets site

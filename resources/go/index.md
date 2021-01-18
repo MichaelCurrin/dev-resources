@@ -11,7 +11,7 @@ key_links:
   packages: https://pkg.go.dev/
   repo: https://github.com/golang/go
   learn_x: https://learnxinyminutes.com/docs/go/
-  cheatsheet: https://devhints.io/go
+  devhints: https://devhints.io/go
   tutorials_point: https://www.tutorialspoint.com/go/index.htm
   rosetta_code: http://rosettacode.org/wiki/Category:Go
 
@@ -86,7 +86,7 @@ link_sections:
     links:
       - title: Install Go (my gist)
         url: https://gist.github.com/MichaelCurrin/ca6b3b955172ff993184d39807dd68d4
-      
+
       - title: Install Go - in the Go docs
         url: https://golang.org/doc/install
 
@@ -97,7 +97,7 @@ link_sections:
 
   - title: Community
     links:
-      - title: pkg.go.dev 
+      - title: pkg.go.dev
         url: https://pkg.go.dev
         description: The Go package discovery site.
 
@@ -130,7 +130,7 @@ link_sections:
       - title: Packages
         url: http://golang.org/pkg/
         description: |
-          Includes example use for the standard library - click on a function to see the soure code. 
+          Includes example use for the standard library - click on a function to see the soure code.
           Also includes link to submodules and community packages
 
       - title: Language spec
@@ -155,13 +155,13 @@ link_sections:
       - title: Gophercises
         url: https://gophercises.com/
         description: FREE coding exercises for budding gophers
-        
+
   - title: Project template repos
     links:
       - title: golang-templates/seed
         url: https://github.com/
         description: Go application GitHub repository template.
-    
+
       - title: golang-standards/project-layout
         url: https://github.com/golang-standards/project-layout
         description: Standard Go Project Layout
@@ -180,28 +180,28 @@ link_sections:
       - title: Best Golang Libraries and Packages
         url: https://dev.to/cathysmith/best-golang-libraries-and-packages-3hj1
         description: Blog post
-    
+
       - title: Awesome go
         url: https://github.com/avelino/awesome-go
         description: A curated list of awesome Go frameworks, libraries and software
 
       - title: Web scraping packages guide
         url: https://github.com/lorien/awesome-web-scraping/blob/master/golang.md)
-    
+
   - title: Recommended packages
     links:
       - title: Colly
         url: https://github.com/gocolly/colly
         description: For web scraping
-        
+
       - title: gocui
         url: https://github.com/jroimartin/gocui
         description: For user interface
-        
+
       - title: color
         url: https://github.com/fatih/color
         description: For colored text
-        
+
       - title: go-octokit
         url: https://github.com/octokit/go-octokit
         description: Simple wrapper for the GitHub REST API
@@ -209,7 +209,7 @@ link_sections:
       - title: go-github (by Google)
         url: https://github.com/google/go-github
         description: Client library for access GitHub REST API
-        
+
       - title: shurcooL/githubv4
         url: https://github.com/shurcooL/githubv4
         description: Client library for accessing GitHub GraphQL API - this was recommended in the go-github docs

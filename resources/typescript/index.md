@@ -10,6 +10,7 @@ description: |
 key_links:
   homepage: https://www.typescriptlang.org/
   docs: https://www.typescriptlang.org/docs/
+  wikipedia: https://en.wikipedia.org/wiki/TypeScript
 ---
 
 - [Download](https://www.typescriptlang.org/download)

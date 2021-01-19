@@ -10,7 +10,9 @@ fields:
 - type: text
   name: logo
   label: logo
-  description: Name of logo from available SVGs in the theme repo's
+  description: Name of logo as available SVGs in the theme's logos directory
+  config:
+    min: 1
 - type: textarea
   name: description
   label: description

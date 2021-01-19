@@ -34,7 +34,7 @@ key_links:
   learn_x: ''
   tutorials_point: ''
   rosetta_code: ''
-logo: ''
+
 tutorials: []
 blog_posts: []
 playgrounds: []

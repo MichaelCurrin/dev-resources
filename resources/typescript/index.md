@@ -1,6 +1,6 @@
 ---
 title: TypeScript
-logo: typescript
+logo: ''
 description: |
   JavaScript that scales.
   TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
@@ -13,7 +13,6 @@ key_links:
   devhints: https://devhints.io/typescript
 
 ---
-
 - [Download](https://www.typescriptlang.org/download)
 - [TypeScript Cheatsheet](https://devhints.io/typescript) on DevHints.
 - [TypeScript Cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/typescript/) on my Dev Cheatsheets site

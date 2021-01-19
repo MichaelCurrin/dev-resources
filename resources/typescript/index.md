@@ -1,6 +1,6 @@
 ---
 title: TypeScript
-logo: ''
+logo: typescript
 description: |
   JavaScript that scales.
   TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.

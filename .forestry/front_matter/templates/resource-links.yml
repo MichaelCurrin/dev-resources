@@ -13,7 +13,7 @@ fields:
   label: logo
   description: Name of logo as available SVGs in the theme's logos directory
   config:
-    min: 1
+    min: 
 - type: textarea
   name: description
   label: description

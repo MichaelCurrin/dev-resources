@@ -1,6 +1,6 @@
 ---
 title: Make
-description: Using GNU `make` and `Makefile`
+description: Using GNU `make` with a `Makefile`
 link_sections:
 - title: Related tools
   links:

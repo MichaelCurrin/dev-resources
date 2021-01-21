@@ -1,85 +1,81 @@
 {%- comment -%} TODO: Convert to table {%- endcomment -%}
 
-{% if include.key_links %}
-    <h2>Key links</h2>
+{% assign homepage = include.key_links.homepage %}
+{% assign docs = include.key_links.docs %}
+{% assign wiki = include.key_links.wiki %}
 
-    {% assign homepage = include.key_links.homepage %}
-    {% assign docs = include.key_links.docs %}
-    {% assign wiki = include.key_links.wiki %}
+{% assign repo_url = include.key_links.repo %}
+{% assign repo_nwo = include.key_links.repo_nwo %}
 
-    {% assign repo_url = include.key_links.repo %}
-    {% assign repo_nwo = include.key_links.repo_nwo %}
+{% assign pkg_registry = include.key_links.pkg_registry %}
+{% assign learn_x = include.key_links.learn_x %}
+{% assign devhints = include.key_links.devhints %}
+{% assign tutorials_point = include.key_links.tutorials_point %}
+{% assign rosetta_code = include.key_links.rosetta_code %}
 
-    {% assign pkg_registry = include.key_links.pkg_registry %}
-    {% assign learn_x = include.key_links.learn_x %}
-    {% assign devhints = include.key_links.devhints %}
-    {% assign tutorials_point = include.key_links.tutorials_point %}
-    {% assign rosetta_code = include.key_links.rosetta_code %}
+<ul>
+    {% if homepage %}
+        <li>
+            Homepage: <a href="{{ homepage }}">{{ homepage }}</a>
+        </li>
+    {% endif %}
 
-    <ul>
-        {% if homepage %}
-            <li>
-                Homepage: <a href="{{ homepage }}">{{ homepage }}</a>
-            </li>
-        {% endif %}
+    {% if docs %}
+        <li>
+            Docs: <a href="{{ docs }}">{{ docs }}</a>
+        </li>
+    {% endif %}
 
-        {% if docs %}
-            <li>
-                Docs: <a href="{{ docs }}">{{ docs }}</a>
-            </li>
-        {% endif %}
+    {% if wiki %}
+        <li>
+            Wiki: <a href="{{ wiki }}">{{ wiki }}</a>
+        </li>
+    {% endif %}
 
-        {% if wiki %}
-            <li>
-                Wiki: <a href="{{ wiki }}">{{ wiki }}</a>
-            </li>
-        {% endif %}
-
-        {% if repo_nwo %}
-            <li>
-                Repo: {% include github-shields.html repo_nwo=repo_nwo %}
-            </li>
-         {% elsif repo_url %}
-            <li>
-                Repo: <a href="{{ repo_url }}">{{ repo_url }}</a>
-            </li>
-        {% endif %}
+    {% if repo_nwo %}
+        <li>
+            Repo: {% include github-shields.html repo_nwo=repo_nwo %}
+        </li>
+        {% elsif repo_url %}
+        <li>
+            Repo: <a href="{{ repo_url }}">{{ repo_url }}</a>
+        </li>
+    {% endif %}
 
 
-        {% if pkg_registry %}
-            <li>
-                Package registry: <a href="{{ pkg_registry }}">{{ pkg_registry }}</a>
-            </li>
-        {% endif %}
+    {% if pkg_registry %}
+        <li>
+            Package registry: <a href="{{ pkg_registry }}">{{ pkg_registry }}</a>
+        </li>
+    {% endif %}
 
-        {% if wikipedia %}
-            <li>
-                <a href="{{ wikipedia }}">Wikipedia</a>
-            </li>
-        {% endif %}
+    {% if wikipedia %}
+        <li>
+            <a href="{{ wikipedia }}">Wikipedia</a>
+        </li>
+    {% endif %}
 
-        {% if learn_x %}
-            <li>
-                <a href="{{ learn_x }}">Learn X in Y Minutes</a>
-            </li>
-        {% endif %}
+    {% if learn_x %}
+        <li>
+            <a href="{{ learn_x }}">Learn X in Y Minutes</a>
+        </li>
+    {% endif %}
 
-        {% if devhints %}
-            <li>
-                <a href="{{ devhints }}">DevHints cheatsheet</a>
-            </li>
-        {% endif %}
+    {% if devhints %}
+        <li>
+            <a href="{{ devhints }}">DevHints cheatsheet</a>
+        </li>
+    {% endif %}
 
-        {% if tutorials_point %}
-            <li>
-                <a href="{{ tutorials_point }}">Tutorials Point</a>
-            </li>
-        {% endif %}
+    {% if tutorials_point %}
+        <li>
+            <a href="{{ tutorials_point }}">Tutorials Point</a>
+        </li>
+    {% endif %}
 
-        {% if rosetta_code %}
-            <li>
-                <a href="{{ rosetta_code }}">Rosetta Code</a>
-            </li>
-        {% endif %}
-    </ul>
-{% endif %}
+    {% if rosetta_code %}
+        <li>
+            <a href="{{ rosetta_code }}">Rosetta Code</a>
+        </li>
+    {% endif %}
+</ul>

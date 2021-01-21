@@ -4,30 +4,38 @@ layout: page
 
 {{ content }}
 
-{% include key-links.html key_links=page.key_links %}
+{% if page.key_links %}
+    <h3>Key links</h3>
 
-{% include links-list.html links=page.links %}
+    {% include key-links.html key_links=page.key_links %}
+{% endif %}
+
+{% if page.links %}
+    <h3>Links</h3>
+
+    {% include links-list.html links=page.links %}
+{% endif %}
 
 {%- if page.tutorials %}
-    <h2>Tutorials</h2>
+    <h3>Tutorials</h3>
 
     {% include links-list.html links=page.tutorials %}
 {% endif -%}
 
 {%- if page.blog_posts %}
-    <h2>Blog posts</h2>
+    <h3>Blog posts</h3>
 
     {% include links-list.html links=page.blog_posts %}
 {% endif -%}
 
 {%- if page.playgrounds %}
-    <h2>Online playgrounds</h2>
+    <h3>Online playgrounds</h3>
 
     {% include links-list.html links=page.playgrounds %}
 {% endif -%}
 
 {%- for section in page.link_sections %}
-    <h2>{{ section.title }}</h2>
+    <h3>{{ section.title }}</h3>
 
     {% include links-list.html links=section.links %}
 {% endfor -%}

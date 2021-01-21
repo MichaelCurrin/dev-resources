@@ -30,7 +30,7 @@ key_links:
   devhints: https://devhints.io/makefile
   wiki: ''
   pkg_registry: ''
-  repo: ''
+  repo_nwo: ''
   learn_x: ''
   tutorials_point: ''
   rosetta_code: ''

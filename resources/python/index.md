@@ -8,14 +8,14 @@ key_links:
   docs: https://docs.python.org/3/
   wiki: ''
   packages: ''
-  repo: ''
+  repo_nwo: ''
   learn_x: https://learnxinyminutes.com/docs/python/
   devhints: ''
   tutorials_point: https://docs.python.org/3/tutorial/
   rosetta_code: ''
   wikipedia: https://en.wikipedia.org/wiki/Python_(programming_language)
   pkg_registry: https://pypi.org/
-  
+
 tutorials: []
 blog_posts: []
 

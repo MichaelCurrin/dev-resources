@@ -9,7 +9,7 @@ key_links:
   homepage: https://www.typescriptlang.org/
   docs: https://www.typescriptlang.org/docs/
   wikipedia: https://en.wikipedia.org/wiki/TypeScript
-  repo: https://github.com/Microsoft/TypeScript
+  repo_nwo: Microsoft/TypeScript
   devhints: https://devhints.io/typescript
 
 ---

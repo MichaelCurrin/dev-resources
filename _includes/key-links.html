@@ -6,7 +6,10 @@
     {% assign homepage = include.key_links.homepage %}
     {% assign docs = include.key_links.docs %}
     {% assign wiki = include.key_links.wiki %}
-    {% assign repo = include.key_links.repo %}
+
+    {% assign repo_url = include.key_links.repo %}
+    {% assign repo_nwo = include.key_links.repo_nwo %}
+
     {% assign pkg_registry = include.key_links.pkg_registry %}
     {% assign learn_x = include.key_links.learn_x %}
     {% assign devhints = include.key_links.devhints %}
@@ -32,11 +35,16 @@
             </li>
         {% endif %}
 
-        {% if repo %}
+        {% if repo_nwo %}
             <li>
-                Repo: <a href="{{ repo }}">{{ repo }}</a>
+                Repo: {% include github-shields.html repo_nwo=repo_nwo %}
+            </li>
+         {% elsif repo_url %}
+            <li>
+                Repo: <a href="{{ repo_url }}">{{ repo_url }}</a>
             </li>
         {% endif %}
+
 
         {% if pkg_registry %}
             <li>

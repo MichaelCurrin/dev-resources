@@ -1,7 +1,7 @@
 {% assign repo_parts = include.repo_nwo | split: '/' %}
 {% assign username = repo_parts[0] %}
 {% assign repo_name = repo_parts[1] %}
-<a href="https://github.com/{{ includes.repo_nwo }}">
+<a href="https://github.com/{{ include.repo_nwo }}">
     <img src="https://img.shields.io/static/v1?label={{ username }}&amp;message={{ repo_name }}&amp;color=blue&amp;logo=github"
         alt="repo badge">
     <img src="https://img.shields.io/github/stars/{{ username }}/{{ repo_name }}?style=social" alt="stars badge">

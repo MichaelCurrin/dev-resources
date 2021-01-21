@@ -34,8 +34,8 @@ fields:
     name: pkg_registry
     label: pkg_registry
   - type: text
-    name: repo
-    label: repo
+    name: repo name-with-owner
+    label: repo_nwo
   - name: wikipedia
     type: text
     config:

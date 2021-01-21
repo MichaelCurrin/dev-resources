@@ -9,7 +9,7 @@ key_links:
   docs: https://golang.org/doc/
   wiki: https://github.com/golang/go/wiki
   packages: https://pkg.go.dev/
-  repo: https://github.com/golang/go
+  repo_nwo: golang/go
   learn_x: https://learnxinyminutes.com/docs/go/
   devhints: https://devhints.io/go
   tutorials_point: https://www.tutorialspoint.com/go/index.htm

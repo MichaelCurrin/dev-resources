@@ -15,3 +15,15 @@ Welcome to **Dev Resources**.
 </div>
 
 <!-- TODO add feature topics and use an includes file to flexbox -->
+
+{% assign pages = site.pages | sort: 'title' %}
+
+<ul>
+  {% for p in pages %}
+      {% if p.key_links.repo_nwo %}
+          <li>
+              {%- include github-shields.html repo_nwo=p.key_links.repo_nwo -%}
+          </li>
+      {% endif %}
+  {% endfor %}
+</ul>

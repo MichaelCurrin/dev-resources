@@ -19,11 +19,13 @@ tutorials:
 blog_posts: []
 playgrounds: []
 link_sections:
-- title: Related projects
+- title: My rlated projects
   links:
-  - title: ''
+  - title: Deno in Dev Cheatsheets
+    url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/deno/
+    description: ''
+  - title: Deno in Learn to Code
     url: https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/deno.md
     description: ''
-published: false
 
 ---

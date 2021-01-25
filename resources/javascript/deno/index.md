@@ -13,7 +13,9 @@ key_links:
   devhints: ''
   tutorials_point: ''
   rosetta_code: ''
-tutorials: []
+tutorials:
+- title: 100 second intro (YouTube)
+  url: https://youtu.be/F0G9lZ7gecE
 blog_posts: []
 playgrounds: []
 link_sections: []

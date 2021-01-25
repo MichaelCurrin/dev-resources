@@ -157,6 +157,5 @@ fields:
     config:
       min: 
 pages:
-- resources/javascript/deno/index.md.md
 - resources/make/index.md
 - resources/python/index.md

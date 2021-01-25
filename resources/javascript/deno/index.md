@@ -17,6 +17,5 @@ tutorials: []
 blog_posts: []
 playgrounds: []
 link_sections: []
-published: false
 
 ---

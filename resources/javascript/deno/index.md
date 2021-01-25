@@ -18,6 +18,8 @@ tutorials:
   url: https://youtu.be/F0G9lZ7gecE
 blog_posts: []
 playgrounds: []
-link_sections: []
+link_sections:
+- title: ''
+  links: ''
 
 ---

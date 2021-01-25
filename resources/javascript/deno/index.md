@@ -1,10 +1,7 @@
 ---
-title: index.md
+title: Deno
 logo: deno
-description: |2-
-
-
-  A secure runtime for JavaScript and TypeScript
+description: A secure runtime for JavaScript and TypeScript
 key_links:
   homepage: https://deno.land/
   docs: https://deno.land/manual

@@ -17,3 +17,6 @@
               run: echo '::set-env name=SELECTED_COLOR::green'
             ```
         - This can be useful in workflows and when writing commands in the shell file for an action.
+- [Guides](https://docs.github.com/en/actions/guides)
+    - Learning paths and language specific guides
+    > These guides for GitHub Actions include specific use cases and examples to help you configure workflows.

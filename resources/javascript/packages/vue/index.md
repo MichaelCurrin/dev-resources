@@ -24,8 +24,9 @@ See also my [Resources](https://github.com/MichaelCurrin/learn-to-code/blob/mast
             $ # OR
             $ npm install -g @vue/cli
             ```
+        - See also [Explanation of different builds](https://v3.vuejs.org/guide/installation.html#explanation-of-different-builds).
     - Upgrade
-        - Upgrade to Vue 3. Note you have to replace the compiler as per [discussion](https://stackoverflow.com/questions/63863222/after-upgrading-to-vue-3-cannot-find-module-vue-compiler-sfc-package-json). There are some code changes to make as well.
+        - Upgrade from Vue 2 to Vue 3. Note you have to replace the compiler as below, as per [discussion](https://stackoverflow.com/questions/63863222/after-upgrading-to-vue-3-cannot-find-module-vue-compiler-sfc-package-json). There are some code changes to make as well.
             ```sh
             $ yarn add vue@next
             $ yarn remove vue-template-compiler

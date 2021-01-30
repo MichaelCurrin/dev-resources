@@ -1,6 +1,6 @@
 ---
 title: GitHub Actions
-logo: github-actions
+logo: githubactions
 description: Automated checks and deploys in the cloud
 ---
 

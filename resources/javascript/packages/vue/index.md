@@ -18,11 +18,14 @@ See also my [Resources](https://github.com/MichaelCurrin/learn-to-code/blob/mast
             $ # OR
             $ npm install vue@next
             ```
-        - Or install globally.
+        - Or install [@vue/cli](https://www.npmjs.com/package/@vue/cli) package globally.
             ```sh
             $ yarn global add @vue/cli
             $ # OR
             $ npm install -g @vue/cli
+
+            $ vue --version
+            $ vue create my-project
             ```
         - See also [Explanation of different builds](https://v3.vuejs.org/guide/installation.html#explanation-of-different-builds).
     - Upgrade

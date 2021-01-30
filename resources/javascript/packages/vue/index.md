@@ -12,6 +12,19 @@ See also my [Resources](https://github.com/MichaelCurrin/learn-to-code/blob/mast
 - Vue 3
     - [Homepage](https://v3.vuejs.org/)
     - [Installation](https://v3.vuejs.org/guide/installation.html)
+        - Install in project. Use `next` for cutting edge or `latest` for more stable.
+            ```sh
+            $ yarn add vue@next
+            $ # OR
+            $ npm install vue@next
+            ```
+        - Or install globally.
+            ```sh
+            $ yarn global add @vue/cli
+            $ # OR
+            $ npm install -g @vue/cli
+            ```
+    - Upgrade
         - Upgrade to Vue 3. Note you have to replace the compiler as per [discussion](https://stackoverflow.com/questions/63863222/after-upgrading-to-vue-3-cannot-find-module-vue-compiler-sfc-package-json). There are some code changes to make as well.
             ```sh
             $ yarn add vue@next

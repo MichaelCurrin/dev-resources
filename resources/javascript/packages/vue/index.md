@@ -1,13 +1,14 @@
 ---
 title: Vue
 logo: vue-dot-js
+
+key-links:
+  homepage: https://vuejs.org/
+  devhints: https://devhints.io/vue
 ---
 
 See also my [Resources](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/libraries/vue.md) for Vue in Learn to Code.
 
-See the [Vue](https://devhints.io/vue) Cheatsheet on DevHints.
-
-- [vuejs.org](https://vuejs.org/) homepage
 - Vue 3
     - [Homepage](https://v3.vuejs.org/)
     - [Installation](https://v3.vuejs.org/guide/installation.html)
@@ -23,4 +24,7 @@ See the [Vue](https://devhints.io/vue) Cheatsheet on DevHints.
     - [TypeScript Support](https://vuejs.org/v2/guide/typescript.html)
 
 
-See also my [Vue JS Quickstart](https://github.com/MichaelCurrin/vue-quickstart) repo.
+See also my template projects:
+
+- [![MichaelCurrin - vue-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-quickstart)
+- [![MichaelCurrin - vue-typescript-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-typescript-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-typescript-quickstart)

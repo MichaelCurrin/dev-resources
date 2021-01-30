@@ -3,7 +3,8 @@
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [Configuring and managing workflows](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow)
     - A good step-by-step tutorial for setting up GH Actions
-- [Environment variables](https://docs.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables)
+- [Environment variables](https://docs.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables).
+- [Secrets](https://docs.github.com/en/actions/reference/encrypted-secrets).
 - _Getting Started_ section
     - [Core concepts](https://docs.github.com/en/actions/getting-started-with-github-actions/core-concepts-for-github-actions)
 - _Reference_ section

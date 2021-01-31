@@ -20,7 +20,7 @@ Welcome to **Dev Resources**.
 
 <ul>
   {% for p in pages %}
-      {% if p.key_links.repo_nwo %}
+      {% if p.key_links.repo_nwo and p.key_links.repo_nwo != '' %}
           <li>
               {%- include github-shields.html repo_nwo=p.key_links.repo_nwo -%}
           </li>

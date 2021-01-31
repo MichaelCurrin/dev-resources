@@ -16,36 +16,42 @@
 <ul>
     {%- if homepage %}
         <li>
-            Homepage: <a href="{{ homepage }}">{{ homepage }}</a>
+            Homepage:
+            <a href="{{ homepage }}">{{ homepage }}</a>
         </li>
     {% endif -%}
 
     {%- if docs %}
         <li>
-            Docs: <a href="{{ docs }}">{{ docs }}</a>
+            Docs:
+            <a href="{{ docs }}">{{ docs }}</a>
         </li>
     {% endif -%}
 
     {%- if wiki %}
         <li>
-            Wiki: <a href="{{ wiki }}">{{ wiki }}</a>
+            Wiki:
+            <a href="{{ wiki }}">{{ wiki }}</a>
         </li>
     {% endif -%}
 
     {%- if repo_nwo %}
         <li>
-            Repo: {% include github-shields.html repo_nwo=repo_nwo %}
+            Repo:
+            {% include github-shields.html repo_nwo=repo_nwo %}
         </li>
-        {% elsif repo_url %}
+    {% elsif repo_url %}
         <li>
-            Repo: <a href="{{ repo_url }}">{{ repo_url }}</a>
+            Repo:
+            <a href="{{ repo_url }}">{{ repo_url }}</a>
         </li>
     {% endif -%}
 
 
     {%- if pkg_registry %}
         <li>
-            Package registry: <a href="{{ pkg_registry }}">{{ pkg_registry }}</a>
+            Package registry:
+            <a href="{{ pkg_registry }}">{{ pkg_registry }}</a>
         </li>
     {% endif -%}
 

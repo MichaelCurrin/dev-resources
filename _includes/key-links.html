@@ -14,33 +14,33 @@
 {% assign rosetta_code = include.key_links.rosetta_code %}
 
 <ul>
-    {%- if homepage %}
+    {%- if homepage and homepage != '' %}
         <li>
             Homepage:
             <a href="{{ homepage }}">{{ homepage }}</a>
         </li>
     {% endif -%}
 
-    {%- if docs %}
+    {%- if docs and docs != '' %}
         <li>
             Docs:
             <a href="{{ docs }}">{{ docs }}</a>
         </li>
     {% endif -%}
 
-    {%- if wiki %}
+    {%- if wiki and wiki != '' %}
         <li>
             Wiki:
             <a href="{{ wiki }}">{{ wiki }}</a>
         </li>
     {% endif -%}
 
-    {%- if repo_nwo %}
+    {%- if repo_nwo and repo_nwo != '' %}
         <li>
             Repo:
             {% include github-shields.html repo_nwo=repo_nwo %}
         </li>
-    {% elsif repo_url %}
+    {% elsif repo_url and repo_url != '' %}
         <li>
             Repo:
             <a href="{{ repo_url }}">{{ repo_url }}</a>
@@ -48,38 +48,38 @@
     {% endif -%}
 
 
-    {%- if pkg_registry %}
+    {%- if pkg_registry and pkg_registry != '' %}
         <li>
             Package registry:
             <a href="{{ pkg_registry }}">{{ pkg_registry }}</a>
         </li>
     {% endif -%}
 
-    {%- if wikipedia %}
+    {%- if wikipedia and wikipedia != '' %}
         <li>
             <a href="{{ wikipedia }}">Wikipedia</a>
         </li>
     {% endif -%}
 
-    {%- if learn_x %}
+    {%- if learn_x and learn_x != '' %}
         <li>
             <a href="{{ learn_x }}">Learn X in Y Minutes</a>
         </li>
     {% endif -%}
 
-    {%- if devhints %}
+    {%- if devhints and devhints != '' %}
         <li>
             <a href="{{ devhints }}">DevHints cheatsheet</a>
         </li>
     {% endif -%}
 
-    {%- if tutorials_point %}
+    {%- if tutorials_point and tutorials_point != '' %}
         <li>
             <a href="{{ tutorials_point }}">Tutorials Point</a>
         </li>
     {% endif -%}
 
-    {%- if rosetta_code %}
+    {%- if rosetta_code and rosetta_code != '' %}
         <li>
             <a href="{{ rosetta_code }}">Rosetta Code</a>
         </li>

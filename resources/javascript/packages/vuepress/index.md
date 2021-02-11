@@ -16,7 +16,15 @@ description: ''
 tutorials: []
 blog_posts: []
 playgrounds: []
-link_sections: []
+link_sections:
+- title: Documentation
+  links:
+  - title: Introduction
+    url: https://vuepress.vuejs.org/guide/
+    description: ''
+  - title: Getting Started
+    url: https://vuepress.vuejs.org/guide/getting-started.html
+    description: ''
 published: false
 
 ---

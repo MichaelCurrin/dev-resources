@@ -157,5 +157,6 @@ fields:
     config:
       min: 
 pages:
+- resources/javascript/packages/vuepress/index.md
 - resources/make/index.md
 - resources/python/index.md

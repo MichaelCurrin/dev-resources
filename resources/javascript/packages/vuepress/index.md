@@ -25,5 +25,4 @@ link_sections:
   - title: Getting Started
     url: https://vuepress.vuejs.org/guide/getting-started.html
     description: ''
-
 ---

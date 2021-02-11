@@ -12,7 +12,7 @@ key_links:
   tutorials_point: ''
   rosetta_code: ''
 logo: ''
-description: ''
+description: Vue-powered Static Site Generator
 tutorials: []
 blog_posts: []
 playgrounds: []
@@ -25,6 +25,5 @@ link_sections:
   - title: Getting Started
     url: https://vuepress.vuejs.org/guide/getting-started.html
     description: ''
-published: false
 
 ---

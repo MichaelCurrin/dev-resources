@@ -1,5 +1,5 @@
 ---
-title: Vuepress
+title: VuePress
 key_links:
   homepage: https://vuepress.vuejs.org/
   docs: https://vuepress.vuejs.org/guide/

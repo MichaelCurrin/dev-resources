@@ -194,11 +194,11 @@ link_sections:
         url: https://github.com/gocolly/colly
         description: For web scraping
 
-      - title: gocui
+      - title: GOCUI - Go Console User Interface
         url: https://github.com/jroimartin/gocui
-        description: For user interface
+        description: "Minimalist Go package aimed at creating Console User Interfaces."
 
-      - title: color
+      - title: Color
         url: https://github.com/fatih/color
         description: For colored text
 

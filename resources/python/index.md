@@ -8,7 +8,7 @@ key_links:
   docs: https://docs.python.org/3/
   wiki: ''
   packages: ''
-  repo_nwo: ''
+  repo_nwo: python/cpython
   learn_x: https://learnxinyminutes.com/docs/python/
   devhints: ''
   tutorials_point: https://docs.python.org/3/tutorial/

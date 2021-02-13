@@ -1,11 +1,11 @@
 <ul>
-{% for link in include.links %}
+{%- for link in include.links %}
     <li>
         <a href="{{ link.url }}">
             {{ link.title }}
         </a>
 
-        {% if link.description and link.description != '' %}
+        {%- if link.description and link.description != '' %}
             <ul>
                 {%- comment -%} Borrowed from Minima's blockquote CSS {%- endcomment -%}
                 <li style="color: #828282;">
@@ -15,5 +15,5 @@
             </ul>
         {% endif -%}
     </li>
-{% endfor %}
+{% endfor -%}
 </ul>

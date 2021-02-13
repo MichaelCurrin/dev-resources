@@ -5,7 +5,7 @@
             {{ link.title }}
         </a>
 
-        {% if link.description %}
+        {% if link.description and link.description != '' %}
             <ul>
                 {%- comment -%} Borrowed from Minima's blockquote CSS {%- endcomment -%}
                 <li style="color: #828282;">

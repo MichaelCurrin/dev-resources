@@ -210,9 +210,9 @@ link_sections:
         url: https://github.com/google/go-github
         description: Client library for access GitHub REST API
 
-      - title: shurcooL/githubv4
+      - title: GitHub V4
         url: https://github.com/shurcooL/githubv4
-        description: Client library for accessing GitHub GraphQL API - this was recommended in the go-github docs
+        description: Client library for accessing GitHub GraphQL V4 API - this was recommended in the go-github docs
     
       - title: GopherJS
         url: https://github.com/gopherjs/gopherjs

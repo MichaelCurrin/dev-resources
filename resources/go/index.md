@@ -213,4 +213,9 @@ link_sections:
       - title: shurcooL/githubv4
         url: https://github.com/shurcooL/githubv4
         description: Client library for accessing GitHub GraphQL API - this was recommended in the go-github docs
+    
+      - title: GopherJS
+        url: https://github.com/gopherjs/gopherjs
+        description: Compile Go code to JavaScript
+        
 ---

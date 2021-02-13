@@ -2,6 +2,11 @@
 title: Jekyll
 logo: jekyll
 
+key_links:
+  homepage: https://jekyllrb.com
+  docs: https://jekyllrb.com/docs/
+  repo_nwo: jekyll/jekyll
+
 links:
   - title: Jekyll documentation
     url: https://jekyllrb.com

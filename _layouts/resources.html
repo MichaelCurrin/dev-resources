@@ -28,13 +28,13 @@ layout: page
     {% include links-list.html links=page.blog_posts %}
 {% endif -%}
 
-{%- if page.playgrounds and page.playgrounds.size != 0%}
+{%- if page.playgrounds and page.playgrounds.size != 0 %}
     <h3>Online playgrounds</h3>
 
     {% include links-list.html links=page.playgrounds %}
 {% endif -%}
 
-{%- for section in page.link_sections.size != 0 %}
+{%- for section in page.link_sections %}
     <h3>{{ section.title }}</h3>
 
     {% include links-list.html links=section.links %}

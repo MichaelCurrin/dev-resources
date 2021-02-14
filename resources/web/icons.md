@@ -8,6 +8,7 @@
 ### Format
 
 - A simple logo.
+- SVG format - scales well.
 - Just a single color - black.
 - Transparent background.
 
@@ -57,8 +58,11 @@ You can use `master` for the latest or a commit reference to lock it.
 ### Format
 
 - Complex image logo.
-- Usually with multiple colors. Don't bother trying to color the logo.
+- PNG format.
+- Usually with multiple colors.
 - Transparent background. Mostly looks good against white but some have poor contrast.
+
+Square of around 300 pixels. It will not scale well if you need something larger. It will slow your page if you load a lot on one page even if used as small icons - since they are loaded are full size.
 
 ### URL sample
 

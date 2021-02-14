@@ -5,7 +5,25 @@
 
 [simpleicons.org](https://simpleicons.org/)
 
-Note - defualt is a black icon with transparent background.
+### Format
+
+- A simple logo.
+- Just a single color - black.
+- Transparent background.
+
+You can change the color if you download and edit the icon or use JS. You cannot apply CSS directly to the icon, unless you use `currentColor` to get the parent element's color to be inherited.
+
+e.g.
+
+```xml
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Node.js icon</title>
+  <path fill="currentColor" 
+        d="..."/>
+</svg>
+```
+
+I use these icons with an override blue color in my [Fractal](https://github.com/MichaelCurrin/fractal) theme.
 
 ### URL sample
 
@@ -35,6 +53,12 @@ See all SVGS available in the [topics](https://github.com/github/explore/tree/ma
 The icons have a transparent background - some look poor on a whitebackground.
 
 You can use `master` for the latest or a commit reference to lock it.
+
+### Format
+
+- Complex image logo.
+- Usually with multiple colors. Don't bother trying to color the logo.
+- Transparent background. Mostly looks good against white but some have poor contrast.
 
 ### URL sample
 

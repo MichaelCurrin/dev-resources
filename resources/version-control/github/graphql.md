@@ -7,6 +7,10 @@ key_links:
   homepage: https://docs.github.com/en/graphql
 
 links:
+  - title: Explorer
+    url: https://docs.github.com/en/graphql/guides/using-the-explorer
+    description: GraphiQL explorer for use in browser - run queries, use hints, get validation and learn about the schema
+  
   - title: Forming Calls with GraphQL
     url: https://docs.github.com/v4/guides/forming-calls/
 

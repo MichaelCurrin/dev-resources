@@ -1,7 +1,7 @@
 ---
 title: GraphQL API
 logo: graphql
-description: Resources around GitHub's GraphQL API
+description: Resources around GitHub's V4 GraphQL API
 
 key_links:
   homepage: https://docs.github.com/en/graphql

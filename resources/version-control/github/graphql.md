@@ -16,6 +16,10 @@ links:
     description: Go deeper with GitHub by integrating with our APIs, customizing your GitHub workflow, and building and sharing apps with the community.
 ---
 
-I have a couple of examples of requests as gists - see my [Gist viewer](https://michaelcurrin.github.io/gist-viewer/).
+I have a couple of examples of GQL queries as gists - see my [Gist viewer](https://michaelcurrin.github.io/gist-viewer/).
 
-See my [GitHub GraphQL](https://github.com/MichaelCurrin/github-graphql-tool) tool written in Python. In particular, see the [queries](https://github.com/MichaelCurrin/github-graphql-tool/tree/master/ghgql/queries) directory.
+My repos using GH GQL:
+
+- [GitHub Reporting Tool](https://github.com/MichaelCurrin/github-reporting-tool) tool written in Python. In particular, see the [queries](https://github.com/MichaelCurrin/github-reporting-tool/tree/master/ghgql/queries) directory.
+- [MichaelCurrin/github-gql-go](https://github.com/MichaelCurrin/github-gql-go)
+- [MichaelCurrin/github-gql-ruby](https://github.com/MichaelCurrin/github-gql-ruby)

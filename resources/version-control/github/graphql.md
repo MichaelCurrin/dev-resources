@@ -28,6 +28,6 @@ I have a couple of examples of GQL queries as gists - see my [Gist viewer](https
 
 My repos using GH GQL:
 
-- [GitHub Reporting Tool](https://github.com/MichaelCurrin/github-reporting-tool) tool written in Python. In particular, see the [queries](https://github.com/MichaelCurrin/github-reporting-tool/tree/master/ghgql/queries) directory.
+- [GitHub Reporting Tool](https://github.com/MichaelCurrin/github-reporting-py) tool written in Python. In particular, see the [queries](https://github.com/MichaelCurrin/github-reporting-py/tree/master/ghgql/queries) directory.
 - [MichaelCurrin/github-gql-go](https://github.com/MichaelCurrin/github-gql-go)
 - [MichaelCurrin/github-gql-ruby](https://github.com/MichaelCurrin/github-gql-ruby)

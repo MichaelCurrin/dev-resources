@@ -20,26 +20,36 @@ Enter your URL and click "Analyze".
 
 ### Browser
 
-In your dev tools for your browser, you can run a Lighthouse check on a page. 
+With this approach, you can run a Lighthouse check on a page using your own hardware to test and get a report.
+
+In your local Chrome browser, open dev tools and find the Lighthouse section. 
 
 See [Run Lighthouse in Chrome DevTools](https://developers.google.com/web/tools/lighthouse#devtools) instructions.
 
 No extra downloading or coding needed.
 
-The disadvantage is that it is limited by your machine's resources and your internet speed.
+An advantage is that you don't rely on an external service. You can run it as often as you like.
 
-### Lighthouse CI
+You can tweak the settings to simulate a slower internet connection and device.
+
+The disadvantage is that it is affected by your machine's resources and your internet speed. So your results may not be consistent over time. And also if your specs are really powerful or weak, you won't getting results close to what the average user out in the world sees.
+
+### Lighthouse CI tool
+
+Open source tool you can run to automate running Lighthouse checks in a browser without manual effort. This works both locally and run in the cloud, even on schedule.
 
 - [GoogleChrome/lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci)
 - [Getting started](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/getting-started.md)
 
-### GitHub Actions
+### CI with GitHub Actions
 
 Run Lighthouse checks on schedule in the cloud for free.
 
+This builds on the Lighthouse CI section above but automates with GitHub Actions as the cloud runner.
+
 - [Search: Lighthouse](https://github.com/marketplace?query=lighthouse) in the GH Actions marketplace
 
-Focus on `lighthouse-check`.
+Focus on `lighthouse-check` section.
 
 - [action](https://github.com/marketplace/actions/lighthouse-check) page
 - [foo-software/lighthouse-check-action](https://github.com/foo-software/lighthouse-check-action) repo

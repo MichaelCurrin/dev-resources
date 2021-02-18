@@ -20,18 +20,26 @@ links:
     description: |
       "unpkg is a fast, global content delivery network for everything on npm."
       
-      e.g. `unpkg.com/:package@:version/:file` or `unpkg.com/react@16.7.0/umd/react.production.min.js`
+      e.g. `unpkg.com/PACKAGE@VERSION/FILE` or `unpkg.com/react@16.7.0/umd/react.production.min.js`
       
-  - title: JSDeliver
+  - title: JSDelive
     url: https://www.jsdelivr.com/
     description: |
       "A free CDN for Open Source. fast, reliable, and automated"
       
-      e.g. `https://cdn.jsdelivr.net/npm/package@version/file`
+      Format: `https://cdn.jsdelivr.net/npm/PACKAGE@VERSION/FILE`
       
   - title: ESM
     url: https://esm.sh/
     description: |
       "A fast, global content delivery network for ES Modules. All modules are transformed to ESM by esbuild in NPM."
+      
+      "A New-Age CDN for JavaScript modules. Load modern JavaScript packages built for you on-demand. Works in modern web browsers, node.js, and deno."
+            
+      Format: `https://esm.run/PACKAGE`
+      
+      e.g. `https://esm.run/d3` which redirects to `https://cdn.jsdelivr.net/npm/d3/+esm`
+      
+      That says it was bundled with Rollup and Terser.
 ---
 

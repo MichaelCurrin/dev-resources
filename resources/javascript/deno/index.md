@@ -14,7 +14,7 @@ key_links:
   docs: https://deno.land/manual
   wiki: ''
   pkg_registry: https://deno.land/x
-  repo name-with-owner: denoland/deno
+  repo_nwo: denoland/deno
   wikipedia: https://en.wikipedia.org/wiki/Deno_(software)
   learn_x: ''
   devhints: ''

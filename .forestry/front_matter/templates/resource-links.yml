@@ -40,7 +40,7 @@ fields:
         label: 3rd-party package registry
       - type: text
         name: repo_nwo
-        label: Repo name-with-owner
+        label: repo_nwo
         description: e.g. MichaelCurrin/dev-resources
       - name: wikipedia
         type: text

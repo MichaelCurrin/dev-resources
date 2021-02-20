@@ -5,54 +5,59 @@ display_field: title
 fields:
 - type: text
   name: title
-  label: title
   config:
     required: true
+  label: Title
 - type: text
   name: logo
-  label: logo
+  label: Logo
   description: Name of logo as available SVGs in the theme's logos directory
   config:
     min: 
 - type: textarea
   name: description
-  label: description
+  label: Description
 - type: field_group
   name: key_links
   label: key_links
   fields:
   - type: text
     name: homepage
-    label: homepage
+    label: Homepage
+    config:
+      required: true
   - type: text
     name: docs
-    label: docs
+    label: Documentation homepage
   - type: text
     name: wiki
-    label: wiki
+    label: Wiki homepage
   - type: text
     name: pkg_registry
-    label: pkg_registry
+    label: 3rd-party package registry
   - type: text
-    name: repo name-with-owner
-    label: repo_nwo
+    name: repo_nwo
+    label: Repo name-with-owner
+    description: e.g. MichaelCurrin/dev-resources
   - name: wikipedia
     type: text
     config:
       required: false
-    label: wikipedia
+    label: Wikipedia URL
   - type: text
     name: learn_x
-    label: learn_x
+    label: Learn X in Y link
+    config:
+      min: 
   - type: text
     name: devhints
-    label: devhints
+    label: DevHints.io link
   - type: text
     name: tutorials_point
-    label: tutorials_point
+    label: Tutorials Point link
   - type: text
     name: rosetta_code
-    label: rosetta_code
+    label: Rosetta Code link
 - type: field_group_list
   name: tutorials
   label: tutorials

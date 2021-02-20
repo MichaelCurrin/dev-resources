@@ -14,6 +14,8 @@ links:
       "jspm.dev native modules CDN for npm documentation."
       
       e.g. `https://jspm.dev/@babel/core`
+      
+      "All packages from npm are precomputed and served through jspm.dev and are available at their corresponding URLs."
     
   - title: Unpkg
     url: https://unpkg.com/

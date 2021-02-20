@@ -14,6 +14,7 @@ key_links:
   tutorials_point: ''
   rosetta_code: ''
   packages: https://deno.land/x
+  repo_nwo: denoland/deno
 tutorials:
 - title: 100 second intro (YouTube)
   url: https://youtu.be/F0G9lZ7gecE

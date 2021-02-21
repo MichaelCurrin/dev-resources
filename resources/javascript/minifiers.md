@@ -1,6 +1,6 @@
 ---
 title: Minifiers
-description: Tools to minify or compress your JS files
+description: Tools to minify your JS files tp make them smaller and faster
 ---
 
 
@@ -8,10 +8,13 @@ description: Tools to minify or compress your JS files
 
 Minifying the JS code will make it faster for a browser to download and use, at the cost of becoming impractical for a human to read.
 
+Here are some changes applied:
+
 - Rename variables and functions to short names.
 - Remove whitespace.
 - Strips comments.
 - Combines files.
+- Tree shaking - remove unused code when importing a library.  
 
 
 ## Browser tools
@@ -60,6 +63,7 @@ Babel is a transpiler and has a `babel-minify` tool available to extend it. It c
 
 - [esbuild.github.io/](https://esbuild.github.io/)
     - > An extremely fast JavaScript bundler
+    - Claims to be 10 to 100x faster than competing tools like Webpack and Terser.
     - Example shell usage 
         - To minify a bundled JS script.
             ```sh
@@ -67,3 +71,15 @@ Babel is a transpiler and has a `babel-minify` tool available to extend it. It c
             ```
     - Example NPM usage from the docs.
         - Define a `build` command as `"esbuild app.jsx --bundle --outfile=out.js"`.
+
+
+### SWC
+
+- [swc.rs](https://swc.rs/)
+    - > Super fast javascript / typescript compiler
+
+Feature summary:
+
+- > Transcompile - swc is a typescript / javascript compiler. It consumes a javascript or typescript file which uses recently added features like async-await and emits javascript code which can be executed on old browsers.
+- > Super fast - It's 20x faster than babel on single thread, and 70x faster on 4 core benchmark
+- > Bundling - spack is a super-fast javascript bundler with tree shaking

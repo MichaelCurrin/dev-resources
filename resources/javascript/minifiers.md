@@ -67,9 +67,12 @@ Babel is a transpiler and has a `babel-minify` tool available to extend it. It c
     - Example shell usage 
         - To minify a bundled JS script. Note `--bundle PATH` is the same as just using `PATH`. And `--outfile` needs the equals sign.
             ```sh            
-            $ esbuild --minify bundle.js --outfile=bundle.min.js
+            $ cd build && esbuild --minify bundle.js --outfile=bundle.min.js
             $ # Or
-            $ esbuild --minify < cat bundle.js > bundle.min.js
+            $ cd build && esbuild --minify < cat bundle.js > bundle.min.js
+            
+            $ # Without cd. Note you can skip `--outdir` if you set a full path.
+            $ esbuild --minify build/bundle.js --outfile=build/bundle.min.js --sourcemap
             ```
         - From the CLI help:
             ```sh

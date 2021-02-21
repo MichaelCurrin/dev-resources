@@ -55,3 +55,15 @@ Babel is a transpiler and has a `babel-minify` tool available to extend it. It c
     >  UglifyJS is a JavaScript compressor/minifier written in JavaScript. It also contains tools that allow one to automate working with JavaScript code: 
 - [mishoo/UglifyJS](https://github.com/mishoo/UglifyJS) repo
     >  JavaScript parser / mangler / compressor / beautifier toolkit 
+
+### ESBuild package
+
+- [esbuild.github.io/](https://esbuild.github.io/)
+    - > An extremely fast JavaScript bundler
+    - Example shell usage 
+        - To minify a bundled JS script.
+            ```sh
+            $ cat bundle.js | esbuild --minify > file_server.min.js
+            ```
+    - Example NPM usage from the docs.
+        - Define a `build` command as `"esbuild app.jsx --bundle --outfile=out.js"`.

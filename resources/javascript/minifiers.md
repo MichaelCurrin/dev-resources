@@ -65,9 +65,16 @@ Babel is a transpiler and has a `babel-minify` tool available to extend it. It c
     - > An extremely fast JavaScript bundler
     - Claims to be 10 to 100x faster than competing tools like Webpack and Terser.
     - Example shell usage 
-        - To minify a bundled JS script.
+        - To minify a bundled JS script. Note `--bundle PATH` is the same as just using `PATH`. And `--outfile` needs the equals sign.
+            ```sh            
+            $ esbuild --minify bundle.js --outfile=bundle.min.js
+            $ # Or
+            $ esbuild --minify < cat bundle.js > bundle.min.js
+            ```
+        - From the CLI help:
             ```sh
-            $ cat bundle.js | esbuild --minify > file_server.min.js
+            $ # Produces dist/entry_point.js and dist/entry_point.js.map
+            $ esbuild --bundle entry_point.js --outdir=dist --minify --sourcemap
             ```
     - Example NPM usage from the docs.
         - Define a `build` command as `"esbuild app.jsx --bundle --outfile=out.js"`.

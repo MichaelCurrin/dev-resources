@@ -3,7 +3,7 @@
 
 ## SimpleIcons
 
-[simpleicons.org](https://simpleicons.org/)
+- [simpleicons.org](https://simpleicons.org/)
 
 ### Format
 
@@ -47,7 +47,7 @@ I use these icons with an override blue color in my [Fractal](https://github.com
 
 ## GitHub topics
 
-See [Topics](https://github.com/topics/) on GitHub. A lot of those have icons you can use. In fact, the default profile project you get with a GH repo uses those icons for interests - see [MichaelCurrin.github.io](https://michaelcurrin.github.io/).
+See the [Topics](https://github.com/topics/) section on GitHub. A lot of those have icons you can use. In fact, the default profile project you get with a GH repo uses those icons for interests - see [MichaelCurrin.github.io](https://michaelcurrin.github.io/).
 
 See all SVGS available in the [topics](https://github.com/github/explore/tree/master/topics) directory of `github/explore`.
 

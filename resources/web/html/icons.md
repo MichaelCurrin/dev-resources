@@ -47,15 +47,15 @@ I use these icons with an override blue color in my [Fractal](https://github.com
 
 ## GitHub topics
 
-See the [Topics](https://github.com/topics/) section on GitHub. A lot of those have icons you can use. In fact, the default profile project you get with a GH repo uses those icons for interests - see [MichaelCurrin.github.io](https://michaelcurrin.github.io/).
+This source of icons comes from GitHub.
 
-See all SVGS available in the [topics](https://github.com/github/explore/tree/master/topics) directory of `github/explore`.
+See [Topics](https://github.com/topics/) section on GitHub. A lot of those have icons you can use. In fact, the default profile project you get with a GH repo uses those icons for interests - see [MichaelCurrin.github.io](https://michaelcurrin.github.io/).
 
 The icons have a transparent background - some look poor on a whitebackground.
 
-You can use `master` for the latest or a commit reference to lock it.
+You can use `master` for the latest, or a commit reference to lock it.
 
-### Format
+### Format of icon
 
 - Complex image logo.
 - PNG format.
@@ -64,9 +64,17 @@ You can use `master` for the latest or a commit reference to lock it.
 
 Square of around 300 pixels. It will not scale well if you need something larger. It will slow your page if you load a lot on one page even if used as small icons - since they are loaded are full size.
 
+### Available icons
+
+See all PNGs files available listed here:
+
+- [topics](https://github.com/github/explore/tree/master/topics) directory of `github/explore` repo.
+
 ### URL sample
 
-[raw.githubusercontent.com/github/explore/master/topics/nodejs/nodejs.png](https://raw.githubusercontent.com/github/explore/master/topics/nodejs/nodejs.png)
+The filename is usually like: `nodejs/nodejs.png`. Get that from the listing above.
+
+- [raw.githubusercontent.com/github/explore/master/topics/nodejs/nodejs.png](https://raw.githubusercontent.com/github/explore/master/topics/nodejs/nodejs.png)
 
 ### HTML sample
 

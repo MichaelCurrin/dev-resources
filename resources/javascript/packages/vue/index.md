@@ -9,7 +9,7 @@ key-links:
 
 ### My projects
 
-See Vue on my other sites:
+See my Vue snippets, instructions and links to resources on my other sites:
 
 - [Code Cookbook](https://michaelcurrin.github.io/code-cookbook/recipes/javascript/packages/vue/)
 - [Dev Cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/vue/)
@@ -22,7 +22,7 @@ See my template projects:
 - [![MichaelCurrin - vue-router-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-router-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-router-quickstart)
 
 
-### External Vue resources
+### Vue documentation resources
 
 - Vue 3
     - [Homepage](https://v3.vuejs.org/)

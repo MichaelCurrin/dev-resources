@@ -7,6 +7,7 @@ key-links:
   devhints: https://devhints.io/vue
 ---
 
+### My projects
 
 See Vue on my other sites:
 
@@ -14,7 +15,14 @@ See Vue on my other sites:
 - [Dev Cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/vue/)
 - [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/libraries/vue.md)
 
-Resources for Vue 3 and 2.
+See my template projects:
+
+- [![MichaelCurrin - vue-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-quickstart)
+- [![MichaelCurrin - vue-typescript-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-typescript-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-typescript-quickstart)
+- [![MichaelCurrin - vue-router-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-router-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-router-quickstart)
+
+
+### External Vue resources
 
 - Vue 3
     - [Homepage](https://v3.vuejs.org/)
@@ -46,9 +54,3 @@ Resources for Vue 3 and 2.
 - Vue 2
     - [Installation](https://vuejs.org/v2/guide/installation.html)
     - [TypeScript Support](https://vuejs.org/v2/guide/typescript.html)
-
-
-See also my template projects:
-
-- [![MichaelCurrin - vue-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-quickstart)
-- [![MichaelCurrin - vue-typescript-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-typescript-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-typescript-quickstart)

@@ -7,7 +7,14 @@ key-links:
   devhints: https://devhints.io/vue
 ---
 
-See also my [Resources](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/libraries/vue.md) for Vue in Learn to Code.
+
+See Vue on my other sites:
+
+- [Code Cookbook](https://michaelcurrin.github.io/code-cookbook/recipes/javascript/packages/vue/)
+- [Dev Cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/vue/)
+- [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/libraries/vue.md)
+
+Resources for Vue 3 and 2.
 
 - Vue 3
     - [Homepage](https://v3.vuejs.org/)

@@ -1,8 +1,12 @@
 ---
 title: Go
 logo: go
-description: |
+
+homepage-byline: |
   "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software"
+
+wikipedia-excerpt: |
+  Go is a statically typed, compiled programming language designed at Google ... Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.
 
 key_links:
   homepage: https://golang.org/

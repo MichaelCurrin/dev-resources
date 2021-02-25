@@ -18,6 +18,9 @@ fields:
     name: description
     label: Description
   - type: textarea
+    name: byline
+    label: Byline
+  - type: textarea
     name: wikipedia-excerpt
     label: Wikipedia excerpt
   - type: field_group

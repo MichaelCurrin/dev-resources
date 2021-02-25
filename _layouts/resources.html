@@ -2,12 +2,17 @@
 layout: page
 ---
 
+{% if page.byline and page.byline != '' %}
+Homepage byline:
+
+{% include quote.html message=page.byline %}
+{% endif %}
+
+
 {% if page.wikipedia-excerpt and page.wikipedia-excerpt != '' %}
 Wikipedia excerpt:
 
-<blockquote>
-    {{ page.wikipedia-excerpt | markdownify }}
-</blockquote>
+{% include quote.html message=page.wikipedia-excerpt %}
 {% endif %}
 
 

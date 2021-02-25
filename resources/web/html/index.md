@@ -13,7 +13,7 @@ tutorials:
     url: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
     description: Guide on the Mozilla developer docs
 
-  - title: HTML: HyperText Markup Language
+  - title: "HTML: HyperText Markup Language"
     url: https://developer.mozilla.org/en-US/docs/Web/HTML
     description: Guide on the Mozilla developer docs
 

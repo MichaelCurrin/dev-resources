@@ -17,72 +17,66 @@
 <ul>
     {%- if homepage and homepage != '' %}
         <li>
-            Homepage:
+            🏠 Homepage:
             <a href="{{ homepage }}">{{ homepage }}</a>
         </li>
     {% endif -%}
 
     {%- if docs and docs != '' %}
         <li>
-            Docs:
+            📗 Docs:
             <a href="{{ docs }}">{{ docs }}</a>
         </li>
     {% endif -%}
 
     {%- if wiki and wiki != '' %}
         <li>
-            Wiki:
+            📓 Wiki:
             <a href="{{ wiki }}">{{ wiki }}</a>
         </li>
     {% endif -%}
 
     {%- if repo_nwo and repo_nwo != '' %}
         <li>
-            Repo:
+            👨‍💻 Repo:
             {% include github-shields.html repo_nwo=repo_nwo %}
-        </li>
-    {% elsif repo_url and repo_url != '' %}
-        <li>
-            Repo:
-            <a href="{{ repo_url }}">{{ repo_url }}</a>
         </li>
     {% endif -%}
 
-
     {%- if pkg_registry and pkg_registry != '' %}
         <li>
-            Package registry:
+            📦 Package registry:
             <a href="{{ pkg_registry }}">{{ pkg_registry }}</a>
         </li>
     {% endif -%}
 
     {%- if wikipedia and wikipedia != '' %}
         <li>
-            <a href="{{ wikipedia }}">Wikipedia</a>
+            🌐 <a href="{{ wikipedia }}">Wikipedia</a>
         </li>
     {% endif -%}
 
     {%- if learn_x and learn_x != '' %}
         <li>
-            <a href="{{ learn_x }}">Learn X in Y Minutes</a>
+            ⌛ <a href="{{ learn_x }}">Learn X in Y Minutes</a>
         </li>
     {% endif -%}
 
     {%- if devhints and devhints != '' %}
         <li>
-            <a href="{{ devhints }}">DevHints cheatsheet</a>
+            🗒️ <a href="{{ devhints }}">DevHints cheatsheet</a>
         </li>
     {% endif -%}
 
     {%- if tutorials_point and tutorials_point != '' %}
         <li>
-            <a href="{{ tutorials_point }}">Tutorials Point</a>
+            👨‍🎓 <a href="{{ tutorials_point }}">Tutorials Point</a>
         </li>
     {% endif -%}
 
     {%- if rosetta_code and rosetta_code != '' %}
         <li>
-            <a href="{{ rosetta_code }}">Rosetta Code</a>
+            🔁 <a href="{{ rosetta_code }}">Rosetta Code</a>
         </li>
     {% endif -%}
 </ul>

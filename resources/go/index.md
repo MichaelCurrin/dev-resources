@@ -9,6 +9,7 @@ key_links:
   docs: https://golang.org/doc/
   wiki: https://github.com/golang/go/wiki
   packages: https://pkg.go.dev/
+  wikipedia: https://en.wikipedia.org/wiki/Go_(programming_language)
   repo_nwo: golang/go
   learn_x: https://learnxinyminutes.com/docs/go/
   devhints: https://devhints.io/go
@@ -213,9 +214,9 @@ link_sections:
       - title: githubv4
         url: https://github.com/shurcooL/githubv4
         description: Client library for accessing GitHub GraphQL V4 API - this was recommended in the go-github docs
-    
+
       - title: GopherJS
         url: https://github.com/gopherjs/gopherjs
         description: Compile Go code to JavaScript
-        
+
 ---

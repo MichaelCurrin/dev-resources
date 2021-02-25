@@ -1,6 +1,7 @@
 ---
 title: Go
 logo: go
+description: A modern statically typed, compiled language
 
 byline: |
   Go is an open source programming language that makes it easy to build simple, reliable, and efficient software

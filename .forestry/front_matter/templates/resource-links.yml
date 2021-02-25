@@ -18,7 +18,7 @@ fields:
     name: description
     label: Description
   - type: textarea
-    name: wikipedia_excerpt
+    name: wikipedia-excerpt
     label: Wikipedia excerpt
   - type: field_group
     name: key_links

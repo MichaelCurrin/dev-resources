@@ -63,15 +63,14 @@ Babel is a transpiler and has a `babel-minify` tool available to extend it. It c
 
 - [esbuild.github.io/](https://esbuild.github.io/)
     - > An extremely fast JavaScript bundler
-    - Claims to be 10 to 100x faster than competing tools like Webpack and Terser.
+- Claims to be 10 to 100x faster than competing tools like Webpack and Terser.
+- For usage and examples, see my [ESBuild cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/esbuild.html).
 
 ### SWC package
 
 - [swc.rs](https://swc.rs/)
     - > Super fast javascript / typescript compiler
-
-Feature summary:
-
-- > Transcompile - swc is a typescript / javascript compiler. It consumes a javascript or typescript file which uses recently added features like async-await and emits javascript code which can be executed on old browsers.
-- > Super fast - It's 20x faster than babel on single thread, and 70x faster on 4 core benchmark
-- > Bundling - spack is a super-fast javascript bundler with tree shaking
+- Feature summary
+    - > Transcompile - swc is a typescript / javascript compiler. It consumes a javascript or typescript file which uses recently added features like async-await and emits javascript code which can be executed on old browsers.
+    - > Super fast - It's 20x faster than babel on single thread, and 70x faster on 4 core benchmark
+    - > Bundling - spack is a super-fast javascript bundler with tree shaking

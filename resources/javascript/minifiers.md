@@ -64,29 +64,8 @@ Babel is a transpiler and has a `babel-minify` tool available to extend it. It c
 - [esbuild.github.io/](https://esbuild.github.io/)
     - > An extremely fast JavaScript bundler
     - Claims to be 10 to 100x faster than competing tools like Webpack and Terser.
-    - Example shell usage 
-        - To minify an already bundled JS script. Note `--bundle PATH` is the same as just using `PATH`. And `--outfile` needs the equals sign.
-            ```sh            
-            $ cd build && esbuild --minify bundle.js --outfile=bundle.min.js
-            $ # Or
-            $ cd build && esbuild --minify < cat bundle.js > bundle.min.js
-            
-            $ # Without cd. Note, you can skip `--outdir` if you set a full path.
-            $ esbuild build/bundle.js --outfile=build/bundle.min.js --minify --sourcemap
-            ```
-        - From the CLI help - taking multiple JS files into one bundled, minified file.
-            ```sh
-            $ # Produces dist/entry_point.js and dist/entry_point.js.map
-            $ esbuild --bundle entry_point.js --outdir=dist --minify --sourcemap
-            ```
-            
-    - Example NPM usage from the docs.
-        - Define a `build` command as `"esbuild app.jsx --bundle --outfile=out.js"`.
-    - Production build.
-         - [Getting Started](https://esbuild.github.io/getting-started/) docs recommend setting a production environment, to avoid errors when using `process.env` in the browser. It says this can happen in React.
-         - `--define:'process.env.NODE_ENV="production"'`
 
-### SWC
+### SWC package
 
 - [swc.rs](https://swc.rs/)
     - > Super fast javascript / typescript compiler

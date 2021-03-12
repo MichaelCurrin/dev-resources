@@ -1,9 +1,9 @@
 ---
 title: Repos
-description: Links to repos used throughout the Resources section
+description: Links to repos which are covered at various levels of the Resources section
 ---
 
-{% assign pages = site.pages | sort: 'title' %}
+{% assign pages = site.pages | sort_natural: 'title' %}
 
 <ul>
     {% for p in pages %}

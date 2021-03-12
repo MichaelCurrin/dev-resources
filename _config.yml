@@ -15,6 +15,7 @@ google_analytics: G-5XEV3CEPK9
 header_pages:
   - index.md
   - resources/index.md
+  - repos.md
   - about.md
 
 exclude:

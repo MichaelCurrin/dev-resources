@@ -5,8 +5,12 @@ root = true
 indent_style = space
 indent_size = 2
 
-[*.html]
+[*.{html,md}]
 indent_size = 4
+
+[resources/**.md]
+# For YAML frontmatter.
+indent_size =2
 
 [Makefile]
 indent_style = tab

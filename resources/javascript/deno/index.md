@@ -46,3 +46,13 @@ link_sections:
     description: ''
 
 ---
+
+### Migrating from Node to Deno
+
+- Deno replaces Node as JavaScript runner and bundler. 
+- No need for `package.json`.
+- Deno handles TypeScript - no external dependency needed.
+- Deno can be used to format and lint code - no external dependencies needed.
+- Deno can be used to bundle multiple JS files, without installing Webpack. You may run into complexity with adding support for `.vue` files though, as Deno doesn't support them. Or you need to restructure your components and views as `.js` files.
+- Deno doesn't support minification. But `npx esbuild --minify ...` is a great choice that is modern and performant.
+- You can easily use `make` and `Makefile` for running tasks in place of using `package.json` scripts.

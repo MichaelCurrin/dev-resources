@@ -27,6 +27,8 @@ links:
       
       e.g. `unpkg.com/react@16.7.0/umd/react.production.min.js`
       
+      The default I think is to get CommonJS (`.cjs`) form. Add `?module` to get the ESModule form.
+      
   - title: JSDelivr
     url: https://www.jsdelivr.com/
     description: |+

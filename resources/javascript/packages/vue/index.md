@@ -7,8 +7,13 @@ byline: The Progressive JavaScript Framework
 key-links:
   homepage: https://vuejs.org/
   docs: https://v3.vuejs.org/guide/introduction.html
+  repo_nwo: vuejs/vue
   devhints: https://devhints.io/vue
 ---
+
+### Pacakage
+
+- NPM: [vue](https://www.npmjs.com/package/vue)
 
 ### My projects
 
@@ -25,7 +30,7 @@ See my template projects:
 - [![MichaelCurrin - vue-router-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-router-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-router-quickstart)
 - [![MichaelCurrin - vue-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-frontend-quickstart) - no build step or CLI needed.
 
-### Vue documentation resources
+### Vue documentation
 
 - Vue 3
     - [Homepage](https://v3.vuejs.org/)

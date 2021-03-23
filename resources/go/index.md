@@ -22,8 +22,22 @@ key_links:
   rosetta_code: http://rosettacode.org/wiki/Category:Go
 
 tutorials:
-  - title: Getting started on the docs
+  - title: Getting started
     url: https://golang.org/doc/tutorial/getting-started
+    description: On the Go docs
+    
+  - title: Tutorial
+    url: https://golang.org/doc/tutorial/
+    description: A few beginner-friendly tutorials available on the Go docs
+    
+  - title: Documentation
+    url: https://golang.org/doc/
+    description: Go website docs overview with links to many pages on learning Go
+
+  - title: Effective Go
+    url: https://golang.org/doc/effective_go.html
+    description: |
+      Tutorial on the official site. This covers examples, formatting guide and how to do many things in the language such as errors, functions and concurrency.
 
   - title: Learning resources on Go Dev
     url: https://learn.go.dev/
@@ -34,11 +48,6 @@ tutorials:
 
   - title: Learn Go by Example
     url: https://gobyexample.com/
-
-  - title: Effective Go
-    url: https://golang.org/doc/effective_go.html
-    description: |
-      Tutorial on the official site. This covers examples, formatting guide and how to do many things in the language such as errors, functions and concurrency.
 
   - title: "Learn Go: Top 30 Go Tutorials for Programmers Of All Levels"
     url: https://stackify.com/learn-go-tutorials/
@@ -88,6 +97,15 @@ playgrounds:
     url: https://www.tutorialspoint.com/execute_golang_online.php
 
 link_sections:
+  - title: Releases
+    links:
+      - title: Release summary
+        url: https://golang.org/project/#release
+        description: On Project page of Go site.
+      
+      - title: Release details:
+        url: https://golang.org/doc/devel/release.html
+
   - title: Installation
     links:
       - title: Install Go (my gist)
@@ -110,6 +128,10 @@ link_sections:
       - title: Projects at the Go Wiki
         url: https://golang.org/wiki/Projects
         description: A curated list of Go projects.
+        
+      - title: Help page
+        url: https://golang.org/help/
+        description: Links to Slack, Discord, Wiki, etc.
 
   - title: The Go blog
     links:

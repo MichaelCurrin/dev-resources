@@ -141,8 +141,7 @@ link_sections:
       - title: Go fmt
         url: https://blog.golang.org/go-fmt-your-code
         description: |
-          The builtin tool to format your code. We use _tabs_ for indentation and `gofmt` emits
-          them by default. Use spaces only if you must.
+          The builtin tool to format your code. Please use _tabs_ for indentation. The `gofmt` command emits them by default.
 
   - title: Recommended reading
     links:

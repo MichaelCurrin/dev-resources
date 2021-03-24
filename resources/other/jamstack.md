@@ -1,6 +1,10 @@
 ---
 title: Jamstack
 description: Frameworks for deploying Jamstack sites, across programming languages
+
+key_links:
+  homepage: https://jamstack.org/
+
 ---
 
 
@@ -38,6 +42,13 @@ See also [Vue resources][].
 - Docsify
     - [Docsify homepage](https://docsify.js.org/#/)
     - [Docsify tutorial](https://michaelcurrin.github.io/docsify-js-tutorial/#/)
+- Eleventy or "11ty"
+    - [Homepage](https://www.11ty.dev/)
+        > Eleventy is a simpler static site generator.
+    - [11ty/eleventy](https://github.com/11ty/eleventy/)
+        > A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.
+    - They don't use Vue in their branding but it appears in their `package.json` file.
+    - Eleventy works with multiple template languages.
 
 Here are UI libraries that Nuxt lets you choose on setting up a project:
 

@@ -25,11 +25,11 @@ tutorials:
   - title: Getting started
     url: https://golang.org/doc/tutorial/getting-started
     description: On the Go docs
-    
+
   - title: Tutorial
     url: https://golang.org/doc/tutorial/
     description: A few beginner-friendly tutorials available on the Go docs
-    
+
   - title: Documentation
     url: https://golang.org/doc/
     description: Go website docs overview with links to many pages on learning Go
@@ -102,8 +102,8 @@ link_sections:
       - title: Release summary
         url: https://golang.org/project/#release
         description: On Project page of Go site.
-      
-      - title: Release details:
+
+      - title: Release details
         url: https://golang.org/doc/devel/release.html
 
   - title: Installation
@@ -128,7 +128,7 @@ link_sections:
       - title: Projects at the Go Wiki
         url: https://golang.org/wiki/Projects
         description: A curated list of Go projects.
-        
+
       - title: Help page
         url: https://golang.org/help/
         description: Links to Slack, Discord, Wiki, etc.

@@ -22,6 +22,6 @@ links:
 
 ### Related resource sections
 
-- [GitHub Pages]({{ site.baseurl }}{% link resources/web/github-pages.md %} - one way of hosting your Jekyll site.
-- [GitHub Actions]({{ site.baseurl }}{% link resources/ci-cd/github-actions/index.md %} - CI-CD to deploy your Jekyll site.
-- [Ruby]({{ site.baseurl %}{% link resources/ruby/index.md %}
+- [GitHub Pages]({{ site.baseurl }}{% link resources/web/github-pages.md %}) - one way of hosting your Jekyll site.
+- [GitHub Actions]({{ site.baseurl }}{% link resources/ci-cd/github-actions/index.md %}) - CI-CD to deploy your Jekyll site.
+- [Ruby]({{ site.baseurl }}{% link resources/ruby/index.md %})

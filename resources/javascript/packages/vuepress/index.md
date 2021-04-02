@@ -16,13 +16,21 @@ description: Vue-powered Static Site Generator
 tutorials: []
 blog_posts: []
 playgrounds: []
+
 link_sections:
-- title: Documentation
-  links:
-  - title: Introduction
-    url: https://vuepress.vuejs.org/guide/
-    description: ''
-  - title: Getting Started
-    url: https://vuepress.vuejs.org/guide/getting-started.html
-    description: ''
+  - title: Documentation
+    links:
+      - title: Introduction
+        url: https://vuepress.vuejs.org/guide/
+        description: ''
+      - title: Getting Started
+        url: https://vuepress.vuejs.org/guide/getting-started.html
+        description: ''
+      
+  - title: Themes
+    links:
+      - title: Theme configuration in the docs
+        url: https://v1.vuepress.vuejs.org/theme/option-api.html
+      - title: VuePress themes on a site of Jamstack themes
+        url: https://jamstackthemes.dev/theme/#ssg=vuepress
 ---

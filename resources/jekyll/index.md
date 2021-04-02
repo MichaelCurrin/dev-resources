@@ -18,6 +18,9 @@ links:
   - title: Directory structure
     url: https://jekyllrb.com/docs/structure/
 
+  - title: Jekyll Codex
+    url: https://jekyllcodex.org/
+    description: A guide that is independent of the Jekyll docs but has some great info. In particular, it demonstrates how to handle some common scenarios like an image gallery or SEO setup, using native Jekyll functionality. i.e. **Without** needing a plugin.
 ---
 
 ### Related resource sections

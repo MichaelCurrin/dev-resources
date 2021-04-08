@@ -15,10 +15,12 @@ links:
       
       e.g. `https://jspm.dev/@babel/core`
       e.g. `https://dev.jspm.io/react-dom@17.0.1/server`
+      e.g. `https://dev.jspm.io/react` or `https://dev.jspm.io/react@16.5` or `https://dev.jspm.io/react@16.5.0` 
+      e.g. `https://dev.jspm.io/npm:react@16.5.0` with `npm` explicitly (you also get this sometimes when the server redirects you).
       
       "All packages from npm are precomputed and served through jspm.dev and are available at their corresponding URLs."
       
-      This service already gives you ESModule form, so you don't need a flag.
+      This service already gives you ES Module format, so you don't need a flag to choose that.
     
   - title: Unpkg
     url: https://unpkg.com/

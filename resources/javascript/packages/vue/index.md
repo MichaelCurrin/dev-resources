@@ -11,9 +11,13 @@ key-links:
   devhints: https://devhints.io/vue
 ---
 
-### Pacakage
+### Package
 
 - NPM: [vue](https://www.npmjs.com/package/vue)
+
+### Tutorials
+
+- [Vue Master](https://www.vuemastery.com/courses) courses.
 
 ### My projects
 

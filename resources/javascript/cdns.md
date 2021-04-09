@@ -20,22 +20,22 @@ links:
       
       "All packages from npm are precomputed and served through jspm.dev and are available at their corresponding URLs."
       
-      This service already gives you ES Module format, so you don't need a flag to choose that.
+      This service already gives you ES Module format, so you don't need a flag to choose that. 
     
   - title: Unpkg
     url: https://unpkg.com/
-    description: |+
+    description: |
       "unpkg is a fast, global content delivery network for everything on npm."
       
       Format: `unpkg.com/PACKAGE@VERSION/FILE` 
       
       e.g. `unpkg.com/react@16.7.0/umd/react.production.min.js`
       
-      The default I think is to get CommonJS (`.cjs`) form. Add `?module` to get the ESModule form.
+      The default I think is to get CommonJS (`.cjs`) format. Add `?module` to get the ES Module form.
       
   - title: JSDelivr
     url: https://www.jsdelivr.com/
-    description: |+
+    description: |
       "A free CDN for Open Source. fast, reliable, and automated"
       
       Format: `https://cdn.jsdelivr.net/npm/PACKAGE@VERSION/FILE`

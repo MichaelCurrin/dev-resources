@@ -21,6 +21,8 @@ links:
       "All packages from npm are precomputed and served through jspm.dev and are available at their corresponding URLs."
       
       This service already gives you ES Module format, so you don't need a flag to choose that. 
+      
+      You can find a minified and dev/prod versions of a package. See [/npm:react@17.0.2/cjs/](https://dev.jspm.io/npm:react@17.0.2/cjs/) for example.
     
   - title: Unpkg
     url: https://unpkg.com/

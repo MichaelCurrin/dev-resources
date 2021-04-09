@@ -4,13 +4,13 @@ title: CDNs
 links:
   - title: Skypack
     url: https://docs.skypack.dev/
-    description: |+
+    description: |
       "Skypack is a JavaScript Delivery Network for modern web apps"
       
     
   - title: JSPM
     url: http://jspm.io/
-    description: |+
+    description: |
       "jspm.dev native modules CDN for npm documentation."
       
       e.g. `https://jspm.dev/@babel/core`

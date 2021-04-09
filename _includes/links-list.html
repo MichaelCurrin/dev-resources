@@ -9,8 +9,8 @@
             <ul>
                 {%- comment -%} Borrowed from Minima's blockquote CSS {%- endcomment -%}
                 <li style="color: #828282;">
-                    {%- comment -%} Remove the p tag that markdownify generates - to avoid the unnecessary spacing. {%- endcomment -%}
-                    {{ link.description | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+                    {%- comment -%} Remove the p tag that markdownify generates - to avoid the unnecessary spacing. Maybe not need after adding newline_to_br ? {%- endcomment -%}
+                    {{ link.description | newline_to_br | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
                 </li>
             </ul>
         {% endif -%}

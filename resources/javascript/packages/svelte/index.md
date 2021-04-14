@@ -17,6 +17,9 @@ key_links:
   rosetta_code: ''
 byline: Cybernetically enhanced web apps
 tutorials:
+- title: 'Svelte in 100 Seconds '
+  url: https://youtu.be/rv3Yq-B8qp4
+  description: ''
 - url: https://svelte.dev/tutorial/basics
   description: Starting point for the tutorial on the Svelte site
   title: Basics
@@ -30,3 +33,4 @@ blog_posts: []
 link_sections: []
 
 ---
+[Svelte in 100 Seconds ](https://youtu.be/rv3Yq-B8qp4)

@@ -4,7 +4,7 @@ logo: vue-dot-js
 
 byline: The Progressive JavaScript Framework
 
-key-links:
+key_links:
   homepage: https://vuejs.org/
   docs: https://v3.vuejs.org/guide/introduction.html
   repo_nwo: vuejs/vue

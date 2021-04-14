@@ -6,5 +6,5 @@ description: |
 
 key_links:
   homepage: https://www.angular.io/
-  repo_nwo: https://github.com/angular/angular
+  repo_nwo: angular/angular
 ---

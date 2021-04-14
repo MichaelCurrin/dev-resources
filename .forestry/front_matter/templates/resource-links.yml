@@ -3,167 +3,168 @@ label: Resource links
 hide_body: true
 display_field: title
 fields:
+- type: text
+  name: title
+  config:
+    required: true
+  label: Title
+- type: text
+  name: logo
+  label: Logo
+  description: Name of logo as available SVGs in the theme's logos directory
+  config:
+    min: 
+- type: textarea
+  name: description
+  label: Description
+- type: textarea
+  name: byline
+  label: Byline
+- type: textarea
+  name: wikipedia-excerpt
+  label: Wikipedia excerpt
+- type: field_group
+  name: key_links
+  label: key_links
+  fields:
   - type: text
-    name: title
+    name: homepage
+    label: Homepage
     config:
       required: true
-    label: Title
   - type: text
-    name: logo
-    label: Logo
-    description: Name of logo as available SVGs in the theme's logos directory
+    name: docs
+    label: Documentation homepage
+  - type: text
+    name: wiki
+    label: Wiki homepage
+  - type: text
+    name: pkg_registry
+    label: 3rd-party package registry
+  - type: text
+    name: repo_nwo
+    label: repo_nwo
+    description: e.g. MichaelCurrin/dev-resources
+  - name: wikipedia
+    type: text
+    label: Wikipedia URL
+  - type: text
+    name: learn_x
+    label: Learn X in Y link
+  - type: text
+    name: devhints
+    label: DevHints.io link
+  - type: text
+    name: tutorials_point
+    label: Tutorials Point link
+  - type: text
+    name: rosetta_code
+    label: Rosetta Code link
+- type: field_group_list
+  name: tutorials
+  label: tutorials
+  fields:
+  - type: text
+    name: title
+    label: title
     config:
-      min:
-  - type: textarea
-    name: description
-    label: Description
-  - type: textarea
-    name: byline
-    label: Byline
-  - type: textarea
-    name: wikipedia-excerpt
-    label: Wikipedia excerpt
-  - type: field_group
-    name: key_links
-    label: key_links
-    fields:
-      - type: text
-        name: homepage
-        label: Homepage
-        config:
-          required: true
-      - type: text
-        name: docs
-        label: Documentation homepage
-      - type: text
-        name: wiki
-        label: Wiki homepage
-      - type: text
-        name: pkg_registry
-        label: 3rd-party package registry
-      - type: text
-        name: repo_nwo
-        label: repo_nwo
-        description: e.g. MichaelCurrin/dev-resources
-      - name: wikipedia
-        type: text
-        label: Wikipedia URL
-      - type: text
-        name: learn_x
-        label: Learn X in Y link
-      - type: text
-        name: devhints
-        label: DevHints.io link
-      - type: text
-        name: tutorials_point
-        label: Tutorials Point link
-      - type: text
-        name: rosetta_code
-        label: Rosetta Code link
+      required: true
+  - type: text
+    name: url
+    label: url
+    config:
+      required: true
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: description
+- type: field_group_list
+  name: blog_posts
+  label: blog_posts
+  fields:
+  - type: text
+    name: title
+    label: title
+    config:
+      required: true
+  - type: text
+    name: url
+    label: url
+    config:
+      required: true
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: description
+- type: field_group_list
+  name: playgrounds
+  label: playgrounds
+  fields:
+  - type: text
+    name: title
+    label: title
+    config:
+      required: true
+  - type: text
+    name: url
+    label: url
+    config:
+      required: true
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: description
+- type: field_group_list
+  name: link_sections
+  label: link_sections
+  fields:
+  - type: text
+    name: title
+    label: title
+    config:
+      required: true
   - type: field_group_list
-    name: tutorials
-    label: tutorials
+    name: links
+    label: links
     fields:
-      - type: text
-        name: title
-        label: title
-        config:
-          required: true
-      - type: text
-        name: url
-        label: url
-        config:
-          required: true
-      - name: description
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: false
-          schema:
-            format: markdown
-        label: description
-  - type: field_group_list
-    name: blog_posts
-    label: blog_posts
-    fields:
-      - type: text
-        name: title
-        label: title
-        config:
-          required: true
-      - type: text
-        name: url
-        label: url
-        config:
-          required: true
-      - name: description
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: false
-          schema:
-            format: markdown
-        label: description
-  - type: field_group_list
-    name: playgrounds
-    label: playgrounds
-    fields:
-      - type: text
-        name: title
-        label: title
-        config:
-          required: true
-      - type: text
-        name: url
-        label: url
-        config:
-          required: true
-      - name: description
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: false
-          schema:
-            format: markdown
-        label: description
-  - type: field_group_list
-    name: link_sections
-    label: link_sections
-    fields:
-      - type: text
-        name: title
-        label: title
-        config:
-          required: true
-      - type: field_group_list
-        name: links
-        label: links
-        fields:
-          - type: text
-            name: title
-            label: title
-            config:
-              required: true
-          - type: text
-            name: url
-            label: url
-            config:
-              required: true
-          - name: description
-            type: textarea
-            default: ""
-            config:
-              required: false
-              wysiwyg: false
-              schema:
-                format: markdown
-            label: description
-        config:
-          min:
+    - type: text
+      name: title
+      label: title
+      config:
+        required: true
+    - type: text
+      name: url
+      label: url
+      config:
+        required: true
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: description
+    config:
+      min: 
 pages:
-  - resources/javascript/packages/vuepress/index.md
-  - resources/make/index.md
-  - resources/python/index.md
+- resources/javascript/packages/svelte/index.md
+- resources/javascript/packages/vuepress/index.md
+- resources/make/index.md
+- resources/python/index.md

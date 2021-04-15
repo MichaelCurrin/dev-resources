@@ -15,7 +15,7 @@ $ git clone git@github.com:MichaelCurrin/dev-resources.git
 $ cd dev-resources
 ```
 
-## Setup hooks
+## Set up hooks
 
 ```sh
 $ make hooks

@@ -22,7 +22,7 @@ Enter your URL and click "Analyze".
 
 With this approach, you can run a Lighthouse check on a page using your own hardware to test and get a report.
 
-In your local Chrome browser, open dev tools and find the Lighthouse section. 
+In your local Chrome browser, open dev tools and find the Lighthouse section.
 
 See [Run Lighthouse in Chrome DevTools](https://developers.google.com/web/tools/lighthouse#devtools) instructions.
 
@@ -62,7 +62,7 @@ You can run a test on a daily schedule, or perhaps on a release on a Pull Reques
 
 ### Automated Lighthouse Check service
 
-A service to run and store checks for you, with free and pair tiers. No coding needed. 
+A service to run and store checks for you, with free and pair tiers. No coding needed.
 
 You have less control and you don't own the results. You can go for the self-hosted option for private data storage and a private dashboard.
 
@@ -72,7 +72,7 @@ You have less control and you don't own the results. You can go for the self-hos
 
 The service lets you run tests in your own container using CI/CD e.g. GitHub Actions. That can also integration with deploys and Pull Requests.
 
-### How to setup Automated Lighthouse Check service
+### How to set up Automated Lighthouse Check service
 
 - [Getting Started](https://www.foo.software/automated-lighthouse-check-getting-started/)
 

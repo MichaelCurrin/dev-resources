@@ -7,7 +7,11 @@ key_links:
   homepage: https://docs.github.com/en/graphql
 
 links:
-  - title: Explorer
+  - title: GraphQL explorer
+    url: https://docs.github.com/en/graphql/overview/explorer
+    description: Online tool - "Start exploring GraphQL API queries using your account’s data now."
+    
+  - title: Using the explorer
     url: https://docs.github.com/en/graphql/guides/using-the-explorer
     description: GraphiQL explorer for use in browser - run queries, use hints, get validation and learn about the schema
   

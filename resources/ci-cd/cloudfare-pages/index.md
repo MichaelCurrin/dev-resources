@@ -31,3 +31,13 @@ See the homepage. You get unlimited sites on the free tier.
 >
 > New commits will trigger Cloudflare to automatically build and deploy your changes.
 
+
+### Alterative services
+
+#### CloudFare vs Netlify
+
+CloudFare Pages looks very similar to Netlify deploy and hosting, except with far fewer config options and add-ons than Netlify. The build config is mostly the same (Netlify lets you control that by a config file in your repo.
+
+#### CloudFare vs GitHub
+
+CloudFare Pages is similar to using GitHub Actions + GitHub Pages to deploy a Jekyll or React app, where you get a `username.github.io/my-repo` URL, except that GitHub Actions needs a much longer config.

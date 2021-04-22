@@ -34,10 +34,12 @@ See the homepage. You get unlimited sites on the free tier.
 
 ### Alterative services
 
-#### CloudFare vs Netlify
+#### CloudFare Pages vs Netlify
 
-CloudFare Pages looks very similar to Netlify deploy and hosting, except with far fewer config options and add-ons than Netlify. The build config is mostly the same (Netlify lets you control that by a config file in your repo.
+CloudFare Pages looks very similar to Netlify deploy and hosting. Except with far fewer config options and add-ons than Netlify. Which makes CloudFare Pages less intimidating for the average user but limits business application.
 
-#### CloudFare vs GitHub
+The build config setup is mostly the same (Netlify lets you control that by a config file in your repo.
+
+#### CloudFare Pages vs GitHub services
 
 CloudFare Pages is similar to using GitHub Actions + GitHub Pages to deploy a Jekyll or React app, where you get a `username.github.io/my-repo` URL, except that GitHub Actions needs a much longer config.

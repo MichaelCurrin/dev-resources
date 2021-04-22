@@ -5,14 +5,29 @@ byline: |
   
 key_links:
   homepage: https://pages.cloudflare.com/
+  docs: https://developers.cloudflare.com/pages/
 ---
+
+### What is it?
+
+CloudFare Pages service is CD/CD - it deploys and hosts your static site. Such as one build with Jekyll (static site) or Node + React (as a Single-Page Application).
+
+CloudFlare Pages supports static assets only, so Next.js apps with dynamic routes (for example), will also need Cloudflare Workers. Which is a feature available in CloudFare Pages
+
+
+#### CloudFare vs CloudFare Pages
+
+The core service at [CloudFlare.com](https://cloudflare.com/) gives you a CDN and WAF (Web Application Firewall) on top of your existing application, to give performance and protection. 
+
 
 ### Pricing
 
 See the homepage. You get unlimited sites on the free tier.
 
-### CloudFare vs CloudFare Pages
 
-The core service at [CloudFlare.com](https://cloudflare.com/) gives you a CDN and WAF (Web Application Firewall) on top of your existing application, to give performance and protection. 
+## How it works
 
-While CloudFare Pages service is CD/CD - it actually deploys and hosts your static site - such as one build with Jekyll (static site) or Node + React (as a Single-Page Application).
+> Select a repository to connect as your project’s source code.
+>
+> New commits will trigger Cloudflare to automatically build and deploy your changes.
+

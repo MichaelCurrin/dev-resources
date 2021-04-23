@@ -4,6 +4,7 @@ logo: react
 
 key_links: 
   homepage: https://reactjs.org/
+  docs: https://reactjs.org/docs/
   repo_nwo: facebook/react
 
 ---
@@ -31,5 +32,8 @@ Learn more about React here:
 
 ### Documentation 
 
+Some pages from the docs I have used before.
+
 - [render props](https://reactjs.org/docs/render-props.html)
 - [hooks](https://reactjs.org/docs/hooks-intro.html)
+- [higher-order components](https://reactjs.org/docs/higher-order-components.html)

@@ -27,3 +27,9 @@ Learn more about React here:
 - [Code Cookbook](https://michaelcurrin.github.io/code-cookbook/recipes/javascript/packages/react/)
 - [Dev Cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/react/)
 - [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/libraries/react.md)
+
+
+### Documentation 
+
+- [render props](https://reactjs.org/docs/render-props.html)
+- [hooks](https://reactjs.org/docs/hooks-intro.html)

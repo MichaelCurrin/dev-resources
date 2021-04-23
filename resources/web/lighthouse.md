@@ -3,6 +3,9 @@ title: Lighthouse
 description: Site performance scoring tool by Google
 ---
 
+Understand the performance and SEO strengths and weakness of a page by using a free tool.
+
+
 ## About
 
 - [Lighthouse overview](https://developers.google.com/web/tools/lighthouse) page on Google dev docs.

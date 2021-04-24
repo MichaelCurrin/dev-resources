@@ -25,3 +25,14 @@ The following are widely considered the main programming paradigms, as seen when
 - Object-oriented programming (OOP) – organizes programs as objects: data structures consisting of datafields and methods together with their interactions.
 
 ### Approaches and Paradigms
+
+From [YouTube video](https://youtu.be/QM1iUe6IofM).
+
+Paradigm | Approach | Description 
+---      | ---      | ---
+Procedural | Imperative | The default style.
+Procedural | Functional | Minimize state.
+OOP | Imperative | Segregate state.
+
+Or you can mix OOP and FP - do both paradigms in one project in different modules or even in the same.
+

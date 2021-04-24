@@ -6,10 +6,6 @@ In this section I cover definitions of paradigms and links to learn more. For so
 There over 200 programs so I wouldn't cover them all here.
 
 
-## Object-Oriented Programming
-
-- Java - _Everything_ has to exist inside a class, even if it is just a static class with a main method.
-- C#
 
 
 ## Mixed Functional and Object-Orientated

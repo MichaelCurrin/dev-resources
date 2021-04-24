@@ -6,40 +6,16 @@ In this section I cover definitions of paradigms and links to learn more. For so
 There over 200 programs so I wouldn't cover them all here.
 
 
-## Functional Programming
-
-See [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) on Wikipedia.
-
-See [Top 13 Functional Programming Languages](https://purelyfunctional.tv/functional-programming-languages/) list. It provides a summary and links for each.
-
-- Elm - [homepage](https://elm-lang.org/) and [Wikipedia](https://en.wikipedia.org/wiki/Elm_(programming_language)) - generates JS I think.
-- Erlang
-- Elixir (superset of Elrang)
-- Lisp
-- Closure (Dialect of Lisp) and ClosureScript (for generating JS). Unlike other Lisp dialects, Clojure runs on the Java platform and is compiled to JVM bytecode. 
-- Haskell
-- OCaml
-- [ReasonML](https://reasonml.github.io/)
-    > Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems.
-- Common Lisp
-- Standard ML
-- Scala
-- Rust
-- F#
-- Scala
-- Racket
-- Kotlin
-- Swift
-- PureScript - compiles to JS.
-
-
 ## Object-Oriented Programming
 
-- Java - _everything_ is a class.
+- Java - _Everything_ has to exist inside a class, even if it is just a static class with a main method.
+- C#
 
 
-## Mixed
+## Mixed Functional and Object-Orientated
 
-- JavaScript
+These languages let you do either FP, or OOP, or both.
+
+- JavaScript - supports classes for OOP and map/reduce/filter and higher-order functions for FP.
 - Python
-- Go - see [post](https://flaviocopes.com/golang-is-go-object-oriented/)
+- Go - see [post](https://flaviocopes.com/golang-is-go-object-oriented/). Go doesn't have classes but it does have receivers. Though don't have to have to use them for the sake of it and they may limit your code (associating a function with a receiver makes the function less reusable).

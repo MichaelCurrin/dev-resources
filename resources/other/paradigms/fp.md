@@ -46,23 +46,43 @@ While other FP languages like the ones below make OOP difficult or impossible su
 
 See [Top 13 Functional Programming Languages](https://purelyfunctional.tv/functional-programming-languages/) list. It provides a summary and links for each.
 
-- Elm - [homepage](https://elm-lang.org/) and [Wikipedia](https://en.wikipedia.org/wiki/Elm_(programming_language)) - generates JS I think.
+- [Elm](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Elm)
+    - [homepage](https://elm-lang.org/) and [Wikipedia](https://en.wikipedia.org/wiki/Elm_(programming_language)) 
+    - generates JS, I think.
 - Erlang
-- Elixir (a superset of Elrang)
+- [Elixir](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Elixir)
+    - a superset of Elrang
 - Lisp
-- Closure (dialect of Lisp)
-- ClosureScript (for generating JS). Unlike other Lisp dialects, Clojure runs on the Java platform and is compiled to JVM bytecode. 
+    - Built on the JVM, so has interoperability with Java code and Java's OOP. For example, an array is still immutable but when you use a method on it you get back a new array.
+- Clojure
+    - Dialect of Lisp.
+- ClojureScript
+    - For generating JS including React apps. Unlike other Lisp dialects, Clojure runs on the Java platform and is compiled to JVM bytecode. 
 - Haskell
 - OCaml
 - [ReasonML](https://reasonml.github.io/)
     > Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems.
-- Common Lisp
-- Standard ML
 - Scala
-- Rust
+- [Rust](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Rust)
+    - Close to or equal to C in performance. 
+    - Objects are owned and borrowed to manage memory. This is neither manually managed like C++ or garbage-collected like Java, so is unfamiliar to get into.
 - F#
 - Scala
+- [Kotlin](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/mobile/Kotlin)
+    - Google's version of Java that is used for mobile apps.
+- [Swift](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/mobile/Kotlin)
+    - Apple's replacement for Objective-C, used for mobile apps.
+
+These ones are more obscure - at least in my experience I rarely hear of them.
+
+- PureScript 
+    - Compiles to JS.
+- Common Lisp
+- Standard ML
 - Racket
-- Kotlin
-- Swift
-- PureScript - compiles to JS.
+
+Which one to learn?
+
+Uncle Bob recommends Clojure [here](https://blog.cleancoder.com/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html).
+
+> Functional programming is important. You should learn it. And if you are wondering what language to use to learn it, I suggest Clojure.

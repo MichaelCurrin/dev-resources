@@ -75,10 +75,14 @@ See [Top 13 Functional Programming Languages](https://purelyfunctional.tv/functi
 
 These ones are more obscure - at least in my experience I rarely hear of them.
 
-- PureScript 
-    - Compiles to JS.
+- [PureScript](https://www.purescript.org/)
+    - > A strongly-typed functional programming language that compiles to JavaScript
 - Common Lisp
-- Standard ML
+- [ML](https://en.m.wikipedia.org/wiki/ML_(programming_language))
+    - "Meta Lanaguage".
+- [Standard ML](https://en.m.wikipedia.org/wiki/Standard_ML)
+    - Dialect of ML.
+    - Popular for writing compilers.
 - Racket
 
 Which one to learn?

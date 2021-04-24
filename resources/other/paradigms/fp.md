@@ -4,13 +4,17 @@ key_links:
   wikipedia: https://en.wikipedia.org/wiki/Functional_programming
 ---
 
+
+## FP languages
+
 See [Top 13 Functional Programming Languages](https://purelyfunctional.tv/functional-programming-languages/) list. It provides a summary and links for each.
 
 - Elm - [homepage](https://elm-lang.org/) and [Wikipedia](https://en.wikipedia.org/wiki/Elm_(programming_language)) - generates JS I think.
 - Erlang
-- Elixir (superset of Elrang)
+- Elixir (a superset of Elrang)
 - Lisp
-- Closure (Dialect of Lisp) and ClosureScript (for generating JS). Unlike other Lisp dialects, Clojure runs on the Java platform and is compiled to JVM bytecode. 
+- Closure (dialect of Lisp)
+- ClosureScript (for generating JS). Unlike other Lisp dialects, Clojure runs on the Java platform and is compiled to JVM bytecode. 
 - Haskell
 - OCaml
 - [ReasonML](https://reasonml.github.io/)

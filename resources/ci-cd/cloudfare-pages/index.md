@@ -59,6 +59,8 @@ Netlify has Functions, like AWS Lambda. CloudFare Pages does not.
 
 Netlify has server-side analyics serice for premium (so it works without client-side JS). CloudFare Pages has a web analytics service - I don't know about pricing.
 
+CloudFare Pages has Node but not Yarn in the build environment.
+
 #### CloudFare Pages vs GitHub services
 
 CloudFare Pages is similar to using GitHub Actions + GitHub Pages to deploy a Jekyll or React app, where you get a `username.github.io/my-repo` URL, except that GitHub Actions needs a much longer config.

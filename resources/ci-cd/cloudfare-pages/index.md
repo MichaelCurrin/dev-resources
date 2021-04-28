@@ -49,7 +49,7 @@ CloudFare Pages looks very similar to Netlify deploy and hosting.
 
 Except with far fewer config options and add-ons than Netlify. Which makes CloudFare Pages less intimidating for the average user but limits business application.
 
-The build config setup is mostly the same (Netlify lets you control that by a config file in your repo). You even get preview deploys from feature branches.
+The build config setup is mostly the same (Netlify lets you control that by a config file in your repo). You get preview deploys from feature branches on both services. The URL is random so won't be found easily. CloudFare Pages takes it further and lets you add auth on top of your preview branches to keep them private.
 
 Unfortunately it looks like the URL you get from CloudFare Pages is determined by the repo name (what happens on collisions). While Netlify lets you set up a custom Netlify app URL.
 

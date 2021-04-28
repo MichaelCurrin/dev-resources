@@ -13,9 +13,19 @@ key_links:
   tutorials_point: ''
   rosetta_code: ''
 link_sections:
+- title: Developing and deploying with code
+  links:
+  - title: AWS SDK
+    url: https://aws.amazon.com/tools/#cli
+    description: About the AWS CLI tools. Like a CLI installed as a Node or Python
+      package. Or interacting with AWS infrastructure like getting items off on an
+      AWS SQS Queue using Node.
 - title: Products
   links:
-  - title: Products
+  - title: Free tier limitations
+    url: https://aws.amazon.com/free/
+    description: What products you can use on the free tier - which doesn't expire.
+  - title: Products available
     url: https://aws.amazon.com/products/
     description: ''
   - title: Timeline of Amazon Web Services
@@ -28,7 +38,17 @@ wikipedia-excerpt: "Amazon Web Services is a subsidiary of Amazon providing on-d
   variety of basic abstract technical infrastructure and distributed computing building
   blocks and tools."
 byline: ''
-tutorials: []
+tutorials:
+- title: Self-paced Labs
+  url: https://aws.amazon.com/training/self-paced-labs/
+  description: Learn and experiment on real AWS infrastructure without the costs or
+    risks. The labs will expire at the end of a session so things will scale down.
+- title: Getting Started
+  url: https://aws.amazon.com/getting-started/
+  description: ''
+- title: 'Training and Certification '
+  url: https://aws.amazon.com/training/
+  description: Cloud Skills Courses and Programs
 blog_posts: []
 playgrounds: []
 

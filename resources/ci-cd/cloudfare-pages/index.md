@@ -45,9 +45,19 @@ You can set a Custom Domain that doesn't include CloudFare in the name, like `ht
 
 #### CloudFare Pages vs Netlify
 
-CloudFare Pages looks very similar to Netlify deploy and hosting. Except with far fewer config options and add-ons than Netlify. Which makes CloudFare Pages less intimidating for the average user but limits business application.
+CloudFare Pages looks very similar to Netlify deploy and hosting. 
 
-The build config setup is mostly the same (Netlify lets you control that by a config file in your repo.
+Except with far fewer config options and add-ons than Netlify. Which makes CloudFare Pages less intimidating for the average user but limits business application.
+
+The build config setup is mostly the same (Netlify lets you control that by a config file in your repo). You even get preview deploys from feature branches.
+
+Unfortunately it looks like the URL you get from CloudFare Pages is determined by the repo name (what happens on collisions). While Netlify lets you set up a custom Netlify app URL.
+
+CloudFare Pages lacks a button to deploy now, without a commit.
+
+Netlify has Functions, like AWS Lambda. CloudFare Pages does not.
+
+Netlify has server-side analyics serice for premium (so it works without client-side JS). CloudFare Pages has a web analytics service - I don't know about pricing.
 
 #### CloudFare Pages vs GitHub services
 

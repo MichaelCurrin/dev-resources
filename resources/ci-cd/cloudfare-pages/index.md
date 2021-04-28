@@ -43,3 +43,17 @@ The build config setup is mostly the same (Netlify lets you control that by a co
 #### CloudFare Pages vs GitHub services
 
 CloudFare Pages is similar to using GitHub Actions + GitHub Pages to deploy a Jekyll or React app, where you get a `username.github.io/my-repo` URL, except that GitHub Actions needs a much longer config.
+
+
+### Services available
+
+From the dashboard view.
+
+Service | Description
+---     | --
+Pages   | Deploy front-end applications in record time.
+Workers | Build serverless applications.
+Registrar | Transfer domains with zero mark-up on renewals.
+Stream | Upload and stream videos effortlessly.
+Teams | Zero Trust security for everyone.
+Web Analytics | Free analytics without changing your DNS.

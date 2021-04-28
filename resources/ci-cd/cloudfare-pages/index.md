@@ -31,6 +31,15 @@ See the homepage. You get unlimited sites on the free tier.
 >
 > New commits will trigger Cloudflare to automatically build and deploy your changes.
 
+The URL gets deployed based on your repo name.
+
+- Repo: [react-quickstart](react-quickstart)
+- CloudPages prod URL (it looks like this is fixed) - `react-quickstart.pages.dev`
+- Deployment
+    - Prod from specific commit `89019813.react-quickstart.pages.dev`
+
+You can set a Custom Domain that doesn't include CloudFare in the name, like `https://example`. But you need to buy that domain.
+
 
 ### Alterative services
 
@@ -45,9 +54,9 @@ The build config setup is mostly the same (Netlify lets you control that by a co
 CloudFare Pages is similar to using GitHub Actions + GitHub Pages to deploy a Jekyll or React app, where you get a `username.github.io/my-repo` URL, except that GitHub Actions needs a much longer config.
 
 
-### Services available
+### CloudFare services available
 
-From the dashboard view.
+Info from the CloudFare dashboard view.
 
 Service | Description
 ---     | --

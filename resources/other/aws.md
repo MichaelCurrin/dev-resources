@@ -31,7 +31,6 @@ byline: ''
 tutorials: []
 blog_posts: []
 playgrounds: []
-published: false
 
 ---
 # AWS

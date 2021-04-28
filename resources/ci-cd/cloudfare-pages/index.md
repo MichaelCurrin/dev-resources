@@ -55,7 +55,9 @@ Unfortunately it looks like the URL you get from CloudFare Pages is determined b
 
 CloudFare Pages lacks a button to deploy now, without a commit.
 
-Netlify has Functions, like AWS Lambda. CloudFare Pages does not.
+Netlify provides docs on making a config, so your settings exist outside the service (for repeatable deploys). I can't tell if CloudFare Pages supports this.
+
+Netlify has Functions, like AWS Lambda, but much simpler to deploy. CloudFare Pages has CloudFare Workers - see [Build an API for your frontend using Cloudflare Workers](https://developers.cloudflare.com/pages/tutorials/build-an-api-with-workers).
 
 Netlify has server-side analyics serice for premium (so it works without client-side JS). CloudFare Pages has a web analytics service - I don't know about pricing.
 

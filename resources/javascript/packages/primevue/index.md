@@ -1,5 +1,5 @@
 ---
-title: Primevue
+title: PrimeVue
 byline: The Most Complete Vue UI Component Library
 
 key_links:

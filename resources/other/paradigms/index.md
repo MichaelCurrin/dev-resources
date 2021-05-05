@@ -58,7 +58,7 @@ From [YouTube video](https://youtu.be/QM1iUe6IofM).
 | Procedural | Functional | Minimize state.    |
 | OOP        | Imperative | Segregate state.   |
 
-Another option from the video, which doesn't fit in the table, is that can mix OOP and FP. do both paradigms in one project in different modules or even in the same one. See [Mix OOP and FP][] page for more info.
+Another option from the video, which doesn't fit in the table, is that can mix OOP and FP. do both paradigms in one project in different modules or even in the same one. See [Mix FP and OOP][] page for more info.
 
 [Comparison of Programming Paradigms]: https://en.m.wikipedia.org/wiki/Comparison_of_programming_paradigms
 [Programming Paradigm]: https://en.wikipedia.org/wiki/Programming_paradigm
@@ -67,4 +67,4 @@ Another option from the video, which doesn't fit in the table, is that can mix O
 [Procedural Programming]: {{ site.baseurl }}{% link resources/other/paradigms/procedural.md %}
 [Functional Programming]: {{ site.baseurl }}{% link resources/other/paradigms/fp.md %}
 [Object-Oriented Programming]: {{ site.baseurl }}{% link resources/other/paradigms/oop.md %}
-[Mix OOP and FP]: {{ site.baseurl }}{% link resources/other/paradigms/mix-oop-fp.md %}
+[Mix FP and OOP]: {{ site.baseurl }}{% link resources/other/paradigms/mix-fp-oop.md %}

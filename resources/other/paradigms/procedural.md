@@ -1,5 +1,5 @@
 ---
-title: Procedural
+title: Procedural programming
 
 key_links:
   wikipedia: https://en.m.wikipedia.org/wiki/Procedural_programming

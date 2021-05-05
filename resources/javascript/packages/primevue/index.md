@@ -21,8 +21,8 @@ exists. So use "PButton" as component and in template field.
 
 ### Themes
 
-Try out themes live on the PrimeVue website.
-
 See the [Theming](https://www.primefaces.org/primevue/showcase/#/theming) guide.
+
+You can try out themes live on the PrimeVue website using a setting.
 
 For CSS files for theme names, see [themes](https://unpkg.com/browse/primevue/resources/themes/) directory on a CDN.

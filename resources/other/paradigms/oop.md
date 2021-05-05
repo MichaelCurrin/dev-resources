@@ -5,7 +5,29 @@ key_links:
   wikipedia: https://en.m.wikipedia.org/wiki/Object-oriented_programming
 ---
 
+## Traits
+
+Based on [Programming Paradigm][] on Wikipedia.
+
+- Data and methods are kept as one unit called an object. 
+- Perfect encapsulation.
+    - One of the distinguishing features of OOP 
+    - The only way that another object or user would be able to access the data is via the object's methods - data is "encapsulated" (i.e. "surrounded") by an object wrapper.
+    - SO an object's inner workings may be changed without affecting any code that uses the object. 
+  - The need for every object to have methods means that some skeptics associate OOP with software bloat. An attempt to resolve this dilemma came through polymorphism - reducing conditional checks in methods by rather assuming that a method on the right class will know what to do. So you don't have to check what the type is and then tell the object what to do. This is the "Don't ask, tell" approach.
+
+
 ## OOP languages 
 
+This list is from [Programming Paradigm][] on Wikipedia.
+
+- Simula
+- Smalltalk
+- C++ - from 1979, the first modern OOP language.
+- C# - similar to and based on Java.
+- Eiffel
+- PHP
 - Java - _Everything_ has to exist inside a class, even if it is just a static class with a main method.
-- C# - similar to Java.
+
+
+[Programming Paradigm]: https://en.wikipedia.org/wiki/Programming_paradigm

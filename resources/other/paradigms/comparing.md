@@ -1,9 +1,15 @@
-# Differences in paradigms
+# Comparing
+
+From [Programming Paradigm][] on Wikipedia.
+
+> Precise comparisons of competing paradigms' efficacy are frequently made more difficult because of new and differing terminology applied to similar entities and processes together with numerous implementation distinctions across languages. 
+
+[Programming Paradigm]: https://en.wikipedia.org/wiki/Programming_paradigm
 
 
 ## FP vs OOP
 
-Here are some main differences in two of them. Some people will argue that one comparison is more accurate than another.
+Here are some main differences in two well-known paradigms. Some people will argue that one comparison is more accurate than another.
 
 [Functional Programming][] | [Object-Oriented Programming][] 
 --- | ---

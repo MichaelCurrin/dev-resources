@@ -11,7 +11,7 @@ Paradigms _constrain_ what you can do with a language and gives it focus. The ea
 
 Based on [Comparison of Programming Paradigms][] on Wikipedia, which uses the "approaches" and "paradigms" groupings.
 
-#### Approaches 
+#### Approaches
 
 There are two main approaches to programming:
 
@@ -24,7 +24,7 @@ The following are widely considered the main programming paradigms, as seen when
 
 From [Comparison of Programming Paradigms][] on Wikipedia.
 
-- [Procedural Programming][] - Specifies the **steps** a program must take to reach a **desired state**. 
+- [Procedural Programming][] - Specifies the **steps** a program must take to reach a **desired state**.
 - [Functional Programming][] - Treats programs as evaluating **mathematical functions**. Avoids state and mutable data.
 - [Object-Oriented Programming][] - Organizes programs as objects: data structures consisting of datafields and methods together with their interactions.
 
@@ -32,7 +32,7 @@ These are tools you can use. And you can take learnings from both and apply them
 
 From [Programming Paradigm][] on Wikipedia.
 
-> Programming paradigms are a way to classify programming languages based on their features. Languages can be classified into multiple paradigms. 
+> Programming paradigms are a way to classify programming languages based on their features. Languages can be classified into multiple paradigms.
 
 That article compares paradigms neatly. Here is a summary from there.
 
@@ -41,7 +41,7 @@ That article compares paradigms neatly. Here is a summary from there.
         imperative in which the programmer instructs the machine how to change its state,
             procedural which groups instructions into procedures,
             object-oriented which groups instructions with the part of the state they operate on,
-            
+
         declarative in which the programmer merely declares properties of the desired result, but not how to compute it
             functional in which the desired result is declared as the value of a series of function applications,
             logic in which the desired result is declared as the answer to a question about a system of facts and rules,
@@ -52,18 +52,18 @@ That article compares paradigms neatly. Here is a summary from there.
 
 From [YouTube video](https://youtu.be/QM1iUe6IofM).
 
-Paradigm | Approach | Description 
----      | ---      | ---
-Procedural | Imperative | The default style.
-Procedural | Functional | Minimize state.
-OOP | Imperative | Segregate state.
+| Paradigm   | Approach   | Description        |
+| ---------- | ---------- | ------------------ |
+| Procedural | Imperative | The default style. |
+| Procedural | Functional | Minimize state.    |
+| OOP        | Imperative | Segregate state.   |
 
 Another option from the video, which doesn't fit in the table, is that can mix OOP and FP. do both paradigms in one project in different modules or even in the same one. See [Mix OOP and FP][] page for more info.
 
 [Comparison of Programming Paradigms]: https://en.m.wikipedia.org/wiki/Comparison_of_programming_paradigms
 [Programming Paradigm]: https://en.wikipedia.org/wiki/Programming_paradigm
 [Imperative Programming]: {{ site.baseurl }}{% link resources/other/paradigms/imperative.md %}
-[Declarative Programming]:  {{ site.baseurl }}{% link resources/other/paradigms/declaritive.md %}
+[Declarative Programming]:  {{ site.baseurl }}{% link resources/other/paradigms/declarative.md %}
 [Procedural Programming]: {{ site.baseurl }}{% link resources/other/paradigms/procedural.md %}
 [Functional Programming]: {{ site.baseurl }}{% link resources/other/paradigms/fp.md %}
 [Object-Oriented Programming]: {{ site.baseurl }}{% link resources/other/paradigms/oop.md %}

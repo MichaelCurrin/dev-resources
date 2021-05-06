@@ -46,8 +46,13 @@ fields:
     label: Wiki docs
     description: Links to the Wiki docs homepage for this item, if it has a Wiki.
   - type: text
+    name: pkg_url
+    label: Package URL
+    description: If a package, a URL to view the package on a registry
+  - type: text
     name: pkg_registry
-    label: 3rd-party packages registry
+    label: Packages registry
+    description: If a tool like NPM, a URL for the 3rd-party packages registry
   - type: text
     name: repo_nwo
     label: GitHub repo

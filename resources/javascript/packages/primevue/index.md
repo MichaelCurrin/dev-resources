@@ -1,14 +1,19 @@
 ---
 title: PrimeVue
-byline: The Most Complete Vue UI Component Library
-
+byline: |
+  The Most Complete Vue UI Component Library
+  
+  Powerful yet simple to use, versatile, performant Vue UI Component Library to help you build stunning user interfaces.
+  
 key_links:
   homepage: https://primefaces.org/primevue/
   docs: https://www.primefaces.org/primevue/showcase/#/
   repo_nwo: primefaces/primevue
 ---
 
-See also the **Vue** section.
+See also the [Vue][] section.
+
+[Vue]: {{ site.baseurl }}{% link resources/javascript/packages/vue/index.md %}
 
 
 ### Quickstarts

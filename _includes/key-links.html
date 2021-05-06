@@ -8,6 +8,7 @@
 {% assign repo_nwo = include.key_links.repo_nwo %}
 
 {% assign pkg_registry = include.key_links.pkg_registry %}
+{% assign pkg_url = include.pkg_url %}
 {% assign wikipedia = include.key_links.wikipedia %}
 {% assign learn_x = include.key_links.learn_x %}
 {% assign devhints = include.key_links.devhints %}
@@ -45,8 +46,15 @@
 
     {%- if pkg_registry and pkg_registry != '' %}
         <li>
-            📦 Package registry:
+            📦 Packages registry:
             <a href="{{ pkg_registry }}">{{ pkg_registry }}</a>
+        </li>
+    {% endif -%}
+    
+    {%- if pkg_url and pkg_url != '' %}
+        <li>
+            📦 Package URL:
+            <a href="{{ pkg_url }}">{{ pkg_url }}</a>
         </li>
     {% endif -%}
 

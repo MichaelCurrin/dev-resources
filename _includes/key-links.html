@@ -13,6 +13,10 @@
 {% assign tutorials_point = include.key_links.tutorials_point %}
 {% assign rosetta_code = include.key_links.rosetta_code %}
 
+{%- comment %}
+    Both cases are needed here, in case the variable not defined in the YAML (this means the
+    assigned variables are also undefined).
+{% endcomment -%}
 <ul>
     {%- if homepage and homepage != '' %}
         <li>
@@ -48,7 +52,7 @@
             <a href="{{ pkg_registry }}">{{ pkg_registry }}</a>
         </li>
     {% endif -%}
-    
+
     {%- if pkg_url and pkg_url != '' %}
         <li>
             📦 Package URL:

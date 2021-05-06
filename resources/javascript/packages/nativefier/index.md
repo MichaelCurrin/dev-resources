@@ -12,14 +12,14 @@ key_links:
 ---
 
 
-## Related sections
+### Related sections
 
 - [Electron][]
 
 [Electron]: {{ site.baseurl }}{% link resources/javascript/packages/electron/index.md %}
 
 
-## Example usage
+### Example usage
 
 Install globally with NPM.
 
@@ -42,7 +42,14 @@ For example, on macOS:
 ```sh
 $ cd ~/Downloads
 $ nativefier https://michaelcurrin.github.io/badge-generator/
-$ open badge-generator-darwin-x64/badge-generator.app/Contents/MacOS/badge-generator
 ```
 
-The top-level directory is `badge-generator-darwin-x64/` and the executable is a few levels below. You might want to that to `~/Applications`.
+That creates a directory `badge-generator-darwin-x64/` with a file `badge-generator.app` that you can double click on. You can explore it with `cd` and `ls` as a directory, but that is not necessary.
+
+Move it to applications.
+
+```sh
+$ mv badge-generator-darwin-x64/badge-generator.app ~/Applications
+```
+
+Then you can double-click on it in your applications directory.

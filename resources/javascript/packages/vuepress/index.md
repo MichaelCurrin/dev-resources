@@ -33,4 +33,9 @@ link_sections:
         url: https://v1.vuepress.vuejs.org/theme/option-api.html
       - title: VuePress themes on a site of Jamstack themes
         url: https://jamstackthemes.dev/theme/#ssg=vuepress
+        
+  - title: VuePress sites
+    links:
+      - title: Vetur
+        url: https://vuejs.github.io/vetur/
 ---

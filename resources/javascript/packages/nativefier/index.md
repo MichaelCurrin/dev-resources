@@ -40,9 +40,9 @@ Or on `https://medium.com`. The docs of the app suggest WhatsApp web (though why
 For example, on macOS:
 
 ```sh
-$ cd ~/Applications
+$ cd ~/Downloads
 $ nativefier https://michaelcurrin.github.io/badge-generator/
-$ cd badge-generator-darwin-x64
-$ open badge-generator.app/Contents/MacOS/badge-generator
+$ open badge-generator-darwin-x64/badge-generator.app/Contents/MacOS/badge-generator
 ```
 
+The top-level directory is `badge-generator-darwin-x64/` and the executable is a few levels below. You might want to that to `~/Applications`.

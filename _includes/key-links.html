@@ -16,75 +16,75 @@
 {% assign rosetta_code = include.key_links.rosetta_code %}
 
 <ul>
-    {%- if homepage and homepage != '' %}
+    {%- if homepage != '' %}
         <li>
-            🏠 Homepage:
+            <span>🏠 Homepage: </span>
             <a href="{{ homepage }}">{{ homepage }}</a>
         </li>
     {% endif -%}
 
-    {%- if docs and docs != '' %}
+    {%- if docs != '' %}
         <li>
-            📗 Docs:
+            <span>📗 Documentation: </span>
             <a href="{{ docs }}">{{ docs }}</a>
         </li>
     {% endif -%}
 
-    {%- if wiki and wiki != '' %}
+    {%- if wiki != '' %}
         <li>
-            📓 Wiki:
+            <span>📓 Wiki: </span>
             <a href="{{ wiki }}">{{ wiki }}</a>
         </li>
     {% endif -%}
 
-    {%- if repo_nwo and repo_nwo != '' %}
+    {%- if repo_nwo != '' %}
         <li>
-            👨‍💻 Repo:
+            <span>👨‍💻 GitHub repo: </span>
             {% include github-shields.html repo_nwo=repo_nwo %}
         </li>
     {% endif -%}
 
-    {%- if pkg_registry and pkg_registry != '' %}
+    {%- if pkg_registry != '' %}
         <li>
-            📦 Packages registry:
+            <span>📦 Packages registry: </span>
             <a href="{{ pkg_registry }}">{{ pkg_registry }}</a>
         </li>
     {% endif -%}
     
-    {%- if pkg_url and pkg_url != '' %}
+    {%- if pkg_url != '' %}
         <li>
-            📦 Package URL:
+            <span>📦 Package URL: </span>
             <a href="{{ pkg_url }}">{{ pkg_url }}</a>
         </li>
     {% endif -%}
 
-    {%- if wikipedia and wikipedia != '' %}
+    {%- if wikipedia != '' %}
         <li>
-            🌐 <a href="{{ wikipedia }}">Wikipedia</a>
+            <span>🌐 </span><a href="{{ wikipedia }}">Wikipedia page</a>
         </li>
     {% endif -%}
 
-    {%- if learn_x and learn_x != '' %}
+    {%- if learn_x != '' %}
         <li>
-            ⌛ <a href="{{ learn_x }}">Learn X in Y Minutes</a>
+            <span>⌛ </span><a href="{{ learn_x }}">Learn X in Y Minutes</a>
         </li>
     {% endif -%}
 
-    {%- if devhints and devhints != '' %}
+    {%- if devhints != '' %}
         <li>
-            🗒️ <a href="{{ devhints }}">DevHints cheatsheet</a>
+            <span>🗒️ </span><a href="{{ devhints }}">DevHints cheatsheet</a>
         </li>
     {% endif -%}
 
-    {%- if tutorials_point and tutorials_point != '' %}
+    {%- if tutorials_point != '' %}
         <li>
-            👨‍🎓 <a href="{{ tutorials_point }}">Tutorials Point</a>
+            <span>👨‍🎓 </span><a href="{{ tutorials_point }}">Tutorials Point</a>
         </li>
     {% endif -%}
 
-    {%- if rosetta_code and rosetta_code != '' %}
+    {%- if rrosetta_code != '' %}
         <li>
-            🔁 <a href="{{ rosetta_code }}">Rosetta Code</a>
+            <span>🔁 </span><a href="{{ rosetta_code }}">Rosetta Code</a>
         </li>
     {% endif -%}
 </ul>

@@ -12,6 +12,13 @@ key_links:
 ---
 
 
+## Related sections
+
+- [Electron][]
+
+[Electron]: {{ site.baseurl }}{% link resources/javascript/packages/electron/index.md %}
+
+
 ## Example usage
 
 Install globally with NPM.
@@ -24,6 +31,18 @@ Run against a website.
 
 ```sh
 $ nativefier URL
-$ # e.g.
-$ nativefier https://github.com
 ```
+
+You can try it on `https://github.com`. Then you can browse the docs or sign in and browse repos.
+
+Or on `https://medium.com`. The docs of the app suggest WhatsApp web (though why not just download WhatsApp desktop app, I don't know).
+
+For example, on macOS:
+
+```sh
+$ cd ~/Applications
+$ nativefier https://michaelcurrin.github.io/badge-generator/
+$ cd badge-generator-darwin-x64
+$ open badge-generator.app/Contents/MacOS/badge-generator
+```
+

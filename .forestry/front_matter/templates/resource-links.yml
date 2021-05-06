@@ -183,6 +183,7 @@ fields:
     to handle things that are common across pages.
 pages:
 - resources/containers/docker.md
+- resources/javascript/packages/electron/index.md
 - resources/javascript/packages/svelte/index.md
 - resources/javascript/packages/vuepress/index.md
 - resources/make/index.md

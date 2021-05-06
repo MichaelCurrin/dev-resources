@@ -14,6 +14,11 @@ key_links:
   rosetta_code: ''
 byline: Build cross-platform desktop apps with JavaScript, HTML, and CSS
 link_sections:
+- title: Quickstarts
+  links:
+  - title: MichaelCurrin/electron-quickstart on GitHub
+    url: https://github.com/MichaelCurrin/electron-quickstart
+    description: Boilerplate for a simple Electron app
 - title: Website highlights
   links:
   - title: Electron apps

@@ -38,4 +38,6 @@ link_sections:
     links:
       - title: Vetur
         url: https://vuejs.github.io/vetur/
+      - title: VuePress Quickstart
+        url: https://michaelcurrin.github.io/vuepress-quickstart/
 ---

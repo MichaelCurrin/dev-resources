@@ -38,6 +38,16 @@ exists. So use "PButton" as component and in template field.
 
 See the [Theming](https://www.primefaces.org/primevue/showcase/#/theming) guide.
 
-You can try out themes live on the PrimeVue website using a setting.
+See the Free Themes section of the [Quickstart](https://primefaces.org/primevue/showcase/#/setup) guide for a list.
 
-For CSS files for theme names, see [themes](https://unpkg.com/browse/primevue/resources/themes/) directory on a CDN.
+e.g.
+
+```
+primevue/resources/themes/bootstrap4-light-blue/theme.css
+primevue/resources/themes/bootstrap4-light-purple/theme.css
+primevue/resources/themes/bootstrap4-dark-blue/theme.css
+```
+
+You can try out themes live on the PrimeVue website, using Themes menu item.
+
+For CSS files for theme names, see [themes](https://unpkg.com/browse/primevue/resources/themes/) directory on the UNPKG CDN.

@@ -1,5 +1,7 @@
 ---
 title: PrimeVue
+description: A UI component library for Vue - it lets you use themes around Bootstrap, Material and more.
+
 byline: |
   The Most Complete Vue UI Component Library
   

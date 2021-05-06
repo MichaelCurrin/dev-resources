@@ -53,3 +53,9 @@ $ mv badge-generator-darwin-x64/badge-generator.app ~/Applications
 ```
 
 Then you can double-click on it in your applications directory.
+
+There are just license files and metadata left, but you can delete the directory.
+
+```sh
+$ rm -rf badge-generator-darwin-x64/
+```

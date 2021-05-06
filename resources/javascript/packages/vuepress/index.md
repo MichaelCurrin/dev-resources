@@ -4,7 +4,7 @@ key_links:
   homepage: https://vuepress.vuejs.org/
   docs: https://vuepress.vuejs.org/guide/
   repo_nwo: vuejs/vuepress
-  pkg_registry: https://www.npmjs.com/package/vuepress
+  pkg_url: https://www.npmjs.com/package/vuepress
   wiki: ''
   wikipedia: ''
   learn_x: ''

@@ -10,3 +10,20 @@ byline: Make any web page a desktop application
 key_links:
   repo_nwo: nativefier/nativefier
 ---
+
+
+## Example usage
+
+Install globally with NPM.
+
+```sh
+$ npm install -g nativefier
+```
+
+Run against a website.
+
+```sh
+$ nativefier URL
+$ # e.g.
+$ nativefier https://github.com
+```

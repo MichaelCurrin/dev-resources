@@ -12,11 +12,13 @@ links:
     url: https://github.com/MichaelCurrin/static-sites-generator-resources/blob/master/Jekyll/
     description: On my Static Site Generator Resources repo
  
-  - title: Themes
+  - title: Themes guide 
     url: https://jekyllrb.com/docs/themes/
+    description: On Jekyll docs
     
-  - title: Directory structure
+  - title: Directory structure guide
     url: https://jekyllrb.com/docs/structure/
+    description: On Jekyll docs
 
   - title: Jekyll Codex
     url: https://jekyllcodex.org/
@@ -32,8 +34,18 @@ link_sections:
         description: Template and demo for showcasing Jekyll functionality with a theme
 ---
 
-### Related resource sections
+### Related sections
+
+Resource pages on this site which can help with your Jekyll learning and projects.
 
 - [GitHub Pages]({{ site.baseurl }}{% link resources/web/github-pages.md %}) - one way of hosting your Jekyll site.
 - [GitHub Actions]({{ site.baseurl }}{% link resources/ci-cd/github-actions/index.md %}) - CI-CD to deploy your Jekyll site.
 - [Ruby]({{ site.baseurl }}{% link resources/ruby/index.md %})
+
+
+### Related projects
+
+Learn more about Jekyll.
+
+- [Jekyll](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/jekyll/) on Dev Cheatsheets.
+- [Jekyll](https://michaelcurrin.github.io/code-cookbook/recipes/jekyll/) on Code Cookbook.

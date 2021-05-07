@@ -20,10 +20,9 @@ See also the [Vue][] section.
 
 ### Quickstarts
 
-- Follow the [Quickstart guide](https://primefaces.org/primevue/showcase/#/setup) on the PrimeVue site to add PrimeVue to a Vue app.
-- See the official quickstart project, with Vue and PrimeVue already integrated. [![primefaces - primevue-quickstart](https://img.shields.io/static/v1?label=primefaces&message=primevue-quickstart&color=blue&logo=github)](https://github.com/primefaces/primevue-quickstart)
-- See my [PrimeVue Frontend Quickstart](https://michaelcurrin.github.io/primevue-frontend-quickstart/), which showcases how to set up and host a static site built on Vue and Primevue, without using Node or a build step. This is a template project which you can easily copy to your own repos.
-
+- Follow the [Quickstart guide](https://primefaces.org/primevue/showcase/#/setup) on the PrimeVue docs to add PrimeVue to a Vue app.
+- See my [PrimeVue Frontend Quickstart](https://michaelcurrin.github.io/primevue-frontend-quickstart/) project, which showcases how to set up and host a static site built on Vue and Primevue, without using Node or a build step. This is a template project which you can easily copy to your own repos.
+- See my [PrimeVue Quickstart](https://github.com/MichaelCurrin/primevue-quickstart) project, which is made with Node.
 
 ### Tips
 

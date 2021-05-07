@@ -21,6 +21,15 @@ links:
   - title: Jekyll Codex
     url: https://jekyllcodex.org/
     description: A guide that is independent of the Jekyll docs but has some great info. In particular, it demonstrates how to handle some common scenarios like an image gallery or SEO setup, using native Jekyll functionality. i.e. **Without** needing a plugin.
+
+link_sections:
+  - title: Sites made with Jekyll
+    links:
+      - title: Coding Blog
+        url: https://michaelcurrin.github.io/coding-blog/
+      - title: Jekyll Blog Demo
+        url: https://michaelcurrin.github.io/jekyll-blog-demo/
+        description: Template and demo for showcasing Jekyll functionality with a theme
 ---
 
 ### Related resource sections

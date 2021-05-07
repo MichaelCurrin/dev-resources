@@ -2,7 +2,7 @@
 title: Plugins
 
 links:
-  - title: Dependenct Versions list
+  - title: Dependency Versions
     url: https://pages.github.com/versions/
     description: GitHub Pages uses the list dependencies and versions - includes links to gems on RubyGems.
 

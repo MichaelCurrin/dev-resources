@@ -2,6 +2,10 @@
 title: Plugins
 
 links:
+  - title: Dependenct Versions list
+    url: https://pages.github.com/versions/
+    description: GitHub Pages uses the list dependencies and versions - includes links to gems on RubyGems.
+
   - title: jekyll-csv plugin
     url: https://github.com/theyworkforyou/jekyll-csv
     description: Turn a CSV into a Jekyll collection

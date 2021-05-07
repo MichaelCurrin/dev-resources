@@ -24,6 +24,9 @@ links:
     url: https://jekyllcodex.org/
     description: A guide that is independent of the Jekyll docs but has some great info. In particular, it demonstrates how to handle some common scenarios like an image gallery or SEO setup, using native Jekyll functionality. i.e. **Without** needing a plugin.
 
+  - title: Awesome Jekyll Editors
+    url: https://github.com/planetjekyll/awesome-jekyll-editors
+
 link_sections:
   - title: Sites made with Jekyll
     links:

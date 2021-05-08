@@ -1,9 +1,6 @@
 ---
 title: Nativefier
-description: |
-  Nativefier is a command-line tool to easily create a desktop app for any web site with 
-  minimal configuration. Apps are wrapped by Electron (which uses Chromium under the hood) 
-  in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
+description: Convert an existing website into a desktop app, using one command
 
 byline: Make any web page a desktop application
 
@@ -11,10 +8,15 @@ key_links:
   repo_nwo: nativefier/nativefier
 ---
 
+Info from the website:
+
+> Nativefier is a command-line tool to easily create a desktop app for any web site with minimal configuration. 
+> 
+> Apps are wrapped by Electron (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
 
 ### Related sections
 
-- [Electron][]
+- [Electron][] dev resources.
 
 [Electron]: {{ site.baseurl }}{% link resources/javascript/packages/electron/index.md %}
 
@@ -59,3 +61,25 @@ There are just license files and metadata left, but you can delete the directory
 ```sh
 $ rm -rf badge-generator-darwin-x64/
 ```
+
+### My experience
+
+I've used Nativefier a bit and found it really easy to use. I was wondering if I should learn Electron or similar so I can build a desktop app which uses HTML, CSS and jS internally. But that was too much effort. Then I discovered Nativefier, which does all the hard work for you.
+
+Instead of browsing YouTube, or GitHub, or Medium or whatever in your browser, you get to have a separate application that you can launch. It works as its own window, so its easy to switch. And you don't have to have the browser open.
+
+#### Downsides
+
+It adds convenience.
+
+But it has some downsides. At least in the default setup - I haven't explored options.
+
+- No URL bar. Copy and pasting URLs. No back or next button. No multiple tabs. It might keep you more focussed, but I like to have a bunch of articles of YouTube tabs that I open based on an initial link, without having to lose the one I am on.
+- Lack of navigation. This is annoying if you navigate yourself into a deadend. Like when I ended up on the docs portion of GitHub but couldn't navigate to the repos section.
+- A website can be updated with a refresh or hard refresh. The generated desktop app might need to be rebuilt.
+
+#### Alternatives
+
+An alternative to using this flow is just moving a browser tab to a separate window. Then you can switch between say 20 Firefox tabs as usual and 1 Firefox tab in another window. You'll still get all the features of running in a browser. And depending on your OS and preferences, you might have one Firefox icon and two windows to choose from, or it appears as two pieces in your taskbar.
+
+Another option is to use Chrome and Firefox and keep them open. I have one for work and one for personal stuff, including music playing and articles to read. I could even use Chromium (or that other Firefox experimental browser), so that I have two Chromes (or two Firefoxes) to choose from and start independently.

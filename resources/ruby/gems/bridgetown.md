@@ -4,6 +4,7 @@ title: Bridgetown
 key_links:
   homepage: https://www.bridgetownrb.com
   docs: https://www.bridgetownrb.com/docs/
+  repo_nwo: bridgetownrb/bridgetown
 ---
 
 - [Bridgetown Quickstart](https://github.com/MichaelCurrin/bridgetown-quickstart)

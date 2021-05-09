@@ -13,3 +13,7 @@ key_links:
     - [#bridgetown-theme](https://github.com/topics/bridgetown-theme)
 - Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
 - Read the [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
+
+### Related sections
+
+- [Bridgetown](https://michaelcurrin.github.io/code-cookbook/recipes/ruby/gems/bridgetown.html) recipes

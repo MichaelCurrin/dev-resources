@@ -15,8 +15,8 @@ key_links:
 
 ### Docs
 
-- Use a theme - see [Theme](https://www.bridgetownrb.com/docs/themes) docs.
-- Add some [plugins](https://www.bridgetownrb.com/plugins/).
+- Use a theme - see [Theme](https://www.bridgetownrb.com/docs/themes) page in docs or browse themes in plugins link below.
+- Add some plugins - see [plugins](https://www.bridgetownrb.com/plugins/) list.
 - Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
 - Read the [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
 

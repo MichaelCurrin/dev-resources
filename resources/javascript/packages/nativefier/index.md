@@ -68,15 +68,28 @@ I've used Nativefier a bit and found it really easy to use. I was wondering if I
 
 Instead of browsing YouTube, or GitHub, or Medium or whatever in your browser, you get to have a separate application that you can launch. It works as its own window, so its easy to switch. And you don't have to have the browser open.
 
+#### Extra features
+
+These were not clear from my first experience but now I see how they work.
+
+I found under the _View_ menu (and with corresponding keyboard shortcuts).
+
+- You can navigate with the _Back_ and _Forward_ button.  
+- There is a _Reload_ button to refresh the page.
+- There is a _Toggle Dev Tools_ option.
+
+You can even make new tabs. There is a plus button in the top right, which defaults to the homepage of the site you set up. Also, if you press CTR/CMD when clicking a URL, it opens thatURL in a new tab within the window.
+
+I can I can latest content of a webpag within the app, without having to rebuild the entire app. You might have to press the _Reload_ button though to force a refresh.
+
 #### Downsides
 
 It adds convenience.
 
 But it has some downsides. At least in the default setup - I haven't explored options.
 
-- No URL bar. Copy and pasting URLs. No back or next button. No multiple tabs. It might keep you more focussed, but I like to have a bunch of articles of YouTube tabs that I open based on an initial link, without having to lose the one I am on.
-- Lack of navigation. This is annoying if you navigate yourself into a deadend. Like when I ended up on the docs portion of GitHub but couldn't navigate to the repos section.
-- A website can be updated with a refresh or hard refresh. The generated desktop app might need to be rebuilt.
+- No URL bar. 
+- No clear back or next button. 
 
 #### Alternatives
 

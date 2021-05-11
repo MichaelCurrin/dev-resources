@@ -1,5 +1,10 @@
 ---
 title: Vue
+description: |
+  A framework for building user interfaces and Single-Page Applications. Add it directly to your frontend, or use it in a Node or Deno app.
+  
+  Vue is similar to React by easier to learn. It uses `.vue` template files so you don't need to use JSX. There's no class vs functional components issue like in React. And it is backed by a core developer and the community, rather than by a company (like React and Facebook).
+  
 logo: vue-dot-js
 
 byline: The Progressive JavaScript Framework
@@ -7,17 +12,21 @@ byline: The Progressive JavaScript Framework
 key_links:
   homepage: https://vuejs.org/
   docs: https://v3.vuejs.org/guide/introduction.html
-  repo_nwo: vuejs/vue
+  repo_nwo: vuejs/vue-next
   devhints: https://devhints.io/vue
+  pkg_url: https://www.npmjs.com/package/vue
+  
+  wikipedia: https://en.wikipedia.org/wiki/Vue.js
+  wikipedia_except: |
+    Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members
+    
 ---
 
-### Package
-
-- NPM: [vue](https://www.npmjs.com/package/vue)
+- Vue 2 repo: [vuejs/vue](https://github.com/vuejs/vue)
 
 ### Tutorials
 
-- [Vue Master](https://www.vuemastery.com/courses) courses.
+- [Vue Mastery](https://www.vuemastery.com/courses) courses.
 
 ### My projects
 

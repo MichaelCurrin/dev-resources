@@ -1,9 +1,7 @@
 ---
 title: Vue
 description: |
-  A framework for building user interfaces and Single-Page Applications. Add it directly to your frontend, or use it in a Node or Deno app.
-  
-  Vue is similar to React by easier to learn. It uses `.vue` template files so you don't need to use JSX. There's no class vs functional components issue like in React. And it is maintained by a core developer and the community, rather than by a company (like React and Facebook).
+  A framework for building user interfaces and Single-Page Applications. 
   
 logo: vue-dot-js
 
@@ -22,6 +20,10 @@ key_links:
     
 ---
 
+Add it directly to your frontend, or use it in a Node or Deno app.
+  
+Vue is similar to React by easier to learn. It uses `.vue` template files so you don't need to use JSX. There's no class vs functional components issue like in React. And it is maintained by a core developer and the community, rather than by a company (like React and Facebook).
+  
 - Vue 2 repo: [vuejs/vue](https://github.com/vuejs/vue)
 
 ### Tutorials

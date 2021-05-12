@@ -1,5 +1,6 @@
 ---
 title: CDNs
+description Content Delivery Networks for JS and CSS assets
 
 links:
   - title: Skypack
@@ -7,7 +8,6 @@ links:
     description: |
       "Skypack is a JavaScript Delivery Network for modern web apps"
       
-    
   - title: JSPM
     url: http://jspm.io/
     description: |
@@ -33,7 +33,29 @@ links:
       
       e.g. `unpkg.com/react@16.7.0/umd/react.production.min.js`
       
-      The default I think is to get CommonJS (`.cjs`) format. Add `?module` to get the ES Module form.
+      The default I think is to get CommonJS (`.cjs`) format. Add `?module` to get the ES Module form. Which changes imports within the modules.
+      
+      e.g. [/primevue@3.4.0/ripple/ripple.esm.js](https://unpkg.com/primevue@3.4.0/ripple/ripple.esm.js) starts off as: 
+      
+      ```javascript
+      import {
+          DomHandler
+      }
+      from 'primevue/utils';
+      ```
+      
+      And that will cause errors - unless you can an import map to process `primevue` as an UNPKG URL.
+      
+      While adding the extension like [/primevue@3.4.0/ripple/ripple.esm.js?module](https://unpkg.com/primevue@3.4.0/ripple/ripple.esm.js?module) does this:
+      
+      ```javascript
+      import {
+          DomHandler
+      }
+      from "https://unpkg.com/primevue@latest/utils?module";
+      ```
+      
+      Unfortunately, that uses `latest` and not the `3.X.X` version from the URL. And also in this case, the latest points at `2.X.X` (redirects to `https://unpkg.com/primevue@2.4.1/utils?module`) and that is appears as an error.
       
   - title: JSDelivr
     url: https://www.jsdelivr.com/

@@ -8,7 +8,7 @@ key_links:
   homepage: https://www.codementor.io/
 
 link_sections:
-  - title: Website
+  - title: Website pages
     links:
       - title: Dev Projects
         url: https://www.codementor.io/projects

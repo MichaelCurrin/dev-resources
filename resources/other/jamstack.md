@@ -1,11 +1,17 @@
 ---
-title: Jamstack
-description: Frameworks for deploying Jamstack sites, across programming languages
+title: JAMStack
+description: Frameworks for deploying JAMStack sites, across programming languages.
 
 key_links:
   homepage: https://jamstack.org/
 
 ---
+
+The "JAM" in JAMStack is for:
+
+- JavaScript
+- API
+- Markdown
 
 
 ## Go-based

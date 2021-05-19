@@ -12,6 +12,7 @@ key_links:
 ### Quickstart repos
 
 - [![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart)
+- [![MichaelCurrin - react-ssr-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-ssr-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-ssr-quickstart)
 - [![MichaelCurrin - react-deno-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-deno-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-deno-quickstart)
 
 

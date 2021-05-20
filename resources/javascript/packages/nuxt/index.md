@@ -6,7 +6,7 @@ byline: The Intuitive Vue Framework
 key_links:
   homepage: https://nuxtjs.org/
   docs: https://nuxtjs.org/docs/2.x/get-started/installation
-  repo_nwo: https://github.com/nuxt/nuxt.js
+  repo_nwo: nuxt/nuxt.js
 ---
 
 ### Quickstart projects

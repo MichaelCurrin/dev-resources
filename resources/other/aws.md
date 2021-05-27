@@ -43,6 +43,9 @@ tutorials:
   url: https://aws.amazon.com/training/self-paced-labs/
   description: Learn and experiment on real AWS infrastructure without the costs or
     risks. The labs will expire at the end of a session so things will scale down.
+- title: Amazon Qwiklabs
+  url: https://amazon.qwiklabs.com/
+  description: This is the site where the labs page takes you to. You register and sign into Qwiklabs separate to your AWS account and start the labs from in Qwiklabs.
 - title: Getting Started
   url: https://aws.amazon.com/getting-started/
   description: ''

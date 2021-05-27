@@ -27,6 +27,7 @@ tutorials:
   url: https://youtu.be/F0G9lZ7gecE
 - title: Full Deno Tutorial by Chapters
   url: https://lyty.dev/deno/deno-tutorial.html
+  description: The tutorial is broken into sections like "Hello World" and "Package Management".
 blog_posts: []
 playgrounds: []
 link_sections:

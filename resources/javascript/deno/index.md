@@ -25,7 +25,7 @@ key_links:
 tutorials:
 - title: 100 second intro (YouTube)
   url: https://youtu.be/F0G9lZ7gecE
-- title: Full Deno Tutorial by Chapters
+- title: Deno Tutorial on LYTY site
   url: https://lyty.dev/deno/deno-tutorial.html
   description: The tutorial is broken into sections like "Hello World" and "Package Management".
 blog_posts: []

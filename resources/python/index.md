@@ -16,6 +16,9 @@ key_links:
   wikipedia: https://en.wikipedia.org/wiki/Python_(programming_language)
   pkg_registry: https://pypi.org/
 
+learn_links:
+  w3_schools: https://www.w3schools.com/python/python_reference.asp
+
 tutorials: []
 blog_posts: []
 

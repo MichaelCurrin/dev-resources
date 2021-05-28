@@ -1,5 +1,5 @@
 ---
-title: Libraries
+title: Built-in
 
 links:
   - title: Python standard library

@@ -1,6 +1,6 @@
 # GitHub Topics
 
-Icons used for GitHub topics on the GitHub website, but available for use in other projects too. The portfolio site repo you get when making a new GitHub account uses these icons.
+PNG icons used for GitHub topics on the GitHub website, available for use in other projects too. The portfolio site repo you get when making a new GitHub account uses these icons.
 
 
 ## About

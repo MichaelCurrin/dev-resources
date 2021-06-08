@@ -41,3 +41,7 @@ Warning from the docs:
 There are also a ton of posts out there around why you probably **don't** need Redux anymore. Even the Redux author said that.
 
 [Search results](https://duckduckgo.com/?q=you+probably+don%27t+need+redux&t=ffab&ia=web)
+
+Also the author of Redux:
+
+> Flux libraries are like glasses: you’ll know when you need them.

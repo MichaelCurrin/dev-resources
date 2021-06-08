@@ -182,7 +182,7 @@ fields:
 pages:
 - resources/containers/docker.md
 - resources/javascript/packages/electron/index.md
-- resources/javascript/packages/react/react-native.md
+- resources/javascript/packages/redux.md
 - resources/javascript/packages/svelte/index.md
 - resources/javascript/packages/vuepress/index.md
 - resources/make/index.md

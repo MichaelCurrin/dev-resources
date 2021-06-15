@@ -25,6 +25,26 @@ $ next lint
 ```
 
 
+### Create a fresh project from scratch
+
+From [Create a Next.js App](https://nextjs.org/learn/basics/create-nextjs-app) tutorial on the homepage.
+
+```sh
+$ npx create-next-app nextjs-blog --use-npm \
+    --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
+$ cd nextjs-blog
+```
+
+
 ### Quickstart
 
 - [MichaelCurrin/next-quickstart](https://github.com/MichaelCurrin/next-quickstart)
+
+
+### Links
+
+- [Learn Next.js](https://nextjs.org/learn)
+- [Documentation Next.js](https://nextjs.org/docs)
+- [Next.js Examples](https://github.com/vercel/next.js/tree/master/examples) in `vercel/next.js` repo.
+- [vercel/next-learn-starter](https://github.com/vercel/next-learn-starter) repo.
+- [Deploy](https://vercel.com/import?filter=next.js) to Vercel.

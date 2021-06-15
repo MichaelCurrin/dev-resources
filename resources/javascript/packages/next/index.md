@@ -8,11 +8,20 @@ key_links:
   repo_nwo: vercel/next.js
 ---
 
+### Static vs server-side rendering
+
+As with React, you can build more advanced web apps but in this case this template uses a simple site which can be hosted as static site such as on GitHub Pages (with GitHub Actions for CI) or with Netlify (CI and hosting) You can look into use [Vercel](https://vercel.com/) as a hosting service if you want server-side rendering.
+
+From the homepage:
+
 > Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
+
+
+### Announcements and events
 
 [Next.js 11](https://nextjs.org/blog/next-11) blog post.
 
-[Next.js conf](https://nextjs.org/conf) page.
+See [Next.js conf](https://nextjs.org/conf) page. There is an annual confernence plus smaller conferences in between.
 
 
 ### Install

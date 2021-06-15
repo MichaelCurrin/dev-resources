@@ -35,7 +35,9 @@ $ npx create-next-app nextjs-blog --use-npm \
 $ cd nextjs-blog
 ```
 
-See [learn-starter](https://github.com/vercel/next-learn-starter/tree/master/learn-starter) template on GitHub.
+That uses the [learn-starter](https://github.com/vercel/next-learn-starter/tree/master/learn-starter) template.
+
+See all the examples on GitHub - [vercel/next-learn-starter](https://github.com/vercel/next-learn-starter).
 
 
 ### Quickstart

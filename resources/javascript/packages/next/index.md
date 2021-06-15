@@ -20,9 +20,29 @@ $ npx i next@latest
 
 ### Lint
 
+Install dev dependencies:
+
 ```sh
-$ next lint
+$ npm install -D eslint eslint-plugin-next
 ```
+
+Generate a config, so that ESLint understands JSX syntax. You'll get an error if you don't do this.
+
+```sh
+$ npx eslint --init
+```
+
+Now lint with:
+
+```sh
+$ npx next lint
+```
+
+Help on the command:
+
+> Run ESLint on every file in specified directories.
+>
+> If not configured, ESLint will be set up for the first time.
 
 
 ### Create a fresh project from scratch

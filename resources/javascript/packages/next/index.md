@@ -12,6 +12,8 @@ key_links:
 
 [Next.js 11](https://nextjs.org/blog/next-11) blog post.
 
+[Next.js conf](https://nextjs.org/conf) page.
+
 
 ### Install
 

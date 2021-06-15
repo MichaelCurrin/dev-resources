@@ -1,5 +1,5 @@
 ---
-title: Next
+title: Next.js
 
 byline: The React Framework for Production
 

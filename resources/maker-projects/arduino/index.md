@@ -8,7 +8,7 @@ key_links:
 tutorials:
   - title: Arduino Guide
     url: https://www.arduino.cc/en/Guide
-    description: Covers models, IDEs online and offline, and links for learning including and intro and use of libraries
+    description: Covers models, IDEs online and offline, and links for learning including and intro and use of libraries. Also under each model there are instructions for setting up an IDE and adding a basic blink sketch to the Arduino.
 
 link_sections:
   - title: Editors

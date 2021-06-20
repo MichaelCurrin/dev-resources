@@ -1,9 +1,8 @@
 ---
-title Server-Side Rendering
+title: Server-Side Rendering
 
 description: SSR in the context of React
 ---
-
 
 
 ## Summary
@@ -50,7 +49,6 @@ If you want to improve the performance of your app or improve SEO rankings, cons
 If you content is static (based on commits and not on user activity in database), then static rendering works great. It will also be faster then SSR, as you can output static assets which get served using a static web server like Nginx which will be more optimized and performant than a Node server.
 
 [presite]: https://github.com/egoist/presite#examples
-
 
 
 ## Info on SSR from React on GitHub

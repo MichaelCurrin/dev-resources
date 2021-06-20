@@ -26,8 +26,8 @@ fields:
     name: byline
     label: Byline
     description: |
-      Short tagline quote from the homepage or Wikipedia. It might be more
-      inspirational than factual.
+      Short tagline quote, usually from the homepage, repo or Wikipedia. It might be more
+      inspirational than informative.
 
   - type: textarea
     name: wikipedia-excerpt

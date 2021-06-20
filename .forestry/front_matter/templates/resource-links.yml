@@ -79,6 +79,32 @@ fields:
         label: Rosetta Code link
 
   - type: field_group_list
+    name: Links
+    label: Links
+
+    fields:
+      - type: text
+        name: title
+        label: title
+        config:
+          required: true
+      - type: text
+        name: url
+        label: url
+        config:
+          required: true
+      - name: description
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: false
+          schema:
+            format: markdown
+        label: description
+    description: Uncategorized links
+
+  - type: field_group_list
     name: tutorials
     label: Tutorials
 

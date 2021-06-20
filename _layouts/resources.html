@@ -8,15 +8,11 @@ Homepage byline:
 {% include quote.html message=page.byline %}
 {% endif %}
 
-
 {% if page.wikipedia-excerpt and page.wikipedia-excerpt != '' %}
 Wikipedia excerpt:
 
 {% include quote.html message=page.wikipedia-excerpt %}
 {% endif %}
-
-
-{{ content }}
 
 {% if page.key_links %}
     <h3>Key links</h3>
@@ -53,3 +49,5 @@ Wikipedia excerpt:
 
     {% include links-list.html links=section.links %}
 {% endfor -%}
+
+{{ content }}

@@ -9,27 +9,31 @@ fields:
     config:
       required: true
     label: Title
+
   - type: text
     name: logo
     label: Logo
-    description:
-      'Name of logo from SVGs in the theme''s <a href="https://github.com/MichaelCurrin/fractal/tree/master/_includes/logos"
-      title="logos" target="_blank">logos</a> directory. e.g. visualstudiocode, ruby,
-      node-dot.js, vue-dot-js '
+    description: |
+      Name of logo from SVGs in the theme's <a href="https://github.com/MichaelCurrin/fractal/tree/master/_includes/logos" title="logos" target="_blank">logos</a> directory. e.g. visualstudiocode, ruby,
+      node-dot.js, vue-dot-js'
+
   - type: textarea
     name: description
     label: Description
     description: What is this thing and what is it used for
+
   - type: textarea
     name: byline
     label: Byline
-    description:
+    description: |
       Short tagline quote from the homepage or Wikipedia. It might be more
       inspirational than factual.
+
   - type: textarea
     name: wikipedia-excerpt
     label: Wikipedia excerpt
     description: The first paragraph or two from the item's Wikipedia page.
+
   - type: field_group
     name: key_links
     label: Key links
@@ -73,9 +77,11 @@ fields:
       - type: text
         name: rosetta_code
         label: Rosetta Code link
+
   - type: field_group_list
     name: tutorials
     label: Tutorials
+
     fields:
       - type: text
         name: title
@@ -97,6 +103,7 @@ fields:
             format: markdown
         label: description
     description: Links to docs, articles, videos, etc.
+
   - type: field_group_list
     name: blog_posts
     label: Blog posts
@@ -120,6 +127,7 @@ fields:
           schema:
             format: markdown
         label: description
+
   - type: field_group_list
     name: playgrounds
     label: Playgrounds
@@ -143,9 +151,10 @@ fields:
           schema:
             format: markdown
         label: description
-    description:
-      "Links to online playgrounds or code pens where you can run the tool
-      or language in the browser. "
+    description: |
+      Links to online playgrounds or code pens where you can run the tool
+      or language in the browser.
+
   - type: field_group_list
     name: link_sections
     label: Link sections
@@ -180,7 +189,7 @@ fields:
             label: description
         config:
           min:
-    description:
+    description: |
       Create and name a group in here with whatever title you want and put
       some links in it. This is flexible. See existing sections like Tutorial Links
       to handle things that are common across pages.

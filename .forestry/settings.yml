@@ -1,20 +1,23 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
-webhook_url: 
+admin_path: ""
+webhook_url:
+
 sections:
-- type: jekyll-pages
-  label: Pages
-  create: all
+  - type: jekyll-pages
+    label: Pages
+    create: all
+
 upload_dir: uploads
 public_path: "/uploads"
-front_matter_path: ''
+front_matter_path: ""
 use_front_matter_path: false
 file_template: ":filename:"
+
 build:
   preview_env:
-  - JEKYLL_ENV=staging
+    - JEKYLL_ENV=staging
   preview_output_directory: _site
   install_dependencies_command: make install
   preview_docker_image: forestryio/ruby:2.6

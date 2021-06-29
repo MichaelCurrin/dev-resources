@@ -12,4 +12,8 @@ key_links:
 links:
   - title: auth0 GitHub org
     description: https://github.com/auth0
+  
+tutorials:
+  - title: React login
+    url: https://auth0.com/docs/quickstart/spa/react
 ---

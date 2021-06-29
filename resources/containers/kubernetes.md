@@ -24,10 +24,17 @@ links:
 ---
 
 
-### Name
+### Name origin
 
 Commonly stylized as "K8s".
 
 Greek for "helmsman" or "pilot" or "governor". 
 
 And the etymological root of cybernetics.
+
+
+### Logo origin
+
+> The original codename for Kubernetes within Google was Project 7, a reference to the Star Trek ex-Borg character **Seven of Nine**.
+>
+> The seven spokes on the wheel of the Kubernetes logo are a reference to that codename. 

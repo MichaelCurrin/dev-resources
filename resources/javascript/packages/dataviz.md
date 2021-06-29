@@ -1,6 +1,6 @@
 ---
 title: Dataviz
-description: Tools for data visualization and graphing
+description: JS packages for data visualization and graphing
 
 links:
   - title: Chart.js

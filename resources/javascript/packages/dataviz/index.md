@@ -18,7 +18,12 @@ links:
     
   - title: D3.js
     url: https://d3js.org/
+    description: Data-Driven Documents 
     
   - title: P5.js
     url: https://p5js.org/
+    
+  - title: roughViz
+    url: https://github.com/jwilber/roughViz
+    description: Reusable JavaScript library for creating sketchy/hand-drawn styled charts in the browser
 ---

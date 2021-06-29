@@ -12,7 +12,7 @@ key_links:
   repo_nwo: neutrinojs/neutrino
 ---
 
-## Set up a project
+### Set up a project
 
 Run this:
 
@@ -64,4 +64,3 @@ Now change your directory to the following to get started:
 ```
 
 I ended up with a Vue 2 app that uses NPM. I could have used the Vue CLI to get something similar.
-

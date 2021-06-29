@@ -22,7 +22,7 @@ playgrounds: []
 link_sections: []
 
 ---
-## What does Redux do?
+### What does Redux do?
 
 Summary from the docs:
 
@@ -32,7 +32,9 @@ Summary from the docs:
 >
 > You can use Redux together with [React](https://reactjs.org), or with any other view library. It is tiny (2kB, including dependencies), and has a rich ecosystem of addons.
 
-## Should I use Redux?
+Redux is strongly associated with React but you can use them separately.
+
+### Should I use Redux?
 
 Warning from the docs:
 

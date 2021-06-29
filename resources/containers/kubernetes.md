@@ -26,11 +26,11 @@ links:
 
 ### Name origin
 
-Commonly stylized as "K8s".
+Kubernetes is commonly stylized as "K8s".
 
-Greek for "helmsman" or "pilot" or "governor". 
+In Greek it means "helmsman" or "pilot" or "governor". 
 
-And the etymological root of cybernetics.
+The word cybernetics has its root in "kubernetes".
 
 
 ### Logo origin

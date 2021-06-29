@@ -17,7 +17,7 @@ key_links:
 ---
 
 
-## Sample code
+### Sample code
 
 ```javascript
 openBrowser()

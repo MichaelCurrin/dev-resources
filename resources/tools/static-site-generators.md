@@ -8,9 +8,9 @@ See also [JAMStack][] section.
 
 - [Hugo]({{ site.baseurl }}{% link resources/go/packages/hugo.md %})
 - [Jekyll]({{ site.baseurl }}{% link resources/jekyll/index.md %})
-- [VuePress]({ site.baseurl }}{% resources/javascript/packages/vuepress/index.md %})
-- [Next.js]({ site.baseurl }}{% resources/javascript/packages/next/index.md %})
-- [Nuxt]({ site.baseurl }}{% resources/javascript/packages/nuxt/index.md %})
+- [VuePress]({ site.baseurl }}{% link resources/javascript/packages/vuepress/index.md %})
+- [Next.js]({ site.baseurl }}{% link resources/javascript/packages/next/index.md %})
+- [Nuxt]({ site.baseurl }}{% link resources/javascript/packages/nuxt/index.md %})
 
 
 ## Docs sites

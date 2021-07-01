@@ -16,15 +16,13 @@ The "JAM" in JAMStack is for:
 
 ## Go-based
 
-- Hugo
-    - [gohugo.io/](https://gohugo.io/) homepage
+- [Hugo]({{ site.baseurl }}{% link resources/go/packages/hugo.md %})
 
 
 ## Ruby
 
-- Jekyll
-    - [jekyllrb.com](http://jekyllrb.com/) homepage
-    - [Jekyll resources][] page in this guide.
+- [Jekyll]({{ site.baseurl }}{% link resources/jekyll/index.md %})
+
 
 ## JavaScript
 
@@ -83,6 +81,6 @@ Here are UI libraries that Nuxt lets you choose on setting up a project:
     - [MichaelCurrin/next-quickstart](https://github.com/MichaelCurrin/next-quickstart)
 
 
-[Jekyll resources]: {{ site.baseurl }}{% link resources/jekyll/index.md %}
-[Vue resources]: {{ site.baseurl }}{% link resources/javascript/packages/vue/index.md %}
+[Jekyll resources]:   {{ site.baseurl }}{% link resources/jekyll/index.md %}
+[Vue resources]:      {{ site.baseurl }}{% link resources/javascript/packages/vue/index.md %}
 [VuePress resources]: {{ site.baseurl }}{% link resources/javascript/packages/vuepress/index.md %}

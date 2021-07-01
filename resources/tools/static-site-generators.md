@@ -13,8 +13,10 @@ See also [JAMStack][] section.
 - [Nuxt]({ site.baseurl }}{% link resources/javascript/packages/nuxt/index.md %})
 
 
-## Docs sites
+## Documentation site generators
 
 - [MkDocs]({{ site.baseurl }}{% link resources/python/libraries/mkdocs.md %})
-- [mdBook](https://rust-lang.github.io/mdBook/)
+- [mdBook]({{ site.baseurl }}{% link resources/rust/packages/mdbook.md %})
+- [RustDoc]({{ site.baseurl }}{% link resources/rust/rustdoc.md %}
 - [Docsify]({{ site.baseurl }}{% link resources/javascript/packages/docsify/index.md %}) - actually SPA, not a static site generator yet.
+- [Docusaurus 2](https://docusaurus.io/)

@@ -1,5 +1,5 @@
 ---
-title: mkBook
+title: mdBook
 
 byline: Create book from markdown files. Like Gitbook but implemented in Rust
 

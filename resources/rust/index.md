@@ -7,24 +7,25 @@ byline: |
 
 key_links:
   homepage: https://www.rust-lang.org/
+  pkg_registry: https://crates.io/
+  rosetta_code: https://rosettacode.org/wiki/Category:Rust
 ---
 
 See also info in [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Rust/README.md) guide.
 
 - [Installation](https://www.rust-lang.org/tools/install) doc.
 - Releases
-    - The latest release is announced on their homepage with a linked blog post e.g. https://blog.rust-lang.org/2020/12/31/Rust-1.49.0.html
+    - The latest release is announced on their homepage with a linked blog post e.g. [Rust-1.49.0.html](https://blog.rust-lang.org/2020/12/31/Rust-1.49.0.html)
     - [RELEASES.md](https://github.com/rust-lang/rust/blob/master/RELEASES.md) doc on GitHub.
     - [Releases](https://github.com/rust-lang/rust/releases) tab on the Rust repo.
 - Rustup
     - [Rustup](https://rustup.rs/) homepage
     - [Repo](https://github.com/rust-lang/rustup)
-- Learn Rust - https://www.rust-lang.org/learn
-    - You get forwarded here from the https://doc.rust-lang.org homepage but subpaths on the docs below work
+- [Learn Rust](https://www.rust-lang.org/learn)
+    - You get forwarded here from the homepage but subpaths on the docs below work
 - Rust reference docs
-    - Rust by Example - https://doc.rust-lang.org/stable/rust-by-example/
-    - Online book "The Rust Programming Language" - https://doc.rust-lang.org/book/
-- Packages registry: https://crates.io/
+    - [Rust by Example(]https://doc.rust-lang.org/stable/rust-by-example/)
+    - Online book [The Rust Programming Language](https://doc.rust-lang.org/book/)
 - Cheatsheets
     - [cheats.rs](https://cheats.rs/#cargo)
     - Surprisingly not on DevHints yet.
@@ -42,8 +43,7 @@ See also info in [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/
     - [Rust Playground](https://play.rust-lang.org/) on official site
     - [Repl](https://repl.it/languages/rust)
     - [Tutorials Point](https://www.tutorialspoint.com/compile_rust_online.php)
-- Rosetta code - https://rosettacode.org/wiki/Category:Rust
-- Exercism track - https://exercism.io/tracks/rust
+- [Exercism track](https://exercism.io/tracks/rust)
     - For getting assistance from real people
     - Or for mentoring others
 - Blog posts - Rust is much loved (by 86% of developers) but only 3% currently use it.
@@ -51,13 +51,13 @@ See also info in [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/
     - [What is Rust and why is it so popular?](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/)
 - Rust and WebAssembly
     - Run Python in the browser using Rust and WebAssembly
-       - https://rustpython.github.io/demo/
-    - Book -  https://rustwasm.github.io/docs/book/
+       - [Demo](https://rustpython.github.io/demo/)
+    - [Book](https://rustwasm.github.io/docs/book/)
         > Rust 🦀 and WebAssembly 🕸
         >
         > This small book describes how to use Rust and WebAssembly together.
     - WASM on Rust website https://www.rust-lang.org/what/wasm
-    - Compiling from Rust to WebAssembly - https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm
+    - Compiling from [Rust to WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm)
 - Rust vs Go
     - [This Week in Programming: Rust Versus Go? Why Not Both!](https://thenewstack.io/this-week-in-programming-rust-versus-go-why-not-both/)
         > Go vs Rust discussions are ridiculous. It should be more like: When to use Go. When to use Rust. When to use X...

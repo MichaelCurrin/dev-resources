@@ -1,6 +1,9 @@
 ---
 title: Rust
 
+byline: |
+   A language empowering everyone to build reliable and efficient software. 
+
 key_links:
   homepage: https://www.rust-lang.org/
 ---

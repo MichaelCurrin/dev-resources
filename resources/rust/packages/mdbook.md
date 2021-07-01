@@ -12,6 +12,9 @@ key_links:
 links:
   - title: mdBook Quickstart
     url: https://github.com/MichaelCurrin/mdbook-quickstart
+    
+  - title: Command-line
+    url: https://rust-lang.github.io/mdBook/cli/
 ---
 
 The docs say it is "Like Gitbook but implemented in Rust".

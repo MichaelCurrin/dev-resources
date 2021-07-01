@@ -5,6 +5,8 @@ key_links:
   homepage: https://www.rust-lang.org/
 ---
 
+See also info in [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Rust/README.md) guide.
+
 - [Installation](https://www.rust-lang.org/tools/install) doc.
 - Releases
     - The latest release is announced on their homepage with a linked blog post e.g. https://blog.rust-lang.org/2020/12/31/Rust-1.49.0.html

@@ -21,8 +21,12 @@ See also [JAMStack][] section.
 - [Docsify]({{ site.baseurl }}{% link resources/javascript/packages/docsify/index.md %}) - actually SPA, not a static site generator yet.
 - [Docusaurus 2](https://docusaurus.io/)
 - [GitBook](https://www.gitbook.com/)
-    - > GitBook helps you publish beautiful docs for your users and centralize your teams' knowledge for advanced collaboration. 
+    - > Where software teams break knowledge silos.
+      >
+      > GitBook helps you publish beautiful docs for your users and centralize your teams' knowledge for advanced collaboration. 
     - There's a free mode for one site only I think.
     - I don't think you can run GitBook standalone (such as a locally). It is has a level of paid service.
     - You can optionally connect your site to GitHub for editing and backup.
-    - Consider mdBook which is a more flexible open source solution which is meant to look like GitBook.
+    - Alterntives
+      - Consider mdBook which is a more flexible open source solution which is meant to look like GitBook.
+      - See MkDocs - it has a [themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) section in the Wiki which has a GitBook-style theme. See the [preview](https://lramage.gitlab.io/mkdocs-gitbook-theme/).

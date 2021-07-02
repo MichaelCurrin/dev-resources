@@ -20,6 +20,7 @@ See also [JAMStack][] section.
 - [RustDoc]({{ site.baseurl }}{% link resources/rust/rustdoc.md %})
 - [Docsify]({{ site.baseurl }}{% link resources/javascript/packages/docsify/index.md %}) - actually SPA, not a static site generator yet.
 - [Docusaurus 2](https://docusaurus.io/)
+    - This is different enough from V1 that it is considered a different tool.
 - [GitBook](https://www.gitbook.com/)
     - > Where software teams break knowledge silos.
       >

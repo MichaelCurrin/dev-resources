@@ -17,6 +17,12 @@ See also [JAMStack][] section.
 
 - [MkDocs]({{ site.baseurl }}{% link resources/python/libraries/mkdocs.md %})
 - [mdBook]({{ site.baseurl }}{% link resources/rust/packages/mdbook.md %})
-- [RustDoc]({{ site.baseurl }}{% link resources/rust/rustdoc.md %}
+- [RustDoc]({{ site.baseurl }}{% link resources/rust/rustdoc.md %})
 - [Docsify]({{ site.baseurl }}{% link resources/javascript/packages/docsify/index.md %}) - actually SPA, not a static site generator yet.
 - [Docusaurus 2](https://docusaurus.io/)
+- [GitBook](https://www.gitbook.com/)
+    - > GitBook helps you publish beautiful docs for your users and centralize your teams' knowledge for advanced collaboration. 
+    - There's a free mode for one site only I think.
+    - I don't think you can run GitBook standalone (such as a locally). It is has a level of paid service.
+    - You can optionally connect your site to GitHub for editing and backup.
+    - Consider mdBook which is a more flexible open source solution which is meant to look like GitBook.

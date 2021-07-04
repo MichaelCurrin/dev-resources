@@ -6,7 +6,7 @@ key_links:
   homepage: https://next.vuex.vuejs.org/
 ---
 
-Home page for Vuex 3 (for Vue 2) - [vuex.vuejs.org](https://vuex.vuejs.org/)
+See also homepage for the olde Vuex 3 (for Vue 2) - [vuex.vuejs.org](https://vuex.vuejs.org/).
 
 
 ### What does Vuex do?

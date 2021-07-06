@@ -1,11 +1,11 @@
 ---
-title: Jasmine
+title: Jest
 logo: ''
 description: ''
 byline: ''
 wikipedia-excerpt: ''
 key_links:
-  homepage: https://jasmine.github.io/
+  homepage: https://jestjs.io/
   docs: ''
   wiki: ''
   pkg_url: ''
@@ -23,6 +23,7 @@ playgrounds: []
 link_sections: []
 
 ---
-- Supports Behavior-Driven Development (BDD).
-- Preferred for frontend testing.
-- Doesn't require the DOM or a browser.
+- Focused on simplicity. Simple, light and fast.
+- Works with zero configuration.
+- Preferred for React.
+- Allows taking of snapshots of tests as alternative means of verifying units.

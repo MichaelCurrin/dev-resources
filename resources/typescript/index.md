@@ -16,14 +16,31 @@ key_links:
   repo_nwo: Microsoft/TypeScript
   devhints: https://devhints.io/typescript
 
+links:
+  - title: Download
+    url: https://www.typescriptlang.org/download
+    description:
+  - title: TypeScript Cheatsheet
+    url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/typescript/
+    description: On my Dev Cheatsheets site
+  - title: TypeScript
+    url: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript
+    description: Guide on Learn to Code.
+
+documentation:
+  - title: Basic types
+    url: https://www.typescriptlang.org/docs/handbook/basic-types.html
+  - title: Interfaces
+    url: https://www.typescriptlang.org/docs/handbook/interfaces.html
+    description: type checking based on the _shape_ of the data.
+  - title: Enums
+    url: https://www.typescriptlang.org/docs/handbook/enums.html
+    description:
+  - title: Advanced types
+    url: https://www.typescriptlang.org/docs/handbook/advanced-types.html
+    description: including type guards, nullable types, conditional types.
+  - title: Triple-slash directive
+    url: https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html
+    description: |
+      `/// <reference path="..." />`
 ---
-- [Download](https://www.typescriptlang.org/download)
-- [TypeScript Cheatsheet](https://devhints.io/typescript) on DevHints.
-- [TypeScript Cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/typescript/) on my Dev Cheatsheets site
-- [TypeScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript) guide on Learn to Code.
-- TS docs
-    - [Basic types](https://www.typescriptlang.org/docs/handbook/basic-types.html)
-    - [Interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html) - type checking based on the _shape_ of the data.
-    - [Enums](https://www.typescriptlang.org/docs/handbook/enums.html)
-    - [Advanced types](https://www.typescriptlang.org/docs/handbook/advanced-types.html) - including type guards, nullable types, conditional types.
-    - [Triple-slash directive](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) - `/// <reference path="..." />`

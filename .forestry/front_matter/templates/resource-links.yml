@@ -209,6 +209,7 @@ pages:
 - resources/javascript/packages/electron/index.md
 - resources/javascript/packages/svelte/index.md
 - resources/javascript/packages/vuepress/index.md
+- resources/javascript/test-frameworks/jasmine.md
 - resources/javascript/test-frameworks/jest.md
 - resources/javascript/test-frameworks/mocha.md
 - resources/make/index.md

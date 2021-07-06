@@ -116,7 +116,7 @@ fields:
           schema:
             format: markdown
         label: description
-    description: Links to pages in the offical docs
+    description: Reference pages in offical docs. Put tutorials in Tutorials rather.
   - type: field_group_list
     name: tutorials
     label: Tutorials
@@ -140,7 +140,7 @@ fields:
           schema:
             format: markdown
         label: description
-    description: Links to articles and videos
+    description: Links to articles and videos. These can be tutorials in the docs.
   - type: field_group_list
     name: blog_posts
     label: Blog posts

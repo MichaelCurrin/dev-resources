@@ -116,7 +116,7 @@ fields:
       schema:
         format: markdown
     label: description
-  description: Links to docs, articles, videos, etc.
+  description: Links to articles, videos, etc.
 - type: field_group_list
   name: blog_posts
   label: Blog posts

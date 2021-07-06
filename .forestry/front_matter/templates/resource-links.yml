@@ -213,6 +213,7 @@ pages:
 - resources/javascript/test-frameworks/jest.md
 - resources/javascript/test-frameworks/karma.md
 - resources/javascript/test-frameworks/mocha.md
+- resources/javascript/test-frameworks/puppeteer.md
 - resources/make/index.md
 - resources/other/aws.md
 - resources/other/recommended-vs-code-extensions.md

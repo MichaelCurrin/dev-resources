@@ -2,8 +2,7 @@
 title: Documentation
 
 key_links:
-  homepage: https://github.com/features/actions
-  docs: https://docs.github.com/en/actions
+  homepage: https://docs.github.com/en/actions
 
 documentation:
   - title: GitHub Actions Documentation

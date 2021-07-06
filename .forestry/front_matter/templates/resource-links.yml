@@ -94,6 +94,30 @@ fields:
         label: description
     description: Uncategorized links
   - type: field_group_list
+    name: documentation
+    label: Documentation
+    fields:
+      - type: text
+        name: title
+        label: title
+        config:
+          required: true
+      - type: text
+        name: url
+        label: url
+        config:
+          required: true
+      - name: description
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: false
+          schema:
+            format: markdown
+        label: description
+    description: Links to pages in the offical docs
+  - type: field_group_list
     name: tutorials
     label: Tutorials
     fields:
@@ -116,7 +140,7 @@ fields:
           schema:
             format: markdown
         label: description
-    description: Links to articles, videos, etc.
+    description: Links to articles and videos
   - type: field_group_list
     name: blog_posts
     label: Blog posts

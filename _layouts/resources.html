@@ -26,6 +26,12 @@ layout: page
     {% include links-list.html links=page.links %}
 {% endif %}
 
+{%- if page.documentation and page.documentation.size != 0 %}
+    <h3>Documentation</h3>
+
+    {% include links-list.html links=page.documentation %}
+{% endif -%}
+
 {%- if page.tutorials and page.tutorials.size != 0 %}
     <h3>Tutorials</h3>
 

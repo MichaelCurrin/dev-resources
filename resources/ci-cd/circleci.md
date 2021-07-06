@@ -9,7 +9,7 @@ key_links:
 links:
   - title: Demo apps
     url: https://circleci.com/docs/2.0/demo-apps/
-    description: - GitHub repos for each support language
+    description: GitHub repos for each support language
 
 documentation:
   - title: Getting Started

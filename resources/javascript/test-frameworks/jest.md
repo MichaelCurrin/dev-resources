@@ -21,7 +21,6 @@ tutorials: []
 blog_posts: []
 playgrounds: []
 link_sections: []
-published: false
 
 ---
 - Supports Behavior-Driven Development (BDD).

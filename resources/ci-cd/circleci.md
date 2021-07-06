@@ -16,9 +16,8 @@ documentation:
     url: https://circleci.com/docs/2.0/getting-started/
 
 tutorials:
-  - title: Tutorials
+  - title: Tutorials in the docs
     url: https://circleci.com/docs/2.0/tutorials/
-    description: in the docs
   - title: Project walkthrough
     url: https://circleci.com/docs/2.0/project-walkthrough/
 ---

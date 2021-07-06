@@ -1,9 +1,13 @@
 ---
 title: TypeScript
 logo: typescript
-description: |
+description: JavaScript with type checks, for maintaining projects in the long term with confidence
+
+byline: |
   JavaScript that scales.
+
   TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+
   Any browser. Any host. Any OS. Open source.
 key_links:
   homepage: https://www.typescriptlang.org/

@@ -211,6 +211,7 @@ pages:
 - resources/javascript/packages/vuepress/index.md
 - resources/javascript/test-frameworks/jasmine.md
 - resources/javascript/test-frameworks/jest.md
+- resources/javascript/test-frameworks/karma.md
 - resources/javascript/test-frameworks/mocha.md
 - resources/make/index.md
 - resources/other/aws.md

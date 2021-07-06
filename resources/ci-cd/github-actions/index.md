@@ -2,6 +2,10 @@
 title: GitHub Actions
 logo: githubactions
 description: External links around GH Actions, from basic to advanced usage
+
+key_links:
+  homepage: https://github.com/features/actions
+  docs: https://docs.github.com/en/actions
 ---
 
 ### Related projects

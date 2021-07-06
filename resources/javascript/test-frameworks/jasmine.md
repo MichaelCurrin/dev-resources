@@ -21,7 +21,6 @@ tutorials: []
 blog_posts: []
 playgrounds: []
 link_sections: []
-published: false
 
 ---
 - Focused on simplicity. Simple, light and fast.

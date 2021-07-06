@@ -41,8 +41,6 @@ fields:
       - type: text
         name: homepage
         label: Homepage
-        config:
-          required: true
       - type: text
         name: docs
         label: Documentation homepage

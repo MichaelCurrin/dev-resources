@@ -1,23 +1,45 @@
-# Documentation
+---
+title: Documentation
 
-- [GitHub Actions Documentation](https://docs.github.com/en/actions)
-- [Configuring and managing workflows](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow)
-    - A good step-by-step tutorial for setting up GH Actions
-- [Environment variables](https://docs.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables).
-- [Secrets](https://docs.github.com/en/actions/reference/encrypted-secrets).
-- _Getting Started_ section
-    - [Core concepts](https://docs.github.com/en/actions/getting-started-with-github-actions/core-concepts-for-github-actions)
-- _Reference_ section
-    - [Workflow syntax](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
-    - [Events that trigger workflows](https://docs.github.com/en/actions/reference/events-that-trigger-workflows)
-    - [Context and expression syntax](https://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions)
-    - [Workflow commands](https://docs.github.com/en/actions/reference/workflow-commands-for-github-actions)
-        - e.g. Setting color to green or showing a warning message.
-            ```yaml
-            - name: Set selected color
-              run: echo '::set-env name=SELECTED_COLOR::green'
-            ```
-        - This can be useful in workflows and when writing commands in the shell file for an action.
-- [Guides](https://docs.github.com/en/actions/guides)
-    - Learning paths and language specific guides
-    > These guides for GitHub Actions include specific use cases and examples to help you configure workflows.
+key_links:
+  homepage: https://github.com/features/actions
+  docs: https://docs.github.com/en/actions
+
+documentation:
+  - title: GitHub Actions Documentation
+    url: https://docs.github.com/en/actions
+  - title: Configuring and managing workflows
+    url: https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow
+    description: A good step-by-step tutorial for setting up GH Actions
+  - title: Environment variables
+    url: https://docs.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables
+  - title: Secrets
+    url: https://docs.github.com/en/actions/reference/encrypted-secrets
+  - title: Core concepts
+    url: https://docs.github.com/en/actions/getting-started-with-github-actions/core-concepts-for-github-actions
+  - title: Guides
+    url: https://docs.github.com/en/actions/guides
+    description: |
+      Learning paths and language specific guides
+
+      > These guides for GitHub Actions include specific use cases and examples to help you configure workflows.
+
+link_sections:
+  - title: Reference section of the docs
+    links:
+      - title: Workflow syntax
+        url: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
+        description:
+      - title: Events that trigger workflows
+        url: https://docs.github.com/en/actions/reference/events-that-trigger-workflows
+        description:
+      - title: Context and expression syntax
+        url: https://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions
+        description:
+      - title: Workflow commands
+        url: https://docs.github.com/en/actions/reference/workflow-commands-for-github-actions
+        description: |
+          e.g. Setting color to green or showing a warning message.
+
+          `echo '::set-env name=SELECTED_COLOR::green'`
+---

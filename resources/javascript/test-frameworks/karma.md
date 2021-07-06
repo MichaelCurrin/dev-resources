@@ -27,7 +27,6 @@ tutorials: []
 blog_posts: []
 playgrounds: []
 link_sections: []
-published: false
 
 ---
 - A test runner created by the AngularJS team to suit all their needs.

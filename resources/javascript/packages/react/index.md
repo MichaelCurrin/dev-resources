@@ -9,6 +9,8 @@ key_links:
 
 ---
 
+[React in 100 seconds on YouTube](https://youtu.be/Tn6-PIqc4UM)
+
 ### Quickstart repos
 
 - [![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart)

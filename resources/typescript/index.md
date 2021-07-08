@@ -26,6 +26,8 @@ links:
   - title: TypeScript
     url: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript
     description: Guide on Learn to Code.
+  - title: TypeScript in 100 seconds 
+    url: https://youtu.be/zQnBQ4tB3ZA
 
 documentation:
   - title: Basic types

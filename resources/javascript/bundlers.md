@@ -14,8 +14,9 @@ title: Bundlers
 - [Sprockets](https://github.com/rails/sprockets)
 - [Parcel](https://parceljs.org/)
 - [ESBuild](https://esbuild.github.io/)
-    - Claims to be 10-100x faster than Parcel, Webpack and Rollup + Terser
-    > An extremely fast JavaScript bundler
+    - Claims to be 10-100x faster than Parcel, Webpack and Rollup + Terser.
+    - The website has a list in a section called Major Features.
+    - > An extremely fast JavaScript bundler
 - [Snowpack](https://www.snowpack.dev/)
     - > WASM-powered frontend build tool. Fast, lightweight, unbundled ESM
     - > Snowpack is a lightning-fast frontend build tool, designed for the modern web. It is an alternative to heavier, more complex bundlers like webpack or Parcel in your development workflow. Snowpack leverages JavaScript's native module system (known as ESM) to avoid unnecessary work and stay fast no matter how big your project grows.

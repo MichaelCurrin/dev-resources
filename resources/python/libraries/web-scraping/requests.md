@@ -7,5 +7,5 @@ key_links:
   homepage: 
   docs: https://docs.python-requests.org/en/master/
   wikipedia: https://en.wikipedia.org/wiki/Requests_(software)
-  
+  repo_nwo: psf/requests
 ---

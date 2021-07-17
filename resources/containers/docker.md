@@ -9,6 +9,10 @@ tutorials:
       manage containers in a beginner-friendly way. He covers how to run locally and
       how to deploy your container to a cloud environment such as Linode, using a $20
       credit.
+      
+  - title: Getting Started
+    url: https://github.com/docker/getting-started
+    description: A GitHub repo by the Docker team. Clone it and run it locally. It has a tutorial you can follow.
 key_links:
   homepage: https://docker.com/
   docs: https://docs.docker.com/

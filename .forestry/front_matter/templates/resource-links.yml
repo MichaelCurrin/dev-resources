@@ -230,6 +230,7 @@ fields:
     to handle things that are common across pages.
 pages:
 - resources/containers/docker.md
+- resources/go/index.md
 - resources/javascript/packages/d3/index.md
 - resources/javascript/packages/electron/index.md
 - resources/javascript/packages/svelte/index.md

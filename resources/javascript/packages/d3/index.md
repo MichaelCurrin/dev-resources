@@ -1,6 +1,6 @@
 ---
 title: D3
-logo: d3.js
+logo: d3dotjs
 key_links:
   homepage: https://d3js.org/
   wiki: https://github.com/d3/d3/wiki

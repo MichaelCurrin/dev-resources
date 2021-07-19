@@ -70,7 +70,7 @@ fields:
     name: rosetta_code
     label: Rosetta Code link
 - type: field_group_list
-  name: Links
+  name: links
   label: Links
   fields:
   - type: text

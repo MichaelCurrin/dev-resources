@@ -33,13 +33,13 @@ I use these icons with an override blue color in my [Fractal](https://github.com
 ## HTML sample
 
 ```html
-<img src="https://simpleicons.org/icons/node-dot-js.svg"      
+<img src="https://simpleicons.org/icons/nodedotjs.svg"      
      alt="node icon"
      title="Node.js"
      width="40" height="40" />
 ```
 
-<img src="https://simpleicons.org/icons/node-dot-js.svg"      
+<img src="https://simpleicons.org/icons/nodedotjs.svg"      
      alt="node icon"
      title="Node.js"
      width="40" height="40" />

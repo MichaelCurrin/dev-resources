@@ -13,7 +13,7 @@ fields:
   label: Logo
   description: |
     Name of logo from SVGs in the theme's <a href="https://github.com/MichaelCurrin/fractal/tree/master/_includes/logos" title="logos" target="_blank">logos</a> directory. e.g. visualstudiocode, ruby,
-    node-dot.js, vue-dot-js'
+    nodedot.js, vuedotjs'
 - type: textarea
   name: description
   label: Description

@@ -1,6 +1,6 @@
 ---
 title: Node.js
-logo: node-dot-js
+logo: nodedotjs
 
 key_links:
   homepage: https://nodejs.org/

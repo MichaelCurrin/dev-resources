@@ -6,11 +6,10 @@ byline: 'Go is an open source programming language that makes it easy to build s
   reliable, and efficient software
 
 '
-wikipedia-excerpt: 'Go is a statically typed, compiled programming language designed
+wikipedia-excerpt: |
+  Go is a statically typed, compiled programming language designed
   at Google ... Go is syntactically similar to C, but with memory safety, garbage
   collection, structural typing, and CSP-style concurrency.
-
-'
 key_links:
   homepage: https://golang.org/
   docs: https://golang.org/doc/
@@ -24,6 +23,7 @@ key_links:
   rosetta_code: http://rosettacode.org/wiki/Category:Go
   pkg_registry: https://pkg.go.dev/
   pkg_url: ''
+  
 tutorials:
 - title: Getting started
   url: https://golang.org/doc/tutorial/getting-started
@@ -36,10 +36,9 @@ tutorials:
   description: Go website docs overview with links to many pages on learning Go
 - title: Effective Go
   url: https://golang.org/doc/effective_go.html
-  description: 'Tutorial on the official site. This covers examples, formatting guide
+  description: |
+    Tutorial on the official site. This covers examples, formatting guide
     and how to do many things in the language such as errors, functions and concurrency.
-
-'
 - title: Learning resources on Go Dev
   url: https://learn.go.dev/
   description: ''
@@ -91,6 +90,7 @@ playgrounds:
 - title: Tutorials Point Go playground
   url: https://www.tutorialspoint.com/execute_golang_online.php
   description: ''
+  
 link_sections:
 - title: Releases
   links:
@@ -227,20 +227,19 @@ documentation:
   title: go.dev
   description: Include getting started and package discovery on `pkg.go.dev`. Different
     to `golang.org` main site.
-Links:
+links:
 - title: Go repo
   url: https://cs.opensource.google/go/go
   description: on Google Open Sources
 - title: Google's Go repos
   url: https://cs.opensource.google/go
   description: On Google Open Source
-
 ---
 ### What's possible with Go
 
 From [https://go.dev/](https://go.dev/ "https://go.dev/").
 
-* Cloud & Network Services
+* Cloud and Network Services
 * CLI tools
 * Web development
-* DevOps & Site Reliability
+* DevOps and Site Reliability

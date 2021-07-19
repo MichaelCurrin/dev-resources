@@ -231,9 +231,9 @@ Links:
 - title: Go repo
   url: https://cs.opensource.google/go/go
   description: on Google Open Sources
-- title: Go repos
+- title: Google's Go repos
   url: https://cs.opensource.google/go
-  description: on Google Open Source
+  description: On Google Open Source
 
 ---
 ### What's possible with Go

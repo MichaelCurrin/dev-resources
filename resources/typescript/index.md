@@ -48,14 +48,12 @@ documentation:
   description: including type guards, nullable types, conditional types.
 - title: Triple-slash directive
   url: https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html
-  description: '`/// <reference path="..." />`
-
-'
-Links: []
+  description: |
+    `/// <reference path="..." />`
 tutorials:
-- title: TypeScript
-  url: https://www.tutorialsteacher.com/typescript
-  description: on Tutorials Teacher
+  - title: TypeScript
+    url: https://www.tutorialsteacher.com/typescript
+    description: on Tutorials Teacher
 wikipedia-excerpt: ''
 blog_posts: []
 playgrounds: []

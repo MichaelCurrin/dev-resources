@@ -227,7 +227,13 @@ documentation:
   title: go.dev
   description: Include getting started and package discovery on `pkg.go.dev`. Different
     to `golang.org` main site.
-Links: []
+Links:
+- title: Go repo
+  url: https://cs.opensource.google/go/go
+  description: on Google Open Sources
+- title: Go repos
+  url: https://cs.opensource.google/go
+  description: on Google Open Source
 
 ---
 ### What's possible with Go

@@ -3,7 +3,7 @@ title: Vue
 description: |
   A framework for building user interfaces and Single-Page Applications. 
   
-logo: vue-dot-js
+logo: vuedotjs
 
 byline: The Progressive JavaScript Framework
 

@@ -3,242 +3,243 @@ label: Resource links
 hide_body: false
 display_field: title
 fields:
+- type: text
+  name: title
+  config:
+    required: true
+  label: Title
+- type: text
+  name: logo
+  label: Logo
+  description: |
+    Name of logo from SVGs in the theme's <a href="https://github.com/MichaelCurrin/fractal/tree/master/_includes/logos" title="logos" target="_blank">logos</a> directory. e.g. visualstudiocode, ruby,
+    node-dot.js, vue-dot-js'
+- type: textarea
+  name: description
+  label: Description
+  description: What is this thing and what is it used for
+- type: textarea
+  name: byline
+  label: Byline
+  description: |
+    Short tagline quote, usually from the homepage, repo or Wikipedia. It might be more
+    inspirational than informative.
+- type: textarea
+  name: wikipedia-excerpt
+  label: Wikipedia excerpt
+  description: The first paragraph or two from the item's Wikipedia page.
+- type: field_group
+  name: key_links
+  label: Key links
+  fields:
+  - type: text
+    name: homepage
+    label: Homepage
+  - type: text
+    name: docs
+    label: Documentation homepage
+  - type: text
+    name: wiki
+    label: Wiki docs
+    description: Links to the Wiki docs homepage for this item, if it has a Wiki.
+  - type: text
+    name: pkg_url
+    label: Package URL
+    description: If a package, a URL to view the package on a registry
+  - type: text
+    name: pkg_registry
+    label: Packages registry
+    description: If a tool like NPM, a URL for the 3rd-party packages registry
+  - type: text
+    name: repo_nwo
+    label: GitHub repo
+    description: Name with owner e.g. <em>MichaelCurrin/dev-resources</em>
+  - name: wikipedia
+    type: text
+    label: Wikipedia URL
+  - type: text
+    name: learn_x
+    label: Learn X in Y link
+  - type: text
+    name: devhints
+    label: DevHints.io link
+  - type: text
+    name: tutorials_point
+    label: Tutorials Point link
+  - type: text
+    name: rosetta_code
+    label: Rosetta Code link
+- type: field_group_list
+  name: Links
+  label: Links
+  fields:
   - type: text
     name: title
+    label: title
     config:
       required: true
-    label: Title
   - type: text
-    name: logo
-    label: Logo
-    description: |
-      Name of logo from SVGs in the theme's <a href="https://github.com/MichaelCurrin/fractal/tree/master/_includes/logos" title="logos" target="_blank">logos</a> directory. e.g. visualstudiocode, ruby,
-      node-dot.js, vue-dot-js'
-  - type: textarea
-    name: description
-    label: Description
-    description: What is this thing and what is it used for
-  - type: textarea
-    name: byline
-    label: Byline
-    description: |
-      Short tagline quote, usually from the homepage, repo or Wikipedia. It might be more
-      inspirational than informative.
-  - type: textarea
-    name: wikipedia-excerpt
-    label: Wikipedia excerpt
-    description: The first paragraph or two from the item's Wikipedia page.
-  - type: field_group
-    name: key_links
-    label: Key links
-    fields:
-      - type: text
-        name: homepage
-        label: Homepage
-      - type: text
-        name: docs
-        label: Documentation homepage
-      - type: text
-        name: wiki
-        label: Wiki docs
-        description: Links to the Wiki docs homepage for this item, if it has a Wiki.
-      - type: text
-        name: pkg_url
-        label: Package URL
-        description: If a package, a URL to view the package on a registry
-      - type: text
-        name: pkg_registry
-        label: Packages registry
-        description: If a tool like NPM, a URL for the 3rd-party packages registry
-      - type: text
-        name: repo_nwo
-        label: GitHub repo
-        description: Name with owner e.g. <em>MichaelCurrin/dev-resources</em>
-      - name: wikipedia
-        type: text
-        label: Wikipedia URL
-      - type: text
-        name: learn_x
-        label: Learn X in Y link
-      - type: text
-        name: devhints
-        label: DevHints.io link
-      - type: text
-        name: tutorials_point
-        label: Tutorials Point link
-      - type: text
-        name: rosetta_code
-        label: Rosetta Code link
+    name: url
+    label: url
+    config:
+      required: true
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: description
+  description: Uncategorized links
+- type: field_group_list
+  name: documentation
+  label: Documentation
+  fields:
+  - type: text
+    name: title
+    label: title
+    config:
+      required: true
+  - type: text
+    name: url
+    label: url
+    config:
+      required: true
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: description
+  description: Reference pages in offical docs. Put tutorials in Tutorials rather.
+- type: field_group_list
+  name: tutorials
+  label: Tutorials
+  fields:
+  - type: text
+    name: title
+    label: title
+    config:
+      required: true
+  - type: text
+    name: url
+    label: url
+    config:
+      required: true
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: description
+  description: Links to articles and videos. These can be tutorials in the docs.
+- type: field_group_list
+  name: blog_posts
+  label: Blog posts
+  fields:
+  - type: text
+    name: title
+    label: title
+    config:
+      required: true
+  - type: text
+    name: url
+    label: url
+    config:
+      required: true
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: description
+- type: field_group_list
+  name: playgrounds
+  label: Playgrounds
+  fields:
+  - type: text
+    name: title
+    label: title
+    config:
+      required: true
+  - type: text
+    name: url
+    label: url
+    config:
+      required: true
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: description
+  description: |
+    Links to online playgrounds or code pens where you can run the tool
+    or language in the browser.
+- type: field_group_list
+  name: link_sections
+  label: Link sections
+  fields:
+  - type: text
+    name: title
+    label: title
+    config:
+      required: true
   - type: field_group_list
-    name: Links
-    label: Links
+    name: links
+    label: links
     fields:
-      - type: text
-        name: title
-        label: title
-        config:
-          required: true
-      - type: text
-        name: url
-        label: url
-        config:
-          required: true
-      - name: description
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: false
-          schema:
-            format: markdown
-        label: description
-    description: Uncategorized links
-  - type: field_group_list
-    name: documentation
-    label: Documentation
-    fields:
-      - type: text
-        name: title
-        label: title
-        config:
-          required: true
-      - type: text
-        name: url
-        label: url
-        config:
-          required: true
-      - name: description
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: false
-          schema:
-            format: markdown
-        label: description
-    description: Reference pages in offical docs. Put tutorials in Tutorials rather.
-  - type: field_group_list
-    name: tutorials
-    label: Tutorials
-    fields:
-      - type: text
-        name: title
-        label: title
-        config:
-          required: true
-      - type: text
-        name: url
-        label: url
-        config:
-          required: true
-      - name: description
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: false
-          schema:
-            format: markdown
-        label: description
-    description: Links to articles and videos. These can be tutorials in the docs.
-  - type: field_group_list
-    name: blog_posts
-    label: Blog posts
-    fields:
-      - type: text
-        name: title
-        label: title
-        config:
-          required: true
-      - type: text
-        name: url
-        label: url
-        config:
-          required: true
-      - name: description
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: false
-          schema:
-            format: markdown
-        label: description
-  - type: field_group_list
-    name: playgrounds
-    label: Playgrounds
-    fields:
-      - type: text
-        name: title
-        label: title
-        config:
-          required: true
-      - type: text
-        name: url
-        label: url
-        config:
-          required: true
-      - name: description
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: false
-          schema:
-            format: markdown
-        label: description
-    description: |
-      Links to online playgrounds or code pens where you can run the tool
-      or language in the browser.
-  - type: field_group_list
-    name: link_sections
-    label: Link sections
-    fields:
-      - type: text
-        name: title
-        label: title
-        config:
-          required: true
-      - type: field_group_list
-        name: links
-        label: links
-        fields:
-          - type: text
-            name: title
-            label: title
-            config:
-              required: true
-          - type: text
-            name: url
-            label: url
-            config:
-              required: true
-          - name: description
-            type: textarea
-            default: ""
-            config:
-              required: false
-              wysiwyg: false
-              schema:
-                format: markdown
-            label: description
-        config:
-          min:
-    description: |
-      Create and name a group in here with whatever title you want and put
-      some links in it. This is flexible. See existing sections like Tutorial Links
-      to handle things that are common across pages.
+    - type: text
+      name: title
+      label: title
+      config:
+        required: true
+    - type: text
+      name: url
+      label: url
+      config:
+        required: true
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: description
+    config:
+      min: 
+  description: |
+    Create and name a group in here with whatever title you want and put
+    some links in it. This is flexible. See existing sections like Tutorial Links
+    to handle things that are common across pages.
 pages:
-  - resources/containers/docker.md
-  - resources/javascript/packages/electron/index.md
-  - resources/javascript/packages/svelte/index.md
-  - resources/javascript/packages/vuepress/index.md
-  - resources/javascript/test-frameworks/jasmine.md
-  - resources/javascript/test-frameworks/jest.md
-  - resources/javascript/test-frameworks/karma.md
-  - resources/javascript/test-frameworks/mocha.md
-  - resources/javascript/test-frameworks/puppeteer.md
-  - resources/make/index.md
-  - resources/other/aws.md
-  - resources/other/recommended-vs-code-extensions.md
-  - resources/python/index.md
+- resources/containers/docker.md
+- resources/javascript/packages/d3/index.md
+- resources/javascript/packages/electron/index.md
+- resources/javascript/packages/svelte/index.md
+- resources/javascript/packages/vuepress/index.md
+- resources/javascript/test-frameworks/jasmine.md
+- resources/javascript/test-frameworks/jest.md
+- resources/javascript/test-frameworks/karma.md
+- resources/javascript/test-frameworks/mocha.md
+- resources/javascript/test-frameworks/puppeteer.md
+- resources/make/index.md
+- resources/other/aws.md
+- resources/other/recommended-vs-code-extensions.md
+- resources/python/index.md

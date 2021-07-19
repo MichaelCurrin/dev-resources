@@ -232,6 +232,7 @@ pages:
 - resources/containers/docker.md
 - resources/go/index.md
 - resources/go/packages/http.md
+- resources/go/packages/hugo.md
 - resources/javascript/packages/d3/index.md
 - resources/javascript/packages/electron/index.md
 - resources/javascript/packages/svelte/index.md

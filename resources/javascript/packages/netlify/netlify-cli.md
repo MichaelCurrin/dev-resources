@@ -3,6 +3,8 @@ title: Netlify CLI
 
 key_links:
   docs: https://docs.netlify.com/cli/get-started/
+  
+  pkg_url: https://www.npmjs.com/package/netlify-cli
 ---
 
 

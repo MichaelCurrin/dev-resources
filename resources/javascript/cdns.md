@@ -23,7 +23,9 @@ links:
       This service already gives you **ES Module** format for `type="module"` script tags, so you don't need a flag to choose that.
 
       You can find a minified and dev/prod versions of a package. See [/npm:react@17.0.2/cjs/](https://dev.jspm.io/npm:react@17.0.2/cjs/) for example.
-
+    
+      If you want to add a source map, use the [Generator](https://generator.jspm.io/). That lets you specify package names and then generate an import map, polyfill for import maps, and a script tag using your imports. In some cases, an import map is actually necessary to prevent imports within a loaded module from breaking.
+      
   - title: Unpkg
     url: https://unpkg.com/
     description: |

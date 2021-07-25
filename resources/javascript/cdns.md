@@ -37,12 +37,7 @@ links:
 
       e.g. [/primevue@3.4.0/ripple/ripple.esm.js](https://unpkg.com/primevue@3.4.0/ripple/ripple.esm.js) starts off as:
 
-      ```javascript
-      import {
-          DomHandler
-      }
-      from 'primevue/utils';
-      ```
+          import { DomHandler } from 'primevue/utils';
 
       And that will cause errors - unless you can an import map to process `primevue` as an UNPKG URL.
 

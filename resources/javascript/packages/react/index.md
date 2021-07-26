@@ -32,9 +32,9 @@ key_links:
 - [JSX](https://www.typescriptlang.org/docs/handbook/jsx.html)
 
 
-### Related material
+### Related content
 
-Learn more about React here:
+Learn more about React in my other projects:
 
 - [Code Cookbook](https://michaelcurrin.github.io/code-cookbook/recipes/javascript/packages/react/)
 - [Dev Cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/react/)

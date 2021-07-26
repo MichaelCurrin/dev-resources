@@ -4,7 +4,7 @@ description: What to do next once you've got a working extension that runs in de
 ---
 
 - CLI
-    - [VSCE CLI](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/other/vscode-extensions/vsce-command.html) cheatsheet on my Dev Cheatsheets.
+    - [VSCE command](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/other/vscode-extensions/vsce-command.html) cheatsheet on my Dev Cheatsheets.
     - [VSCE CLI](https://vscode-docs.readthedocs.io/en/latest/tools/vscecli/) docs.
         > vsce is the command line tool you'll use to publish extensions to the Extension Marketplace.
     - [vsce](https://www.npmjs.com/package/vsce) package on NPM.

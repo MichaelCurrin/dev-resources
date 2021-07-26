@@ -22,4 +22,4 @@ links:
 
 See also [VS Code extensions][] cheatsheet.
 
-[VS Code extensions]: {{ site.baseurl }}{% link resources/other/vs-code-extensions/index.md %}
+[VS Code extensions]: {{ site.baseurl }}{% link resources/other/vscode-extensions/index.md %}

@@ -1,6 +1,6 @@
 ---
 title: Recommended
-logo: visualstudiocode
+logo: ''
 description: ''
 byline: ''
 wikipedia-excerpt: ''

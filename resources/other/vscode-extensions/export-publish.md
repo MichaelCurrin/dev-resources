@@ -11,6 +11,10 @@ description: What to do next once you've got a working extension that runs in de
     - [microsoft/vscode-vsce](https://github.com/microsoft/vscode-vsce) GH repo.
         > vsce, short for "Visual Studio Code Extensions", is a command-line tool for packaging, publishing and managing VS Code extensions.
 - [Publishing extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) in VS Code docs
-- [Publisher Manage page](https://marketplace.visualstudio.com/manage)
+- [Azure DevOps](https://dev.azure.com)
+    - Create an org, token and publisher there so you can publish a VS Code extension to the Marketplace. 
+    - Sign up with your GitHub account if you want.
+- [Manage Publishes and Extensions](https://marketplace.visualstudio.com/manage)
+    - Create a publisher.
     - Review extension installs and ratings.
     

@@ -1,5 +1,5 @@
 ---
-title: Recommended VS Code extensions
+title: Recommended
 logo: visualstudiocode
 description: ''
 byline: ''

@@ -1,7 +1,8 @@
 ---
 title: React Boilerplate
 logo: ''
-description: ''
+description: A highly scalable, offline-first foundation with the best developer experience
+  and a focus on performance and best practices
 byline: Quick setup for new performance oriented, offline–first React.js applications
 wikipedia-excerpt: ''
 key_links:

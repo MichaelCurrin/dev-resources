@@ -236,6 +236,7 @@ pages:
 - resources/go/packages/hugo.md
 - resources/javascript/packages/d3/index.md
 - resources/javascript/packages/electron/index.md
+- resources/javascript/packages/react/react-boilerplate.md
 - resources/javascript/packages/svelte/index.md
 - resources/javascript/packages/vuepress/index.md
 - resources/javascript/test-frameworks/jasmine.md
@@ -245,6 +246,5 @@ pages:
 - resources/javascript/test-frameworks/puppeteer.md
 - resources/make/index.md
 - resources/other/aws.md
-- resources/other/recommended-vs-code-extensions.md
 - resources/python/index.md
 - resources/typescript/index.md

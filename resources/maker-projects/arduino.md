@@ -19,6 +19,42 @@ tutorials:
     and intro and use of libraries. Also under each model there are instructions for
     setting up an IDE and adding a basic blink sketch to the Arduino.
 link_sections:
+- title: HTTP
+  links:
+  - title: Arduino - HTTP Request
+    url: https://arduinogetstarted.com/tutorials/arduino-http-request
+    description: Tutorial
+- title: Real Time Clock
+  links:
+  - title: NTP homepage
+    url: http://www.ntp.org/
+    description: ''
+  - title: String formatting guide
+    url: https://github.com/adafruit/RTClib/blob/0b87d85610d4cd03709c7f0568f2ef5b8a7a5daa/src/RTClib.cpp#L425-L437
+    description: ''
+  - title: AdaFruit RTCLib repo
+    url: https://github.com/adafruit/RTClib
+    description: ''
+  - title: Example of formatting
+    url: https://github.com/adafruit/RTClib/blob/master/examples/toString/toString.ino#L53-L65
+    description: ''
+- title: LCDs
+  links:
+  - title: How to control a character I2C LCD with Arduino
+    url: https://www.makerguides.com/character-i2c-lcd-arduino-tutorial/
+    description: ''
+  - title: How to Create Custom Character for LCD
+    url: https://www.instructables.com/How-to-Create-Custom-Character-for-LCD/
+    description: Tutorial on Instructables site
+  - title: autoscroll() method
+    url: https://www.arduino.cc/en/Tutorial/LibraryExamples/LiquidCrystalAutoscroll
+    description: ''
+  - title: Arduino - LCD I2C tutorial
+    url: https://arduinogetstarted.com/tutorials/arduino-lcd-i2c
+    description: ''
+  - title: LCD Custom Character Generator
+    url: https://maxpromer.github.io/LCD-Character-Creator/
+    description: Support character lcd and create code for Arduino - using LiquidCrystal
 - title: NodeMCU
   links:
   - title: NodeMCU homepage
@@ -53,18 +89,21 @@ link_sections:
     description: ''
   title: Editors
 links:
-- url: https://maxpromer.github.io/LCD-Character-Creator/
-  description: Support character lcd and create code for Arduino - using LiquidCrystal
-  title: LCD Custom Character Generator
+- title: NTPClient repo
+  url: https://github.com/arduino-libraries/NTPClient
+  description: Connect to a NTP server
 logo: ''
 description: ''
 byline: ''
 wikipedia-excerpt: ''
-documentation: []
+documentation:
+- url: https://www.arduino.cc/reference/en/
+  description: Built-in functions, variables, and structure keywords
+  title: Language references
 blog_posts: []
 playgrounds: []
 
 ---
-See the Docs link.
+See the docs homepage link.
 
 > Browse through hundreds of tutorials, datasheets, guides and other technical documentation to get started with Arduino products.

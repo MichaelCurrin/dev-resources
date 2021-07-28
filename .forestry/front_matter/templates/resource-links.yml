@@ -245,6 +245,7 @@ pages:
 - resources/javascript/test-frameworks/mocha.md
 - resources/javascript/test-frameworks/puppeteer.md
 - resources/make/index.md
+- resources/maker-projects/arduino.md
 - resources/other/aws.md
 - resources/python/index.md
 - resources/tools/pens.md

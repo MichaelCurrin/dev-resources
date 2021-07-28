@@ -40,6 +40,11 @@ link_sections:
     description: ''
 - title: LCDs
   links:
+  
+  - title: Character LCD tutoria
+    url: https://www.makerguides.com/character-i2c-lcd-arduino-tutorial/
+    description: LCD methods like .blink and .home and custom characters
+
   - title: How to control a character I2C LCD with Arduino
     url: https://www.makerguides.com/character-i2c-lcd-arduino-tutorial/
     description: ''
@@ -55,6 +60,10 @@ link_sections:
   - title: LCD Custom Character Generator
     url: https://maxpromer.github.io/LCD-Character-Creator/
     description: Support character lcd and create code for Arduino - using LiquidCrystal
+  - title: LCD scrolling text tutorial
+    url: https://steemit.com/utopian-io/@pakganern/iic-lcd-scrolling-text-with-arduino-tutorial
+
+    
 - title: NodeMCU
   links:
   - title: NodeMCU homepage

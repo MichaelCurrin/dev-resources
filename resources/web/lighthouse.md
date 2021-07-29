@@ -13,7 +13,9 @@ Understand the performance and SEO strengths and weakness of a page by using a f
 
 ## How to run
 
-### Google PageSpeed Insights
+### Use Google PageSpeed Insights
+
+The simplest approach.
 
 Run a Lighthouse test manually on Google's service.
 
@@ -21,9 +23,19 @@ Run a Lighthouse test manually on Google's service.
 
 Enter your URL and click "Analyze".
 
-### Browser
+### Web dev
 
-With this approach, you can run a Lighthouse check on a page using your own hardware to test and get a report.
+A free service where you can run Lighthouse tests on this service and have them persisted so you can rerun and compare.
+
+- [web.dev/measure/](https://web.dev/measure/)
+
+> See how well your website performs. Then, get tips to improve your user experience. 
+> 
+> Sign in to track your progress over time.
+
+### Local browser test
+
+With this approach, you can run a Lighthouse check on a page using your _own hardware_ and browser, to test and get a report.
 
 In your local Chrome browser, open dev tools and find the Lighthouse section.
 

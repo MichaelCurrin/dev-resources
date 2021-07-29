@@ -51,23 +51,27 @@ The disadvantage is that it is affected by your machine's resources and your int
 
 ### Lighthouse CI tool
 
-Open source tool you can run to automate running Lighthouse checks in a browser without manual effort. This works both locally and run in the cloud, even on schedule.
+Open source tool you can run to automate running Lighthouse checks in a browser, without manual effort. 
+
+This works both locally and run in the cloud - see the CI section below.
 
 - [GoogleChrome/lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci)
 - [Getting started](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/getting-started.md)
 
 ### CI with GitHub Actions
 
-Run Lighthouse checks on schedule in the cloud for free.
+Run Lighthouse checks cloud for free.
 
 This builds on the Lighthouse CI section above but automates with GitHub Actions as the cloud runner.
 
-- [Search: Lighthouse](https://github.com/marketplace?query=lighthouse) in the GH Actions marketplace
+You could run on **schedule** against a branch on GitHub. Or run when a **Pull Request** is updated, to validate it before you merge it.
 
-Focus on `lighthouse-check` section.
+The idea is that the Lighthouse application runs in a CI environment against the code on the same branch. It doesn't require a page to actually be deployed and hosted anywhere.
 
-- [action](https://github.com/marketplace/actions/lighthouse-check) page
-- [foo-software/lighthouse-check-action](https://github.com/foo-software/lighthouse-check-action) repo
+See [Search: Lighthouse](https://github.com/marketplace?query=lighthouse) in the GH Actions marketplace. Focus on the `lighthouse-check` section.
+
+- [Lighthouse check](https://github.com/marketplace/actions/lighthouse-check) in the Marketplace.
+- [foo-software/lighthouse-check-action](https://github.com/foo-software/lighthouse-check-action) repo.
 
 That is an action is managed by "Foo", the same org that provides the UI service next. You can use the action alone or together with the service.
 

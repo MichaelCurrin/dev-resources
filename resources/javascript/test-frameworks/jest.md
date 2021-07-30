@@ -26,4 +26,5 @@ link_sections: []
 - Focused on simplicity. Simple, light and fast.
 - Works with zero configuration.
 - Preferred for React.
-- Allows taking of snapshots of tests as alternative means of verifying units.
+- Frontend and backend.
+- Allows taking of [snapshots](https://jestjs.io/docs/snapshot-testing) of tests - alternative means of verifying units. This is especially useful for rendered widgets.

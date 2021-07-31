@@ -29,4 +29,7 @@ description: What to do next once you've got a working extension that runs in de
 1. Publish your extension from the CLI.
     1. Use the login command. Paste your token from Azure DevOps. Keep this value secret.
     1. Use the publish command.
+        - Use `vsce publish minor` to create a tag and publish it. 
+        - Or `vsce publish v1.2.3` to create a specific tag.
+        - If you use just `vsce publish`, it will use the latest commit but publish under the latest tag (which could be some commits back).
 1. Verify your extension in the Marketplace.

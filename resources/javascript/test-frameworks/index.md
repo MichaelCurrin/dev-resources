@@ -33,3 +33,11 @@ There are various NPM packages available to help you write tests for these areas
     - Test the browser side, as HTML and JS.
     - A virtual or real browser is needed to render a JS component in the DOM.
     - Snapshots - compare rendered versions of components.
+
+
+### Related
+
+See [Test frameworks][] in Code Cookbook.
+
+
+[Test frameworks]: https://michaelcurrin.github.io/code-cookbook/recipes/javascript/test-frameworks/

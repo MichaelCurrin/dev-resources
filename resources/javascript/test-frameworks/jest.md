@@ -25,6 +25,8 @@ link_sections: []
 ---
 - Focused on simplicity. Simple, light and fast.
 - Works with zero configuration.
-- Preferred for React.
+- Preferred for React. Also works with Angular and Vue.
 - Frontend and backend.
-- Allows taking of [snapshots](https://jestjs.io/docs/snapshot-testing) of tests - alternative means of verifying units. This is especially useful for rendered widgets.
+- Built-in support for:
+    - Code coverage.
+    - [Snapshots](https://jestjs.io/docs/snapshot-testing) of tests - an alternative means of verifying units. This is especially useful for rendered widgets.

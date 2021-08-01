@@ -1,7 +1,7 @@
 ---
 title: Jest
 logo: ''
-description: ''
+description: 'Simple and fast'
 byline: ''
 wikipedia-excerpt: ''
 key_links:

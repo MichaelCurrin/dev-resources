@@ -19,7 +19,7 @@ Links:
     example, we’re using Node.js’ built-in `assert` module — but generally, if it
     throws an Error, it will work! This means you can use libraries..."'
 logo: ''
-description: ''
+description: 'Flexible - make your own choices'
 byline: ''
 wikipedia-excerpt: ''
 tutorials: []

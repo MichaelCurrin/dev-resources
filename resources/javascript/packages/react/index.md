@@ -6,8 +6,14 @@ key_links:
   docs: https://reactjs.org/docs/
   repo_nwo: facebook/react
 
+links:
+  - title: Pre-Rendering into Static HTML Files
+    url: https://create-react-app.dev/docs/pre-rendering-into-static-html-files
+    
+tutorials:
+  - title: React in 100 seconds on YouTube
+    url: https://youtu.be/Tn6-PIqc4UM
 ---
-[React in 100 seconds on YouTube](https://youtu.be/Tn6-PIqc4UM)
 
 ### Quickstart repos
 

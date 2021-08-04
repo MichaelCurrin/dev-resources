@@ -16,7 +16,7 @@ key_links:
   devhints: ''
   tutorials_point: ''
   rosetta_code: ''
-Links: []
+links: []
 documentation: []
 tutorials: []
 blog_posts: []

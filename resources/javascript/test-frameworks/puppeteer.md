@@ -16,7 +16,7 @@ key_links:
   devhints: ''
   tutorials_point: ''
   rosetta_code: ''
-Links: []
+links: []
 tutorials:
 - title: Using Jest with Puppeteer
   url: https://jestjs.io/docs/en/puppeteer

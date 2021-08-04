@@ -29,7 +29,7 @@ tutorials:
   url: https://www.tutorialsteacher.com/d3js/create-bar-chart-using-d3js
   description: on Tutorials Teacher
 wikipedia-excerpt: ''
-Links: []
+links: []
 documentation: []
 blog_posts: []
 playgrounds: []

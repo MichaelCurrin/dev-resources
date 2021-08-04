@@ -16,7 +16,10 @@ key_links:
   devhints: ''
   tutorials_point: ''
   rosetta_code: ''
-Links: []
+links:
+  - title: Jest CLI
+    url: https://jestjs.io/docs/cli#ci
+    description: Guide in the docs
 tutorials: []
 blog_posts: []
 playgrounds: []

@@ -1,7 +1,11 @@
 ---
-title: Export and publish your extension
-description: What to do next once you've got a working extension that runs in debug mode
+title: Export and publish
+description: Share you extension with the world
 ---
+
+First make sure you can build your extension and install and run it in VS Code.
+
+Then this page will help export the extension archive and to publish to the VS Code Marketplace so that others can download and install your extension.
 
 - CLI
     - [VSCE command](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/other/vscode-extensions/vsce-command.html) cheatsheet on my Dev Cheatsheets.

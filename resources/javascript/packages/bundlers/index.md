@@ -18,12 +18,7 @@ links:
     url: https://github.com/rails/sprockets
   - title: Parcel
     url: https://parceljs.org/
-  - title: ESBuild
-    url: https://esbuild.github.io/
-    description: |
-      Claims to be 10-100x faster than Parcel, Webpack and Rollup + Terser.
 
-      The website has a list in a section called Major Features.
   - title: Snowpack
     url: https://www.snowpack.dev/
     description: |

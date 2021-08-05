@@ -5,8 +5,8 @@ description: ''
 byline: ''
 wikipedia-excerpt: ''
 key_links:
-  homepage: ttps://webpack.js.org
-  docs: ''
+  homepage: http://webpack.github.io/
+  docs: https://webpack.js.org
   wiki: ''
   pkg_url: ''
   pkg_registry: ''
@@ -16,14 +16,8 @@ key_links:
   devhints: ''
   tutorials_point: ''
   rosetta_code: ''
-documentation: []
-tutorials: []
-blog_posts: []
-playgrounds: []
-link_sections: []
-
-links:
-  - title: Getting started with Webpack
+documentation: 
+ - title: Getting started with Webpack
     url: https://webpack.js.org/guides/getting-started/
   - title: Concepts
     url: https://webpack.js.org/concepts
@@ -31,4 +25,10 @@ links:
     url: https://webpack.js.org/configuration/
   - title: CLI
     url: https://webpack.js.org/api/cli/
+tutorials: []
+blog_posts: []
+playgrounds: []
+link_sections: []
+links: []
+ 
 ---

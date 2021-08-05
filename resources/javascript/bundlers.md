@@ -2,17 +2,6 @@
 title: Bundlers
 
 links:
-  - title: Webpack
-    url: http://webpack.github.io/
-    links:
-      - title: Getting started with Webpack](https://webpack.github.io/docs/tutorials/getting-started/) or [Getting Started
-        url: https://webpack.js.org/guides/getting-started/
-      - title: Concepts
-        url: https://webpack.js.org/concepts
-      - title: Configuration
-        url: https://webpack.js.org/configuration/
-      - title: CLI
-        url: https://webpack.js.org/api/cli/
   - title: Browserify
     url: http://browserify.org/
   - title: JSPM
@@ -41,4 +30,7 @@ links:
 
       > Snowpack is a lightning-fast frontend build tool, designed for the modern web. It is an alternative to heavier, more complex bundlers like webpack or Parcel in your development workflow. Snowpack leverages JavaScript's native module system (known as ESM) to avoid unnecessary work and stay fast no matter how big your project grows.
 
+internal_links:
+  - title: Webpack
+    url: resources/javascript/packages/webpack/index.md
 ---

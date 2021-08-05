@@ -19,8 +19,11 @@ links:
     url: http://jspm.io/
   - title: Rollup
     url: http://rollupjs.org/
-  - title: Brunch](http://brunch.io/) / [Broccoli
+  - title: Brunch
+    url: http://brunch.io/
+ - title: Broccoli
     url: http://broccolijs.com/
+    description: Used with Brunch
   - title: Sprockets
     url: https://github.com/rails/sprockets
   - title: Parcel

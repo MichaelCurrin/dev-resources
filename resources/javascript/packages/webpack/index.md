@@ -16,8 +16,8 @@ key_links:
   devhints: ''
   tutorials_point: ''
   rosetta_code: ''
-documentation: 
- - title: Getting started with Webpack
+documentation:
+  - title: Getting started with Webpack
     url: https://webpack.js.org/guides/getting-started/
   - title: Concepts
     url: https://webpack.js.org/concepts
@@ -30,5 +30,5 @@ blog_posts: []
 playgrounds: []
 link_sections: []
 links: []
- 
+
 ---

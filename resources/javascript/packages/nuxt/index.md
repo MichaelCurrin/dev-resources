@@ -8,6 +8,12 @@ key_links:
   homepage: https://nuxtjs.org/
   docs: https://nuxtjs.org/docs/2.x/get-started/installation
   repo_nwo: nuxt/nuxt.js
+
+links:
+  - title: nuxtlabs/examples
+    url: https://github.com/nuxtlabs/examples
+    description: repo of example apps. You can try them out through the sandbox as linked from the Nuxt site, like [hello-world](https://codesandbox.io/s/github/nuxtlabs/examples/tree/master/routing/hello-world?from-embed).
+
 ---
 
 ### Quickstart projects

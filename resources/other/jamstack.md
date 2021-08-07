@@ -35,7 +35,6 @@ See also [Vue resources][].
 
 - Nuxt
     - [Nuxt resources][]
-    - [nuxtlabs/examples](https://github.com/nuxtlabs/examples) repo of example apps. You can try them out through the sandbox as linked from the Nuxt site, like [hello-world](https://codesandbox.io/s/github/nuxtlabs/examples/tree/master/routing/hello-world?from-embed).
 - VuePress
      - Like "WordPress". Documentation site generator.
      - [VuePress resources][]

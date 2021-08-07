@@ -5,7 +5,20 @@ byline: The React Framework for Production
 
 key_links:
   homepage: https://nextjs.org/
+  docs: https://nextjs.org/docs
   repo_nwo: vercel/next.js
+
+links:
+  - title: Learn Next.js
+    url: https://nextjs.org/learn
+  - title: Next.js Examples
+    url: https://github.com/vercel/next.js/tree/master/examples
+    description: in `vercel/next.js` repo
+  - title: vercel/next-learn-starter repo
+    url: https://github.com/vercel/next-learn-starter
+  - title: Deploy to Vercel
+    url: https://vercel.com/import?filter=next.js
+
 ---
 
 ### Static vs server-side rendering
@@ -72,16 +85,7 @@ That uses the [learn-starter](https://github.com/vercel/next-learn-starter/tree/
 
 See all the examples on GitHub - [vercel/next-learn-starter](https://github.com/vercel/next-learn-starter).
 
-
 ### Quickstart
 
 - [MichaelCurrin/next-quickstart](https://github.com/MichaelCurrin/next-quickstart)
 
-
-### Links
-
-- [Learn Next.js](https://nextjs.org/learn)
-- [Documentation Next.js](https://nextjs.org/docs)
-- [Next.js Examples](https://github.com/vercel/next.js/tree/master/examples) in `vercel/next.js` repo.
-- [vercel/next-learn-starter](https://github.com/vercel/next-learn-starter) repo.
-- [Deploy](https://vercel.com/import?filter=next.js) to Vercel.

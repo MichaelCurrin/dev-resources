@@ -34,10 +34,9 @@ The "JAM" in JAMStack is for:
 See also [Vue resources][].
 
 - Nuxt
-    - [nuxtjs.org](https://nuxtjs.org/) homepage
+    - [Nuxt resources][]
     - [nuxtlabs/examples](https://github.com/nuxtlabs/examples) repo of example apps. You can try them out through the sandbox as linked from the Nuxt site, like [hello-world](https://codesandbox.io/s/github/nuxtlabs/examples/tree/master/routing/hello-world?from-embed).
 - VuePress
-     - [vuepress.vuejs.org](https://vuepress.vuejs.org/) homepage
      - Like "WordPress". Documentation site generator.
      - [VuePress resources][]
 - Vuetify
@@ -57,33 +56,17 @@ See also [Vue resources][].
     - They don't use Vue in their branding but it appears in their `package.json` file.
     - Eleventy works with multiple template languages.
 
-Here are UI libraries that Nuxt lets you choose on setting up a project:
-
-- Ant Design Vue
-- BalmUI
-- Bootstrap Vue
-- Buefy
-- Chakra UI
-- Element
-- Framevuerk
-- Oruga
-- Tachyons
-- Tailwind CSS
-- Windi CSS
-- Vant
-- View UI
-- Vuesax
-
 #### React-based generators 
 
 - Gatsby
     - [Homepage](https://www.gatsbyjs.com/)
 - Next
-    - [nextjs.org](https://nextjs.org/) homepage
+    - [Next resources][]
         > The React Framework for Production
     - [MichaelCurrin/next-quickstart](https://github.com/MichaelCurrin/next-quickstart)
 
-
+[Next resources]      {{ site.baseurl }}{% link resources/javascript/packages/next/index.md %}
+[Nuxt resources]:     {{ site.baseurl }}{% link resources/javascript/packages/nuxt/index.md %}
 [Jekyll resources]:   {{ site.baseurl }}{% link resources/jekyll/index.md %}
 [Vue resources]:      {{ site.baseurl }}{% link resources/javascript/packages/vue/index.md %}
 [VuePress resources]: {{ site.baseurl }}{% link resources/javascript/packages/vuepress/index.md %}

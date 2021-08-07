@@ -7,26 +7,29 @@ key_links:
 
 ---
 
+## About 
+
 The "JAM" in JAMStack is for:
 
 - JavaScript
 - API
 - Markdown
 
+## Generators 
 
-## Go-based
+### Go-based generators 
 
 - [Hugo]({{ site.baseurl }}{% link resources/go/packages/hugo.md %})
 
 
-## Ruby
+### Ruby-based generators 
 
 - [Jekyll]({{ site.baseurl }}{% link resources/jekyll/index.md %})
 
 
-## JavaScript
+### JavaScript-based generators 
 
-### Vue-based
+#### Vue-based
 
 See also [Vue resources][].
 
@@ -71,7 +74,7 @@ Here are UI libraries that Nuxt lets you choose on setting up a project:
 - View UI
 - Vuesax
 
-### React-based
+#### React-based generators 
 
 - Gatsby
     - [Homepage](https://www.gatsbyjs.com/)
@@ -84,3 +87,11 @@ Here are UI libraries that Nuxt lets you choose on setting up a project:
 [Jekyll resources]:   {{ site.baseurl }}{% link resources/jekyll/index.md %}
 [Vue resources]:      {{ site.baseurl }}{% link resources/javascript/packages/vue/index.md %}
 [VuePress resources]: {{ site.baseurl }}{% link resources/javascript/packages/vuepress/index.md %}
+
+
+## Content managers
+
+- Forestry 
+- Netlify CMS
+- CloudCannon
+- [Stackbit](https://www.stackbit.com/)

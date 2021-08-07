@@ -16,15 +16,17 @@ tutorials:
 links:
   - title: Docker Image vs Container
     url: https://phoenixnap.com/kb/docker-image-vs-container
-  - title: Dev Cheatsheet
+  - title: Containers - Dev Cheatsheet
     url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/containers/docker/
+  - title: Containers - Code Cookbook
+    url: https://michaelcurrin.github.io/code-cookbook/recipes/containers/docker/
 
 key_links:
   homepage: https://docker.com/
   docs: https://docs.docker.com/
   repo_nwo: docker/cli
   wiki: ''
-  pkg_registry: ''
+  pkg_registry: https://hub.docker.com/
   wikipedia: ''
   learn_x: ''
   devhints: ''

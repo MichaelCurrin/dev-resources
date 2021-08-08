@@ -11,7 +11,6 @@ key_links:
   docs: https://apexcharts.com/docs/installation/
 ---
 
-Note as well-known as Highcharts, but I find ApexCharts easy to set up and customize.
 
 Demos are provided for:
 

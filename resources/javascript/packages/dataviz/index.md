@@ -10,16 +10,6 @@ links:
     url: https://vue-chartjs.org/
     description: Vue plugin for Chart.js
     
-  - title: Apexcharts
-    url: https://apexcharts.com/
-    
-  - title: HighCharts
-    url: https://www.highcharts.com/
-    
-  - title: D3.js
-    url: https://d3js.org/
-    description: Data-Driven Documents 
-    
   - title: P5.js
     url: https://p5js.org/
     
@@ -27,3 +17,12 @@ links:
     url: https://github.com/jwilber/roughViz
     description: Reusable JavaScript library for creating sketchy/hand-drawn styled charts in the browser
 ---
+
+
+
+### Comparison
+
+Apex is not as as well-known as Highcharts, but I find ApexCharts easy to set up and customize.
+
+You can do a treemap, bubble chart and other visualizations that you'd make in D3. But it is much easier than D3. I found D3 needs a lot of code to get something basic, then you have to research how to do something simple properly like add a tooltip, while ApexCharts has an easy config option. Of course, D3 gives you more control, especially for unconventional chart types.
+

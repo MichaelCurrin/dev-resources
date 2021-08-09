@@ -8,7 +8,7 @@ byline: |
 key_links:
   homepage: https://apexcharts.com/
   repo_nwo: apexcharts/apexcharts.js
-  docs: https://apexcharts.com/docs/installation/
+  docs: https://apexcharts.com/docs/
 ---
 
 

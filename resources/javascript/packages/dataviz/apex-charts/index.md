@@ -9,6 +9,10 @@ key_links:
   homepage: https://apexcharts.com/
   repo_nwo: apexcharts/apexcharts.js
   docs: https://apexcharts.com/docs/
+  
+links:
+  - title: Dev Cheatsheet
+    url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/dataviz/apex-charts
 ---
 
 

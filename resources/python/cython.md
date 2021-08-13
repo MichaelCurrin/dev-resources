@@ -22,7 +22,10 @@ links:
 
 Cython is not so widely known or used.
 
-Don't confuse this with CPython.
+Don't confuse Cython with [CPython][].
+
+[CPython]: {{ site.baseurl }}{% link resources/python/implementations/cpython.md %}
+
 
 ## Features
 

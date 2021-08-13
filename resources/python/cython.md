@@ -17,7 +17,12 @@ links:
   - title: Download
     url: https://cython.org/#download
 ---
+
 > Cython is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on Pyrex). It makes writing C extensions for Python as easy as Python itself. 
+
+Cython is not so widely known or used.
+
+Don't confuse this with CPython.
 
 ## Features
 

@@ -23,13 +23,16 @@ links:
   description: Go, C, JS, Python, etc.
 - title: JS Fiddle
   url: https://jsfiddle.net/
-  description: 'There are other varierities of '
 - title: Codepen
   url: https://codepen.io/
   description: ''
 - title: Code Sandbox
   url: https://codesandbox.io
   description: ''
+- title: Python Fiddle
+  url: http://pythonfiddle.com/
+- title: REPL
+  url: https://repl.it
 documentation: []
 tutorials: []
 blog_posts: []

@@ -3,7 +3,9 @@ title: Lighthouse
 description: Site performance scoring tool by Google
 ---
 
-Understand the performance and SEO strengths and weakness of a page by using a free tool.
+Understand the performance and SEO strengths and weakness of a page by using a free tool, which can be run in a few ways.
+
+You end up with some summary scores, some recommendations on things to improve, and a detailed page which you can download or store on S3, etc.
 
 
 ## About
@@ -25,7 +27,9 @@ Enter your URL and click "Analyze".
 
 ### Web dev
 
-A free service where you can run Lighthouse tests on this service and have them persisted so you can rerun and compare.
+A free service where you can run Lighthouse tests on this service. 
+
+Unlike the basic PageSpeed Insights service above, this service persists your results so when you come back to test a site you can see the old result before rerunning. This feature uses Google sign in. And unfortunately you can't see how to get historical data - the latest result overwrites the last and there is no graph.
 
 - [web.dev/measure/](https://web.dev/measure/)
 

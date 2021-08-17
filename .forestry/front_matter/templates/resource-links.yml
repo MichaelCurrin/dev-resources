@@ -234,8 +234,6 @@ pages:
 - resources/go/packages/flag.md
 - resources/go/packages/http.md
 - resources/go/packages/hugo.md
-- resources/javascript/packages/Webpack/webpack.md
-- resources/javascript/packages/d3/index.md
 - resources/javascript/packages/electron/index.md
 - resources/javascript/packages/react/react-boilerplate.md
 - resources/javascript/packages/svelte/index.md

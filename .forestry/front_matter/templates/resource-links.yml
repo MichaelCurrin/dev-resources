@@ -235,6 +235,7 @@ pages:
 - resources/go/packages/http.md
 - resources/go/packages/hugo.md
 - resources/javascript/packages/electron/index.md
+- resources/javascript/packages/ghost/index.md
 - resources/javascript/packages/react/react-boilerplate.md
 - resources/javascript/packages/svelte/index.md
 - resources/javascript/packages/vuepress/index.md

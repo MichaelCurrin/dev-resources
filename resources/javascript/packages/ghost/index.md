@@ -20,7 +20,10 @@ documentation:
 logo: ''
 description: ''
 wikipedia-excerpt: ''
-links: []
+links:
+- title: Ghost on the Jamstack site
+  url: https://jamstack.org/headless-cms/ghost/
+  description: ''
 tutorials: []
 blog_posts: []
 playgrounds: []

@@ -10,6 +10,7 @@ links:
 
 Bundle your CSS, SASS, LESS, etc. files in your JS files so that they get inserted as inline `style` tags for you.
 
+Examples here for CSS.
 
 ## Installation
 
@@ -20,6 +21,20 @@ $ npm install -D css-loader style-loader
 
 ## Usage
 
-```javascriptes
-import css from "styles.css";
-```
+- `index.js`
+    ```javascriptes
+    import css from "styles.css";
+    ```
+- `webpack.config.js`
+    ```javascript
+    module.exports = {
+      module: {
+        rules: [
+          {
+            test: /\.css$/i,
+            use: ["style-loader", "css-loader"],
+          },
+        ],
+      },
+    };
+    ```

@@ -36,3 +36,14 @@ See also [JAMStack][] section.
 - [Gollum](https://github.com/gollum/gollum)
 
 See more at the bottom of my [post](https://michaelcurrin.github.io/coding-blog/2019/09/04/site-building-tools.html).
+
+Hosting:
+
+- [Read the Docs](https://readthedocs.org/)
+    - Host on their domain.
+        > Free docs hosting for open source
+    - [readthedocs/readthedocs.org](https://github.com/readthedocs/readthedocs.org)
+        > The source code that powers readthedocs.org
+        > 
+        > Read the Docs hosts documentation for the open source community. It supports Sphinx docs written with reStructuredText, and can pull from your Subversion, Bazaar, Git, and Mercurial repositories. Then we build documentation and host it for you. Think of it as Continuous Documentation.
+    - Or use Sphinx locally or in CI to build your docs and host on your own domain.

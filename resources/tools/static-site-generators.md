@@ -14,11 +14,12 @@ See also [JAMStack][] section.
 
 
 ## Documentation site generators
+> Resources for building documentation sites
 
 - [MkDocs]({{ site.baseurl }}{% link resources/python/libraries/mkdocs.md %})
 - [mdBook]({{ site.baseurl }}{% link resources/rust/packages/mdbook.md %})
 - [RustDoc]({{ site.baseurl }}{% link resources/rust/rustdoc.md %})
-- [Docsify]({{ site.baseurl }}{% link resources/javascript/packages/docsify/index.md %}) - actually SPA, not a static site generator yet.
+- [Docsify]({{ site.baseurl }}{% link resources/javascript/packages/docsify/index.md %}) - actually a SPA with no build step that gets served as static content, so not strictly static site generator.
 - [Docusaurus 2](https://docusaurus.io/)
     - This is different enough from V1 that it is considered a different tool.
 - [GitBook](https://www.gitbook.com/)

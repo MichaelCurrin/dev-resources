@@ -31,3 +31,7 @@ See also [JAMStack][] section.
     - Alterntives
       - Consider mdBook which is a more flexible open source solution which is meant to look like GitBook.
       - See MkDocs - it has a [themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) section in the Wiki which has a GitBook-style theme. See the [preview](https://lramage.gitlab.io/mkdocs-gitbook-theme/).
+- [Daux](https://daux.io/)
+- [Gollum](https://github.com/gollum/gollum)
+
+See more at the bottom of my [post](https://michaelcurrin.github.io/coding-blog/2019/09/04/site-building-tools.html).

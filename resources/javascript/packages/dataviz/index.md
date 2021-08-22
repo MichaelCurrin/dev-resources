@@ -1,5 +1,5 @@
 ---
-title: Dataviz
+title: Dataviz packages
 description: JS packages for data visualization and graphing
 
 links:

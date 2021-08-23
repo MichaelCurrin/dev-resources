@@ -35,6 +35,13 @@ link_sections:
       - title: Jekyll Blog Demo
         url: https://michaelcurrin.github.io/jekyll-blog-demo/
         description: Template and demo for showcasing Jekyll functionality with a theme
+        
+  - title: Collections
+    links:
+      - title: Jekyll docs
+        url: https://jekyllrb.com/docs/collections/
+      - title: Alligator.io 
+        url: https://alligator.io/jekyll/collections/
 ---
 
 ### Related sections

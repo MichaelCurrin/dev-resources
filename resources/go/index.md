@@ -171,6 +171,7 @@ link_sections:
   - title: Gophercises
     url: https://gophercises.com/
     description: FREE coding exercises for budding gophers
+ 
 - title: Project template repos
   links:
   - title: golang-templates/seed
@@ -237,9 +238,9 @@ links:
 ---
 ### What's possible with Go
 
-From [https://go.dev/](https://go.dev/ "https://go.dev/").
+From [go.dev](https://go.dev/):
 
-* Cloud and Network Services
-* CLI tools
-* Web development
-* DevOps and Site Reliability
+- Cloud and Network Services
+- CLI tools
+- Web development
+- DevOps and Site Reliability

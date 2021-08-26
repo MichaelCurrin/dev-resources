@@ -1,6 +1,9 @@
 ---
 title: Functions
+description: A free serverless service that acts as a wrapper on AWS Lambdas, but much easier to deploy 
 ---
+
+Rather than dealing with deploying to AWS using AWS console or CLI or Terraform, for Netlify all you have to do is put code in a directory like `.netlify/functions` and push your code. Netlify will create your endpoints.
 
 ## Links
 

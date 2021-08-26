@@ -18,10 +18,7 @@ Netlify Functions site
 - [functions.netlify.com](https://functions.netlify.com/)
 - [Function Examples](https://functions.netlify.com/examples/)
 
-
-## Examples 
-
-- [shows.js](https://github.com/MichaelCurrin/netflix-assistant/blob/master/functions/shows.js) using Node in my Netlix Assistant project. This is a wrapper on an API which blocks cross domain requests from a browser but allows server side (or serverless) requests fine. Note the Netlify config in the root specifies `functions` as the directory instead of `.netlify/functions`.
+See [Function recipes](https://michaelcurrin.github.io/code-cookbook/recipes/ci-cd/netlify/functions/) in my Code Cookbook.
 
 
 ## Limitations

@@ -23,4 +23,8 @@ links:
   - title: Jekyll Pure Liquid TOC
     url: https://github.com/allejo/jekyll-toc
     description: Generate a table of contents without a plugin
+    
+  - title: Jekyll SEO plugin
+    url: https://github.com/jekyll/jekyll-seo-tag
+    description: A Jekyll plugin to add metadata tags for search engines and social networks to better index and display your site's content. 
 ---

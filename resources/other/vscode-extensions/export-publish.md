@@ -1,6 +1,6 @@
 ---
 title: Export and publish
-description: Share you extension with the world
+description: Share your extension with the world
 ---
 
 First make sure you can build your extension and install and run it in VS Code.

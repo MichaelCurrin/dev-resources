@@ -8,5 +8,5 @@ byline: |
 key_links:
   homepage: https://pandas.pydata.org/
   docs: https://pandas.pydata.org/docs
-  repo_nwo: https://github.com/pandas-dev/pandas
+  repo_nwo: pandas-dev/pandas
 ---

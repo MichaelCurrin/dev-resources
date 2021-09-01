@@ -7,7 +7,7 @@ description: Handle scientific computing in Python, such as arrays and linear al
 key_links:
   homepage: https://numpy.org/
   docs: https://numpy.org/doc/stable/
-  repo_nwo: https://github.com/numpy/numpy
+  repo_nwo: numpy/numpy
 ---
 
 

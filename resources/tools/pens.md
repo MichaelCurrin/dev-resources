@@ -1,8 +1,8 @@
 ---
 title: Pens
 logo: ''
-description: Online code editors for HTML, CSS and JS. Supports web dev develop, host
-  demos and share code. Easy use of transpiling like JSX, Pug, Less, SASS...
+description: |
+  Online code editor environment that can run code
 byline: ''
 wikipedia-excerpt: ''
 key_links:
@@ -25,7 +25,7 @@ links:
   url: https://jsfiddle.net/
 - title: Codepen
   url: https://codepen.io/
-  description: ''
+  description: An online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets.
 - title: Code Sandbox
   url: https://codesandbox.io
   description: ''
@@ -40,3 +40,12 @@ playgrounds: []
 link_sections: []
 
 ---
+
+
+Mostly for HTML, CSS and JS, some also run other server-side languages.
+
+A pen or sandbox supports development within an online IDE.
+
+It makes it easy to create and test a demo. You can usually login and share a link so others can see your code and run it and see the resuls.
+
+Some like CodePen provide easy loading of JS packages and of transpiling like JSX, Pug, Less, SASS, etc. Saving effort setting up a local dev environment or a full site.

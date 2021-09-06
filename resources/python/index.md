@@ -35,14 +35,17 @@ playgrounds:
 - title: repl.it
   url: https://repl.it/languages/python3
   description: ''
-
+- title: Python Fiddle
+  url: http://pythonfiddle.com/
+- title: Python Tutor - visualize
+    https://pythontutor.com/visualize.html#
 
 link_sections:
 - title: Jupyter notebooks
   links:
   - title: Jupyter - Try page
     url: https://jupyter.org/try
-    description: For a choice of notebooks through My Binder
+    description: For a choice of notebooks through _My Binder_
   - title: My Binder
     url: https://mybinder.org/
     description: ''

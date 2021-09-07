@@ -6,6 +6,12 @@ description: External links around GH Actions, from basic to advanced usage
 key_links:
   homepage: https://github.com/features/actions
   docs: https://docs.github.com/en/actions
+  
+links:
+  - title: Awesome actions
+    url: https://github.com/sdras/awesome-actions
+    description: A curated list of awesome actions to use on GitHub
+
 ---
 
 ### Related projects

@@ -15,7 +15,7 @@ links:
 
       e.g. `https://jspm.dev/@babel/core`
       e.g. `https://dev.jspm.io/react-dom@17.0.1/server`
-      e.g. `https://dev.jspm.io/react` or `https://dev.jspm.io/react@16.5` or `https://dev.jspm.io/react@16.5.0`
+      e.g. `https://dev.jspm.io/react` unpinned (dangerous), or `https://dev.jspm.io/react@16` locked to major version which is still risky, or `https://dev.jspm.io/react@16.5` which locks the minor version and still gets backwards-compatable bug fixes, or `https://dev.jspm.io/react@16.5.0` for exact pinning.
       e.g. `https://dev.jspm.io/npm:react@16.5.0` with `npm` explicitly (you also get this sometimes when the server redirects you).
 
       "All packages from npm are precomputed and served through jspm.dev and are available at their corresponding URLs."

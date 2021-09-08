@@ -8,6 +8,7 @@ key_links:
   
   repo_nwo: git/git
   wikipedia: https://en.wikipedia.org/wiki/Git
+  simple_english_wikipedia: https://simple.wikipedia.org/wiki/Git_(software)
 
 tutorials:
   - title: 13 Git techniques 

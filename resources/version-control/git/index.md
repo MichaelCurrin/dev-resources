@@ -11,10 +11,11 @@ key_links:
   simple_english_wikipedia: https://simple.wikipedia.org/wiki/Git_(software)
 
 tutorials:
-  - title: 13 Git techniques 
-    link: https://youtu.be/ecK3EnyGD8o
+  - title: |
+      13 Advanced (but useful) Git Techniques and Shortcuts
+    url: https://youtu.be/ecK3EnyGD8o
     description: On YouTube
   - title: Git tutorials
-    link: https://www.atlassian.com/git/tutorials
+    url: https://www.atlassian.com/git/tutorials
     description: On the Atlassian site - the org behind BitBucket and Jira
 ---

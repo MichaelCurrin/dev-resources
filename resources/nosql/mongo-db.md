@@ -8,4 +8,7 @@ byline: |
 key_links:
   homepage: https://www.mongodb.com/
   docs: https://docs.mongodb.com/
+links:
+  - title: Mongo in 100 seconds
+    url: https://youtu.be/-bt_y4Loofg
 ---

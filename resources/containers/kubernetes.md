@@ -24,7 +24,7 @@ links:
 ---
 
 
-### Name origin
+## Name origin
 
 Kubernetes is commonly stylized as "K8s".
 
@@ -33,8 +33,21 @@ In Greek it means "helmsman" or "pilot" or "governor".
 The word cybernetics has its root in "kubernetes".
 
 
-### Logo origin
+## Logo origin
 
 > The original codename for Kubernetes within Google was Project 7, a reference to the Star Trek ex-Borg character **Seven of Nine**.
 >
 > The seven spokes on the wheel of the Kubernetes logo are a reference to that codename. 
+
+
+## Local dev
+
+You can use minikube to spin up a local Kubernetes cluster. 
+
+You can enable the ingress and DNS addons and use something like dnsmasq to redirect DNS requests to `*.localhost` to the k8s DNS. 
+
+- [ingress-minikube](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/) in Kubernetes docs.
+
+Encrypt secrets with [sops](https://github.com/mozilla/sops) and then commit them to the repo. 
+
+Project setup should just be clone the repo and install the Helm charts - everything you need should be in the repo (or you could store large files in S3 and put the bucket name/key in the repo).

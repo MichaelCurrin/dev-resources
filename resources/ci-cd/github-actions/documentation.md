@@ -22,6 +22,9 @@ documentation:
       Learning paths and language specific guides
 
       > These guides for GitHub Actions include specific use cases and examples to help you configure workflows.
+  - title: Usage limits
+    url: https://docs.github.com/en/actions/reference/usage-limits-billing-and-administration
+    description: Usage limits, billing, and administration.
 
 link_sections:
   - title: Reference section of the docs

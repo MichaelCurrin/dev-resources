@@ -28,6 +28,9 @@ tutorials:
 - title: Barplot
   url: https://www.tutorialsteacher.com/d3js/create-bar-chart-using-d3js
   description: on Tutorials Teacher
+- title: D3 in 100 seconds
+  url: https://youtu.be/bp2GF8XcJdY
+  description: YouTube video
 wikipedia-excerpt: ''
 links: []
 documentation: []

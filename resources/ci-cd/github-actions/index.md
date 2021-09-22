@@ -24,7 +24,7 @@ You can extend it to deploy your project too. Such as publish a built package to
 
 - [GitHub Pages][] - host the static site output that your build creates.
 
-[GitHuh Pages]: {% site.baseurl %}{{ link resources/web/github-pages.md %}
+[GitHuh Pages]: {{ site.baseurl }}{% link resources/web/github-pages.md %}
 
 ### Related projects
 

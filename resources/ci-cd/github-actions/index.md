@@ -24,9 +24,10 @@ You can extend it to deploy your project too. Such as publish a built package to
 
 - [GitHub Pages][] - host the static site output that your build creates.
 
-[GitHuh Pages]: {{ site.baseurl }}{% link resources/web/github-pages.md %}
+[GitHub Pages]: {{ site.baseurl }}{% link resources/web/github-pages.md %}
 
 ### Related projects
 
 - [GitHub Actions recipes](https://michaelcurrin.github.io/code-cookbook/recipes/ci-cd/github-actions/) in my cookbook. Copy and paste examples to run your Jekyll, Node or Python CI for example.
 - [GitHub Actions cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/ci-cd/github-actions/). For a reference on workflow syntax, recommended fields and what the fields mean.
+- [Workflow builder](https://michaelcurrin.github.io/workflow-builder/)

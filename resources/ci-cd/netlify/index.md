@@ -20,4 +20,7 @@ tutorials:
     url: https://www.netlify.com/topics/tutorials/
   - title: Deploying on Netlify
     url: https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/
+  - title: Netlify tutorials 
+    url: https://youtube.com/playlist?list=PLzlG0L9jlhEPMR8haUPkxj2hJ_3jh5qa6
+    description: YouTube playlist
 ---

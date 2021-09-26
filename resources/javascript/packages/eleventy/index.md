@@ -8,6 +8,10 @@ key_links:
   homepage: https://www.11ty.dev/
   docs: https://www.11ty.dev/docs
   repo_nwo: 11ty/eleventy
+  
+links:
+  - title: Starter projects
+    url: https://www.11ty.dev/docs/starter/
 ---
 
 ## About

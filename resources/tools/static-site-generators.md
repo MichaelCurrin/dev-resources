@@ -7,10 +7,13 @@ See also [JAMStack][] section.
 [JAMStack]: {{ site.baseurl }}{% link resources/other/jamstack.md %}
 
 - [Hugo]({{ site.baseurl }}{% link resources/go/packages/hugo.md %})
+- [Eleventy]({{ site.baseurl }}{% link resources/javascript/packages/eleventy/index.md %})
 - [Jekyll]({{ site.baseurl }}{% link resources/jekyll/index.md %})
 - [VuePress]({ site.baseurl }}{% link resources/javascript/packages/vuepress/index.md %})
 - [Next.js]({ site.baseurl }}{% link resources/javascript/packages/next/index.md %})
 - [Nuxt]({ site.baseurl }}{% link resources/javascript/packages/nuxt/index.md %})
+
+See those on [Google Trends](https://trends.google.com/trends/explore?cat=5&date=all&q=%2Fm%2F0_s0_f0,%2Fg%2F121bk8f1,Next.js,VuePress,%2Fg%2F11g0wgnhgc). I excluded Hugo because as a term or topic it was too ambiguous.
 
 
 ## Documentation site generators
@@ -29,9 +32,9 @@ See also [JAMStack][] section.
     - There's a free mode for one site only I think.
     - I don't think you can run GitBook standalone (such as a locally). It is has a level of paid service.
     - You can optionally connect your site to GitHub for editing and backup.
-    - Alterntives
-      - Consider mdBook which is a more flexible open source solution which is meant to look like GitBook.
-      - See MkDocs - it has a [themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) section in the Wiki which has a GitBook-style theme. See the [preview](https://lramage.gitlab.io/mkdocs-gitbook-theme/).
+    - Alternatives
+        - Consider mdBook which is a more flexible open source solution which is meant to look like GitBook.
+        - See MkDocs - it has a [themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) section in the Wiki which has a GitBook-style theme. See the [preview](https://lramage.gitlab.io/mkdocs-gitbook-theme/).
 - [Daux](https://daux.io/)
 - [Gollum](https://github.com/gollum/gollum)
 

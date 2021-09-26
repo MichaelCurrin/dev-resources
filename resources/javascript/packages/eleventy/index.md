@@ -12,6 +12,10 @@ key_links:
 links:
   - title: Starter projects
     url: https://www.11ty.dev/docs/starter/
+    
+tutorials:
+  - title: Tutorials in the docs
+    url: https://www.11ty.dev/docs/tutorials/
 ---
 
 ## About

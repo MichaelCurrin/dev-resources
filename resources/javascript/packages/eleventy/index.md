@@ -38,3 +38,59 @@ From GitHub:
 ```sh
 $ npm install -D @11ty/eleventy
 ```
+
+
+## Notes
+
+### Quoted include paths
+
+[% raw %} 
+
+See [Quotes include paths](https://www.11ty.dev/docs/languages/liquid/#quoted-include-paths) in the Liquid section of the docs.
+
+Quoted includes. If `dynamicPartials: true` is set then looks for `_includes/user.*`, otherwise looks for exact match of `'user'`.
+ 
+```liquid
+{% include 'user' %}
+```
+
+Non-quoted includes. Looks for `_includes/user.*`.
+
+```liquid
+{% include user %} 
+```
+
+{% endraw %}
+
+When I was stuck with errors, two things fixed it for me.
+
+Remove quotes.
+
+```liquiid
+<head>
+    {% include partials/head.html %}
+</head>
+```
+
+Or keep quotes and set dynamic partials to be `true`.
+
+```liquid
+<head>
+    {% include 'partials/head.html' %}
+</head>
+```
+
+- `.eleventy.js`
+    ```javascript
+    module.exports = function (config) {
+      config.setLiquidOptions({
+        dynamicPartials: true,
+      });
+
+      return {
+        dir: {
+          input: 'src',
+        }
+      };
+    };
+    ```

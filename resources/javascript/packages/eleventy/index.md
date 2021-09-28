@@ -44,11 +44,11 @@ $ npm install -D @11ty/eleventy
 
 ### Quoted include paths
 
-[% raw %} 
-
 See [Quotes include paths](https://www.11ty.dev/docs/languages/liquid/#quoted-include-paths) in the Liquid section of the docs.
 
 Quoted includes. If `dynamicPartials: true` is set then looks for `_includes/user.*`, otherwise looks for exact match of `'user'`.
+ 
+[% raw %}
  
 ```liquid
 {% include 'user' %}
@@ -66,7 +66,7 @@ When I was stuck with errors, two things fixed it for me.
 
 Remove quotes.
 
-```liquiid
+```liquid
 <head>
     {% include partials/head.html %}
 </head>

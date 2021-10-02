@@ -5,7 +5,10 @@ link_sections:
   - title: Functional Programming packages
     links:
       - title: mori 
+        url: https://swannodette.github.io/mori/
+        description: Like Underscore but provides immutable data structures and works more generally on JS objects 
       - title: immutable 
+        url: https://immutable-js.com/
       - title: underscore
         url: https://underscorejs.org
       - title: lodash

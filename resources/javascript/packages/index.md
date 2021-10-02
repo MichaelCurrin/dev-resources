@@ -14,6 +14,10 @@ link_sections:
         description: It provides over 100 functional programming functions without extending any built-in objects
       - title: lodash
         url: https://lodash.com   
+        description: |
+         Makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.
+
+         Lodash’s modular methods are great for iterating over arrays, objects, and strings, manipulating and testing values, and creating composite functions
       - title: ramda
         url: https://ramdajs.com
 ---

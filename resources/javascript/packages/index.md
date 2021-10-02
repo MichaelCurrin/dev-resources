@@ -11,6 +11,7 @@ link_sections:
         url: https://immutable-js.com/
       - title: underscore
         url: https://underscorejs.org
+        description: It provides over 100 functional programming functions without extending any built-in objects
       - title: lodash
         url: https://lodash.com   
       - title: ramda

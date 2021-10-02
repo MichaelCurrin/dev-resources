@@ -3,7 +3,7 @@ title: Karma
 logo: ''
 description: ''
 byline: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 key_links:
   homepage: https://karma-runner.github.io/latest/
   docs: ''

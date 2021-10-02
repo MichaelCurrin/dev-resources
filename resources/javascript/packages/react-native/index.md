@@ -3,7 +3,7 @@ title: React Native
 logo: ''
 description: ''
 byline: Learn once, write anywhere
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 key_links:
   homepage: https://reactnative.dev
   docs: https://reactnative.dev/docs/getting-started

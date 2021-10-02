@@ -25,7 +25,7 @@ fields:
     Short tagline quote, usually from the homepage, repo or Wikipedia. It might be more
     inspirational than informative.
 - type: textarea
-  name: wikipedia-excerpt
+  name: wikipedia_excerpt
   label: Wikipedia excerpt
   description: The first paragraph or two from the item's Wikipedia page.
 - type: field_group
@@ -223,7 +223,7 @@ fields:
           format: markdown
       label: description
     config:
-      min: 
+      min:
   description: |
     Create and name a group in here with whatever title you want and put
     some links in it. This is flexible. See existing sections like Tutorial Links

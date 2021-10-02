@@ -3,7 +3,7 @@ title: Webpack
 logo: ''
 description: ''
 byline: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 key_links:
   homepage: http://webpack.github.io/
   docs: https://webpack.js.org

@@ -15,7 +15,7 @@ key_links:
   rosetta_code: ''
 logo: ''
 description: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 links:
   - title: Quick Start in Hugo docs
     url: https://gohugo.io/getting-started/quick-start/

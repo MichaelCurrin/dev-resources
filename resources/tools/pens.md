@@ -4,7 +4,7 @@ logo: ''
 description: |
   Online code editor environment that can run code
 byline: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 key_links:
   homepage: ''
   docs: ''
@@ -28,7 +28,7 @@ links:
 documentation: []
 tutorials: []
 blog_posts: []
-playgrounds: 
+playgrounds:
   - title: Fiddles
     url: https://fiddles.io/
     description: Go, C, JS, Python, etc.

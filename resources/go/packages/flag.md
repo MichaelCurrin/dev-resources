@@ -3,7 +3,7 @@ title: flag
 logo: ''
 description: Package for command-line flag parsing
 byline: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 key_links:
   homepage: ''
   docs: ''

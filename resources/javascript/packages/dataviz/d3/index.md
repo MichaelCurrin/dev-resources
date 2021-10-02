@@ -31,7 +31,7 @@ tutorials:
 - title: D3 in 100 seconds
   url: https://youtu.be/bp2GF8XcJdY
   description: YouTube video
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 links: []
 documentation: []
 blog_posts: []

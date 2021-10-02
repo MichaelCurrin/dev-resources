@@ -8,10 +8,10 @@ layout: page
     {% include quote.html message=page.byline %}
 {% endif %}
 
-{% if page.wikipedia-excerpt and page.wikipedia-excerpt != '' %}
+{% if page.wikipedia_excerpt and page.wikipedia_excerpt != '' %}
     <span>Wikipedia excerpt: </span>
 
-    {% include quote.html message=page.wikipedia-excerpt %}
+    {% include quote.html message=page.wikipedia_excerpt %}
 {% endif %}
 
 {% if page.key_links %}

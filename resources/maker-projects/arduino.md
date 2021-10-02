@@ -40,7 +40,7 @@ link_sections:
     description: ''
 - title: LCDs
   links:
-  
+
   - title: Character LCD tutoria
     url: https://www.makerguides.com/character-i2c-lcd-arduino-tutorial/
     description: LCD methods like .blink and .home and custom characters
@@ -63,7 +63,7 @@ link_sections:
   - title: LCD scrolling text tutorial
     url: https://steemit.com/utopian-io/@pakganern/iic-lcd-scrolling-text-with-arduino-tutorial
 
-    
+
 - title: NodeMCU
   links:
   - title: NodeMCU homepage
@@ -104,7 +104,7 @@ links:
 logo: ''
 description: ''
 byline: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 documentation:
 - url: https://www.arduino.cc/reference/en/
   description: Built-in functions, variables, and structure keywords

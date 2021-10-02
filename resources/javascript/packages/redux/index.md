@@ -3,7 +3,7 @@ title: Redux
 logo: ''
 description: ''
 byline: " Predictable state container for JavaScript apps "
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 key_links:
   homepage: https://redux.js.org/
   docs: ''

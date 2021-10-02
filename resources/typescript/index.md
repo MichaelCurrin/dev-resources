@@ -24,7 +24,7 @@ key_links:
 links:
 - title: Download
   url: https://www.typescriptlang.org/download
-  description: 
+  description:
 - title: TypeScript Cheatsheet
   url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/typescript/
   description: On my Dev Cheatsheets site
@@ -54,7 +54,7 @@ tutorials:
   - title: TypeScript
     url: https://www.tutorialsteacher.com/typescript
     description: on Tutorials Teacher
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 blog_posts: []
 playgrounds: []
 link_sections: []

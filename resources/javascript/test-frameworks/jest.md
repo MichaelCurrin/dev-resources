@@ -3,7 +3,7 @@ title: Jest
 logo: ''
 description: 'Simple and fast'
 byline: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 key_links:
   homepage: https://jestjs.io/
   docs: ''

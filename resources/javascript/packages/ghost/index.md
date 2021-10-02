@@ -19,7 +19,7 @@ documentation:
   title: Ghost CLI
 logo: ''
 description: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 links:
 - title: Ghost on the Jamstack site
   url: https://jamstack.org/headless-cms/ghost/

@@ -6,7 +6,7 @@ byline: 'Go is an open source programming language that makes it easy to build s
   reliable, and efficient software
 
 '
-wikipedia-excerpt: |
+wikipedia_excerpt: |
   Go is a statically typed, compiled programming language designed
   at Google ... Go is syntactically similar to C, but with memory safety, garbage
   collection, structural typing, and CSP-style concurrency.
@@ -23,7 +23,7 @@ key_links:
   rosetta_code: http://rosettacode.org/wiki/Category:Go
   pkg_registry: https://pkg.go.dev/
   pkg_url: ''
-  
+
 tutorials:
 - title: Getting started
   url: https://golang.org/doc/tutorial/getting-started
@@ -90,7 +90,7 @@ playgrounds:
 - title: Tutorials Point Go playground
   url: https://www.tutorialspoint.com/execute_golang_online.php
   description: ''
-  
+
 link_sections:
 - title: Releases
   links:
@@ -171,7 +171,7 @@ link_sections:
   - title: Gophercises
     url: https://gophercises.com/
     description: FREE coding exercises for budding gophers
- 
+
 - title: Project template repos
   links:
   - title: golang-templates/seed

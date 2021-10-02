@@ -2,7 +2,7 @@
 title: Deno
 logo: deno
 description: A secure runtime for JavaScript and TypeScript
-wikipedia-excerpt: |+
+wikipedia_excerpt: |+
   Deno is a **runtime** for JavaScript and TypeScript that is based on the V8 JavaScript engine and the Rust programming language.
 
   It was created by Ryan Dahl, original creator of Node.js, and is focused on productivity. It was announced by Dahl in 2018 during his talk "10 Things I Regret About Node.js".
@@ -52,7 +52,7 @@ link_sections:
 
 ### Migrating from Node to Deno
 
-- Deno replaces Node as JavaScript runner and bundler. 
+- Deno replaces Node as JavaScript runner and bundler.
 - No need for `package.json`.
 - Deno handles TypeScript - no external dependency needed.
 - Deno can be used to format and lint code - no external dependencies needed.

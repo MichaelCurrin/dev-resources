@@ -32,7 +32,7 @@ link_sections:
     url: https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services
     description: ''
 description: Cloud Computing Services
-wikipedia-excerpt: "Amazon Web Services is a subsidiary of Amazon providing on-demand
+wikipedia_excerpt: "Amazon Web Services is a subsidiary of Amazon providing on-demand
   cloud computing platforms and APIs to individuals, companies, and governments, on
   a metered pay-as-you-go basis. \n\nThese cloud computing web services provide a
   variety of basic abstract technical infrastructure and distributed computing building

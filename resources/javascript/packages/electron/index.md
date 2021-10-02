@@ -27,7 +27,7 @@ link_sections:
       and links to their GitHub source code
 logo: ''
 description: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 tutorials: []
 blog_posts: []
 playgrounds: []

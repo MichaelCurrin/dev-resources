@@ -28,7 +28,7 @@ playgrounds:
   url: https://svelte.dev/repl/hello-world?
   description: Playground on the Svelte website
 logo: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 blog_posts: []
 link_sections: []
 

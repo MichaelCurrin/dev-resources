@@ -3,7 +3,7 @@ title: Puppeteer
 logo: ''
 description: ''
 byline: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 key_links:
   homepage: https://pptr.dev/
   docs: https://developers.google.com/web/tools/puppeteer
@@ -17,14 +17,14 @@ key_links:
   tutorials_point: ''
   rosetta_code: ''
 links:
-  - title: Examples 
+  - title: Examples
     url: https://developers.google.com/web/tools/puppeteer/examples
 tutorials:
 - title: Using Jest with Puppeteer
   url: https://jestjs.io/docs/en/puppeteer
   description: From the docs
-blog_posts: 
-- title: Mimicking human testers - automated testing with Puppeteer 
+blog_posts:
+- title: Mimicking human testers - automated testing with Puppeteer
   url: https://hackernoon.com/mimicking-human-testers-automated-testing-with-puppeteer
 
 playgrounds: []

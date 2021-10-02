@@ -3,7 +3,7 @@ title: http
 logo: ''
 description: ''
 byline: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 key_links:
   homepage: ''
   docs: ''

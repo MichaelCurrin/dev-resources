@@ -3,7 +3,7 @@ title: Recommended
 logo: ''
 description: ''
 byline: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 key_links:
   homepage: https://marketplace.visualstudio.com/
   docs: ''

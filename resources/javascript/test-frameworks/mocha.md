@@ -21,7 +21,7 @@ Links:
 logo: ''
 description: 'Flexible - make your own choices'
 byline: ''
-wikipedia-excerpt: ''
+wikipedia_excerpt: ''
 tutorials: []
 blog_posts: []
 playgrounds: []

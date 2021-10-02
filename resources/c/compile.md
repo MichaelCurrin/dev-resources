@@ -34,7 +34,7 @@ Options:
   ...
 ```
 
-Using the script [hello.c](hello.c), we create an executable named `hello` (no extension) using the `-o` flag.
+Using the script `hello.c`, we create an executable named `hello` (no extension) using the `-o` flag.
 
 ```bash
 $ cc -o hello hello.c

@@ -1,10 +1,21 @@
 ---
 title: C
 
+wikipedia_excerpt: |
+  C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, while a static type system prevents unintended operations
+
+key_links:
+  wikipedia: https://en.wikipedia.org/wiki/C_(programming_language)
 links:
   - title: The Development of the C Language
     url: https://www.bell-labs.com/usr/dmr/www/chist.html
     description: Article on the Bell Labs site.
+
+tutorials:
+  - title: What is C Programming Language? Basics, Introduction and History
+    url: https://www.guru99.com/c-programming-language.html
+  - title: C language introduction
+    url: https://www.geeksforgeeks.org/c-language-set-1-introduction/
 ---
 
 
@@ -32,14 +43,6 @@ links:
     - `.h` - header file. It may contain constants, function prototypes and external variable definitions.
     - `.o` - compiled object file.
     - `.so` - shared object file.
-
-
-### Resources
-
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language)) on Wikipedia.
-    - > C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, while a static type system prevents unintended operations
-- [What is C Programming Language? Basics, Introduction and History](https://www.guru99.com/c-programming-language.html)
-- [C language introduction](https://www.geeksforgeeks.org/c-language-set-1-introduction/)
 
 
 ### Implementation

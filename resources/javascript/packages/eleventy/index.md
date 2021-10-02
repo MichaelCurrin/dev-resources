@@ -18,6 +18,8 @@ tutorials:
     url: https://www.11ty.dev/docs/tutorials/
 ---
 
+{% raw %}
+
 ## About
 
 Also known as "11ty".
@@ -48,7 +50,6 @@ See [Quotes include paths](https://www.11ty.dev/docs/languages/liquid/#quoted-in
 
 Quoted includes. If `dynamicPartials: true` is set then looks for `_includes/user.*`, otherwise looks for exact match of `'user'`.
 
-{% raw %}
 
 ```liquid
 {% include 'user' %}
@@ -60,7 +61,6 @@ Non-quoted includes. Looks for `_includes/user.*`.
 {% include user %}
 ```
 
-{% endraw %}
 
 When I was stuck with errors, two things fixed it for me.
 
@@ -94,3 +94,7 @@ Or keep quotes and set dynamic partials to be `true`.
       };
     };
     ```
+
+
+
+{% endraw %}

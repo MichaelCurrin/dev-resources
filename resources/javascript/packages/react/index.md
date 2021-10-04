@@ -17,17 +17,19 @@ tutorials:
 
 ### Quickstart repos
 
-* [![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart)
-  * The traditional Node-based app.
-  * Based on the Create React App CLI output.
-  * CI deploy flow with GitHub Actions.
-  * Hosted with GitHub Pages.
-* [![MichaelCurrin - react-ssr-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-ssr-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-ssr-quickstart)
-  * A React app using Node and Express for server-side rendering.
-* [![MichaelCurrin - react-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-frontend-quickstart)
-  * A React app without Node or a build step.
-* [![MichaelCurrin - react-deno-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-deno-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-deno-quickstart)
-  * A React app built using Deno, rather than Node. No `package.json` - imports are done by CDN URL. No need for Webpack / Babel for JSX or a TypeScript compiler. All that and more is handled by Deno.
+- [![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart)
+    * The traditional Node-based app.
+    * Based on the Create React App CLI output.
+    * CI deploy flow with GitHub Actions.
+    * Hosted with GitHub Pages.
+- [![MichaelCurrin - react-ssr-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-ssr-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-ssr-quickstart)
+    * A React app using Node and Express for server-side rendering.
+- [![MichaelCurrin - react-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-frontend-quickstart)
+    * A React app without Node or a build step.
+- [![MichaelCurrin - react-deno-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-deno-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-deno-quickstart)
+    * A React app built using Deno, rather than Node. No `package.json` - imports are done by CDN URL. No need for Webpack / Babel for JSX or a TypeScript compiler. All that and more is handled by Deno.
+* [![MichaelCurrin - vite-react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vite-react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vite-react-quickstart)
+    - Using Vite as a build tool instead of Webpack.
 
 ### Related topics
 

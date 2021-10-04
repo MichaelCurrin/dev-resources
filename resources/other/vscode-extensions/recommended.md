@@ -52,6 +52,13 @@ link_sections:
       - title: Git Prefix
         url: https://github.com/srmeyers/git-prefix
         description:
+        
+   - title: Vue-related
+     links:
+       - title: Vetur
+         url: https://marketplace.visualstudio.com/items?itemName=octref.vetur
+       - title: 'Vue Language Features (Volar)'
+         url: https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar
 ---
 
 Tip:

@@ -9,6 +9,9 @@ key_links:
 
 Note the docs say this only works in the browser and not in Node (server-side).
 
+See also `node-fetch`.
+
+
 ## Installation
 
 ```sh
@@ -16,6 +19,7 @@ $ npm install whatwg-fetch
 ```
 
 ## Usage
+
 ```javascript
 import 'whatwg-fetch'
 

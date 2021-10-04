@@ -8,6 +8,14 @@ key_links:
 
 > Generates markdown API documentation from jsdoc annotated source code. Useful for injecting API docs into project README files.
 
+
+## Installation
+
+```sh
+$ npm i -D jsdoc-to-markdown
+```
+
+
 ## Usage
 
 ```sh

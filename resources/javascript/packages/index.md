@@ -38,3 +38,9 @@ For building UIs, see sections:
 [Svelte]: {{ site.baseurl }}{% link resources/javascript/packages/svelte/index.md %}
 
 
+### Related sections
+
+- [TypeScript][]
+
+[TypeScript]: {{ site.baseurl }}{% link resources/typescript/index.md %}
+

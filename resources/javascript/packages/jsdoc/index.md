@@ -24,6 +24,12 @@ If you have it installed in your project or globally, or even if not installed a
 $ npx jsdoc foo.js
 ```
 
+Or if installed globally.
+
+```sh
+$ jsdoc foo.js
+```
+
 By default, output goes to `out`.
 
 Override with `-d OUT_DIR`.

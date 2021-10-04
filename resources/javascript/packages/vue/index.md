@@ -26,9 +26,11 @@ Vue is similar to React by easier to learn. It uses `.vue` template files so you
   
 - Vue 2 repo: [vuejs/vue](https://github.com/vuejs/vue)
 
+
 ### Tutorials
 
-- [Vue Mastery](https://www.vuemastery.com/courses) courses.
+- [Vue Mastery](https://www.vuemastery.com/courses) website's courses.
+- [Vue Master](https://www.youtube.com/vue-mastery) on YouTube.
 
 ### My projects
 
@@ -44,6 +46,8 @@ See my template projects:
 - [![MichaelCurrin - vue-typescript-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-typescript-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-typescript-quickstart)
 - [![MichaelCurrin - vue-router-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-router-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-router-quickstart)
 - [![MichaelCurrin - vue-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-frontend-quickstart) - no build step or CLI needed.
+- [![MichaelCurrin - vite-vue-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vite-vue-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vite-vue-quickstart) - using Vite instead of Vue CLI as a build tool.
+
 
 ### Vue documentation
 

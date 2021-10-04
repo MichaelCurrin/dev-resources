@@ -59,8 +59,19 @@ link_sections:
          url: https://marketplace.visualstudio.com/items?itemName=octref.vetur
        - title: 'Vue Language Features (Volar)'
          url: https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar
+         description: Get TypeScript support for `.vue` files by running `Volar: Switch TS Plugin on/off`
 ---
 
-Tip:
+### Tip
 
 You can also find _any_ extension in the marketplace and find a link to the GH repo. Look at the code yourself and use it as a reference or fork a repo.
+
+
+### Add recommendation to repo
+
+- `.vscode/extensions.json`
+  ```json
+  {
+    "recommendations": ["johnsoncodehk.volar"]
+  }
+  ```

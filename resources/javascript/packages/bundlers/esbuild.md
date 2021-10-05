@@ -23,7 +23,7 @@ links:
     url: https://github.com/MichaelCurrin/javascript-bundling-quickstarts/tree/master/quickstarts/esbuild
 ---
 
-ESBuild is made with Go and uses JavaScript internally.
+ES Build is made with Go and uses JavaScript internally.
 
 It is distributed as a pre-compiled binary available on NPM so you can download it from there under a few package names depending on your OS.
 

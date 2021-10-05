@@ -24,21 +24,20 @@ tutorials:
     url: https://www.youtube.com/watch?v=LQQ3CR2JTX8
 ---
 
-### What is Vite?
+## What is Vite?
 
 Vite, pronouned "veet", is the French for "quick".
 
 It's modern JS web development tool that works with plain JS and frameworks like Vue and React.
 
-
-### Features
+## Features
 
 - Uses ESBuild internally for speed, which is built in Go and handles bundling about 30 times faster than using Node.
 - It handles TypeScript code by converting it to plain JS without you having to do an in between step. You still need to do you typechecks separately though.
 - Bundles your installed NPM packages.
 - Bundles your CSS from imports - these get added to your `index.html` at build time. No need for installing and using style loader plugins like in Webpack, which would add CSS to your JS and then add them to the page once JS is loaded.
 
-### Comparison with Webpack
+## Comparison with Webpack
 
 From [article](https://harlanzw.com/blog/how-the-heck-does-vite-work/)
 

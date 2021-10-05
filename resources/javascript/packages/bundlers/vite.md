@@ -2,22 +2,22 @@
 title: Vite
 
 byline: |
-   Next generation frontend tooling. It's fast! 
+   Next generation frontend tooling. It's fast!
 key_links:
   homepage: https://vitejs.dev/
   repo_nwo: vitejs/vite
-  
+
 links:
   - title: Vite Quickstart
     url: https://github.com/MichaelCurrin/vite-quickstart
-    
+
 tutorials:
   - title: Learn Vite with Evan You
     url: https://www.youtube.com/watch?v=DkGV5F4XnfQ
     description: A short video on YouTube that got me into Vite
   - title: 'A Vite demo | Evan You'
     url: https://www.youtube.com/watch?v=Pgsges6rw0o
-    
+
   - title: 'How You Can Speed Up Your Development With Vite 2.0 | Create Fast Vue 3 apps with Vite 2.0 Tutorial'
     url: https://www.youtube.com/watch?v=SGIAwj3wp-o
   - title: Vite 2.0 Crash Course | Super Fast Build Tool for JavaScript, React, Vue, Svelte, & Lit (2021)
@@ -56,7 +56,7 @@ But, Vite has some core improvements on developer experience:
 
 Vite also works as a faster alternative to Vue CLI.
 
-[Webpack]: {{ site.baseurl }}{% link resources/javascript/packages/vite/index.md %}
+[Webpack]: {{ site.baseurl }}{% link resources/javascript/packages/bundlers/webpack/index.md %}
 
 ### Scaffold new project
 

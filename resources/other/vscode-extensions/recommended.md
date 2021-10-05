@@ -18,6 +18,7 @@ key_links:
 tutorials: []
 blog_posts: []
 playgrounds: []
+
 link_sections:
   - title: Container-related
     links:
@@ -38,6 +39,7 @@ link_sections:
     - title: Bridge to Kubernetes
       description: Rapid Kubernetes development for teams
       url: https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro
+      
   - title: Git-related
     links:
       - title: MichaelCurrin/auto-commit-msg
@@ -46,20 +48,22 @@ link_sections:
           > Generate descriptive commit messages based on files to be committed without touching your keyboard
 
           I wrote this as my first extension. It is still work in progress but it is working and has a nice flow of tests and installation. It was based heavily on the two extensions listed next.
-      - title: Git Semantic Commit
-        url: https://github.com/nitayneeman/vscode-git-semantic-commit
-        description:
-      - title: Git Prefix
-        url: https://github.com/srmeyers/git-prefix
-        description:
-        
-   - title: Vue-related
-     links:
-       - title: Vetur
-         url: https://marketplace.visualstudio.com/items?itemName=octref.vetur
-       - title: 'Vue Language Features (Volar)'
-         url: https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar
-         description: Get TypeScript support for `.vue` files by running `Volar: Switch TS Plugin on/off`
+    - title: Git Semantic Commit
+      url: https://github.com/nitayneeman/vscode-git-semantic-commit
+      description:
+    - title: Git Prefix
+      url: https://github.com/srmeyers/git-prefix
+      description:
+
+ - title: Vue-related
+   links:
+     - title: Vetur
+       url: https://marketplace.visualstudio.com/items?itemName=octref.vetur
+     - title: 'Vue Language Features (Volar)'
+       url: https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar
+       description: |
+         Get TypeScript support for `.vue` files by running `Volar: Switch TS Plugin on/off`
+
 ---
 
 ### Tip

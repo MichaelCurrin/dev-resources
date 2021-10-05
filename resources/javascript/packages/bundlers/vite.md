@@ -56,7 +56,7 @@ But, Vite has some core improvements on developer experience:
 
 Vite also works as a faster alternative to Vue CLI.
 
-[Webpack]: {{ site.baseurl }}{% link resources/javascript/packages/bundlers/webpack/index.md %}
+[Webpack]: {{ site.baseurl }}{% link resources/javascript/packages/webpack/index.md %}
 
 ### Scaffold new project
 

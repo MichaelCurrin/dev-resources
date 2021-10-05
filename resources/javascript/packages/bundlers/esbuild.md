@@ -6,7 +6,7 @@ byline: An extremely fast JavaScript bundler
 key_links:
   homepage: https://esbuild.github.io/
   repo_nwo: evanw/esbuild
-  
+  pkg_url: https://www.npmjs.com/package/esbuild
 description: |
   Claims to be 10-100x faster than Parcel, Webpack and Rollup + Terser.
 

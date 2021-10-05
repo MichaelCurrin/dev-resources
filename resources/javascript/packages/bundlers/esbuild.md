@@ -19,7 +19,7 @@ links:
   - title: Dev Cheatsheet
     url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/esbuild/
     
-  - title: ESBuild quickstart
+  - title: ES Build quickstart
     url: https://github.com/MichaelCurrin/javascript-bundling-quickstarts/tree/master/quickstarts/esbuild
 ---
 

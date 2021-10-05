@@ -39,7 +39,7 @@ link_sections:
     - title: Bridge to Kubernetes
       description: Rapid Kubernetes development for teams
       url: https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro
-      
+
   - title: Git-related
     links:
       - title: MichaelCurrin/auto-commit-msg
@@ -48,12 +48,12 @@ link_sections:
           > Generate descriptive commit messages based on files to be committed without touching your keyboard
 
           I wrote this as my first extension. It is still work in progress but it is working and has a nice flow of tests and installation. It was based heavily on the two extensions listed next.
-    - title: Git Semantic Commit
-      url: https://github.com/nitayneeman/vscode-git-semantic-commit
-      description:
-    - title: Git Prefix
-      url: https://github.com/srmeyers/git-prefix
-      description:
+      - title: Git Semantic Commit
+        url: https://github.com/nitayneeman/vscode-git-semantic-commit
+        description:
+      - title: Git Prefix
+        url: https://github.com/srmeyers/git-prefix
+        description:
 
  - title: Vue-related
    links:

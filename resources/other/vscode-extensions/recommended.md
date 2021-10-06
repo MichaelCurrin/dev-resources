@@ -1,5 +1,5 @@
 ---
-title: Recommended
+title: Recommended extensions
 logo: ''
 description: ''
 byline: ''

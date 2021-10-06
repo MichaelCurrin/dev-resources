@@ -23,7 +23,7 @@ links:
 See also
 
 - [VS Code extensions][] resources.
-- [VS Code][] cheatsheet
+- [VS Code][] in Dev Cheatsheets
 
 [VS Code extensions]: {{ site.baseurl }}{% link resources/other/vscode-extensions/index.md %}
 [VS Code]: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/other/vscode.html

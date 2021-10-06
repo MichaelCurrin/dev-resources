@@ -4,6 +4,8 @@ description: External links around developing VS Code extensions
 ---
 
 
-See also [VS Code][] cheatsheet.
+### Related
+
+- [VS Code][] resources.
 
 [VS Code]: {{ site.baseurl }}{% link resources/other/vscode.md %}

@@ -3,8 +3,10 @@
 
 ## Extension docs
 
-- [Extension overview](https://code.visualstudio.com/api) in the docs
-- [Your First Extension](https://code.visualstudio.com/api/get-started/your-first-extension) in the docs
+- [Extension overview](https://code.visualstudio.com/api) 
+- [Your First Extension](https://code.visualstudio.com/api/get-started/your-first-extension) 
+- [Guides and samples](https://code.visualstudio.com/api/extension-guides/overview#guides-samples)
+
 
 ## Sample projects
 

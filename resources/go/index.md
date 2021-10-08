@@ -25,6 +25,8 @@ key_links:
   pkg_url: ''
 
 tutorials:
+- title: Go in 100 seconds
+  url: https://youtu.be/446E-r0rXHI
 - title: Getting started
   url: https://golang.org/doc/tutorial/getting-started
   description: On the Go docs
@@ -244,3 +246,26 @@ From [go.dev](https://go.dev/):
 - CLI tools
 - Web development
 - DevOps and Site Reliability
+
+
+#### Summary 
+
+- Statically compiled typed language. 
+- Outputs binary executables.
+- Created in 2007 at Google by authors such as Ken Thompson who made C.
+- Go has been described as C for the 21st century.
+- It had speed as a compiled language, like C or Rust.
+- It also improves on older languages with faster compile times.
+
+
+### Types
+
+It is efficient in running and also the code - types can often be inferred so your code isn't verbose.
+
+Both are valid in Go:
+
+```go
+var string foo = "abc"
+
+foo := "abc"
+```

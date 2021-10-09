@@ -9,7 +9,8 @@ documentation:
     url: https://code.visualstudio.com/api/get-started/your-first-extension)
   - title: Activation events
     url: https://code.visualstudio.com/api/references/activation-events
-
+  - title: VS Code API
+    url: https://code.visualstudio.com/api/references/vscode-api
 ---
 
 

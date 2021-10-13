@@ -14,6 +14,8 @@ links:
     description: https://github.com/auth0
   
 tutorials:
+  - title: Quickstarts
+    url: https://auth0.com/docs/quickstarts
   - title: React login
     url: https://auth0.com/docs/quickstart/spa/react
 ---

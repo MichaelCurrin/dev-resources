@@ -1,6 +1,26 @@
-# Themes
+---
+title: Themes
 
+documentation:
+  - title: Jekyll Themes
+    url: https://jekyllrb.com/docs/themes/
+link_sections:
+  - title: Collections of themes
+    links:
+      - title: jamstackthemes.dev
+        url: https://jamstackthemes.dev
+      - title: jekyllthemes.io
+        url: https://jekyllthemes.io
+      - title: jekyllthemes.io
+        url: https://jekyllthemes.io
+      - title: jekyll-themes.com
+        url: https://jekyll-themes.com       
+      - title: jekyllthemes.org/
+        url: http://jekyllthemes.org/
+  - title: Documentation themes
+    links:
+      - title: pmarsceill.github.io/just-the-docs/
+        url: https://pmarsceill.github.io/just-the-docs/
+  
+---
 
-## Documentation
-
-- [pmarsceill.github.io/just-the-docs/](https://pmarsceill.github.io/just-the-docs/) [just-the-docs](https://rubygems.org/gems/just-the-docs)

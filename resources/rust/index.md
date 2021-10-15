@@ -2,6 +2,9 @@
 title: Rust
 logo: rust
 
+wikipedia_excerpt: |
+  Rust is a multi-paradigm, high-level, general-purpose programming language designed for performance and safety, especially safe concurrency
+
 byline: |
    A language empowering everyone to build reliable and efficient software. 
 
@@ -9,7 +12,7 @@ key_links:
   homepage: https://www.rust-lang.org/
   pkg_registry: https://crates.io/
   rosetta_code: https://rosettacode.org/wiki/Category:Rust
-
+  wikipedia: https://en.m.wikipedia.org/wiki/Rust_(programming_language)
 tutorials:
   - title: Rust in 100 seconds
     url: https://youtu.be/5C_HPTJg5ek

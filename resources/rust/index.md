@@ -9,9 +9,15 @@ key_links:
   homepage: https://www.rust-lang.org/
   pkg_registry: https://crates.io/
   rosetta_code: https://rosettacode.org/wiki/Category:Rust
+
+tutorials:
+  - title: Rust in 100 seconds
+    url: https://youtu.be/5C_HPTJg5ek
 ---
 
 See also info in [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Rust/README.md) guide.
+
+### Links
 
 - [Installation](https://www.rust-lang.org/tools/install) doc.
 - Releases

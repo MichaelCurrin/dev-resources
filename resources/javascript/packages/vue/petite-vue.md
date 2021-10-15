@@ -10,6 +10,7 @@ key_links:
 
 Intended for adding a sprinkling of Vue to a page without all the overhead but loading only some of the Vue code.
 
+See also Preact as a reduced form of React.
 
 ## Example
 

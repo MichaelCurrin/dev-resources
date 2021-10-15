@@ -20,6 +20,8 @@ tutorials:
 
 See also info in [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Rust/README.md) guide.
 
+> Rust is intended to be a language for highly concurrent and highly safe systems,[50] and programming in the large, that is, creating and maintaining boundaries that preserve large-system integrity. (Wikipedia)
+
 ### Links
 
 - [Installation](https://www.rust-lang.org/tools/install) doc.

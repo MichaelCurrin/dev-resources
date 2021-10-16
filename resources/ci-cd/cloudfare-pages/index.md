@@ -8,6 +8,11 @@ key_links:
   docs: https://developers.cloudflare.com/pages/
 ---
 
+See also [CloudFare][].
+
+[CloudFare]: {% link resources/tools/cloudfare.md %}
+
+
 ### What is it?
 
 CloudFare Pages service is CD/CD - it deploys and hosts your static site. Such as one build with Jekyll (static site) or Node + React (as a Single-Page Application).

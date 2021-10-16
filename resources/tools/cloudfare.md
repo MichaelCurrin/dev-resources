@@ -1,5 +1,5 @@
 ---
-title: Cloudfare
+title: CloudFare
 
 key_links:
   homepage: https://cloudflare.com

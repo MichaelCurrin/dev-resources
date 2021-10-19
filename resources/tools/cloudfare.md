@@ -10,6 +10,8 @@ links:
 
 ---
 
-See also [CloudFare Pages][].
+## Related
 
-[CloudFare Pages]: {% link resources/ci-cd/cloudflare-pages/index.md %}
+- [CloudFare Pages][] resources.
+
+[CloudFare Pages]: {{ site.baseurl}}{% link resources/ci-cd/cloudfare-pages/index.md %}

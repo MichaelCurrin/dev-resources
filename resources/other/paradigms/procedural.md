@@ -17,7 +17,7 @@ Derived from structured programming, based on the concept of modular programming
 - Sequence
 - Selection
 - Iteration
-- Modularization.
+- Modularization
 
 
 ## Procedural languages

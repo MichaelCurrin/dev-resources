@@ -1,4 +1,11 @@
-# Paradigms
+---
+title: Paradigms
+
+links:
+  - title: Programming language
+    url: https://simple.wikipedia.org/wiki/Programming_language
+    description: Page on the Simple English Wikipedia - see the _Types of programming languages_ section
+---
 
 In this section of pages, I cover definitions of paradigms and links to learn more. For some areas I also cover languages that focus on enable that paradigm.
 
@@ -9,7 +16,7 @@ Paradigms _constrain_ what you can do with a language and gives it focus. The ea
 
 ### Overview
 
-Based on [Comparison of Programming Paradigms][] on Wikipedia, which uses the "approaches" and "paradigms" groupings.
+The info below is based on [Comparison of Programming Paradigms][] page on Wikipedia, which uses the "approaches" and "paradigms" groupings.
 
 #### Approaches
 

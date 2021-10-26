@@ -5,7 +5,7 @@ key_links:
   homepage: https://vercel.com
   
 documentation:
-  - title: Edge Functions
+  - title: Functions
     url: https://vercel.com/docs/concepts/functions/introduction
 ---
 

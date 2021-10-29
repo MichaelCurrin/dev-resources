@@ -14,7 +14,7 @@ Here are some changes applied:
 - Remove whitespace.
 - Strips comments.
 - Combines files.
-- Tree shaking - remove unused code when importing a library.  
+- Tree shaking - remove unused code when importing a library.
 
 
 ## Browser tools
@@ -37,7 +37,7 @@ Easy minification tools for those without build tool experience or for quick res
 - [Webpack production guide](https://webpack.js.org/guides/production/)
     - > webpack v4+ will minify your code by default in production mode.
     - Uses the [TerserPlugin](https://webpack.js.org/plugins/terser-webpack-plugin/) by default
-    
+
 ### Terser toolkit
 
 - [terser.org](https://terser.org/)
@@ -50,14 +50,14 @@ Babel is a transpiler and has a `babel-minify` tool available to extend it. It c
 
 - [babel-minify](https://babeljs.io/docs/en/babel-minify) on Babel homepage
 - [babel/minify](https://github.com/babel/minify) repo
-    >  ✂️ An ES6+ aware minifier based on the Babel toolchain (beta) 
+    >  ✂️ An ES6+ aware minifier based on the Babel toolchain (beta)
 
 ### UglifierJS package
 
 - [lisperator.net/uglifyjs/](http://lisperator.net/uglifyjs/)
-    >  UglifyJS is a JavaScript compressor/minifier written in JavaScript. It also contains tools that allow one to automate working with JavaScript code: 
+    >  UglifyJS is a JavaScript compressor/minifier written in JavaScript. It also contains tools that allow one to automate working with JavaScript code:
 - [mishoo/UglifyJS](https://github.com/mishoo/UglifyJS) repo
-    >  JavaScript parser / mangler / compressor / beautifier toolkit 
+    >  JavaScript parser / mangler / compressor / beautifier toolkit
 
 ### ESBuild package
 
@@ -73,4 +73,4 @@ Babel is a transpiler and has a `babel-minify` tool available to extend it. It c
 - Feature summary
     - > Transcompile - swc is a typescript / javascript compiler. It consumes a javascript or typescript file which uses recently added features like async-await and emits javascript code which can be executed on old browsers.
     - > Super fast - It's 20x faster than babel on single thread, and 70x faster on 4 core benchmark
-    - > Bundling - spack is a super-fast javascript bundler with tree shaking
+    - > Bundling - a super-fast javascript bundler with tree shaking

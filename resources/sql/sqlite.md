@@ -1,10 +1,16 @@
-# SQLite
+---
+title: SQLite
+key_links:
+  homepage: https://sqlite.org/
+  docs: https://sqlite.org/docs.html
 
-On the official SQLite site:
-
-- [Home](https://sqlite.org/)
-- [Docs](https://sqlite.org/docs.html)
-- [CLI](https://sqlite.org/cli.html) on the SQLite homepage
-    - Including how change output formats like JSON and HTML, column, markdown, table, Excel and CSV.
-- [JSON1](https://www.sqlite.org/json1.html) - loadable plugin to manage JSON data stored in the DB.
-- [Core functions](https://www.sqlite.org/lang_corefunc.html)
+documentation:
+  - title: CLI
+    url: https://sqlite.org/cli.html
+    description: On the SQLite homepage. Including how change output formats like JSON and HTML, column, markdown, table, Excel and CSV.
+  - title: JSON1
+    url: https://www.sqlite.org/json1.html
+    description: Loadable plugin to manage JSON data stored in the DB.
+  - title: Core functions
+    url: https://www.sqlite.org/lang_corefunc.html
+---

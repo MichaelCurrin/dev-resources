@@ -33,6 +33,13 @@ links:
   description: Guide on Learn to Code.
 - title: TypeScript in 100 seconds
   url: https://youtu.be/zQnBQ4tB3ZA
+- title: React and Webpack
+  url: https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+  description: in TS docs.
+
+- title: TypeScript and Webpack
+  url: https://webpack.js.org/guides/typescript/
+  description: on the Webpack docs.
 documentation:
 - title: Basic types
   url: https://www.typescriptlang.org/docs/handbook/basic-types.html
@@ -50,10 +57,16 @@ documentation:
   url: https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html
   description: |
     `/// <reference path="..." />`
+- title: CLI options
+  url: https://www.typescriptlang.org/docs/handbook/compiler-options.html
+  description: in TS docs
+
 tutorials:
   - title: TypeScript
     url: https://www.tutorialsteacher.com/typescript
     description: on Tutorials Teacher
+  - title: TypeScript in 5 minutes
+    url: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 wikipedia_excerpt: ''
 blog_posts: []
 playgrounds: []

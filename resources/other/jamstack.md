@@ -36,40 +36,32 @@ The "JAM" in JAMStack is for:
 
 ### JavaScript-based generators
 
-#### Vue-based
+#### Vue-based generators
 
 See also [Vue resources][].
 
-- Nuxt
-    - [Nuxt resources][]
-- VuePress
-     - Like "WordPress". Documentation site generator.
-     - [VuePress resources][]
-- Vuetify
-    - [Vuetify resources][]
-- PrimeVue
-    - [PrimeVue resources][]
-- Docsify
-    - [Docsify homepage](https://docsify.js.org/#/)
-    - [Docsify tutorial](https://michaelcurrin.github.io/docsify-js-tutorial/#/)
-- Eleventy or "11ty"
-    - [Eleventy resources][]
+- [Nuxt][]
+- [VuePress][]
+- [Vuetify][]
+- [PrimeVue][]
+- [Docsify][]
+- [Eleventy][]
 
 #### React-based generators
 
 - [Gatsby][]
-- Next
-    - [Next resources][]
+- [Next][]
 
-[Gatsby]:            {{ site.baseurl }}{% link resources/javascript/packages/gatsby/index.md %}
-[Eleventy resources]: {{ site.baseurl }}{% link resources/javascript/packages/eleventy/index.md %}
-[PrimeVue resources]: {{ site.baseurl }}{% link resources/javascript/packages/primevue/index.md %}
-[Vuetify resources]:  {{ site.baseurl }}{% link resources/javascript/packages/vue/vuetify.md %}
-[Next resources]:     {{ site.baseurl }}{% link resources/javascript/packages/next/index.md %}
-[Nuxt resources]:     {{ site.baseurl }}{% link resources/javascript/packages/nuxt/index.md %}
-[Jekyll resources]:   {{ site.baseurl }}{% link resources/jekyll/index.md %}
-[Vue resources]:      {{ site.baseurl }}{% link resources/javascript/packages/vue/index.md %}
-[VuePress resources]: {{ site.baseurl }}{% link resources/javascript/packages/vuepress/index.md %}
+
+[Docsify]:  {{ site.baseurl }}{% link resources/javascript/packages/docsify/index.md %}
+[Gatsby]:   {{ site.baseurl }}{% link resources/javascript/packages/gatsby/index.md %}
+[Eleventy]: {{ site.baseurl }}{% link resources/javascript/packages/eleventy/index.md %}
+[PrimeVue]: {{ site.baseurl }}{% link resources/javascript/packages/primevue/index.md %}
+[Vuetify]:  {{ site.baseurl }}{% link resources/javascript/packages/vue/vuetify.md %}
+[Next]:     {{ site.baseurl }}{% link resources/javascript/packages/next/index.md %}
+[Nuxt]:     {{ site.baseurl }}{% link resources/javascript/packages/nuxt/index.md %}
+[Vue]:      {{ site.baseurl }}{% link resources/javascript/packages/vue/index.md %}
+[VuePress]: {{ site.baseurl }}{% link resources/javascript/packages/vuepress/index.md %}
 
 
 ## Content managers

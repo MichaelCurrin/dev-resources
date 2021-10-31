@@ -24,7 +24,9 @@ The "JAM" in JAMStack is for:
 
 ### Ruby-based generators
 
-- [Jekyll]({{ site.baseurl }}{% link resources/jekyll/index.md %})
+- [Jekyll][]
+
+[Jekyll]: {{ site.baseurl }}{% link resources/jekyll/index.md %}
 
 
 ### JavaScript-based generators
@@ -41,19 +43,12 @@ See also [Vue resources][].
 - Vuetify
     - [Vuetify resources][]
 - PrimeVue
-    - [Homepage](https://www.primefaces.org/primevue/)
-    - > The Ultimate Vue UI Component Library
-    - Integrates with Bootstrap, Material UI, etc. so you don't get stuck with a look. But you can use the components. This is also lower-level than a framework like Nuxt or VuePress - this provides components for other tools rather than being a standalone site generator.
+    - [PrimeVue resources][]
 - Docsify
     - [Docsify homepage](https://docsify.js.org/#/)
     - [Docsify tutorial](https://michaelcurrin.github.io/docsify-js-tutorial/#/)
 - Eleventy or "11ty"
-    - [Homepage](https://www.11ty.dev/)
-        > Eleventy is a simpler static site generator.
-    - [11ty/eleventy](https://github.com/11ty/eleventy/)
-        > A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.
-    - They don't use Vue in their branding but it appears in their `package.json` file.
-    - Eleventy works with multiple template languages.
+    - [Eleventy resources][]
 
 #### React-based generators
 
@@ -64,6 +59,8 @@ See also [Vue resources][].
         > The React Framework for Production
     - [MichaelCurrin/next-quickstart](https://github.com/MichaelCurrin/next-quickstart)
 
+[Eleventy resources]: {{ site.baseurl }}{% link resources/javascript/packages/eleventy/index.md %}
+[PrimeVue resources]: {{ site.baseurl }}{% link resources/javascript/packages/primevue/index.md %}
 [Vuetify resources]:  {{ site.baseurl }}{% link resources/javascript/packages/vue/vuetify.md %}
 [Next resources]:     {{ site.baseurl }}{% link resources/javascript/packages/next/index.md %}
 [Nuxt resources]:     {{ site.baseurl }}{% link resources/javascript/packages/nuxt/index.md %}

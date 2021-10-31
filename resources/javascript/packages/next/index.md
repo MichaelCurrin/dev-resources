@@ -35,7 +35,7 @@ From the homepage:
 
 [Next.js 11](https://nextjs.org/blog/next-11) blog post.
 
-See [Next.js conf](https://nextjs.org/conf) page. There is an annual confernence plus smaller conferences in between.
+See [Next.js conf](https://nextjs.org/conf) page. There is an annual conference plus smaller conferences in between.
 
 
 ### Install

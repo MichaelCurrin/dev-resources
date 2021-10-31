@@ -47,3 +47,11 @@ There are also a ton of posts out there around why you probably **don't** need R
 Also the author of Redux:
 
 > Flux libraries are like glasses: you’ll know when you need them.
+
+
+### What does "redux" mean?
+
+From [Wordnik](https://www.wordnik.com/words/redux).
+
+> - Brought back; returned.
+> - Redone, restored, brought back, or revisited.

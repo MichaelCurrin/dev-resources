@@ -1,8 +1,8 @@
 ---
 title: Eleventy
 
+byline: Eleventy is a simpler static site generator
 description: A JS-based static site generator
-
 
 key_links:
   homepage: https://www.11ty.dev/
@@ -20,7 +20,7 @@ tutorials:
 
 {% raw %}
 
-## About
+### About
 
 Also known as "11ty".
 
@@ -34,17 +34,23 @@ From GitHub:
 
 > A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.
 
+> A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.
 
-## Installation
+They don't use Vue in their branding but it appears in their `package.json` file.
+
+Eleventy works with multiple template languages.
+
+
+### Installation
 
 ```sh
 $ npm install -D @11ty/eleventy
 ```
 
 
-## Notes
+### Notes
 
-### Quoted include paths
+#### Quoted include paths
 
 See [Quotes include paths](https://www.11ty.dev/docs/languages/liquid/#quoted-include-paths) in the Liquid section of the docs.
 

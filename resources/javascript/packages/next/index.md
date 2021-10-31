@@ -18,7 +18,8 @@ links:
     url: https://github.com/vercel/next-learn-starter
   - title: Deploy to Vercel
     url: https://vercel.com/import?filter=next.js
-
+  - title: MichaelCurrin/next-quickstart template repo
+    url: https://github.com/MichaelCurrin/next-quickstart
 ---
 
 ### Static vs server-side rendering
@@ -88,4 +89,3 @@ See all the examples on GitHub - [vercel/next-learn-starter](https://github.com/
 ### Quickstart
 
 - [MichaelCurrin/next-quickstart](https://github.com/MichaelCurrin/next-quickstart)
-

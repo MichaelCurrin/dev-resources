@@ -4,7 +4,6 @@ description: Frameworks for deploying JAMStack sites, across programming languag
 
 key_links:
   homepage: https://jamstack.org/
-
 ---
 
 ## About
@@ -19,7 +18,9 @@ The "JAM" in JAMStack is for:
 
 ### Go-based generators
 
-- [Hugo]({{ site.baseurl }}{% link resources/go/packages/hugo.md %})
+- [Hugo][]
+
+[Hugo]: {{ site.baseurl }}{% link resources/go/packages/hugo.md %}
 
 
 ### Ruby-based generators
@@ -56,8 +57,6 @@ See also [Vue resources][].
     - [Homepage](https://www.gatsbyjs.com/)
 - Next
     - [Next resources][]
-        > The React Framework for Production
-    - [MichaelCurrin/next-quickstart](https://github.com/MichaelCurrin/next-quickstart)
 
 [Eleventy resources]: {{ site.baseurl }}{% link resources/javascript/packages/eleventy/index.md %}
 [PrimeVue resources]: {{ site.baseurl }}{% link resources/javascript/packages/primevue/index.md %}

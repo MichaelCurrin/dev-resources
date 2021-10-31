@@ -10,9 +10,13 @@ key_links:
 
 The "JAM" in JAMStack is for:
 
-- JavaScript
+- [JavaScript][]
 - API
-- Markdown
+- [Markdown][]
+
+[Markdown]: {{ site.baseurl }}{% link resources/markdown/index.md %}
+[JavaScript]: {{ site.baseurl }}{% link resources/javascript/index.md %}
+
 
 ## Generators
 

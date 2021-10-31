@@ -7,7 +7,7 @@ key_links:
 
 ---
 
-## About 
+## About
 
 The "JAM" in JAMStack is for:
 
@@ -15,19 +15,19 @@ The "JAM" in JAMStack is for:
 - API
 - Markdown
 
-## Generators 
+## Generators
 
-### Go-based generators 
+### Go-based generators
 
 - [Hugo]({{ site.baseurl }}{% link resources/go/packages/hugo.md %})
 
 
-### Ruby-based generators 
+### Ruby-based generators
 
 - [Jekyll]({{ site.baseurl }}{% link resources/jekyll/index.md %})
 
 
-### JavaScript-based generators 
+### JavaScript-based generators
 
 #### Vue-based
 
@@ -39,7 +39,7 @@ See also [Vue resources][].
      - Like "WordPress". Documentation site generator.
      - [VuePress resources][]
 - Vuetify
-    - [vuetifyjs.com](https://vuetifyjs.com/) homepage
+    - [Vuetify resources][]
 - PrimeVue
     - [Homepage](https://www.primefaces.org/primevue/)
     - > The Ultimate Vue UI Component Library
@@ -55,7 +55,7 @@ See also [Vue resources][].
     - They don't use Vue in their branding but it appears in their `package.json` file.
     - Eleventy works with multiple template languages.
 
-#### React-based generators 
+#### React-based generators
 
 - Gatsby
     - [Homepage](https://www.gatsbyjs.com/)
@@ -64,7 +64,8 @@ See also [Vue resources][].
         > The React Framework for Production
     - [MichaelCurrin/next-quickstart](https://github.com/MichaelCurrin/next-quickstart)
 
-[Next resources]      {{ site.baseurl }}{% link resources/javascript/packages/next/index.md %}
+[Vuetify resources]:  {{ site.baseurl }}{% link resources/javascript/packages/vue/vuetify.md %}
+[Next resources]:     {{ site.baseurl }}{% link resources/javascript/packages/next/index.md %}
 [Nuxt resources]:     {{ site.baseurl }}{% link resources/javascript/packages/nuxt/index.md %}
 [Jekyll resources]:   {{ site.baseurl }}{% link resources/jekyll/index.md %}
 [Vue resources]:      {{ site.baseurl }}{% link resources/javascript/packages/vue/index.md %}
@@ -73,7 +74,7 @@ See also [Vue resources][].
 
 ## Content managers
 
-- Forestry 
+- Forestry
 - Netlify CMS
 - CloudCannon
 - [Stackbit](https://www.stackbit.com/)

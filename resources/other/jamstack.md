@@ -53,11 +53,11 @@ See also [Vue resources][].
 
 #### React-based generators
 
-- Gatsby
-    - [Homepage](https://www.gatsbyjs.com/)
+- [Gatsby][]
 - Next
     - [Next resources][]
 
+[Gatsby]:            {{ site.baseurl }}{% link resources/javascript/packages/gatsby/index.md %}
 [Eleventy resources]: {{ site.baseurl }}{% link resources/javascript/packages/eleventy/index.md %}
 [PrimeVue resources]: {{ site.baseurl }}{% link resources/javascript/packages/primevue/index.md %}
 [Vuetify resources]:  {{ site.baseurl }}{% link resources/javascript/packages/vue/vuetify.md %}

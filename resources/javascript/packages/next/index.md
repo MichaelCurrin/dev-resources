@@ -20,6 +20,11 @@ links:
     url: https://vercel.com/import?filter=next.js
   - title: MichaelCurrin/next-quickstart template repo
     url: https://github.com/MichaelCurrin/next-quickstart
+    
+blog_posts:
+  - title: Next.js 12
+    url: https://nextjs.org/blog/next-12
+    description: Post in Oct 2021 about the release
 ---
 
 ### Static vs server-side rendering

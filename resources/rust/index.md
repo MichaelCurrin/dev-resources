@@ -41,7 +41,7 @@ See also info in [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/
     - Online book [The Rust Programming Language](https://doc.rust-lang.org/book/)
 - Cheatsheets
     - [cheats.rs](https://cheats.rs/#cargo)
-    - Surprisingly not on DevHints yet.
+    - [Rust](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/rust/) in Dev Cheatsheets 
 - Tutorials
     - [What the fork is Rust?](https://illustrated.dev/wtfrust) illustrated intro to Rust on [illustrated.dev](https://illustrated.dev).
     - [Getting Started](https://www.rust-lang.org/learn/get-started) guide on Rust site
@@ -62,16 +62,24 @@ See also info in [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/
 - Blog posts - Rust is much loved (by 86% of developers) but only 3% currently use it.
     - [Post-Mozilla Rust: The Future of the Rust Language](https://medium.com/the-innovation/post-mozilla-rust-the-future-of-the-rust-language-61a5cfb1f615)
     - [What is Rust and why is it so popular?](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/)
-- Rust and WebAssembly
-    - Run Python in the browser using Rust and WebAssembly
-       - [Demo](https://rustpython.github.io/demo/)
-    - [Book](https://rustwasm.github.io/docs/book/)
-        > Rust 🦀 and WebAssembly 🕸
-        >
-        > This small book describes how to use Rust and WebAssembly together.
-    - WASM on Rust website https://www.rust-lang.org/what/wasm
-    - Compiling from [Rust to WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm)
 - Rust vs Go
     - [This Week in Programming: Rust Versus Go? Why Not Both!](https://thenewstack.io/this-week-in-programming-rust-versus-go-why-not-both/)
         > Go vs Rust discussions are ridiculous. It should be more like: When to use Go. When to use Rust. When to use X...
     - [Why Go and not Rust?](https://kristoff.it/blog/why-go-and-not-rust/)
+- [Rust](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Rust/README.md) in Learn to Code.
+
+
+### WebAssembly 
+
+Use Rust to build your browser app and output as WebAssembly, to avoid using JavaScript.
+
+This makes code portable (write once and run on desktop and browser) and brings better performance.
+
+- Run Python in the browser using Rust and WebAssembly:
+    - [Demo](https://rustpython.github.io/demo/)
+- [Book](https://rustwasm.github.io/docs/book/)
+    > Rust 🦀 and WebAssembly 🕸
+    >
+    > This small book describes how to use Rust and WebAssembly together.
+- WASM on Rust website https://www.rust-lang.org/what/wasm
+    - Compiling from [Rust to WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm)

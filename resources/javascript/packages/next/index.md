@@ -1,5 +1,5 @@
 ---
-title: Next.js
+title: Next
 
 byline: The React Framework for Production
 
@@ -25,6 +25,15 @@ blog_posts:
   - title: Next.js 12
     url: https://nextjs.org/blog/next-12
     description: Post in Oct 2021 about the release
+    
+documentation:
+  - title: Upgrading
+    url: https://nextjs.org/docs/upgrading
+    
+tutorials:
+  - title: Create Next.js app
+    url: https://nextjs.org/learn/basics/create-nextjs-app
+    description: In the docs
 ---
 
 ### Static vs server-side rendering

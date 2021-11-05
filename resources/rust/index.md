@@ -69,6 +69,14 @@ See also info in [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/
 - [Rust](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Rust/README.md) in Learn to Code.
 
 
+### Examples
+
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/) on the docs.
+    - Learn Rust with examples (live code editor included). This site runs on the GitHub repo [rust-lang/rust-by-example](https://github.com/rust-lang/rust-by-example).
+- [Fibonacci sequence](https://gist.github.com/mjs/d5770f0b0f440eb67687100929f1335a) as a gist.
+- [Rust examples](https://github.com/eliovir/rust-examples) repo on GitHub.
+- [Rust project template](https://github.com/MichaelCurrin/rust-project-template)
+
 ### WebAssembly 
 
 Use Rust to build your browser app and output as WebAssembly, to avoid using JavaScript.

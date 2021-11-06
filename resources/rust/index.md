@@ -40,22 +40,22 @@ tutorials:
     url: https://doc.rust-lang.org/book/
     description: Online book
 
-   - title: What the fork is Rust?](https://illustrated.dev/wtfrust) illustrated intro to Rust on [illustrated.dev
-      url: https://illustrated.dev
+  - title: What the fork is Rust?
+    url: https://illustrated.dev/wtfrust
 
-    - title: Getting Started
-      url: https://www.rust-lang.org/learn/get-started
-      description: guide on Rust site
+  - title: Getting Started
+    url: https://www.rust-lang.org/learn/get-started
+    description: guide on Rust site
 
-    - title: Rust Beyond the Basics
-      url: https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f
-      description: - vectors, structs, enums, generics, impls and traits.
+  - title: Rust Beyond the Basics
+    url: https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f
+    description: vectors, structs, enums, generics, impls and traits.
 
-    - title: Rust Basics
-      url: https://medium.com/learning-rust/rust-basics-e73304ab35c7
+  - title: Rust Basics
+    url: https://medium.com/learning-rust/rust-basics-e73304ab35c7
 
-    - title: Working with strings in Rust
-      url: https://fasterthanli.me/blog/2020/working-with-strings-in-rust
+  - title: Working with strings in Rust
+    url: https://fasterthanli.me/blog/2020/working-with-strings-in-rust
 
 playgrounds:
   - title: Rust Playground
@@ -99,7 +99,8 @@ link_sections:
         description: For getting assistance from real people rr for mentoring others
 
   - title: Rust vs Go
-      - title: This Week in Programming: Rust Versus Go? Why Not Both!
+    links:
+      - title: 'This Week in Programming: Rust Versus Go? Why Not Both!'
         url: https://thenewstack.io/this-week-in-programming-rust-versus-go-why-not-both/
         description: |
           > Go vs Rust discussions are ridiculous. It should be more like: When to use Go. When to use Rust. When to use X...

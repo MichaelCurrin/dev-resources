@@ -6,88 +6,132 @@ wikipedia_excerpt: |
   Rust is a multi-paradigm, high-level, general-purpose programming language designed for performance and safety, especially safe concurrency
 
 byline: |
-   A language empowering everyone to build reliable and efficient software. 
+   A language empowering everyone to build reliable and efficient software.
 
 key_links:
   homepage: https://www.rust-lang.org/
   pkg_registry: https://crates.io/
   rosetta_code: https://rosettacode.org/wiki/Category:Rust
+  learn_x: https://learnxinyminutes.com/docs/rust/
   wikipedia: https://en.m.wikipedia.org/wiki/Rust_(programming_language)
+
+documentation:
+  - title: Installation
+    url: https://www.rust-lang.org/tools/install
+
+  - title: RELEASES.md
+    url: https://github.com/rust-lang/rust/blob/master/RELEASES.md
+    description: doc on GitHub.
+
+  - title: Releases
+    url: https://github.com/rust-lang/rust/releases
+    description: tab on the Rust repo.
+
 tutorials:
   - title: Rust in 100 seconds
     url: https://youtu.be/5C_HPTJg5ek
----
 
-See also info in [Learn to Code](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Rust/README.md) guide.
+  - title: Learn Rust
+    url: https://www.rust-lang.org/learn
+
+  - title: Rust by Example
+    url: https://doc.rust-lang.org/stable/rust-by-example/
+  - title: The Rust Programming Language
+    url: https://doc.rust-lang.org/book/
+    description: Online book
+
+   - title: What the fork is Rust?](https://illustrated.dev/wtfrust) illustrated intro to Rust on [illustrated.dev
+      url: https://illustrated.dev
+
+    - title: Getting Started
+      url: https://www.rust-lang.org/learn/get-started
+      description: guide on Rust site
+
+    - title: Rust Beyond the Basics
+      url: https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f
+      description: - vectors, structs, enums, generics, impls and traits.
+
+    - title: Rust Basics
+      url: https://medium.com/learning-rust/rust-basics-e73304ab35c7
+
+    - title: Working with strings in Rust
+      url: https://fasterthanli.me/blog/2020/working-with-strings-in-rust
+
+playgrounds:
+  - title: Rust Playground
+    url: https://play.rust-lang.org/
+    description: on official site
+
+  - title: Repl
+    url: https://repl.it/languages/rust
+
+  - title: Tutorials Point
+    url: https://www.tutorialspoint.com/compile_rust_online.php
+
+blog_posts:
+  - title: 'Post-Mozilla Rust: The Future of the Rust Language'
+    url: https://medium.com/the-innovation/post-mozilla-rust-the-future-of-the-rust-language-61a5cfb1f615
+
+  - title: What is Rust and why is it so popular?
+    url: https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/
+
+link_sections:
+  - title: Cheatsheets
+    links:
+      - title: cheats.rs
+        url: https://cheats.rs/#cargo
+
+      - title: Rust
+        url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/rust/
+        description: in Dev Cheatsheets
+
+  - title: Courses
+    links:
+      - title: First Look at Rust
+        url: https://www.linkedin.com/learning/first-look-rust
+        description: on LinkedIn Learning
+      - title: Write Your First Program in Rust
+        url: https://egghead.io/courses/write-your-first-program-with-the-rust-language
+        description: on EggHead
+
+      - title: Exercism track
+        url: https://exercism.io/tracks/rust
+        description: For getting assistance from real people rr for mentoring others
+
+  - title: Rust vs Go
+      - title: This Week in Programming: Rust Versus Go? Why Not Both!
+        url: https://thenewstack.io/this-week-in-programming-rust-versus-go-why-not-both/
+        description: |
+          > Go vs Rust discussions are ridiculous. It should be more like: When to use Go. When to use Rust. When to use X...
+      - title: Why Go and not Rust?
+        url: https://kristoff.it/blog/why-go-and-not-rust/
+
+  - title: Examples
+    links:
+      - title: Rust by Example
+        url: https://doc.rust-lang.org/rust-by-example/
+        description: on the docs. live code editor included
+
+      - title: Rust by Example repo
+        url: https://github.com/rust-lang/rust-by-example
+      - title: Fibonacci sequence
+        url: https://gist.github.com/mjs/d5770f0b0f440eb67687100929f1335a
+        description: as a gist.
+
+      - title: Rust Examples
+        url: https://github.com/eliovir/rust-examples
+        description: repo on GitHub.
+
+      - title: Rust project template
+        url: https://github.com/MichaelCurrin/rust-project-template
+---
 
 > Rust is intended to be a language for highly concurrent and highly safe systems,[50] and programming in the large, that is, creating and maintaining boundaries that preserve large-system integrity.
 >
 > Rust aims "to be as efficient and portable as idiomatic C++, without sacrificing safety (Wikipedia)
 
-### Links
+From a blog post:
 
-- [Installation](https://www.rust-lang.org/tools/install) doc.
-- Releases
-    - The latest release is announced on their homepage with a linked blog post e.g. [Rust-1.49.0.html](https://blog.rust-lang.org/2020/12/31/Rust-1.49.0.html)
-    - [RELEASES.md](https://github.com/rust-lang/rust/blob/master/RELEASES.md) doc on GitHub.
-    - [Releases](https://github.com/rust-lang/rust/releases) tab on the Rust repo.
-- Rustup
-    - [Rustup](https://rustup.rs/) homepage
-    - [Repo](https://github.com/rust-lang/rustup)
-- [Learn Rust](https://www.rust-lang.org/learn)
-    - You get forwarded here from the homepage but subpaths on the docs below work
-- Rust reference docs
-    - [Rust by Example(]https://doc.rust-lang.org/stable/rust-by-example/)
-    - Online book [The Rust Programming Language](https://doc.rust-lang.org/book/)
-- Cheatsheets
-    - [cheats.rs](https://cheats.rs/#cargo)
-    - [Rust](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/rust/) in Dev Cheatsheets 
-- Tutorials
-    - [What the fork is Rust?](https://illustrated.dev/wtfrust) illustrated intro to Rust on [illustrated.dev](https://illustrated.dev).
-    - [Getting Started](https://www.rust-lang.org/learn/get-started) guide on Rust site
-    - [Learn Rust in Y Minutes](https://learnxinyminutes.com/docs/rust/)
-    - [Rust Beyond the Basics](https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f) - vectors, structs, enums, generics, impls and traits.
-    - Medium.com - [Rust Basics](https://medium.com/learning-rust/rust-basics-e73304ab35c7) - this was used in writing this tutorial.
-    - [Working with strings in Rust](https://fasterthanli.me/blog/2020/working-with-strings-in-rust)
- - Courses
-    - LinkedIn Learning - [First Look at Rust](https://www.linkedin.com/learning/first-look-rust) - this was used in writing this tutorial.
-    - [Write Your First Program in Rust](https://egghead.io/courses/write-your-first-program-with-the-rust-language) on EggHead
-- Run Rust online
-    - [Rust Playground](https://play.rust-lang.org/) on official site
-    - [Repl](https://repl.it/languages/rust)
-    - [Tutorials Point](https://www.tutorialspoint.com/compile_rust_online.php)
-- [Exercism track](https://exercism.io/tracks/rust)
-    - For getting assistance from real people
-    - Or for mentoring others
-- Blog posts - Rust is much loved (by 86% of developers) but only 3% currently use it.
-    - [Post-Mozilla Rust: The Future of the Rust Language](https://medium.com/the-innovation/post-mozilla-rust-the-future-of-the-rust-language-61a5cfb1f615)
-    - [What is Rust and why is it so popular?](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/)
-- Rust vs Go
-    - [This Week in Programming: Rust Versus Go? Why Not Both!](https://thenewstack.io/this-week-in-programming-rust-versus-go-why-not-both/)
-        > Go vs Rust discussions are ridiculous. It should be more like: When to use Go. When to use Rust. When to use X...
-    - [Why Go and not Rust?](https://kristoff.it/blog/why-go-and-not-rust/)
-- [Rust](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Rust/README.md) in Learn to Code.
+> Rust is much loved (by 86% of developers) but only 3% currently use it.
 
-
-### Examples
-
-- [Rust by Example](https://doc.rust-lang.org/rust-by-example/) on the docs.
-    - Learn Rust with examples (live code editor included). This site runs on the GitHub repo [rust-lang/rust-by-example](https://github.com/rust-lang/rust-by-example).
-- [Fibonacci sequence](https://gist.github.com/mjs/d5770f0b0f440eb67687100929f1335a) as a gist.
-- [Rust examples](https://github.com/eliovir/rust-examples) repo on GitHub.
-- [Rust project template](https://github.com/MichaelCurrin/rust-project-template)
-
-### WebAssembly 
-
-Use Rust to build your browser app and output as WebAssembly, to avoid using JavaScript.
-
-This makes code portable (write once and run on desktop and browser) and brings better performance.
-
-- Run Python in the browser using Rust and WebAssembly:
-    - [Demo](https://rustpython.github.io/demo/)
-- [Book](https://rustwasm.github.io/docs/book/)
-    > Rust 🦀 and WebAssembly 🕸
-    >
-    > This small book describes how to use Rust and WebAssembly together.
-- WASM on Rust website https://www.rust-lang.org/what/wasm
-    - Compiling from [Rust to WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm)
+The latest release is announced on their homepage with a linked blog post e.g. [Rust-1.49.0.html](https://blog.rust-lang.org/2020/12/31/Rust-1.49.0.html)

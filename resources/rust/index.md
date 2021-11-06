@@ -127,12 +127,20 @@ link_sections:
         url: https://github.com/MichaelCurrin/rust-project-template
 ---
 
-> Rust is intended to be a language for highly concurrent and highly safe systems,[50] and programming in the large, that is, creating and maintaining boundaries that preserve large-system integrity.
+### What is a Rust?
+
+> Rust is intended to be a language for highly concurrent and highly safe systems, and programming in the large, that is, creating and maintaining boundaries that preserve large-system integrity.
 >
 > Rust aims "to be as efficient and portable as idiomatic C++, without sacrificing safety (Wikipedia)
+
+### How widely used is it?
 
 From a blog post:
 
 > Rust is much loved (by 86% of developers) but only 3% currently use it.
 
+### Releases
+
 The latest release is announced on their homepage with a linked blog post e.g. [Rust-1.49.0.html](https://blog.rust-lang.org/2020/12/31/Rust-1.49.0.html)
+
+See Releases in the links on this page.

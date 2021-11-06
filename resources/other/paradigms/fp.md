@@ -21,7 +21,7 @@ Treats computation as the evaluation of mathematical functions avoiding state an
 - Recursion
     - In pure FP languages, you can't use a for or while loop so must use recursion.
 - Referential transparency
-- no side effects 
+- no side effects
   N- Using "Pure functions" that don't affect state outside the function. And if you update an array, you make a copy and return the updated copy instead of updating the original value).
 
 Other things that you might use:
@@ -34,8 +34,8 @@ Other things that you might use:
         - `map` function which takes a function as a parameter and a value to process as another parameter.
         - `sort` function which allows you provide your own function to evaluate for sorting two items. For example, sorting an array of numbers in JS actually sorts them as text (so 12 comes before 2), which means that to sort numerically you need to evaluate if one number is greater than the other numerically by providing a function.
         - Providing a callback function to a function.
-- [Currying](https://en.m.wikipedia.org/wiki/Currying) 
-    - have a function that takes 3 parameters for example and then make 3 objects from it that each take one parameter. This means the inner function knows what parameter to use as a kind of state so then the outer call is lighter. Like having a `multiply(a, b)` function which then gets used to make a `double(a)` function that passed to `b=2` to the inner function whenever `square` is called with a single param. 
+- [Currying](https://en.m.wikipedia.org/wiki/Currying)
+    - have a function that takes 3 parameters for example and then make 3 objects from it that each take one parameter. This means the inner function knows what parameter to use as a kind of state so then the outer call is lighter. Like having a `multiply(a, b)` function which then gets used to make a `double(a)` function that passed to `b=2` to the inner function whenever `square` is called with a single param.
 - Lazy evaluation - like chaining function calls but only evaluating them all at the point the end result is needed.
 
 Note you can also do polymorphism in FP. Rather than using classes, you might have multiple function signatures for functions of the same name for different type parameters and dispatch as needed.
@@ -50,17 +50,17 @@ While other FP languages like the ones below make OOP difficult or impossible su
 See [Top 13 Functional Programming Languages](https://purelyfunctional.tv/functional-programming-languages/) list. It provides a summary and links for each.
 
 - [Elm](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Elm)
-    - [homepage](https://elm-lang.org/) and [Wikipedia](https://en.wikipedia.org/wiki/Elm_(programming_language)) 
+    - [homepage](https://elm-lang.org/) and [Wikipedia](https://en.wikipedia.org/wiki/Elm_(programming_language))
     - generates JS, I think.
 - Erlang-based
     - [Erlang](https://www.erlang.org/)
         > Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability
-        > 
-        > Some of its uses are in telecoms, banking, e-commerce, computer telephony and instant messaging. 
-        > 
+        >
+        > Some of its uses are in telecoms, banking, e-commerce, computer telephony and instant messaging.
+        >
         > Erlang's runtime system has built-in support for concurrency, distribution and fault tolerance.
     - [Elixir](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Elixir)
-        - a superset of Elrang
+        - a superset of Erlang
 - Lisp-based
     - Lisp
         - See [Lisp - Learn to Code](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Lisp) section.
@@ -69,14 +69,14 @@ See [Top 13 Functional Programming Languages](https://purelyfunctional.tv/functi
     - Clojure
         - Dialect of Lisp.
     - ClojureScript
-        - For generating JS including React apps. Unlike other Lisp dialects, Clojure runs on the Java platform and is compiled to JVM bytecode. 
+        - For generating JS including React apps. Unlike other Lisp dialects, Clojure runs on the Java platform and is compiled to JVM bytecode.
     - Common Lisp
     - Scheme
     - [Emacs Lisp](https://en.wikipedia.org/wiki/Emacs_Lisp)
 - Haskell
 - ML-based
     - [ML](https://en.m.wikipedia.org/wiki/ML_(programming_language))
-        - "Meta Lanaguage".
+        - "Meta Language".
     - [Standard ML](https://en.m.wikipedia.org/wiki/Standard_ML)
         - Dialect of ML.
         - Popular for writing compilers.
@@ -84,7 +84,7 @@ See [Top 13 Functional Programming Languages](https://purelyfunctional.tv/functi
     - [ReasonML](https://reasonml.github.io/)
         > Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems.
 - [Rust](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Rust)
-    - Close to or equal to C in performance. 
+    - Close to or equal to C in performance.
     - Objects are owned and borrowed to manage memory. This is neither manually managed like C++ or garbage-collected like Java, so is unfamiliar to get into.
 - F#
 - Scala

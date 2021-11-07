@@ -21,3 +21,9 @@ links:
     url: https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference
     description: On MicroSoft docs
 ---
+
+
+### Related
+
+- [Regex](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/other/regex/) Dev Cheatsheet.
+- [Regex](https://michaelcurrin.github.io/code-cookbook/recipes/other/regex/) recipes.

@@ -12,7 +12,16 @@ Format: `unpkg.com/PACKAGE@VERSION/FILE`
 
 e.g. 
 
-- [https://unpkg.com/react@16.7.0/umd/react.production.min.js](https://unpkg.com/react@16.7.0/umd/react.production.min.js)
+- [https://unpkg.com/react@16.7](https://unpkg.com/react@16.7) 
+- [https://unpkg.com/react@16.7.0](https://unpkg.com/react@16.7.0)
+- [https://unpkg.com/react@16.7.0/umd/react.production.min.js](https://unpkg.com/react@16.7.0/umd/react.production.min.js) UMD prod
+
+
+## Browse
+
+You can browse available files and builds. Just remeber to include the forward slash.
+
+- [https://unpkg.com/browse/react@16.7.0/](https://unpkg.com/browse/react@16.7.0/)
 
 
 ## JS formats

@@ -1,5 +1,5 @@
 ---
-title: Vue-related packages
+title: Vue-related
 
 logo: vuedotjs
 ---

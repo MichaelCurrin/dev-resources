@@ -38,3 +38,10 @@ These are two CDNs - with different content and purpose.
 The [CDN docs](https://jspm.org/docs/cdn) explain the difference:
 
 > jspm.dev provides a modules CDN that does not require import maps, useful for quick prototyping in development, as any module can be loaded directly from the console or in a module script without any other steps being necessary.
+
+
+## Browse
+
+See available builds.
+
+- [https://dev.jspm.io/npm:apexcharts@3.29.0/](https://dev.jspm.io/npm:apexcharts@3.29.0/) - note forward slash.

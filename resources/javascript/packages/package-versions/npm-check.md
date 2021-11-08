@@ -8,14 +8,14 @@ key_links:
   repo_nwo: dylang/npm-check
 ---
 
-### Installation
+## Installation
 
 ```sh
 $ npm install -g npm-check
 ```
 
 
-### Usage
+## Usage
 
 Check what can be updated.
 

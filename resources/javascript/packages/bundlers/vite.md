@@ -8,15 +8,16 @@ key_links:
   repo_nwo: vitejs/vite
 
 link_sections:
-  - title: Templates:
-    - title: Vite Quickstart
-      url: https://github.com/MichaelCurrin/vite-quickstart
-    - title: React Vite Quickstart
-      url: https://github.com/MichaelCurrin/react-vite-quickstart
-    - title: Vue Vite Quickstart
-      url: https://github.com/MichaelCurrin/vue-vite-quickstart
-    - title: Community templates
-      url: https://github.com/vitejs/awesome-vite#templates
+  - title: Templates
+    links:
+      - title: Vite Quickstart
+        url: https://github.com/MichaelCurrin/vite-quickstart
+      - title: React Vite Quickstart
+        url: https://github.com/MichaelCurrin/react-vite-quickstart
+      - title: Vue Vite Quickstart
+        url: https://github.com/MichaelCurrin/vue-vite-quickstart
+      - title: Community templates
+        url: https://github.com/vitejs/awesome-vite#templates
 tutorials:
   - title: Learn Vite with Evan You
     url: https://www.youtube.com/watch?v=DkGV5F4XnfQ

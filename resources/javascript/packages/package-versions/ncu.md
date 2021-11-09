@@ -1,5 +1,7 @@
 ---
-title: ncu
+title: ncu (npm-check-updates)
+
+byline: Find newer versions of package dependencies than what your package.json allows
 
 key_links:
   repo_nwo: raineorshine/npm-check-updates
@@ -7,8 +9,6 @@ key_links:
 
 Aggressively upgrade packages.
 
-> Find newer versions of package dependencies than what your package.json allows
->
 > npm-check-updates upgrades your package.json dependencies to the latest versions, ignoring specified versions.
 
 ## Installation

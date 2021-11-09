@@ -5,13 +5,17 @@ key_links:
   repo_nwo: raineorshine/npm-check-updates
 ---
 
+Aggressively upgrade packages.
+
+> Find newer versions of package dependencies than what your package.json allows
+>
+> npm-check-updates upgrades your package.json dependencies to the latest versions, ignoring specified versions.
 
 ## Installation
 
 ```sh
 $ npm install -g npm-check-updates
 ```
-
 
 
 ## Usage

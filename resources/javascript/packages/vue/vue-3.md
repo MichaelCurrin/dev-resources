@@ -98,8 +98,15 @@ See my [Vue cheatsheet][] for more info.
     $ vue create my-project
     ```
 
+If you prefer to use Vite CLI to Vue CLI service, you can use [Vite][]
+
+```sh
+$ npm init vite@latest my-app -- --template vue
+```
+
 [Vue cheatsheet]: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/vue/
 [@vue/cli]: https://www.npmjs.com/package/@vue/cli
+[Vite]: {{ site.baseurl }}{% link resources/javascript/packages/bundlers/vite.md %}
 
 
 ## Migrate

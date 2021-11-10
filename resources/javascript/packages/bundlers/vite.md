@@ -90,15 +90,16 @@ You'll get prompts to name your project, pick a framework, and then pick using a
     svelte
 ```
 
-Or, use a template.
+Or, use a template. Here using Vue template for Vite, as per Vite docs and [Vue docs](https://v3.vuejs.org/guide/installation.html#vite).
 
-```sh
-$ # V7+
-$ npm init vite@latest my-vue-app -- --template vue
-$ # V6
-$ npm init vite@latest my-vue-app --template vue
-```
-
-```sh
-$ yarn create vite my-vue-app --template vue
-```
+- NPM
+    ```sh
+    $ # V7+
+    $ npm init vite@latest my-vue-app -- --template vue
+    $ # V6
+    $ npm init vite@latest my-vue-app --template vue
+    ```
+- Yarn
+    ```sh
+    $ yarn create vite my-vue-app --template vue
+    ```

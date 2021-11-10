@@ -69,6 +69,35 @@ In `package.json`:
 }
 ```
 
+With `npm run` commands:
+
+```json
+{
+  "scripts": {
+    "task-a": "echo 'Hello from A'",
+    "task-b": "echo 'Hello from B'",
+    "start": "npm:task-a npm:task-b"
+  }
+}
+```
+
+A more practical example:
+
+- Starting a backend API on say port 8000
+- Start frontend service on say port 3000
+- Watches for changes to SCSS or TypeScript files and recompile.
+
+```json
+{
+  "scripts": {
+    "backend": "node server.js",
+    "frontend": "sirv public --port 3000",
+    "watch": "tsc -p . --watch",
+    "start": "npm:backend npm:frontend npm:watch"
+  }
+}
+```
+
 
 ### Script
 

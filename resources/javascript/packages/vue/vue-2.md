@@ -1,5 +1,5 @@
 ---
-title: Vue v2
+title: Vue 2
 
 key_links:
   repo_nwo: vuejs/vue

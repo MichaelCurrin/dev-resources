@@ -22,8 +22,10 @@ link_sections:
         url: https://ramdajs.com
 ---
 
-### Related sections
+### Related
 
 - [TypeScript][]
+- [Static web servers][] in Dev Cheatsheets
 
 [TypeScript]: {{ site.baseurl }}{% link resources/typescript/index.md %}
+[Static web servers]: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/static-web-servers.html

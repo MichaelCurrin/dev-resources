@@ -5,11 +5,16 @@ byline: Find newer versions of package dependencies than what your package.json 
 
 key_links:
   repo_nwo: raineorshine/npm-check-updates
+  pkg_url: https://www.npmjs.com/package/npm-check-updates
 ---
 
 Aggressively upgrade packages.
 
 > npm-check-updates upgrades your package.json dependencies to the latest versions, ignoring specified versions.
+
+> - maintains existing semantic versioning policies, i.e. `"express": "^4.0.0"` to `"express": "^5.0.0"`.
+> - only _modifies_ `package.json` file. Run `npm install` to update your installed packages and package-lock.json.
+
 
 ## Installation
 
@@ -50,4 +55,20 @@ Upgrade:
 
 ```sh
 $ ncu -u
+```
+
+### In CI
+
+The default is level `1` and that is to exit with error status on an actual error.
+
+Use error level `2` to exit with success on nothing to update - which is how `npm update` operates with no flags.
+
+```sh
+if ncu -e; then
+  echo 'Nothing to update'
+  exit 0
+fi
+
+echo 'Upgrading'
+ncu -u
 ```

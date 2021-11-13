@@ -37,6 +37,12 @@ key_links:
 
 tutorials: []
 blog_posts: []
-playgrounds: []
 
+links:
+  - title: 'Make in Commands & Utilities Reference, The Single UNIX Specification'
+    url: https://www.opengroup.org/onlinepubs/9699919799/utilities/make.html
+playgrounds: []
+documentation:
+  - title: foreach
+    url: https://www.gnu.org/software/make/manual/html_node/Foreach-Function.html#Foreach-Function
 ---

@@ -18,7 +18,10 @@ The repo describes the gem as:
 
 And also:
 
-> A ruby wrapper for ImageMagick or GraphicsMagick command line.
+> A ruby wrapper for [ImageMagick][] or [GraphicsMagick][] command line.
+
+[ImageMagick]: https://imagemagick.org/
+[GraphicsMagick]: http://www.graphicsmagick.org/
 
 
 ## Installation
@@ -32,7 +35,7 @@ gem "mini_magick"
 
 ## Usage
 
-Sample usage from the docs:
+Sample usage from the docs, reading an image, setting output size and format, then writing out.
 
 ```ruby
 require "mini_magick"
@@ -43,6 +46,7 @@ image.path
 
 image.resize "100x100"
 image.format "png"
+
 image.write "output.png"
 ```
 

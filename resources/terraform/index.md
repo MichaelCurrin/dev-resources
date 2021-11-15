@@ -19,4 +19,9 @@ blog_posts:
 documentation:
   - title: Terraform Configuration Language
     url:  Terraform Language Documentation 
+    
+tutorials:
+  - title: Write Terraform Configuration Language
+    url: https://learn.hashicorp.com/collections/terraform/configuration-language
+    description: Tutorials on the Hashicorp site
 ---

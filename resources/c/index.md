@@ -16,13 +16,15 @@ tutorials:
     url: https://www.guru99.com/c-programming-language.html
   - title: C language introduction
     url: https://www.geeksforgeeks.org/c-language-set-1-introduction/
+  - title: C in 100 seconds
+    url: https://youtu.be/U3aXWizDbQ4
 ---
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg" width="100" />
 
 
-### Key points
+### Overview
 
 - _C_ is a general-purpose language.
 - History
@@ -30,12 +32,13 @@ tutorials:
     - C was intended for Unix systems initially, but now most languages and operating systems use it.
     - Influenced by [B](https://en.wikipedia.org/wiki/B_(programming_language)), which in turn was influency by [BCPL](https://en.wikipedia.org/wiki/BCPL)
 - It is known for its high performance and control of low-level areas such as managing memory.
-- _C_ is not so beginner-friendly - you need verbose code compared with other languages, even to do something simple.
+- _C_ is not so beginner-friendly - you need verbose code compared with other languages, even to do something simple. Some alternatives are C++ or Java, or the more modern Go and Rust.
 - However, the advantage is that gives a high degree of control which means you can optimize memory management at a low-level.
 - Strongly and statically typed. You have to explicitly set the type (e.g. 32-bit signed integer) in most cases and objects cannot change type. The types are checked at compile time.
 - You compile your scripts into binary executables specific to an OS. This makes it very portable - if a compiled binary is produced for each of Linux, Windows, and macOS, they can be distributed online and downloaded and run by anyone.
 - By having the compile step, there is an initial cost in time. But then the compiled code can run much faster later than interpreted code such as in JavaScript, Ruby or Python.
 - C has variables and functions. 
+- Memory is managed manually. There js no garbage collection. This gives more control for systems programming.
 - There are no classes. There is no string type (though you can have an array of characters). There is no boolean - instead you use `0` for false and `1` for true.
 - It makes use of pointers - a function can operate on a pointer of a variable and modify it in place, without making a copy of the value which would use extra memory.
 - Extensions:

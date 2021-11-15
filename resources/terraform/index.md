@@ -19,6 +19,10 @@ blog_posts:
 documentation:
   - title: Terraform Configuration Language
     url:  Terraform Language Documentation 
+  - title: Syntax
+    url: https://www.terraform.io/docs/language/syntax/index.html
+  - title: Expressions
+    url: https://www.terraform.io/docs/language/expressions/index.html
     
 tutorials:
   - title: Write Terraform Configuration Language

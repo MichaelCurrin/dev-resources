@@ -1,5 +1,11 @@
 ---
 title: Terraform
+logo: terraform
+
+key_links:
+  homepage: https://www.terraform.io/
+  docs: https://www.terraform.io/docs/
+  repo_nwo: hashicorp/terraform
 
 links:
   - title: Terraform Cheatsheet

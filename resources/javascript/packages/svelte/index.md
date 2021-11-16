@@ -30,7 +30,12 @@ tutorials:
 - url: https://svelte.dev/tutorial/basics
   description: Starting point for the tutorial on the Svelte site
   title: Basics
+- title: The easiest way to get started with Svelte
+  url: https://svelte.dev/blog/the-easiest-way-to-get-started
+  description: On the Svelte blog
+  
 blog_posts: []
+
 playgrounds:
 - title: REPL
   url: https://svelte.dev/repl/hello-world?

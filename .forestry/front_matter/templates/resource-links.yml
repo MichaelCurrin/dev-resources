@@ -223,7 +223,7 @@ fields:
           format: markdown
       label: description
     config:
-      min:
+      min: 
   description: |
     Create and name a group in here with whatever title you want and put
     some links in it. This is flexible. See existing sections like Tutorial Links

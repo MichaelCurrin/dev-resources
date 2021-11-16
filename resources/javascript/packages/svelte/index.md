@@ -51,7 +51,23 @@ Definition of the world "svelte":
 $ npm install svelte
 ```
 
+### Usage
+
+Start dev server:
+
+```sh
+$ npm run dev
+```
+
+Build:
+
+```sh
+$ npm run build
+```
+
 ### Quickstart
+
+Using [sveltejs/template](https://github.com/sveltejs/template) repo and [degit](https://www.npmjs.com/package/degit) tool.
 
 ```sh
 npx degit sveltejs/template my-svelte-project

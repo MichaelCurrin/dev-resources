@@ -79,7 +79,7 @@ $ npm init vite@latest
 $ yarn create vite
 ```
 
-You'll get prompts to name your project, pick a framework, and then pick using a variant like TypeScript.
+You'll get prompts to name your project, pick a framework, and then pick a a variant like TypeScript.
 
 ```
 ❯   vanilla

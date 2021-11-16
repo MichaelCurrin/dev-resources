@@ -237,6 +237,7 @@ pages:
 - resources/javascript/packages/electron/index.md
 - resources/javascript/packages/ghost/index.md
 - resources/javascript/packages/react/react-boilerplate.md
+- resources/javascript/packages/svelte/index-1.md
 - resources/javascript/packages/svelte/index.md
 - resources/javascript/packages/vuepress/index.md
 - resources/javascript/test-frameworks/jasmine.md

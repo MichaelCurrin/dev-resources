@@ -71,13 +71,16 @@ See [Getting Started](https://vitejs.dev/guide/#scaffolding-your-first-vite-proj
 
 These commands do not require `vite` to be installed.
 
-```sh
-$ npm init vite@latest
-```
+### Run and then choose
 
-```sh
-$ yarn create vite
-```
+- NPM
+    ```sh
+    $ npx vite@latest
+    ```
+- Yarn
+    ```sh
+    $ yarn create vite
+    ```
 
 You'll get prompts to name your project, pick a framework, and then pick a a variant like TypeScript.
 
@@ -90,16 +93,22 @@ You'll get prompts to name your project, pick a framework, and then pick a a var
     svelte
 ```
 
-Or, use a template. Here using Vue template for Vite, as per Vite docs and [Vue docs](https://v3.vuejs.org/guide/installation.html#vite).
+#### Create by name and template
+
+Or pass your choices in one command.
 
 - NPM
     ```sh
     $ # V7+
-    $ npm init vite@latest my-vue-app -- --template vue
+    $ npx vite@latest my-vue-app -- --template vue
     $ # V6
-    $ npm init vite@latest my-vue-app --template vue
+    $ npx vite@latest my-vue-app --template vue
     ```
 - Yarn
     ```sh
     $ yarn create vite my-vue-app --template vue
     ```
+    
+Here using Vue template for Vite, as per Vite docs and [Vue docs](https://v3.vuejs.org/guide/installation.html#vite).
+
+See [MichaelCurrin/vue-vite-quickstart](https://github.com/MichaelCurrin/vue-vite-quickstart) for the result.

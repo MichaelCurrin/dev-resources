@@ -1,6 +1,6 @@
 ---
 title: Vue 2
-
+logo: vuedotjs
 key_links:
   repo_nwo: vuejs/vue
 

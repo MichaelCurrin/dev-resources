@@ -16,7 +16,9 @@ key_links:
   devhints: ''
   tutorials_point: ''
   rosetta_code: ''
-links: []
+links:
+- title: Svelte Vite quickstart template
+  url: https://github.com/MichaelCurrin/svelte-vite-quickstart
 documentation:
 - title: Examples
   url: https://svelte.dev/examples

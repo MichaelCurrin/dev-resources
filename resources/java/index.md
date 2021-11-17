@@ -20,7 +20,7 @@ links:
 Compile to binary:
 
 ```sh
-$ javac HelloWorld.class
+$ javac HelloWorld.java
 ```
 
 Execute the binary using Java runtime.
@@ -28,3 +28,6 @@ Execute the binary using Java runtime.
 ```sh
 $ java HelloWorld
 ```
+
+Binaries are "class" files. Multiple files can be distributed as a zipped Java Archive - a `.jar` file. [Source](
+https://stackoverflow.com/questions/5743768/difference-between-java-class-and-jar#5743779)

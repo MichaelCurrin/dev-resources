@@ -1,6 +1,10 @@
 ---
 title: Java
 
+keylinks: 
+  homepage: https://www.java.com
+  wikipedia: https://en.wikipedia.org/wiki/Java_(programming_language)
+
 links:
 - title: Java in 100 seconds 
   url: https://youtu.be/l9AzO1FMgM8

@@ -120,3 +120,20 @@ $ yarn add @vue/compiler-sfc -D
 ```
 
 [discussion]: https://stackoverflow.com/questions/63863222/after-upgrading-to-vue-3-cannot-find-module-vue-compiler-sfc-package-json
+
+
+## Reactive state
+
+From [Simple State Management from Scratch](https://v3.vuejs.org/guide/state-management.html#simple-state-management-from-scratch) in the Vue 3 docs.
+
+> It is often overlooked that the source of truth in Vue applications is the reactive data object - a component instance only proxies access to it. 
+> 
+> Therefore, if you have a piece of state that should be **shared by multiple instances**, you can use a reactive method to make an object reactive:
+
+The docs example mounts two app instances. From my testing, if you only have on app instance, you don't need to bother with `reactive`.
+
+See also the [reactive](https://v3.vuejs.org/guide/reactivity-fundamentals.html) Vue method in the docs, as that is used below.
+
+> The essential use case for reactive state in Vue is that we can use it during render. Thanks to dependency tracking, the view automatically updates when reactive state changes.
+>
+> This is the very essence of Vue's reactivity system. When you return an object from data() in a component, it is internally made reactive by reactive(). The template is compiled into a render function that makes use of these reactive properties.

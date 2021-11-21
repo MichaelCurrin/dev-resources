@@ -62,8 +62,25 @@ $ sudo apt install default-jre
 
 ```sh
 $ brew install openjdk
-$ brew install openjdk@8
-$ brew install openjdk@11
+```
+
+A message I got:
+
+```
+...
+
+For the system Java wrappers to find this JDK, symlink it with
+  sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
+openjdk is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides similar software and installing this software in
+parallel can cause all kinds of trouble.
+
+If you need to have openjdk first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/openjdk/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openjdk you may need to set:
+  export CPPFLAGS="-I/usr/local/opt/openjdk/include"
 ```
 
 [OpenJDK]: {{ site.baseurl }}{% link resources/java/openjdk.md %}

@@ -53,3 +53,29 @@ Install one. e.g.
 ```sh
 $ sudo apt install default-jre
 ```
+
+### Install on macOS with Homebrew
+
+#### OpenJDK
+
+- [openjdk](https://formulae.brew.sh/formula/openjdk) - also available under `java` alias. Uses [OpenJDK][].
+
+```sh
+$ brew install openjdk
+$ brew install openjdk@8
+$ brew install openjdk@11
+```
+
+[OpenJDK]: {{ site.baseurl }}{% link resources/java/openjdk.md %}
+
+### Eclipse IDE for Java developers
+
+```sh
+$ brew install --cask eclipse-java
+```
+
+#### REPL
+
+```sh
+$ brew install javarepl
+```

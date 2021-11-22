@@ -6,6 +6,7 @@ key_links:
   homepage: https://jekyllrb.com
   docs: https://jekyllrb.com/docs/
   repo_nwo: jekyll/jekyll
+  pkg_url: https://rubygems.org/gems/jekyll/
 
 links:
   - title: Jekyll guide

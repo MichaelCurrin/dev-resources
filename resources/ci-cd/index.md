@@ -21,3 +21,9 @@ GitHub Pages is less flexible. Netlify let's you do Lambdas, user roles, add a C
 Just because they are free doesn't mean they are inferior. If you do a speed test on them against a custom built solution I don't think you see any difference. It will just take longer to maintain a custom built solution
 
 Haven't used Amplify but it sounds like it has automation that makes things a breeze with GitHub. And if you want to integrate with other AWS services then you can use that.
+
+### Related
+
+- [GitHub Pages][]
+
+[GitHub Pages]: {{ site.baseurl }}{% link resources/web/github-pages.md %}

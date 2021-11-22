@@ -23,10 +23,15 @@ Info from the website:
 
 ### Example usage
 
+See also:
+
+- [Badge Generator](https://github.com/MichaelCurrin/badge-generator) repo
+- [Install as Desktop app](https://github.com/MichaelCurrin/badge-generator/blob/master/docs/install-desktop-app.md) in that project's docs.
+
 Install globally with NPM.
 
 ```sh
-$ npm install -g nativefier
+$ npm install -g nativefier@latest
 ```
 
 Run against a website.
@@ -56,7 +61,7 @@ $ mv badge-generator-darwin-x64/badge-generator.app ~/Applications
 
 Then you can double-click on it in your applications directory.
 
-There are just license files and metadata left, but you can delete the directory.
+There are just license files and metadata left - so you can delete the directory in Downloads.
 
 ```sh
 $ rm -rf badge-generator-darwin-x64/

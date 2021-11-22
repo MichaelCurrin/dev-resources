@@ -1,5 +1,5 @@
 ---
-title: React-relate
+title: React-related
 logo: react
 
 ---

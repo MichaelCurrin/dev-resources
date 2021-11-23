@@ -1,5 +1,6 @@
 ---
 title: Java
+logo: java
 
 keylinks: 
   homepage: https://www.java.com

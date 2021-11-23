@@ -15,11 +15,15 @@ Aggressively upgrade packages.
 > - maintains existing semantic versioning policies, i.e. `"express": "^4.0.0"` to `"express": "^5.0.0"`.
 > - only _modifies_ `package.json` file. Run `npm install` to update your installed packages and package-lock.json.
 
+It will not install packages.
+
+It will not update your lockfile.
+
 
 ## Installation
 
 ```sh
-$ npm install -g npm-check-updates
+$ npm install -g npm-check-updates@latest
 ```
 
 
@@ -64,11 +68,13 @@ The default is level `1` and that is to exit with error status on an actual erro
 Use error level `2` to exit with success on nothing to update - which is how `npm update` operates with no flags.
 
 ```sh
-if ncu -e; then
+if ncu -e 2; then
   echo 'Nothing to update'
   exit 0
 fi
 
 echo 'Upgrading'
 ncu -u
+
+npm install
 ```

@@ -28,6 +28,7 @@ exclude:
   - LICENSE
   - Makefile
   - README.md
+  - sample*.png
 
 liquid:
   error_mode: strict

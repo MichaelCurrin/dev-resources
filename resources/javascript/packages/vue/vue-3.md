@@ -6,7 +6,10 @@ description: |
 
 logo: vuedotjs
 
-byline: The Progressive JavaScript Framework
+byline: |
+  "The Progressive JavaScript Framework"
+  
+  "Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web."
 
 key_links:
   homepage: https://vuejs.org/

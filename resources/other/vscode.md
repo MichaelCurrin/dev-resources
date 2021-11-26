@@ -17,6 +17,10 @@ links:
     link: https://marketplace.visualstudio.com/vscode
     description: |
       Browse extensions in the browser. Click on an extension and click the GH repo link to look at the source code. Or open the Extensions tab in VS Code and search there.
+
+tutorials:
+  - title: VS Code in 100 seconds
+    link: https://youtu.be/KMxo3T_MTvY
 ---
 
 

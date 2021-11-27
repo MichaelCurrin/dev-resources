@@ -6,7 +6,7 @@ key_links:
 ---
 
 
-## Description 
+## Description
 
 Derived from structured programming, based on the concept of modular programming or the procedure call.
 
@@ -30,6 +30,6 @@ From [Programming Paradigm][] on Wikipedia.
 - Programming Language One (PL/I) – a hybrid commercial-scientific general purpose language supporting pointers.
 - Beginners All purpose Symbolic Instruction Code (BASIC) – it was developed to enable more people to write programs.
 - [C][] – a general-purpose programming language, initially developed by Dennis Ritchie between 1969 and 1973 at AT&T Bell Labs.
-    
+
 [Programming Paradigm]: https://en.wikipedia.org/wiki/Programming_paradigm
-[C]: {{ site.baseurl }}{% link resources/c/index.md %}
+[C]: {% link resources/c/index.md %}

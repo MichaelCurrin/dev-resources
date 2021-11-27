@@ -8,7 +8,7 @@ logo: vuedotjs
 
 byline: |
   "The Progressive JavaScript Framework"
-  
+
   "Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web."
 
 key_links:
@@ -109,7 +109,7 @@ $ npm init vite@latest my-app -- --template vue
 
 [Vue cheatsheet]: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/vue/
 [@vue/cli]: https://www.npmjs.com/package/@vue/cli
-[Vite]: {{ site.baseurl }}{% link resources/javascript/packages/bundlers/vite.md %}
+[Vite]: {% link resources/javascript/packages/bundlers/vite.md %}
 
 
 ## Migrate
@@ -129,8 +129,8 @@ $ yarn add @vue/compiler-sfc -D
 
 From [Simple State Management from Scratch](https://v3.vuejs.org/guide/state-management.html#simple-state-management-from-scratch) in the Vue 3 docs.
 
-> It is often overlooked that the source of truth in Vue applications is the reactive data object - a component instance only proxies access to it. 
-> 
+> It is often overlooked that the source of truth in Vue applications is the reactive data object - a component instance only proxies access to it.
+>
 > Therefore, if you have a piece of state that should be **shared by multiple instances**, you can use a reactive method to make an object reactive:
 
 The docs example mounts two app instances. From my testing, if you only have on app instance, you don't need to bother with `reactive`.

@@ -21,7 +21,7 @@ PrimeVue is also lower-level than a framework like Nuxt or VuePress - this provi
 
 See also the [Vue][] section.
 
-[Vue]: {{ site.baseurl }}{% link resources/javascript/packages/vue/index.md %}
+[Vue]: {% link resources/javascript/packages/vue/index.md %}
 
 
 ### Quickstarts

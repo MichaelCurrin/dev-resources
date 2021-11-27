@@ -3,8 +3,8 @@
 
 ## What is available
 
-- Java Virtual Machine (JVM) 
-    - A runtime component. 
+- Java Virtual Machine (JVM)
+    - A runtime component.
     - It is an interpreter which runs Java code.
 - Java Runtime Environment (JRE)
     - Installed by developers and end-users.
@@ -83,7 +83,7 @@ For compilers to find openjdk you may need to set:
   export CPPFLAGS="-I/usr/local/opt/openjdk/include"
 ```
 
-[OpenJDK]: {{ site.baseurl }}{% link resources/java/openjdk.md %}
+[OpenJDK]: {% link resources/java/openjdk.md %}
 
 ### Eclipse IDE for Java developers
 

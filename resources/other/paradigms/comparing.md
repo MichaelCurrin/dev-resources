@@ -2,7 +2,7 @@
 
 From [Programming Paradigm][] on Wikipedia.
 
-> Precise comparisons of competing paradigms' efficacy are frequently made more difficult because of new and differing terminology applied to similar entities and processes together with numerous implementation distinctions across languages. 
+> Precise comparisons of competing paradigms' efficacy are frequently made more difficult because of new and differing terminology applied to similar entities and processes together with numerous implementation distinctions across languages.
 
 [Programming Paradigm]: https://en.wikipedia.org/wiki/Programming_paradigm
 
@@ -11,20 +11,20 @@ From [Programming Paradigm][] on Wikipedia.
 
 Here are some main differences in two well-known paradigms. Some people will argue that one comparison is more accurate than another.
 
-[Functional Programming][] | [Object-Oriented Programming][] 
---- | ---
-Solve problems by thinking with **maths**. | Solve problems by **modelling**.
-Separate data and behavior. | Combine data and behavior.
-No inheritance | Inheritance 
-No encapsulation. | Encapsulation (hiding data in a class).
-Immutable data. | Mutable data.
-No state. | State.
-Functions are pure - no side-effects. | Pure - methods have side effects.
-Predictable - fixed inputs give fixed outputs. | Not so predictable.
+| [Functional Programming][]                     | [Object-Oriented Programming][]         |
+| ---------------------------------------------- | --------------------------------------- |
+| Solve problems by thinking with **maths**.     | Solve problems by **modelling**.        |
+| Separate data and behavior.                    | Combine data and behavior.              |
+| No inheritance                                 | Inheritance                             |
+| No encapsulation.                              | Encapsulation (hiding data in a class). |
+| Immutable data.                                | Mutable data.                           |
+| No state.                                      | State.                                  |
+| Functions are pure - no side-effects.          | Pure - methods have side effects.       |
+| Predictable - fixed inputs give fixed outputs. | Not so predictable.                     |
 
-[Procedural Programming]: {{ site.baseurl }}{% link resources/other/paradigms/procedural.md %}
-[Functional Programming]: {{ site.baseurl }}{% link resources/other/paradigms/fp.md %}
-[Object-Oriented Programming]: {{ site.baseurl }}{% link resources/other/paradigms/oop.md %}
+[Procedural Programming]: {% link resources/other/paradigms/procedural.md %}
+[Functional Programming]: {% link resources/other/paradigms/fp.md %}
+[Object-Oriented Programming]: {% link resources/other/paradigms/oop.md %}
 
 ### Notes
 

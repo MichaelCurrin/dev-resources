@@ -6,4 +6,6 @@ logo: ruby
 
 ### Related
 
-- [Ruby]({{ site.baseurl }}{% link resources/ruby/index.md %}) section.
+- [Ruby][] section.
+
+[Ruby]: {% link resources/ruby/index.md %}

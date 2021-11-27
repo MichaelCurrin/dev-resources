@@ -63,4 +63,4 @@ See also _Playgrounds_ section on the [Python resources][] page.
 
 [PythonAnywhere](https://pythonanywhere.com) can also work as a pen to testing Python code in the cloud and sharing your console, though service is intended for hosting web apps built on Python.
 
-[Python resources]: {{ site.baseurl }}{% link resources/python/index.md %}
+[Python resources]: {% link resources/python/index.md %}

@@ -10,15 +10,15 @@ key_links:
 
 Info from the website:
 
-> Nativefier is a command-line tool to easily create a desktop app for any web site with minimal configuration. 
-> 
+> Nativefier is a command-line tool to easily create a desktop app for any web site with minimal configuration.
+>
 > Apps are wrapped by Electron (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
 
 ### Related sections
 
 - [Electron][] dev resources.
 
-[Electron]: {{ site.baseurl }}{% link resources/javascript/packages/electron/index.md %}
+[Electron]: {% link resources/javascript/packages/electron/index.md %}
 
 
 ### Example usage
@@ -79,7 +79,7 @@ These were not clear from my first experience but now I see how they work.
 
 I found under the _View_ menu (and with corresponding keyboard shortcuts).
 
-- You can navigate with the _Back_ and _Forward_ button.  
+- You can navigate with the _Back_ and _Forward_ button.
 - There is a _Reload_ button to refresh the page.
 - There is a _Toggle Dev Tools_ option.
 
@@ -93,8 +93,8 @@ It adds convenience.
 
 But it has some downsides. At least in the default setup - I haven't explored options.
 
-- No URL bar. 
-- No clear back or next button. 
+- No URL bar.
+- No clear back or next button.
 
 #### Alternatives
 

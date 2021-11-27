@@ -18,4 +18,4 @@ documentation:
 
 - [VS Code][] resources.
 
-[VS Code]: {{ site.baseurl }}{% link resources/other/vscode.md %}
+[VS Code]: {% link resources/other/vscode.md %}

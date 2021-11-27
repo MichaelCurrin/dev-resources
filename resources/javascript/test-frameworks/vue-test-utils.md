@@ -10,4 +10,4 @@ key_links:
 
 Beginners should use the high-level [Vue Testing Library][] instead.
 
-[Vue Testing Library]: {{ site.baseurl }}{% link resources/javascript/test-frameworks/vue-testing-library.md %}
+[Vue Testing Library]: {% link resources/javascript/test-frameworks/vue-testing-library.md %}

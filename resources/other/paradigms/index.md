@@ -69,9 +69,9 @@ Another option from the video, which doesn't fit in the table, is that can mix O
 
 [Comparison of Programming Paradigms]: https://en.m.wikipedia.org/wiki/Comparison_of_programming_paradigms
 [Programming Paradigm]: https://en.wikipedia.org/wiki/Programming_paradigm
-[Imperative Programming]: {{ site.baseurl }}{% link resources/other/paradigms/imperative.md %}
-[Declarative Programming]:  {{ site.baseurl }}{% link resources/other/paradigms/declarative.md %}
-[Procedural Programming]: {{ site.baseurl }}{% link resources/other/paradigms/procedural.md %}
-[Functional Programming]: {{ site.baseurl }}{% link resources/other/paradigms/fp.md %}
-[Object-Oriented Programming]: {{ site.baseurl }}{% link resources/other/paradigms/oop.md %}
-[Mix FP and OOP]: {{ site.baseurl }}{% link resources/other/paradigms/mix-fp-oop.md %}
+[Imperative Programming]: {% link resources/other/paradigms/imperative.md %}
+[Declarative Programming]:  {% link resources/other/paradigms/declarative.md %}
+[Procedural Programming]: {% link resources/other/paradigms/procedural.md %}
+[Functional Programming]: {% link resources/other/paradigms/fp.md %}
+[Object-Oriented Programming]: {% link resources/other/paradigms/oop.md %}
+[Mix FP and OOP]: {% link resources/other/paradigms/mix-fp-oop.md %}

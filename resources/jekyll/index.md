@@ -12,11 +12,11 @@ links:
   - title: Jekyll guide
     url: https://github.com/MichaelCurrin/static-sites-generator-resources/blob/master/Jekyll/
     description: On my Static Site Generator Resources repo
- 
-  - title: Themes guide 
+
+  - title: Themes guide
     url: https://jekyllrb.com/docs/themes/
     description: On Jekyll docs
-    
+
   - title: Directory structure guide
     url: https://jekyllrb.com/docs/structure/
     description: On Jekyll docs
@@ -36,12 +36,12 @@ link_sections:
       - title: Jekyll Blog Demo
         url: https://michaelcurrin.github.io/jekyll-blog-demo/
         description: Template and demo for showcasing Jekyll functionality with a theme
-        
+
   - title: Collections
     links:
       - title: Jekyll docs
         url: https://jekyllrb.com/docs/collections/
-      - title: Alligator.io 
+      - title: Alligator.io
         url: https://alligator.io/jekyll/collections/
 ---
 
@@ -49,9 +49,9 @@ link_sections:
 
 Resource pages on this site which can help with your Jekyll learning and projects.
 
-- [GitHub Pages]({{ site.baseurl }}{% link resources/web/github-pages.md %}) - one way of hosting your Jekyll site.
-- [GitHub Actions]({{ site.baseurl }}{% link resources/ci-cd/github-actions/index.md %}) - CI-CD to deploy your Jekyll site.
-- [Ruby]({{ site.baseurl }}{% link resources/ruby/index.md %}) - what Jekyll and its plugins are built on.
+- [GitHub Pages]({% link resources/web/github-pages.md %}) - one way of hosting your Jekyll site.
+- [GitHub Actions]({% link resources/ci-cd/github-actions/index.md %}) - CI-CD to deploy your Jekyll site.
+- [Ruby]({% link resources/ruby/index.md %}) - what Jekyll and its plugins are built on.
 
 
 ### Related projects

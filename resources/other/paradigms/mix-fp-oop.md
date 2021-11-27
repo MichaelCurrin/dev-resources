@@ -2,7 +2,7 @@
 
 ## Comparison
 
-FP usually results in less code and fewer unnecessary abstracted concepts, though the mathematic syntax and ideas (like recursion) are not so friendly for a first programming language to learn. 
+FP usually results in less code and fewer unnecessary abstracted concepts, though the mathematic syntax and ideas (like recursion) are not so friendly for a first programming language to learn.
 
 A Procedural or OOP style of sequential steps and using `for` and `while` is more intuitive to learn. FP programmers say that FP has learning curve where you feel stupid initially coming from OOP, but then you become more productive than you were in OOP.
 
@@ -22,7 +22,7 @@ These languages let you do choose to do either FP, or OOP, or a mixure of both.
 
 - JavaScript
     - Supports classes for OOP.
-    - Supports map/reduce/filter and higher-order functions for FP. There are some packages which help enforce FP practices for safety, when the language itself doesn't. See FP section of [JS Packages][]. 
+    - Supports map/reduce/filter and higher-order functions for FP. There are some packages which help enforce FP practices for safety, when the language itself doesn't. See FP section of [JS Packages][].
 - Python
 - C++
     - Built on C, but with classes.
@@ -32,5 +32,5 @@ These languages let you do choose to do either FP, or OOP, or a mixure of both.
 
 Note that a FP language can never be 100% functional. If it has no side effects, then it cannot interact with the outside world like through printing or writing to a file or database.
 
-[JS Packages]: {{ site.baseurl }}{% link resources/javascript/packages/index.md %}
+[JS Packages]: {% link resources/javascript/packages/index.md %}
 [Golang is OO]: https://flaviocopes.com/golang-is-go-object-oriented/

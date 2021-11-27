@@ -11,4 +11,4 @@ key_links:
 
 It abstracts over the lower-level [Vue Test Utils][] library.
 
-[Vue Test Utils]: {{ site.baseurl }}{% link resources/javascript/test-frameworks/vue-test-utils.md %}
+[Vue Test Utils]: {% link resources/javascript/test-frameworks/vue-test-utils.md %}

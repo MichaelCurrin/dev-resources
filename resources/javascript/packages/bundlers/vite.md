@@ -63,7 +63,7 @@ But, Vite has some core improvements on developer experience:
 
 Vite also works as a faster alternative to Vue CLI.
 
-[Webpack]: {{ site.baseurl }}{% link resources/javascript/packages/webpack/index.md %}
+[Webpack]: {% link resources/javascript/packages/webpack/index.md %}
 
 ### Scaffold new project
 
@@ -108,7 +108,7 @@ Or pass your choices in one command.
     ```sh
     $ yarn create vite my-vue-app --template vue
     ```
-    
+
 Here using Vue template for Vite, as per Vite docs and [Vue docs](https://v3.vuejs.org/guide/installation.html#vite).
 
 See [MichaelCurrin/vue-vite-quickstart](https://github.com/MichaelCurrin/vue-vite-quickstart) for the result.

@@ -14,8 +14,8 @@ The "JAM" in JAMStack is for:
 - API
 - [Markdown][]
 
-[Markdown]: {{ site.baseurl }}{% link resources/markdown/index.md %}
-[JavaScript]: {{ site.baseurl }}{% link resources/javascript/index.md %}
+[Markdown]: {% link resources/markdown/index.md %}
+[JavaScript]: {% link resources/javascript/index.md %}
 
 
 ## Generators
@@ -24,14 +24,14 @@ The "JAM" in JAMStack is for:
 
 - [Hugo][]
 
-[Hugo]: {{ site.baseurl }}{% link resources/go/packages/hugo.md %}
+[Hugo]: {% link resources/go/packages/hugo.md %}
 
 
 ### Ruby-based generators
 
 - [Jekyll][]
 
-[Jekyll]: {{ site.baseurl }}{% link resources/jekyll/index.md %}
+[Jekyll]: {% link resources/jekyll/index.md %}
 
 
 ### JavaScript-based generators
@@ -53,15 +53,15 @@ See also [Vue resources][].
 - [Next][]
 
 
-[Docsify]:  {{ site.baseurl }}{% link resources/javascript/packages/docsify/index.md %}
-[Gatsby]:   {{ site.baseurl }}{% link resources/javascript/packages/gatsby/index.md %}
-[Eleventy]: {{ site.baseurl }}{% link resources/javascript/packages/eleventy/index.md %}
-[PrimeVue]: {{ site.baseurl }}{% link resources/javascript/packages/primevue/index.md %}
-[Vuetify]:  {{ site.baseurl }}{% link resources/javascript/packages/vue/vuetify.md %}
-[Next]:     {{ site.baseurl }}{% link resources/javascript/packages/next/index.md %}
-[Nuxt]:     {{ site.baseurl }}{% link resources/javascript/packages/nuxt/index.md %}
-[Vue]:      {{ site.baseurl }}{% link resources/javascript/packages/vue/index.md %}
-[VuePress]: {{ site.baseurl }}{% link resources/javascript/packages/vuepress/index.md %}
+[Docsify]:  {% link resources/javascript/packages/docsify/index.md %}
+[Gatsby]:   {% link resources/javascript/packages/gatsby/index.md %}
+[Eleventy]: {% link resources/javascript/packages/eleventy/index.md %}
+[PrimeVue]: {% link resources/javascript/packages/primevue/index.md %}
+[Vuetify]:  {% link resources/javascript/packages/vue/vuetify.md %}
+[Next]:     {% link resources/javascript/packages/next/index.md %}
+[Nuxt]:     {% link resources/javascript/packages/nuxt/index.md %}
+[Vue]:      {% link resources/javascript/packages/vue/index.md %}
+[VuePress]: {% link resources/javascript/packages/vuepress/index.md %}
 
 
 ## Content managers

@@ -6,7 +6,7 @@ description: External links around GH Actions, from basic to advanced usage
 key_links:
   homepage: https://github.com/features/actions
   docs: https://docs.github.com/en/actions
-  
+
 links:
   - title: Awesome actions
     url: https://github.com/sdras/awesome-actions
@@ -24,7 +24,7 @@ You can extend it to deploy your project too. Such as publish a built package to
 
 - [GitHub Pages][] - host the static site output that your build creates.
 
-[GitHub Pages]: {{ site.baseurl }}{% link resources/web/github-pages.md %}
+[GitHub Pages]: {% link resources/web/github-pages.md %}
 
 ### Related projects
 

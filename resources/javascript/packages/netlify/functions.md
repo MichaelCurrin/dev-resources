@@ -1,7 +1,7 @@
 ---
 title: Netlify Functions
 
-description: JavaScript and TypeScript utilities for Netlify Functions 
+description: JavaScript and TypeScript utilities for Netlify Functions
 
 
 key_links:
@@ -11,7 +11,7 @@ key_links:
 
 See also the [Functions][] page for more info on Netlify Functions.
 
-[Functions]: {{ site.baseurl }}{% link resources/ci-cd/netlify/functions.md %}
+[Functions]: {% link resources/ci-cd/netlify/functions.md %}
 
 
 ### Sample
@@ -21,7 +21,7 @@ import { builder } from "@netlify/functions";
 
 const handler = async (event, context) => {
  const content = { message: 'Hello World' };
- 
+
   return {
     statusCode: 200,
     body: JSON.stringify(content),

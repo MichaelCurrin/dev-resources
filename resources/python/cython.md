@@ -9,22 +9,22 @@ key_links:
   wiki: https://github.com/cython/cython/wiki
   repo_nwo: cython/cython
   pkg_url: https://pypi.org/project/Cython/
-  
+
 links:
   - title: FAQ
     url: https://github.com/cython/cython/wiki/FAQ
-    
+
   - title: Download
     url: https://cython.org/#download
 ---
 
-> Cython is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on Pyrex). It makes writing C extensions for Python as easy as Python itself. 
+> Cython is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on Pyrex). It makes writing C extensions for Python as easy as Python itself.
 
 Cython is not so widely known or used.
 
 Don't confuse Cython with [CPython][].
 
-[CPython]: {{ site.baseurl }}{% link resources/python/implementations/cpython.md %}
+[CPython]: {% link resources/python/implementations/cpython.md %}
 
 
 ## Features
@@ -35,14 +35,14 @@ Don't confuse Cython with [CPython][].
 
 ## How it works
 
-> The Cython language is a superset of the Python language that additionally supports calling C functions and declaring C types on variables and class attributes. This allows the compiler to generate very efficient C code from Cython code. 
+> The Cython language is a superset of the Python language that additionally supports calling C functions and declaring C types on variables and class attributes. This allows the compiler to generate very efficient C code from Cython code.
 
 
 ## When to use it
 
 > integrate natively with existing code and data from legacy, low-level or high-performance libraries and applications.
 
-> CPython \[is\] the ideal language for wrapping external C libraries, embedding CPython into existing applications, and for fast C modules that speed up the execution of Python code. 
+> CPython \[is\] the ideal language for wrapping external C libraries, embedding CPython into existing applications, and for fast C modules that speed up the execution of Python code.
 
 
 ## Install

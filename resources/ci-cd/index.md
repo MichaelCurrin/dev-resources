@@ -26,4 +26,4 @@ Haven't used Amplify but it sounds like it has automation that makes things a br
 
 - [GitHub Pages][]
 
-[GitHub Pages]: {{ site.baseurl }}{% link resources/web/github-pages.md %}
+[GitHub Pages]: {% link resources/web/github-pages.md %}

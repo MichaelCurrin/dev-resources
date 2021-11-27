@@ -1,0 +1,1 @@
+Sitemap: https://michaelcurrin.github.io/dev-resources/sitemap.xml

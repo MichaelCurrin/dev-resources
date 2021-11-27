@@ -1,11 +1,13 @@
 # Dev Resources 💻 📚
 > Links to resources around programming languages, developers tools and services
 
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/dev-resources?include_prereleases&sort=semver)](https://github.com/MichaelCurrin/dev-resources/releases/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![GH Pages Deploy](https://github.com/MichaelCurrin/dev-resources/workflows/GH%20Pages%20Deploy/badge.svg)](https://github.com/MichaelCurrin/dev-resources/actions?query=workflow:"GH+Pages+Deploy")
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/dev-resources?include_prereleases=&sort=semver&color=blue)](https://github.com/MichaelCurrin/dev-resources/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license "Go to license section")
 
+[![Jekyll](https://img.shields.io/badge/Jekyll-4-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com "Go to Jekyll homepage")
+[![theme - fractal](https://img.shields.io/static/v1?label=theme&message=fractal&color=blue&logo=github)](https://github.com/MichaelCurrin/fractal)
 [![Hosted with - GitHub Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/)
-[![Jekyll - 3.9](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
 
 
 ## Website

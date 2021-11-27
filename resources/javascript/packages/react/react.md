@@ -16,6 +16,9 @@ documentation:
 tutorials:
   - title: React in 100 seconds on YouTube
     url: https://youtu.be/Tn6-PIqc4UM
+  - title: UI input examples
+    url: https://react.school/ui/input
+    description: On React School
 ---
 
 ### Quickstart repos

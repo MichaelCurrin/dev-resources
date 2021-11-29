@@ -10,9 +10,6 @@ key_links:
   repo_nwo: apexcharts/apexcharts.js
   docs: https://apexcharts.com/docs/
   
-links:
-  - title: Dev Cheatsheet
-    url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/dataviz/apex-charts
 ---
 
 
@@ -23,3 +20,7 @@ Demos are provided for:
 - React
 - Angular
 
+
+### Related
+
+- [ApexCharts](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/dataviz/apex-charts) in Dev Cheatsheets.

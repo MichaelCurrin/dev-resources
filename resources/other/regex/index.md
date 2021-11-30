@@ -20,6 +20,9 @@ links:
   - title: Regular Expression Language - Quick Reference
     url: https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference
     description: On MicroSoft docs
+tutorials:
+  - title: Regex in 100 seconds 
+    url: https://youtu.be/sXQxhojSdZM
 ---
 
 

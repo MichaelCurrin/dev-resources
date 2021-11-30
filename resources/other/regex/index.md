@@ -10,6 +10,8 @@ link_sections:
   - title: Pattern test services
     description: For trying patterns and a searchable guide to syntax. Make sure to enable the global flag for using multiple rows of test strings.
     links:
+      - title: Cyrilex
+        url: https://extendsclass.com/regex-tester.html
       - title: Regex101
         url: https://regex101.com/
       - title: Regexr

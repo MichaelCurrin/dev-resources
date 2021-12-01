@@ -1,6 +1,10 @@
 ---
 title: GitHub docs
 description: Info on how to write better docs and templates for you GH repos - like issue and PR templates
+
+links:
+  - title: Managing vulnerabilities in your project's dependencies
+    url: https://docs.github.com/en/code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies
 ---
 
 See also my [Docs and templates](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/version-control/github/docs-and-templates.html) cheatsheet for info on how to name and write the files.

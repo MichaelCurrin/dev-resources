@@ -24,9 +24,13 @@ Square of around 300 pixels. It will not scale well if you need something larger
 
 ## Available icons
 
-See all PNGs files available listed here:
+See all files available listed here:
 
 - [topics](https://github.com/github/explore/tree/master/topics) directory of `github/explore` repo.
+
+Open a PNG you want.
+
+Right-click and the _Download_ button and copy the link target.
 
 
 ## URL sample

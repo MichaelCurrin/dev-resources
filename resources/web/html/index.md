@@ -17,6 +17,9 @@ tutorials:
     url: https://developer.mozilla.org/en-US/docs/Web/HTML
     description: Guide on the Mozilla developer docs
 
+  - title: HTML in 100 seconds
+    url: https://youtu.be/ok-plXXHlWw
+
   - title: HTML intro on W3 schools
     url: https://www.w3schools.com/html/html_intro.asp
 ---

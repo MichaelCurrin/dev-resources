@@ -338,11 +338,27 @@
   </li>
 </ul>
 
-<p>See also my own project with set up intructions, commands to run and sample projects.</p>
+<p>See my own project with set up intructions, commands to run and sample projects.</p>
 
 <ul>
   <li><a href="https://github.com/MichaelCurrin/docker-quickstart">MichaelCurrin/docker-quickstart</a></li>
 </ul>
+
+<h2 id="learn-docker">Learn Docker</h2>
+
+<h3 id="learn-the-shell-approach">Learn the shell approach</h3>
+
+<p>A quick way to get started with a container is to choose one specific to an OS, download the image and create and run a container for it - all from the shell.</p>
+
+<p>In this simple case, there is no app to run and there are no custom dependencies. You can do what you like in the container to install and run things and start over if you don’t like it. Once you have a simple image built, you can jump to the interactive console to run commands in it.</p>
+
+<p>If you start off by using a <code class="language-plaintext highlighter-rouge">Dockerfile</code>, you’re going to be rerunning the entire <code class="language-plaintext highlighter-rouge">Dockerfile</code> a few times to fine-tune commands or fix syntax errors. So a good flow is to experiment interactively and then when things work you can move commands to the <code class="language-plaintext highlighter-rouge">Dockerfile</code> and then build you custom image and not just the generic one.</p>
+
+<h3 id="learn-the-dockerfile-approach">Learn the Dockerfile approach</h3>
+
+<p>It is a good idea to start with handling a container using the commands here without worrying about creating any files yet. Then later you can move to the file-based approach, where commands you run by hand in the shell are now in a recipe which can be reproduced easily by you or someone else - anyone with the <code class="language-plaintext highlighter-rouge">Dockerfile</code>.</p>
+
+<p>This recipe is stored in a <code class="language-plaintext highlighter-rouge">Dockerfile</code> - useful for if you have a few or many image build steps such as setting up an app and its dependencies.</p>
 
 <h2 id="installation">Installation</h2>
 

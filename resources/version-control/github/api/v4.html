@@ -323,6 +323,26 @@
 
 <p>Avoid doing frontend queries as you then have to expose your token in the browser to users who can abuse it.</p>
 
+<h2 id="cursors-in-graphql">Cursors in GraphQL</h2>
+
+<p>A GraphQL endpoint will limit how many items it returns to you on a page, to prevent abuse caused by requesting too many items at once.</p>
+
+<p>After the first query, if there is a second page to fetch then you’ll get a <code class="language-plaintext highlighter-rouge">'hasNextPage'</code> value in the paging data as <code class="language-plaintext highlighter-rouge">true</code>. And you’ll get an <code class="language-plaintext highlighter-rouge">'endCursor'</code> value. Pass this cursor value in the query params payload to tell the API to skip the first page.</p>
+
+<p>Then get the cursor on the second page’s request and pass it to on the third request, as so on.</p>
+
+<p>The cursor is temporary and specific to a query and should <em>not</em> be reused (such as copy and pasted by hand for long term use). It is intentionally opaque as a hashed value. In the case of GitHub, the hashed value component is followed by a space and number at the end. The number indicates the index of the last item on the current page, using zero based indexing.</p>
+
+<p>For example:</p>
+
+<ol>
+  <li>Do query for page 1 with 100 items. No cursor sent.</li>
+  <li>Page 1 data received. Paging data includes an end cursor as something like this: <code class="language-plaintext highlighter-rouge">9eee3f4054dd502b105626632b15d01038a95aae 99</code>.</li>
+  <li>Do query for page 2 with 100 items. Send cursor from step above.</li>
+  <li>Page 2 data received. Paging data includes an end cursor as something like this: <code class="language-plaintext highlighter-rouge">9eee3f4054dd502b105626632b15d01038a95aae 199</code>.</li>
+  <li>Do query for page 3 and so on.</li>
+</ol>
+
 
         
     </div>

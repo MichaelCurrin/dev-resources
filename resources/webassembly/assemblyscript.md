@@ -1,5 +1,8 @@
 ---
 title: AssemblyScript
+
+key_links:
+  pkg_url: https://www.npmjs.com/package/assemblyscript
 ---
 
 Like TypeScript but strict and static. It compiles to Assembly. 

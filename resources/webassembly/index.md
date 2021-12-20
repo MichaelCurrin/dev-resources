@@ -1,19 +1,18 @@
 ---
 title: WebAssembly 
 
-links:
+wikipedia_excerpt: |
+  WebAssembly is an open standard that defines a portable binary-code format for executable programs, and a corresponding textual assembly language, as well as interfaces for facilitating interactions between such programs and their host environment.
+
+
+key_links:
+  homepage: https://webassembly.org/
+  wikipedia: https://en.wikipedia.org/wiki/WebAssembly
+
+tutorials:
   - title: WebAssembly in 100 seconds
     url: https://youtu.be/cbB3QEwWMlA
 ---
-
-Now part of the W3C standard.
-
-WebAssembly is low level text that looks like Assembly and compiles to a binary which runs in the browser with near native performance.
-
-You can write code say a game in C++, then compile to WebAssembly and a binary. 
-
-WebAssembly doesn't replace JavaScript but works well with it. For example, one side uses React for the UI outline and WebAssembly for the contents.
-
 
 
 ## What is WebAssembly?
@@ -23,6 +22,14 @@ Or "WASM" for short.
 - A modern language which is great at high-performance operations in the browser, without having to write JavaScript.
 - WebAssembly is human-readable but it is not usually written by hand. You typically use a language like one of [these](#languages-that-generate-webassembly-output) to generate WebAssembly output.
 - WebAssembly can be loaded as a module in the browser, so you can get the benefit of the performance without writing WebAssembly yourself.
+
+Now part of the W3C standard.
+
+WebAssembly is low level text that looks like Assembly and compiles to a binary which runs in the browser with near native performance.
+
+You can write code say a game in C++, then compile to WebAssembly and a binary. 
+
+WebAssembly doesn't replace JavaScript but works well with it. For example, one side uses React for the UI outline and WebAssembly for the contents.
 
 
 ### Links
@@ -34,8 +41,6 @@ Or "WASM" for short.
     > - Safe
     > - Open and debuggable
     > - Part of the open web platform
-* [Wikipedia](https://en.wikipedia.org/wiki/WebAssembly) page
-  > WebAssembly is an open standard that defines a portable binary-code format for executable programs, and a corresponding textual assembly language, as well as interfaces for facilitating interactions between such programs and their host environment.
 * [github.com/webassembly](https://github.com/webassembly)
 * [Awesome Wasm](https://awesomeopensource.com/project/mbasso/awesome-wasm)
 	> Curated list of awesome things regarding WebAssembly (wasm) ecosystem

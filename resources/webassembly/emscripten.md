@@ -1,4 +1,7 @@
-# Install and run
+---
+title: Emscripten
+description: How to install and run Emscripten to convert C code to WebAssembly 
+---
 
 ## Install
 
@@ -19,8 +22,6 @@ $ ./emsdk activate latest
 
 ## Compile and run
 
-### Hello world
-
 Example based on the homepage's [Getting Started](https://webassembly.org/getting-started/developers-guide/) guide.
 
 Create a C file named `hello.c`.
@@ -28,12 +29,16 @@ Create a C file named `hello.c`.
 ```sh
 $ mkdir hello
 $ cd hello
-$ cat << EOF > hello.c
+```
+
+Created `hello.c` as:
+
+```c
 #include <stdio.h>
+
 int main(int argc, char ** argv) {
   printf("Hello, world!\n");
 }
-EOF
 ```
 
 Compile it with the `emcc` compiler and output as `hello.html`.
@@ -66,7 +71,9 @@ Based on [article](https://opensource.com/article/19/4/command-line-playgrounds-
 docker pull robertaboukhalil/emsdk:1.38.26
 
 # Create container from that image.
-docker run -dt --name wasm robertaboukhalil/emsdk:1.38.26
+docker run -dt \
+  --name wasm \
+  robertaboukhalil/emsdk:1.38.26
 
 # Enter the container.
 docker exec -it wasm bash

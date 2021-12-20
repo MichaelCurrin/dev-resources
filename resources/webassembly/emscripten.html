@@ -9,33 +9,33 @@
 
     <meta property="og:site_name" content="Dev Resources" />
 
-    <title>Install and run | Dev Resources</title>
+    <title>Emscripten | Dev Resources</title>
 
-    <meta property="og:title" content="Install and run" />
+    <meta property="og:title" content="Emscripten" />
 
     <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="Install and run" />
+    <meta property="twitter:title" content="Emscripten" />
 <meta name="generator" content="Jekyll v4.2.1" />
 
 <meta property="og:locale" content="en_US" />
 
 
-    <meta name="description" content="Links to tutorials/articles/docs/Wikipedia about programming languages, developers tools and services" />
-    <meta property="og:description" content="Links to tutorials/articles/docs/Wikipedia about programming languages, developers tools and services" />
+    <meta name="description" content="How to install and run Emscripten to convert C code to WebAssembly" />
+    <meta property="og:description" content="How to install and run Emscripten to convert C code to WebAssembly" />
 <meta name="author" content="Michael Currin" />
 
 
 
-<link rel="canonical" href="https://michaelcurrin.github.io/dev-resources/resources/webassembly/install-run.html" />
-<meta property="og:url" content="https://michaelcurrin.github.io/dev-resources/resources/webassembly/install-run.html" />
+<link rel="canonical" href="https://michaelcurrin.github.io/dev-resources/resources/webassembly/emscripten.html" />
+<meta property="og:url" content="https://michaelcurrin.github.io/dev-resources/resources/webassembly/emscripten.html" />
 
 
 <script type="application/ld+json">
 {
     "name":        "Dev Resources",
-    "description": "Links to tutorials/articles/docs/Wikipedia about programming languages, developers tools and services",
-    "url":         "https://michaelcurrin.github.io/dev-resources/resources/webassembly/install-run.html",
-    "headline":    "Install and run",
+    "description": "How to install and run Emscripten to convert C code to WebAssembly",
+    "url":         "https://michaelcurrin.github.io/dev-resources/resources/webassembly/emscripten.html",
+    "headline":    "Emscripten",
     "@type":       "WebSite",
     "@context":    "https://schema.org",
     "author": {
@@ -84,7 +84,7 @@
 </header>
 <main class="page-content" aria-label="Content">
         <div class="wrapper">
-            <a id="github-edit" href="https://github.com/MichaelCurrin/dev-resources/edit/master/resources/webassembly/install-run.md">
+            <a id="github-edit" href="https://github.com/MichaelCurrin/dev-resources/edit/master/resources/webassembly/emscripten.md">
     📝 <span>Edit page</span>
 </a>
 
@@ -101,9 +101,14 @@
             
 
 
-            <span>Install and run</span>
+            <span>Emscripten</span>
         </h1>
 
+        
+            <blockquote>
+                <p>How to install and run Emscripten to convert C code to WebAssembly</p>
+
+            </blockquote>
         
     </header>
 
@@ -140,8 +145,8 @@
         
 
         
-            <a href="/dev-resources/resources/webassembly/install-run.html" class="underline">
-                Install and run
+            <a href="/dev-resources/resources/webassembly/emscripten.html" class="underline">
+                Emscripten
             </a>
         
      
@@ -177,21 +182,22 @@
 
 <h2 id="compile-and-run">Compile and run</h2>
 
-<h3 id="hello-world">Hello world</h3>
-
 <p>Example based on the homepage’s <a href="https://webassembly.org/getting-started/developers-guide/">Getting Started</a> guide.</p>
 
 <p>Create a C file named <code class="language-plaintext highlighter-rouge">hello.c</code>.</p>
 
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">mkdir </span>hello
 <span class="nv">$ </span><span class="nb">cd </span>hello
-<span class="nv">$ </span><span class="nb">cat</span> <span class="o">&lt;&lt;</span> <span class="no">EOF</span><span class="sh"> &gt; hello.c
-#include &lt;stdio.h&gt;
-int main(int argc, char ** argv) {
-  printf("Hello, world!</span><span class="se">\n</span><span class="sh">");
-}
-</span><span class="no">EOF
-</span></code></pre></div></div>
+</code></pre></div></div>
+
+<p>Created <code class="language-plaintext highlighter-rouge">hello.c</code> as:</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;stdio.h&gt;
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span> <span class="n">argv</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"Hello, world!</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <p>Compile it with the <code class="language-plaintext highlighter-rouge">emcc</code> compiler and output as <code class="language-plaintext highlighter-rouge">hello.html</code>.</p>
 
@@ -221,7 +227,9 @@ int main(int argc, char ** argv) {
 docker pull robertaboukhalil/emsdk:1.38.26
 
 <span class="c"># Create container from that image.</span>
-docker run <span class="nt">-dt</span> <span class="nt">--name</span> wasm robertaboukhalil/emsdk:1.38.26
+docker run <span class="nt">-dt</span> <span class="se">\</span>
+  <span class="nt">--name</span> wasm <span class="se">\</span>
+  robertaboukhalil/emsdk:1.38.26
 
 <span class="c"># Enter the container.</span>
 docker <span class="nb">exec</span> <span class="nt">-it</span> wasm bash

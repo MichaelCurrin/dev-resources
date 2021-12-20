@@ -94,6 +94,9 @@
 <loc>https://michaelcurrin.github.io/dev-resources/resources/ci-cd/github-actions/documentation.html</loc>
 </url>
 <url>
+<loc>https://michaelcurrin.github.io/dev-resources/resources/webassembly/emscripten.html</loc>
+</url>
+<url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/bundlers/esbuild.html</loc>
 </url>
 <url>
@@ -794,8 +797,5 @@
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/web/visual-testing.html</loc>
-</url>
-<url>
-<loc>https://michaelcurrin.github.io/dev-resources/resources/webassembly/install-run.html</loc>
 </url>
 </urlset>

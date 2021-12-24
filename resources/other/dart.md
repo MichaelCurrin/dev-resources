@@ -12,7 +12,7 @@ tutorials:
 
 > Dart is a client-optimized language for fast apps on any platform - [dart.dev](https://dart.dev)
 
-Dart is a multi-paradigm programming language which was developed by Google started in 2011. It lets you use a single codebaes to build a web app, desktop application and Android/iOS app. Its syntax is similar or C or JavaScript.
+Dart is a multi-paradigm programming language which was developed by Google started in 2011. It lets you use a single codebase to build a web app, desktop application and Android/iOS app. Its syntax has been described as a mix of Java and JavaScript.
 
 I am interested in Dart as cross-platform way of building a mobile app and also a web app, however I am not planning to learn much more about it. As I've read it is a languaged backed mostly by Google and does well as a language for Flutter for mobile apps, but it is not catching on for web apps. React Native is a good alternative. Or Java/Kotlin for Android-only development. Note Android and Kotlin also come from Google, but are popular in the market and with developers.
 
@@ -57,8 +57,6 @@ I am interested in Dart as cross-platform way of building a mobile app and also 
     - [Codepen adds support for Flutter](https://medium.com/flutter/announcing-codepen-support-for-flutter-bb346406fe50)
 
 
-
-
 ## Install
 
 ### Web
@@ -68,3 +66,35 @@ For Dart web, command-line, and server apps, go to [Get the Dart SDK](https://da
 ### Mobile
 
 For developing only mobile apps, go to [Install Flutter](https://flutter.dev/docs/get-started/install).
+
+
+See the [Dark SDK Overview](https://dart.dev/tools/sdk) and subsections for details on the various ways to run Dart.
+
+### Run script on command-line
+
+```bash
+$ dart --enable-asserts test.dart
+```
+
+### Start server
+
+How to start a Dart application server. See the links for quickstarts and tutorials.
+
+- [Command-line & server apps](https://dart.dev/server)
+    ```bash
+    $ dart bin/main.dart
+    ```
+- [Web apps](https://dart.dev/web)
+    ```bash
+    $ webserve dev
+    ```
+
+
+## Hello World
+
+```dart
+main() {
+    var msg = 'Hello, World!';
+    print("$msg");
+}
+```

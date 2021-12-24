@@ -175,7 +175,7 @@
   <p>Dart is a client-optimized language for fast apps on any platform - <a href="https://dart.dev">dart.dev</a></p>
 </blockquote>
 
-<p>Dart is a multi-paradigm programming language which was developed by Google started in 2011. It lets you use a single codebaes to build a web app, desktop application and Android/iOS app. Its syntax is similar or C or JavaScript.</p>
+<p>Dart is a multi-paradigm programming language which was developed by Google started in 2011. It lets you use a single codebase to build a web app, desktop application and Android/iOS app. Its syntax has been described as a mix of Java and JavaScript.</p>
 
 <p>I am interested in Dart as cross-platform way of building a mobile app and also a web app, however I am not planning to learn much more about it. As I’ve read it is a languaged backed mostly by Google and does well as a language for Flutter for mobile apps, but it is not catching on for web apps. React Native is a good alternative. Or Java/Kotlin for Android-only development. Note Android and Kotlin also come from Google, but are popular in the market and with developers.</p>
 
@@ -255,6 +255,36 @@ Flutter apps are written in the Dart language and make use of many of the langua
 <h3 id="mobile">Mobile</h3>
 
 <p>For developing only mobile apps, go to <a href="https://flutter.dev/docs/get-started/install">Install Flutter</a>.</p>
+
+<p>See the <a href="https://dart.dev/tools/sdk">Dark SDK Overview</a> and subsections for details on the various ways to run Dart.</p>
+
+<h3 id="run-script-on-command-line">Run script on command-line</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>dart <span class="nt">--enable-asserts</span> test.dart
+</code></pre></div></div>
+
+<h3 id="start-server">Start server</h3>
+
+<p>How to start a Dart application server. See the links for quickstarts and tutorials.</p>
+
+<ul>
+  <li><a href="https://dart.dev/server">Command-line &amp; server apps</a>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nv">$ </span>dart bin/main.dart
+</code></pre></div>    </div>
+  </li>
+  <li><a href="https://dart.dev/web">Web apps</a>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nv">$ </span>webserve dev
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="hello-world">Hello World</h2>
+
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">main</span><span class="o">()</span> <span class="o">{</span>
+    <span class="kd">var</span> <span class="n">msg</span> <span class="o">=</span> <span class="s">'Hello, World!'</span><span class="o">;</span>
+    <span class="n">print</span><span class="o">(</span><span class="s">"</span><span class="si">$msg</span><span class="s">"</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div></div>
 
 
         

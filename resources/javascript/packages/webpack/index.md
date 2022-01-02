@@ -33,4 +33,6 @@ links: []
 
 ---
 
-See my [Webpack](https://github.com/MichaelCurrin/javascript-bundling-quickstarts/tree/master/quickstarts/babel) demo in JS Bundling Quickstarts.
+See my [Webpack][] demo in JS Bundling Quickstarts.
+
+[Webpack]: https://github.com/MichaelCurrin/javascript-bundling-quickstarts/tree/master/quickstarts/webpack

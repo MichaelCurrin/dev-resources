@@ -2,6 +2,7 @@
 title: Bundlers
 ---
 
-See the [Bundlers][] section in _Packages_.
-
-[Bundlers]: {% link resources/javascript/packages/bundlers/index.md %}
+<script>
+  const url = "{% link resources/javascript/packages/bundlers/index.md %}"
+  window.location.assign(url)
+</script>

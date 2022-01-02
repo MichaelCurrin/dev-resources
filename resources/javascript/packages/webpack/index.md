@@ -32,3 +32,5 @@ link_sections: []
 links: []
 
 ---
+
+See my [Webpack](https://github.com/MichaelCurrin/javascript-bundling-quickstarts/tree/master/quickstarts/babel) demo in JS Bundling Quickstarts.

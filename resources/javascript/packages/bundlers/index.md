@@ -28,3 +28,7 @@ links:
 ---
 
 {% comment %} TODO: Make a page for each {% endcomment %}
+
+See also my repo with quickstarts for Webpack, Babel, etc.
+
+- [javascript-bundling-quickstarts](https://github.com/MichaelCurrin/javascript-bundling-quickstarts)

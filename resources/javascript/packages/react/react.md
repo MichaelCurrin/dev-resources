@@ -55,6 +55,8 @@ Learn more about React in my other projects:
 
 Some pages from the docs I have used before.
 
+* [Tutorial](https://reactjs.org/docs/hello-world.html) starting with Hello World
 * [render props](https://reactjs.org/docs/render-props.html)
 * [hooks](https://reactjs.org/docs/hooks-intro.html)
 * [higher-order components](https://reactjs.org/docs/higher-order-components.html)
+* [Component State FAQ](https://reactjs.org/docs/faq-state.html)

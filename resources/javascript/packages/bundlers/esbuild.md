@@ -16,10 +16,10 @@ documentation:
   - title: Getting started
     url: https://esbuild.github.io/getting-started/
 links:
-  - title: Dev Cheatsheet
+  - title: ES Build cheatsheet in my Dev Cheatsheets
     url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/packages/esbuild/
     
-  - title: ES Build quickstart
+  - title: ES Build quickstart template on GitHub
     url: https://github.com/MichaelCurrin/javascript-bundling-quickstarts/tree/master/quickstarts/esbuild
 ---
 

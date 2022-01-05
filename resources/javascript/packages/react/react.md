@@ -21,6 +21,14 @@ tutorials:
     description: On React School
 ---
 
+### What is React?
+
+From the [tutorial](https://reactjs.org/tutorial/tutorial.html#overview) in the docs:
+
+> React is a declarative, efficient, and flexible JavaScript library for building user interfaces. 
+> 
+> It lets you compose complex UIs from small and isolated pieces of code called “components”.
+
 ### Quickstart repos
 
 - [![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart)
@@ -55,8 +63,12 @@ Learn more about React in my other projects:
 
 Some pages from the docs I have used before.
 
-* [Tutorial](https://reactjs.org/docs/hello-world.html) starting with Hello World
+* [Getting Started](https://reactjs.org/docs/hello-world.html) starting with Hello World and then building a simple product widget.
+* [Tutorial](https://reactjs.org/tutorial/tutorial.html#before-we-start-the-tutorial) with a more formal introduction and where you build a game. "This tutorial is designed for people who prefer to learn by doing"
 * [render props](https://reactjs.org/docs/render-props.html)
 * [hooks](https://reactjs.org/docs/hooks-intro.html)
 * [higher-order components](https://reactjs.org/docs/higher-order-components.html)
 * [Component State FAQ](https://reactjs.org/docs/faq-state.html)
+
+
+React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.

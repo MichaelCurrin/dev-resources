@@ -23,6 +23,12 @@ tutorials:
 
 ### What is React?
 
+React is a JavaScript library for building user interfaces.
+
+React allows us to create reusable UI components, whether adding a component to a plain HTML page or to build the entire page and page routing with React.
+
+React is used to build Single-Page Applications rendered on the client side, but it can also be used for Server-side rendering.
+
 From the [tutorial](https://reactjs.org/tutorial/tutorial.html#overview) in the docs:
 
 > React is a declarative, efficient, and flexible JavaScript library for building user interfaces. 

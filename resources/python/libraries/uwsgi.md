@@ -10,6 +10,11 @@ key_links:
 
 > The uWSGI project aims at developing a full stack for building hosting services.
 
+It is built around the [WSGI][] standard for Python web apps.
+
+[WSGI]: https://wsgi.readthedocs.io/
+
+
 ## Install
 
 Get C compilers like `gcc` or `clang` and Python dev headers. On Debian-based systems:

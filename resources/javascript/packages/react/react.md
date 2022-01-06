@@ -1,6 +1,9 @@
 ---
 title: React
 logo: react
+
+byline: A JavaScript library for building user interfaces
+
 key_links:
   homepage: https://reactjs.org/
   docs: https://reactjs.org/docs/

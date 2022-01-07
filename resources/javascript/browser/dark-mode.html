@@ -175,7 +175,7 @@
 
 <p>You need to add styling to the <code class="language-plaintext highlighter-rouge">html</code> element so it applies everywhere.</p>
 
-<p>Use the special root selector for this.</p>
+<p>Use the special root selector for this - see CSS <code class="language-plaintext highlighter-rouge">:root</code>.</p>
 
 <p>Set styling for light and dark cases. e.g.</p>
 
@@ -196,16 +196,29 @@
 
 <p>Then use JS to toggle your class on <code class="language-plaintext highlighter-rouge">html</code> as either <code class="language-plaintext highlighter-rouge">light-theme</code> or <code class="language-plaintext highlighter-rouge">dark-theme</code> value.</p>
 
-<p>Such as with:</p>
+<p>Using the root element:</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="nx">theme</span><span class="p">;</span>
 </code></pre></div></div>
+
+<p>In this case we don’t have to worry about appending or removing from the class list, as we don’t want other styles on <code class="language-plaintext highlighter-rouge">html</code> and we want to switch between either one <em>or</em> the other class and not both at once.</p>
+
+<p>If you want to append and remove.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="nx">darkMode</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">"</span><span class="s2">dark</span><span class="dl">"</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="dl">"</span><span class="s2">dark</span><span class="dl">"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>You can also use <code class="language-plaintext highlighter-rouge">document.body</code> instead in the CSS and JS, but the root element is preferred.</p>
 
 <h2 id="get-user-preference">Get user preference</h2>
 
 <p>Read the user’s preference for light or dark mode, as set at the OS or browser level:</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">LIGHT_THEME</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">light-theme</span><span class="dl">"</span><span class="p">;</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">LIGHT_THEME</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">light-theme</span><span class="dl">"</span><span class="p">;</span> <span class="c1">// or "light-mode"</span>
 <span class="kd">const</span> <span class="nx">DARK_THEME</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">dark-theme</span><span class="dl">"</span><span class="p">;</span>
 
 <span class="kd">function</span> <span class="nx">browserPreferedTheme</span><span class="p">()</span> <span class="p">{</span>
@@ -239,6 +252,56 @@
   <li>Persist dark mode state - <code class="language-plaintext highlighter-rouge">localStorage</code>.</li>
   <li>Style for dark mode with CSS.</li>
 </ol>
+
+<p>Here is some sample JS:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">faMoon</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">@fortawesome/free-solid-svg-icons</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">FontAwesomeIcon</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">@fortawesome/react-fontawesome</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="kd">function</span> <span class="nx">App</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">[</span><span class="nx">isDark</span><span class="p">,</span> <span class="nx">setIsDark</span><span class="p">]</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">useState</span><span class="p">(</span><span class="kc">false</span><span class="p">)</span>
+
+  <span class="kd">const</span> <span class="nx">onClick</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">setIsDark</span><span class="p">(</span><span class="o">!</span><span class="nx">isDark</span><span class="p">)</span>
+  <span class="p">}</span>
+
+  <span class="nx">React</span><span class="p">.</span><span class="nx">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">ls</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">.</span><span class="nx">getItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">dark-mode</span><span class="dl">'</span><span class="p">)</span> <span class="p">??</span> <span class="dl">'</span><span class="s1">false</span><span class="dl">'</span>
+    <span class="kd">const</span> <span class="nx">v</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">ls</span><span class="p">)</span>
+    <span class="nx">setIsDark</span><span class="p">(</span><span class="nx">v</span><span class="p">)</span>
+  <span class="p">},</span> <span class="p">[])</span>
+
+  <span class="nx">React</span><span class="p">.</span><span class="nx">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="o">!</span><span class="nx">isDark</span> <span class="p">?</span> <span class="dl">"</span><span class="s2">dark-mode</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">""</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">.</span><span class="nx">setItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">dark-mode</span><span class="dl">'</span><span class="p">,</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">isDark</span><span class="p">))</span>
+  <span class="p">},</span>
+    <span class="p">[</span><span class="nx">isDark</span><span class="p">]</span>
+  <span class="p">)</span>
+  
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">className</span><span class="o">=</span><span class="dl">"</span><span class="s2">app</span><span class="dl">"</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">h1</span> <span class="nx">className</span><span class="o">=</span><span class="dl">"</span><span class="s2">title</span><span class="dl">"</span><span class="o">&gt;</span><span class="nx">Dark</span> <span class="nx">Mode</span> <span class="nx">Demo</span><span class="o">&lt;</span><span class="sr">/h1</span><span class="err">&gt;
+</span>      <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>
+      <span class="o">&lt;</span><span class="nx">button</span> <span class="nx">className</span><span class="o">=</span><span class="dl">"</span><span class="s2">app__dark-mode-btn icon level-right</span><span class="dl">"</span> <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span> <span class="nx">onClick</span> <span class="p">}</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">FontAwesomeIcon</span> <span class="nx">icon</span><span class="o">=</span><span class="p">{</span> <span class="nx">faMoon</span> <span class="p">}</span> <span class="sr">/</span><span class="err">&gt;
+</span>      <span class="o">&lt;</span><span class="sr">/button</span><span class="err">&gt;
+</span>
+      <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>
+        <span class="nx">My</span> <span class="nx">content</span> <span class="nx">here</span>
+      <span class="o">&lt;</span><span class="sr">/p</span><span class="err">&gt;
+</span>      
+    <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>  <span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Note that the first effect runs only on mount and unmount.</p>
+
+<p>And the second runs whenever <code class="language-plaintext highlighter-rouge">isDark</code> changes.</p>
+
+<p>After you have the value from local storage initially, you can use the value that is in React’s state. And when the user changes the value, you change the value in state using <code class="language-plaintext highlighter-rouge">onClick</code> and change the value in localStorage using the second effect.</p>
 
 
         

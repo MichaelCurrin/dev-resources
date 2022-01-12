@@ -19,6 +19,10 @@ documentation:
   - title: Manage build dependencies 
     url: https://docs.netlify.com/configure-builds/manage-dependencies/
     description: Choose a version of Python, etc.
+    
+  - title: Environment variables
+    url: https://docs.netlify.com/configure-builds/environment-variables/
+    
 tutorials:
   - title: Tutorials on Netlify site
     url: https://www.netlify.com/topics/tutorials/

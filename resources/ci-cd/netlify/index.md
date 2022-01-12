@@ -15,6 +15,10 @@ links:
     url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/ci-cd/netlify/
     description: under Dev Cheatsheets
 
+documentation:
+  - title: Manage build dependencies 
+    url: https://docs.netlify.com/configure-builds/manage-dependencies/
+    description: Choose a version of Python, etc.
 tutorials:
   - title: Tutorials on Netlify site
     url: https://www.netlify.com/topics/tutorials/

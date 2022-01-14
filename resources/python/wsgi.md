@@ -12,4 +12,4 @@ As a web developer you won't need to know much more that a WSGI container is a s
 
 See related packages uwsgi and gunicorn in the [Libraries][] section.
 
-[Libraries]: {% link resources/python/libraries.md %}
+[Libraries]: {% link resources/python/libraries/index.md %}

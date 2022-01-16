@@ -14,7 +14,11 @@ documentation:
     url: https://www.gnu.org/software/bash/manual/bash.pdf
     description: Official guide on the GNU site
     
-  - title: Bash reference manual (PDF)
+  - title: Bash Reference Manual
+    url: https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html
+    description: Official guide on the GNU site
+    
+  - title: Bash cheatsheet
     url: https://devdocs.io/bash/
     description: On DevDocs
  

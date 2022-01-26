@@ -2,6 +2,8 @@
 title: Docker
 logo: docker
 
+description: Pack, ship and run any application as a lightweight container
+
 byline: |
   Docker: Empowering App Development for Developers
 

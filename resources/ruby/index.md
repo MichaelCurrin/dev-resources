@@ -14,4 +14,8 @@ key_links:
 links:
   - title: Ruby in 100 seconds
     url: https://youtu.be/UYm0kfnRTJk
+
+  - title: Ruby cheatsheets 
+    url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/ruby/
+    description: in Dev Cheatsheets 
 ---

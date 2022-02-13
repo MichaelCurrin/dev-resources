@@ -18,4 +18,8 @@ links:
   - title: Ruby cheatsheets 
     url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/ruby/
     description: in Dev Cheatsheets 
+
+  - title: Ruby recipes 
+    url: https://michaelcurrin.github.io/code-cookbook/recipes/ruby/
+    description: in Code Cookbook
 ---

@@ -10,4 +10,8 @@ key_links:
   docs: https://www.ruby-lang.org/en/documentation/
   pkg_registry: https://rubygems.org/
   wikipedia: https://en.wikipedia.org/wiki/Ruby
+
+links:
+  - title: Ruby in 100 seconds
+    url: https://youtu.be/UYm0kfnRTJk
 ---

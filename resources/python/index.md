@@ -21,6 +21,14 @@ learn_links:
 
 
 links:
+  - title: Python cheatsheets
+    url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/python/
+    description: In my Dev Cheatsheets project
+  
+  - title: Python recipes
+    url: https://michaelcurrin.github.io/code-cookbook/recipes/python/
+    description: In my Code Cookbook project
+    
   - title: Python Anywhere
     url: https://www.pythonanywhere.com/
     description: Host and run Python code in the cloud, without the hassle of managing infrastructure like on AWS. A convenient way to run Python and shell scripts in the cloud on schedule or host a web app using your choice of framework like Flask or Django. MySQL is available on the free tier, Postgres for paid, and of course SQLite works well for simple cases. There are also interactive consoles for Python, Bash, and MySQL - you can even live share your view by giving someone a link.

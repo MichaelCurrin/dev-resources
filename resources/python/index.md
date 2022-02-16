@@ -30,15 +30,17 @@ links:
 tutorials:
   - title: Python in 100 seconds
     url: https://youtu.be/x7X9w_GIm1s
+    
+  - title: Python courses on Codecademy
+    url: https://www.codecademy.com/catalog/language/python
+    description: Beginner and intermediate
 blog_posts: []
 
 playgrounds:
 - title: Tutorials Point
   url: https://www.tutorialspoint.com/execute_python_online.php
-  description: ''
 - title: repl.it
   url: https://repl.it/languages/python3
-  description: ''
 - title: Python Fiddle
   url: http://pythonfiddle.com/
 - title: Python Tutor - visualize

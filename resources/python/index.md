@@ -31,6 +31,9 @@ tutorials:
   - title: Python in 100 seconds
     url: https://youtu.be/x7X9w_GIm1s
     
+  - title: Learn Python 3
+    url: https://www.codecademy.com/learn/learn-python-3
+    description: Introduction course on Codecademy
   - title: Python courses on Codecademy
     url: https://www.codecademy.com/catalog/language/python
     description: Beginner and intermediate. Courses in chatbots, data analysis, blockchain, visualizing data, language analysis, and more.

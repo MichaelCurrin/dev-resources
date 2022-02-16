@@ -33,7 +33,7 @@ tutorials:
     
   - title: Python courses on Codecademy
     url: https://www.codecademy.com/catalog/language/python
-    description: Beginner and intermediate
+    description: Beginner and intermediate. Courses in chatbots, data analysis, blockchain, visualizing data, language analysis, and more.
 blog_posts: []
 
 playgrounds:

@@ -15,3 +15,12 @@ links:
     url: https://pages.github.com/versions/ 
     description: List of gems which are locked in the GH Pages environment, including Jekyll plugins and Jekyll themes
 ---
+
+
+## Related
+
+- [GitHub Actions][] section
+- [Deploy to GH Pages with GH Actions][] in my Code Cookbook
+
+[GitHub Actions]: {% link resources/ci-cd/github-actions/index.md %}
+[Deploy to GH Pages with GH Actions]: https://michaelcurrin.github.io/code-cookbook/recipes/ci-cd/github-actions/workflows/deploy-gh-pages/

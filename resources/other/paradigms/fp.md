@@ -7,6 +7,7 @@ key_links:
 
 [A Brief History of Functional Programming](http://www.cse.psu.edu/~gxt29//historyOfFP/historyOfFP.html)
 
+[Podcast](https://stackoverflow.blog/2022/02/25/is-functional-programming-the-hipster-programming-paradigm-ep-418/)
 
 ## Description
 

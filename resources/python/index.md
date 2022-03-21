@@ -38,7 +38,9 @@ links:
 tutorials:
   - title: Python in 100 seconds
     url: https://youtu.be/x7X9w_GIm1s
-    
+  - title: Python tutorial
+    url: https://docs.python.org/3/tutorial/index.html
+    description: In the Python docs
   - title: Learn Python 3
     url: https://www.codecademy.com/learn/learn-python-3
     description: Introduction course on Codecademy

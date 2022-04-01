@@ -79,3 +79,4 @@ On the last point - I set up a SSR React app before without the hydration step, 
 
 - [React.hydrate](https://reactjs.org/docs/react-dom.html#hydrate) in the docs.
 - [Hydration and Server-side Rendering](https://blog.somewhatabstract.com/2020/03/16/hydration-and-server-side-rendering/) blog post series around React.
+- [Improving Web Page Performance at DoorDash Through Server-Side Rendering with Next.JS](https://doordash.engineering/2022/03/29/improving-web-page-performance-at-doordash-throughserver-side-rendering-with-next-js/) 

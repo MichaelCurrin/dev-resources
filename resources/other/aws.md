@@ -39,13 +39,20 @@ wikipedia_excerpt: "Amazon Web Services is a subsidiary of Amazon providing on-d
   blocks and tools."
 byline: ''
 tutorials:
+- title: AWS Certification and training
+  url: https://aws.amazon.com/training/
+  description: Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud.
+
+- title: AWS Skillbuilder
+  url: https://explore.skillbuilder.aws/learn
+  description: Pick courses and learning plans
 - title: Self-paced Labs
   url: https://aws.amazon.com/training/self-paced-labs/
-  description: Learn and experiment on real AWS infrastructure without the costs or
+  description: UPDATE: Link is not longer valid. Learn and experiment on real AWS infrastructure without the costs or
     risks. The labs will expire at the end of a session so things will scale down.
 - title: Amazon Qwiklabs
   url: https://amazon.qwiklabs.com/
-  description: This is the site where the labs page takes you to. You register and sign into Qwiklabs separate to your AWS account and start the labs from in Qwiklabs.
+  description: This is the site where the labs page takes you to. You register and sign into Qwiklabs separate to your AWS account and start the labs from within Qwiklabs.
 - title: Getting Started
   url: https://aws.amazon.com/getting-started/
   description: ''

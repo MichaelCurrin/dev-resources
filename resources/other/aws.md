@@ -48,7 +48,8 @@ tutorials:
   description: Pick courses and learning plans
 - title: Self-paced Labs
   url: https://aws.amazon.com/training/self-paced-labs/
-  description: UPDATE: Link is not longer valid. Learn and experiment on real AWS infrastructure without the costs or
+  description: |
+    UPDATE: Link is no longer valid. Learn and experiment on real AWS infrastructure without the costs or
     risks. The labs will expire at the end of a session so things will scale down.
 - title: Amazon Qwiklabs
   url: https://amazon.qwiklabs.com/

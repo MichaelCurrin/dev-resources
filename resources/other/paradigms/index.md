@@ -55,17 +55,16 @@ That article compares paradigms neatly. Here is a summary from there.
             mathematical in which the desired result is declared as the solution of an optimization problem
             reactive in which the desired result is declared with data streams and the propagation of change
 
-#### Approaches and Paradigms
+#### Approaches and paradigms
 
 From [YouTube video](https://youtu.be/QM1iUe6IofM).
 
-| Paradigm   | Approach   | Description        |
-| ---------- | ---------- | ------------------ |
-| Procedural | Imperative | The default style. |
-| Procedural | Functional | Minimize state.    |
-| OOP        | Imperative | Segregate state.   |
-
-Another option from the video, which doesn't fit in the table, is that can mix OOP and FP. do both paradigms in one project in different modules or even in the same one. See [Mix FP and OOP][] page for more info.
+| Approach   | Description        |
+| ---------- | ------------------ |
+| Procedural + Imperative | The default style. |
+| Procedural + Functional | Minimize state.    |
+| OOP        + Imperative | Segregate state.   |
+| OOP        + Functional | Do both. See [Mix FP and OOP][] page for more info.  |
 
 [Comparison of Programming Paradigms]: https://en.m.wikipedia.org/wiki/Comparison_of_programming_paradigms
 [Programming Paradigm]: https://en.wikipedia.org/wiki/Programming_paradigm

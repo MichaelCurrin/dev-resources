@@ -22,6 +22,7 @@ link_sections:
         url: https://ramdajs.com
       - title: ts-belt
         url: https://mobily.github.io/ts-belt
+        description: Fast, modern, and practical utility library for FP in TypeScript. 
 ---
 
 ### Related

@@ -20,6 +20,8 @@ link_sections:
          Lodash’s modular methods are great for iterating over arrays, objects, and strings, manipulating and testing values, and creating composite functions
       - title: ramda
         url: https://ramdajs.com
+      - title: ts-belt
+        url: https://mobily.github.io/ts-belt
 ---
 
 ### Related

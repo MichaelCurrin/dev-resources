@@ -4,7 +4,7 @@ title: Docsify
 key_links:
   homepage: https://docsify.js.org/
   pkg_url: https://www.npmjs.com/package/docsify
-  repo_nwo: docsify/docsify
+  repo_nwo: docsifyjs/docsify
   
 tutorials:
   - title: DocsifyJS tutorial

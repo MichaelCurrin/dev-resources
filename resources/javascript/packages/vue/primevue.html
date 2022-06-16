@@ -20,8 +20,8 @@
 <meta property="og:locale" content="en_US" />
 
 
-    <meta name="description" content="UI Component Library" />
-    <meta property="og:description" content="UI Component Library" />
+    <meta name="description" content="A UI component library for Vue - it lets you use themes around Bootstrap, Material and more." />
+    <meta property="og:description" content="A UI component library for Vue - it lets you use themes around Bootstrap, Material and more." />
 <meta name="author" content="Michael Currin" />
 
 
@@ -33,7 +33,7 @@
 <script type="application/ld+json">
 {
     "name":        "Dev Resources",
-    "description": "UI Component Library",
+    "description": "A UI component library for Vue - it lets you use themes around Bootstrap, Material and more.",
     "url":         "https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/vue/primevue.html",
     "headline":    "PrimeVue",
     "@type":       "WebSite",
@@ -106,7 +106,7 @@
 
         
             <blockquote>
-                <p>UI Component Library</p>
+                <p>A UI component library for Vue - it lets you use themes around Bootstrap, Material and more.</p>
 
             </blockquote>
         
@@ -183,6 +183,14 @@
     <div class="post-content">
         
             
+    <span>Byline: </span>
+
+    <blockquote><p>The Most Complete Vue UI Component Library</p>
+
+<p>Powerful yet simple to use, versatile, performant Vue UI Component Library to help you build stunning user interfaces.</p>
+</blockquote>
+
+
 
 
 
@@ -204,7 +212,11 @@
 
 <ul>
         <li>
-            🏠 Homepage: <a href="https://www.primefaces.org/primevue/">https://www.primefaces.org/primevue/</a>
+            🏠 Homepage: <a href="https://primefaces.org/primevue/">https://primefaces.org/primevue/</a>
+        </li>
+    
+        <li>
+            📗 Docs: <a href="https://www.primefaces.org/primevue/showcase/#/">https://www.primefaces.org/primevue/showcase/#/</a>
         </li>
     
         <li>
@@ -231,6 +243,47 @@
 <blockquote>
   <p>PrimeVue is a design-agnostic library and the theming system is based on the Theme Designer, the official tool to create themes for the components.</p>
 </blockquote>
+
+<p>PrimeVue provides components you can use in a Vue app, whether directly or inside your own components. Such as form inputs or a navbar.</p>
+
+<p>Integrates with Bootstrap, Material UI, etc. so you can switch between those without being locked in.</p>
+
+<p>PrimeVue is also lower-level than a framework like Nuxt or VuePress - this provides components for other tools rather than being a standalone site generator.</p>
+
+<h2 id="quickstarts">Quickstarts</h2>
+
+<ul>
+  <li>Follow the <a href="https://primefaces.org/primevue/showcase/#/setup">Quickstart guide</a> on the PrimeVue docs to add PrimeVue to a Vue app.</li>
+  <li>See my <a href="https://michaelcurrin.github.io/primevue-frontend-quickstart/">PrimeVue Frontend Quickstart</a> project, which showcases how to set up and host a static site built on Vue and PrimeVue, without using Node or a build step. This is a template project which you can easily copy to your own repos.</li>
+  <li>See my <a href="https://github.com/MichaelCurrin/primevue-quickstart">PrimeVue Quickstart</a> project, which is made with Node.</li>
+</ul>
+
+<h2 id="tips">Tips</h2>
+
+<p>On use components from PrimeVue. This applies when loading directly in the frontend but maybe not when using a build step with Node.</p>
+
+<ul>
+  <li>The “Button” doesn’t work as component name because it gets downcased in the DOM and “button” already
+exists. So use “PButton” as component and in template field.</li>
+  <li>If using in the HTML page directly, it gets downcased and then “p-button” is necessary.</li>
+</ul>
+
+<h2 id="themes">Themes</h2>
+
+<p>See the <a href="https://www.primefaces.org/primevue/showcase/#/theming">Theming</a> guide.</p>
+
+<p>See the Free Themes section of the <a href="https://primefaces.org/primevue/showcase/#/setup">Quickstart</a> guide for a list.</p>
+
+<p>e.g.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>primevue/resources/themes/bootstrap4-light-blue/theme.css
+primevue/resources/themes/bootstrap4-light-purple/theme.css
+primevue/resources/themes/bootstrap4-dark-blue/theme.css
+</code></pre></div></div>
+
+<p>You can try out themes live on the PrimeVue website, using Themes menu item.</p>
+
+<p>For CSS files for theme names, see <a href="https://unpkg.com/browse/primevue/resources/themes/">themes</a> directory on the UNPKG CDN.</p>
 
 
         

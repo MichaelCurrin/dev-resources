@@ -56,7 +56,7 @@ See also [Vue resources][].
 [Docsify]:  {% link resources/javascript/packages/docsify/index.md %}
 [Gatsby]:   {% link resources/javascript/packages/gatsby/index.md %}
 [Eleventy]: {% link resources/javascript/packages/eleventy/index.md %}
-[PrimeVue]: {% link resources/javascript/packages/primevue/index.md %}
+[PrimeVue]: {% link resources/javascript/packages/vue/primevue.md %}
 [Vuetify]:  {% link resources/javascript/packages/vue/vuetify.md %}
 [Next]:     {% link resources/javascript/packages/next/index.md %}
 [Nuxt]:     {% link resources/javascript/packages/nuxt/index.md %}

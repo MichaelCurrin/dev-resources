@@ -12,9 +12,12 @@ links:
     url: https://github.com/sdras/awesome-actions
     description: A curated list of awesome actions to use on GitHub
 
+  - title: GitHub Actions series
+    url: https://dev.to/michaelcurrin/series/9032
+    description: My tutorials on GH Actions as a blog post series
 ---
 
-GitHub Actions let's you run code in the cloud for free when triggered.
+GitHub Actions lets you run code in the cloud for free when triggered.
 
 Mostly it is triggered on a commit and so can be useful to do quality control - run checks and build the site.
 

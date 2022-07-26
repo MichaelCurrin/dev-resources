@@ -12,6 +12,9 @@ documentation:
     url: https://code.visualstudio.com/api/references/activation-events
   - title: VS Code API
     url: https://code.visualstudio.com/api/references/vscode-api
+  - title: Contribution points
+    url: https://code.visualstudio.com/api/references/contribution-points\
+    description: Your extension registers Contribution Points to extend various functionalities within Visual Studio Code.
 ---
 
 

@@ -18,5 +18,8 @@ documentation:
 ### Related
 
 - [VS Code][] resources.
+- [VS Code extensions][] in Dev Cheatsheets.
 
 [VS Code]: {% link resources/other/vscode.md %}
+[VS Code extensions]: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/other/vscode-extensions/
+

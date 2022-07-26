@@ -1,5 +1,6 @@
 ---
 title: VS Code extensions
+logo: visualstudiocode
 description: External links around developing VS Code extensions
 
 documentation:

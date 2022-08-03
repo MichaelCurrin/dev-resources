@@ -266,7 +266,7 @@
   <span class="p">}</span>
 
   <span class="nx">React</span><span class="p">.</span><span class="nx">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="kd">const</span> <span class="nx">ls</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">.</span><span class="nx">getItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">dark-mode</span><span class="dl">'</span><span class="p">)</span> <span class="p">??</span> <span class="dl">'</span><span class="s1">false</span><span class="dl">'</span>
+    <span class="kd">const</span> <span class="nx">ls</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">.</span><span class="nx">getItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">dark-mode</span><span class="dl">'</span><span class="p">)</span> <span class="o">??</span> <span class="dl">'</span><span class="s1">false</span><span class="dl">'</span>
     <span class="kd">const</span> <span class="nx">v</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">ls</span><span class="p">)</span>
     <span class="nx">setIsDark</span><span class="p">(</span><span class="nx">v</span><span class="p">)</span>
   <span class="p">},</span> <span class="p">[])</span>

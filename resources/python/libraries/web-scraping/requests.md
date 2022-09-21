@@ -9,3 +9,5 @@ key_links:
   wikipedia: https://en.wikipedia.org/wiki/Requests_(software)
   repo_nwo: psf/requests
 ---
+
+See my [Requests](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/python/libraries/requests.html) cheatsheet.

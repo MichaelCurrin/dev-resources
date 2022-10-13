@@ -34,7 +34,8 @@ links:
     description: Host and run Python code in the cloud, without the hassle of managing infrastructure like on AWS. A convenient way to run Python and shell scripts in the cloud on schedule or host a web app using your choice of framework like Flask or Django. MySQL is available on the free tier, Postgres for paid, and of course SQLite works well for simple cases. There are also interactive consoles for Python, Bash, and MySQL - you can even live share your view by giving someone a link.
   - title: PEP8
     url: https://pep8.org/
-    
+  - title: What's new in Python on Python docs
+    url: https://docs.python.org/3/whatsnew/
 tutorials:
   - title: Python in 100 seconds
     url: https://youtu.be/x7X9w_GIm1s

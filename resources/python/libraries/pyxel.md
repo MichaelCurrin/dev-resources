@@ -6,6 +6,7 @@ key_links:
   pkg_url: https://pypi.org/project/pyxel/
 ---
 
+You can make a game and it also supports making 8-bit music and graphics for use in your game.
 
 e.g.
 

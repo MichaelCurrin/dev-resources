@@ -2,6 +2,7 @@
 title: Pyxel
 
 key_links:
+  repo_nwo: kitao/pyxel
   pkg_url: https://pypi.org/project/pyxel/
 ---
 

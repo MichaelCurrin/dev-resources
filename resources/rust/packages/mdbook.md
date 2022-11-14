@@ -14,8 +14,9 @@ key_links:
 links:
   - title: mdBook Quickstart
     url: https://github.com/MichaelCurrin/mdbook-quickstart
+    description: GitHub template repo
     
-  - title: Command-line
+  - title: Command-line docs
     url: https://rust-lang.github.io/mdBook/cli/
     
   - title: SUMMARY.md

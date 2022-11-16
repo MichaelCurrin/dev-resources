@@ -7,9 +7,6 @@
 <loc>https://michaelcurrin.github.io/dev-resources/resources/version-control/github/all-contributors.html</loc>
 </url>
 <url>
-<loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/alpinejs.html</loc>
-</url>
-<url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/maker-projects/arduino.html</loc>
 </url>
 <url>
@@ -245,6 +242,9 @@
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/node-js/</loc>
+</url>
+<url>
+<loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/alpinejs/</loc>
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/eleventy/</loc>

@@ -13,9 +13,6 @@
 <loc>https://michaelcurrin.github.io/dev-resources/resources/webassembly/assemblyscript.html</loc>
 </url>
 <url>
-<loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/astro.html</loc>
-</url>
-<url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/tools/auth0.html</loc>
 </url>
 <url>
@@ -263,6 +260,9 @@
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/webpack/</loc>
+</url>
+<url>
+<loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/astro/</loc>
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/dataviz/highcharts/</loc>

@@ -17,6 +17,8 @@ link_sections:
         url: https://jekyll-themes.com       
       - title: jekyllthemes.org/
         url: http://jekyllthemes.org/
+      - title: statichunt.com
+        url: https://statichunt.com/jekyll-themes
   - title: Documentation themes
     links:
       - title: pmarsceill.github.io/just-the-docs/

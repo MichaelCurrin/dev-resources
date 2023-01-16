@@ -41,30 +41,29 @@ From [Programming Paradigm][] on Wikipedia.
 
 > Programming paradigms are a way to classify programming languages based on their features. Languages can be classified into multiple paradigms.
 
-That article compares paradigms neatly. Here is a summary from there.
-
-    Common programming paradigms include:
-
-        imperative in which the programmer instructs the machine how to change its state,
-            procedural which groups instructions into procedures,
-            object-oriented which groups instructions with the part of the state they operate on,
-
-        declarative in which the programmer merely declares properties of the desired result, but not how to compute it
-            functional in which the desired result is declared as the value of a series of function applications,
-            logic in which the desired result is declared as the answer to a question about a system of facts and rules,
-            mathematical in which the desired result is declared as the solution of an optimization problem
-            reactive in which the desired result is declared with data streams and the propagation of change
-
 #### Approaches and paradigms
 
-From [YouTube video](https://youtu.be/QM1iUe6IofM).
+Here is how the [Programming Paradigm][] article on Wikipedia classifies paradigms within approaches.
 
-| Approach   | Description        |
-| ---------- | ------------------ |
-| Procedural + Imperative | The default style. |
-| Procedural + Functional | Minimize state.    |
-| OOP        + Imperative | Segregate state.   |
-| OOP        + Functional | Do both. See [Mix FP and OOP][] page for more info.  |
+> Common programming paradigms include:
+>
+> - **imperative** in which the programmer instructs the machine how to change its state,
+>     - **procedural** which groups instructions into procedures,
+>     - **object-oriented** which groups instructions with the part of the state they operate on,
+> - **declarative** in which the programmer merely declares properties of the desired result, but not how to compute it
+>     - **functional** in which the desired result is declared as the value of a series of function applications,
+>     - **logic** in which the desired result is declared as the answer to a question about a system of facts and rules,
+>     - **mathematical** in which the desired result is declared as the solution of an optimization problem
+>     - **reactive** in which the desired result is declared with data streams and the propagation of change
+
+Another comparison, based on [YouTube video](https://youtu.be/QM1iUe6IofM):
+
+| Approach    | Paradigm   | Description        |
+| ----------- | ---        | ------------------ |
+| Imperative  | Procedural | The default style. |
+| Mixed       | Procedural + Functional | Minimize state.    |
+| Imperative  | OOP        | Segregate state.   |
+| Mixed       | OOP + Functional | Minimize and segregate state. See [Mix FP and OOP][] page for more info.  |
 
 [Comparison of Programming Paradigms]: https://en.m.wikipedia.org/wiki/Comparison_of_programming_paradigms
 [Programming Paradigm]: https://en.wikipedia.org/wiki/Programming_paradigm

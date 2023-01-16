@@ -595,48 +595,61 @@
   <p>Programming paradigms are a way to classify programming languages based on their features. Languages can be classified into multiple paradigms.</p>
 </blockquote>
 
-<p>That article compares paradigms neatly. Here is a summary from there.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Common programming paradigms include:
-
-    imperative in which the programmer instructs the machine how to change its state,
-        procedural which groups instructions into procedures,
-        object-oriented which groups instructions with the part of the state they operate on,
-
-    declarative in which the programmer merely declares properties of the desired result, but not how to compute it
-        functional in which the desired result is declared as the value of a series of function applications,
-        logic in which the desired result is declared as the answer to a question about a system of facts and rules,
-        mathematical in which the desired result is declared as the solution of an optimization problem
-        reactive in which the desired result is declared with data streams and the propagation of change
-</code></pre></div></div>
-
 <h4 id="approaches-and-paradigms">Approaches and paradigms</h4>
 
-<p>From <a href="https://youtu.be/QM1iUe6IofM">YouTube video</a>.</p>
+<p>Here is how the <a href="https://en.wikipedia.org/wiki/Programming_paradigm">Programming Paradigm</a> article on Wikipedia classifies paradigms within approaches.</p>
+
+<blockquote>
+  <p>Common programming paradigms include:</p>
+
+  <ul>
+    <li><strong>imperative</strong> in which the programmer instructs the machine how to change its state,
+      <ul>
+        <li><strong>procedural</strong> which groups instructions into procedures,</li>
+        <li><strong>object-oriented</strong> which groups instructions with the part of the state they operate on,</li>
+      </ul>
+    </li>
+    <li><strong>declarative</strong> in which the programmer merely declares properties of the desired result, but not how to compute it
+      <ul>
+        <li><strong>functional</strong> in which the desired result is declared as the value of a series of function applications,</li>
+        <li><strong>logic</strong> in which the desired result is declared as the answer to a question about a system of facts and rules,</li>
+        <li><strong>mathematical</strong> in which the desired result is declared as the solution of an optimization problem</li>
+        <li><strong>reactive</strong> in which the desired result is declared with data streams and the propagation of change</li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+
+<p>Another comparison, based on <a href="https://youtu.be/QM1iUe6IofM">YouTube video</a>:</p>
 
 <table>
   <thead>
     <tr>
       <th>Approach</th>
+      <th>Paradigm</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Procedural + Imperative</td>
+      <td>Imperative</td>
+      <td>Procedural</td>
       <td>The default style.</td>
     </tr>
     <tr>
+      <td>Mixed</td>
       <td>Procedural + Functional</td>
       <td>Minimize state.</td>
     </tr>
     <tr>
-      <td>OOP        + Imperative</td>
+      <td>Imperative</td>
+      <td>OOP</td>
       <td>Segregate state.</td>
     </tr>
     <tr>
-      <td>OOP        + Functional</td>
-      <td>Do both. See <a href="/dev-resources/resources/other/paradigms/mix-fp-oop.html">Mix FP and OOP</a> page for more info.</td>
+      <td>Mixed</td>
+      <td>OOP + Functional</td>
+      <td>Minimize and segregate state. See <a href="/dev-resources/resources/other/paradigms/mix-fp-oop.html">Mix FP and OOP</a> page for more info.</td>
     </tr>
   </tbody>
 </table>

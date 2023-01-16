@@ -73,3 +73,28 @@ playgrounds: []
 link_sections: []
 
 ---
+
+### Is TypeScript worth it?
+
+See this comment thread on Y-combinator - [Ask HN: Is TypeScript worth it?](https://news.ycombinator.com/item?id=34359504). 
+
+> i) Like a framework, you are at the whim of TS devs as it gets updated
+
+> ii) Libraries are badly documented
+
+> iii) Error messages are hard to follow
+
+> iv) It requires yet more transpilation
+
+
+Response from someone who works in the TypeScript project:
+
+> i. Dependency management is indeed frustrating...
+
+> ii. My anecdotal experience is that library documentation could indeed be better; however, that's been the case with JavaScript libraries regardless of types.
+
+> iii. Our error messages need to get better - I'm in full agreement with you. Often a concrete repro is a good way to get us thinking. Our error reporting system can often take shortcuts to provide a good error message when we recognize a pattern.
+
+> iv. Compilation can be a burden from tooling overhead... Long-term, we've been investigating ways to bring type annotations to JavaScript itself and checked by TypeScript - but that might be years away.
+
+Someone else said how the code you have written has to be changed to satisfy TypeScript but becomes less readable and that TypeScript doesn't always catch issues that you thought it would.

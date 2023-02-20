@@ -15,7 +15,7 @@
 
     <meta name="twitter:card" content="summary" />
     <meta property="twitter:title" content="Cython" />
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.2" />
 
 <meta property="og:locale" content="en_US" />
 
@@ -277,8 +277,8 @@
   <span class="k">def</span> <span class="nf">integrate_f</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">N</span><span class="p">):</span>
       <span class="n">s</span> <span class="o">=</span> <span class="mi">0</span>
       <span class="n">dx</span> <span class="o">=</span> <span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="p">)</span> <span class="o">/</span> <span class="n">N</span>
-      <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
-          <span class="n">s</span> <span class="o">+=</span> <span class="n">f</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">i</span> <span class="o">*</span> <span class="n">dx</span><span class="p">)</span>
+      <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+          <span class="n">s</span> <span class="o">+=</span> <span class="nf">f</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">i</span> <span class="o">*</span> <span class="n">dx</span><span class="p">)</span>
       <span class="k">return</span> <span class="n">s</span> <span class="o">*</span> <span class="n">dx</span>
 </code></pre></div>    </div>
   </li>
@@ -293,8 +293,8 @@
       <span class="n">dx</span><span class="p">:</span> <span class="n">cython</span><span class="p">.</span><span class="n">double</span>
       <span class="n">s</span> <span class="o">=</span> <span class="mi">0</span>
       <span class="n">dx</span> <span class="o">=</span> <span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="p">)</span> <span class="o">/</span> <span class="n">N</span>
-      <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
-          <span class="n">s</span> <span class="o">+=</span> <span class="n">f</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">i</span> <span class="o">*</span> <span class="n">dx</span><span class="p">)</span>
+      <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+          <span class="n">s</span> <span class="o">+=</span> <span class="nf">f</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">i</span> <span class="o">*</span> <span class="n">dx</span><span class="p">)</span>
       <span class="k">return</span> <span class="n">s</span> <span class="o">*</span> <span class="n">dx</span>
 </code></pre></div>    </div>
   </li>
@@ -322,18 +322,18 @@
 
 <ul>
   <li>Assignment
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kn">import</span> <span class="nn">cython</span>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kn">import</span> <span class="n">cython</span>
 
 
-  <span class="n">x</span> <span class="o">=</span> <span class="n">cython</span><span class="p">.</span><span class="n">declare</span><span class="p">(</span><span class="n">cython</span><span class="p">.</span><span class="nb">int</span><span class="p">)</span>              <span class="c1"># cdef int x
-</span>  <span class="n">y</span> <span class="o">=</span> <span class="n">cython</span><span class="p">.</span><span class="n">declare</span><span class="p">(</span><span class="n">cython</span><span class="p">.</span><span class="n">double</span><span class="p">,</span> <span class="mf">0.57721</span><span class="p">)</span>  <span class="c1"># cdef double y = 0.57721
+  <span class="n">x</span> <span class="o">=</span> <span class="n">cython</span><span class="p">.</span><span class="nf">declare</span><span class="p">(</span><span class="n">cython</span><span class="p">.</span><span class="nb">int</span><span class="p">)</span>              <span class="c1"># cdef int x
+</span>  <span class="n">y</span> <span class="o">=</span> <span class="n">cython</span><span class="p">.</span><span class="nf">declare</span><span class="p">(</span><span class="n">cython</span><span class="p">.</span><span class="n">double</span><span class="p">,</span> <span class="mf">0.57721</span><span class="p">)</span>  <span class="c1"># cdef double y = 0.57721
 </span></code></pre></div>    </div>
   </li>
   <li>Function call.
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kn">import</span> <span class="nn">cython</span>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kn">import</span> <span class="n">cython</span>
 
 
-  <span class="n">cython</span><span class="p">.</span><span class="n">declare</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">cython</span><span class="p">.</span><span class="nb">int</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">cython</span><span class="p">.</span><span class="n">double</span><span class="p">)</span>  <span class="c1"># cdef int x; cdef double y
+  <span class="n">cython</span><span class="p">.</span><span class="nf">declare</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">cython</span><span class="p">.</span><span class="nb">int</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">cython</span><span class="p">.</span><span class="n">double</span><span class="p">)</span>  <span class="c1"># cdef int x; cdef double y
 </span></code></pre></div>    </div>
   </li>
 </ul>

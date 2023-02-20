@@ -15,7 +15,7 @@
 
     <meta name="twitter:card" content="summary" />
     <meta property="twitter:title" content="concurrently" />
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.2" />
 
 <meta property="og:locale" content="en_US" />
 
@@ -306,19 +306,19 @@
 
 <p>From the docs on NPM package:</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">concurrently</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">concurrently</span><span class="dl">'</span><span class="p">);</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">concurrently</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">concurrently</span><span class="dl">'</span><span class="p">);</span>
 
-<span class="nx">concurrently</span><span class="p">([</span>
+<span class="nf">concurrently</span><span class="p">([</span>
     <span class="dl">'</span><span class="s1">npm:watch-*</span><span class="dl">'</span><span class="p">,</span>
     <span class="p">{</span> <span class="na">command</span><span class="p">:</span> <span class="dl">'</span><span class="s1">nodemon</span><span class="dl">'</span><span class="p">,</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">server</span><span class="dl">'</span> <span class="p">},</span>
     <span class="p">{</span> <span class="na">command</span><span class="p">:</span> <span class="dl">'</span><span class="s1">deploy</span><span class="dl">'</span><span class="p">,</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">deploy</span><span class="dl">'</span><span class="p">,</span> <span class="na">env</span><span class="p">:</span> <span class="p">{</span> <span class="na">PUBLIC_KEY</span><span class="p">:</span> <span class="dl">'</span><span class="s1">...</span><span class="dl">'</span> <span class="p">}</span> <span class="p">},</span>
-    <span class="p">{</span> <span class="na">command</span><span class="p">:</span> <span class="dl">'</span><span class="s1">watch</span><span class="dl">'</span><span class="p">,</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">watch</span><span class="dl">'</span><span class="p">,</span> <span class="na">cwd</span><span class="p">:</span> <span class="nx">path</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="dl">'</span><span class="s1">scripts/watchers</span><span class="dl">'</span><span class="p">)}</span>
+    <span class="p">{</span> <span class="na">command</span><span class="p">:</span> <span class="dl">'</span><span class="s1">watch</span><span class="dl">'</span><span class="p">,</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">watch</span><span class="dl">'</span><span class="p">,</span> <span class="na">cwd</span><span class="p">:</span> <span class="nx">path</span><span class="p">.</span><span class="nf">resolve</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="dl">'</span><span class="s1">scripts/watchers</span><span class="dl">'</span><span class="p">)}</span>
 <span class="p">],</span> <span class="p">{</span>
     <span class="na">prefix</span><span class="p">:</span> <span class="dl">'</span><span class="s1">name</span><span class="dl">'</span><span class="p">,</span>
     <span class="na">killOthers</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">failure</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">success</span><span class="dl">'</span><span class="p">],</span>
     <span class="na">restartTries</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
-    <span class="na">cwd</span><span class="p">:</span> <span class="nx">path</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="dl">'</span><span class="s1">scripts</span><span class="dl">'</span><span class="p">),</span>
-<span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">success</span><span class="p">,</span> <span class="nx">failure</span><span class="p">);</span>
+    <span class="na">cwd</span><span class="p">:</span> <span class="nx">path</span><span class="p">.</span><span class="nf">resolve</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="dl">'</span><span class="s1">scripts</span><span class="dl">'</span><span class="p">),</span>
+<span class="p">}).</span><span class="nf">then</span><span class="p">(</span><span class="nx">success</span><span class="p">,</span> <span class="nx">failure</span><span class="p">);</span>
 </code></pre></div></div>
 
 

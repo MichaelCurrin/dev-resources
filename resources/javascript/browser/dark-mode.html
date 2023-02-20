@@ -15,7 +15,7 @@
 
     <meta name="twitter:card" content="summary" />
     <meta property="twitter:title" content="Dark mode" />
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.2" />
 
 <meta property="og:locale" content="en_US" />
 
@@ -205,10 +205,10 @@
 
 <p>If you want to append and remove.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="nx">darkMode</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">"</span><span class="s2">dark</span><span class="dl">"</span><span class="p">);</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">if </span><span class="p">(</span><span class="nx">darkMode</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nf">add</span><span class="p">(</span><span class="dl">"</span><span class="s2">dark</span><span class="dl">"</span><span class="p">);</span>
 <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-  <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="dl">"</span><span class="s2">dark</span><span class="dl">"</span><span class="p">);</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nf">remove</span><span class="p">(</span><span class="dl">"</span><span class="s2">dark</span><span class="dl">"</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
@@ -221,8 +221,8 @@
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">LIGHT_THEME</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">light-theme</span><span class="dl">"</span><span class="p">;</span> <span class="c1">// or "light-mode"</span>
 <span class="kd">const</span> <span class="nx">DARK_THEME</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">dark-theme</span><span class="dl">"</span><span class="p">;</span>
 
-<span class="kd">function</span> <span class="nx">browserPreferedTheme</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kd">const</span> <span class="nx">preferDark</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">matchMedia</span><span class="p">(</span><span class="dl">"</span><span class="s2">(prefers-color-scheme: dark)</span><span class="dl">"</span><span class="p">).</span><span class="nx">matches</span><span class="p">;</span>
+<span class="kd">function</span> <span class="nf">browserPreferedTheme</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">preferDark</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nf">matchMedia</span><span class="p">(</span><span class="dl">"</span><span class="s2">(prefers-color-scheme: dark)</span><span class="dl">"</span><span class="p">).</span><span class="nx">matches</span><span class="p">;</span>
   
   <span class="k">return</span> <span class="nx">preferDark</span> <span class="p">?</span> <span class="nx">DARK_THEME</span> <span class="p">:</span> <span class="nx">LIGHT_THEME</span><span class="p">;</span>
 <span class="p">}</span>
@@ -258,27 +258,27 @@
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">faMoon</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">@fortawesome/free-solid-svg-icons</span><span class="dl">'</span><span class="p">;</span>
 <span class="k">import</span> <span class="p">{</span> <span class="nx">FontAwesomeIcon</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">@fortawesome/react-fontawesome</span><span class="dl">'</span><span class="p">;</span>
 
-<span class="kd">function</span> <span class="nx">App</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kd">const</span> <span class="p">[</span><span class="nx">isDark</span><span class="p">,</span> <span class="nx">setIsDark</span><span class="p">]</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">useState</span><span class="p">(</span><span class="kc">false</span><span class="p">)</span>
+<span class="kd">function</span> <span class="nf">App</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">[</span><span class="nx">isDark</span><span class="p">,</span> <span class="nx">setIsDark</span><span class="p">]</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nf">useState</span><span class="p">(</span><span class="kc">false</span><span class="p">)</span>
 
   <span class="kd">const</span> <span class="nx">onClick</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nx">setIsDark</span><span class="p">(</span><span class="o">!</span><span class="nx">isDark</span><span class="p">)</span>
+    <span class="nf">setIsDark</span><span class="p">(</span><span class="o">!</span><span class="nx">isDark</span><span class="p">)</span>
   <span class="p">}</span>
 
-  <span class="nx">React</span><span class="p">.</span><span class="nx">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="kd">const</span> <span class="nx">ls</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">.</span><span class="nx">getItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">dark-mode</span><span class="dl">'</span><span class="p">)</span> <span class="o">??</span> <span class="dl">'</span><span class="s1">false</span><span class="dl">'</span>
-    <span class="kd">const</span> <span class="nx">v</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">ls</span><span class="p">)</span>
-    <span class="nx">setIsDark</span><span class="p">(</span><span class="nx">v</span><span class="p">)</span>
+  <span class="nx">React</span><span class="p">.</span><span class="nf">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">ls</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">.</span><span class="nf">getItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">dark-mode</span><span class="dl">'</span><span class="p">)</span> <span class="o">??</span> <span class="dl">'</span><span class="s1">false</span><span class="dl">'</span>
+    <span class="kd">const</span> <span class="nx">v</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="nx">ls</span><span class="p">)</span>
+    <span class="nf">setIsDark</span><span class="p">(</span><span class="nx">v</span><span class="p">)</span>
   <span class="p">},</span> <span class="p">[])</span>
 
-  <span class="nx">React</span><span class="p">.</span><span class="nx">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="nx">React</span><span class="p">.</span><span class="nf">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
     <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="o">!</span><span class="nx">isDark</span> <span class="p">?</span> <span class="dl">"</span><span class="s2">dark-mode</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">""</span>
-    <span class="nb">window</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">.</span><span class="nx">setItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">dark-mode</span><span class="dl">'</span><span class="p">,</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">isDark</span><span class="p">))</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">.</span><span class="nf">setItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">dark-mode</span><span class="dl">'</span><span class="p">,</span> <span class="nx">JSON</span><span class="p">.</span><span class="nf">stringify</span><span class="p">(</span><span class="nx">isDark</span><span class="p">))</span>
   <span class="p">},</span>
     <span class="p">[</span><span class="nx">isDark</span><span class="p">]</span>
   <span class="p">)</span>
   
-  <span class="k">return</span> <span class="p">(</span>
+  <span class="nf">return </span><span class="p">(</span>
     <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">className</span><span class="o">=</span><span class="dl">"</span><span class="s2">app</span><span class="dl">"</span><span class="o">&gt;</span>
       <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
         <span class="o">&lt;</span><span class="nx">h1</span> <span class="nx">className</span><span class="o">=</span><span class="dl">"</span><span class="s2">title</span><span class="dl">"</span><span class="o">&gt;</span><span class="nx">Dark</span> <span class="nx">Mode</span> <span class="nx">Demo</span><span class="o">&lt;</span><span class="sr">/h1</span><span class="err">&gt;

@@ -15,7 +15,7 @@
 
     <meta name="twitter:card" content="summary" />
     <meta property="twitter:title" content="Axios" />
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.2" />
 
 <meta property="og:locale" content="en_US" />
 
@@ -560,8 +560,8 @@
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">axios</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">axios</span><span class="dl">"</span>
 
-<span class="kd">const</span> <span class="nx">resp</span> <span class="o">=</span> <span class="nx">axios</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">/users</span><span class="dl">'</span><span class="p">);</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">res</span><span class="p">.</span><span class="nx">data</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">resp</span> <span class="o">=</span> <span class="nx">axios</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">/users</span><span class="dl">'</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">res</span><span class="p">.</span><span class="nx">data</span><span class="p">);</span>
 </code></pre></div></div>
 
 <p>Or in the browser with ESModules to load Axios directly.</p>
@@ -569,8 +569,8 @@
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="dl">"</span><span class="s2">module</span><span class="dl">"</span><span class="o">&gt;</span>
   <span class="k">import</span> <span class="nx">axios</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">https://unpkg.com/axios/dist/axios.min.js</span><span class="dl">"</span><span class="p">;</span>
   
-  <span class="kd">const</span> <span class="nx">resp</span> <span class="o">=</span> <span class="nx">axios</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">/users</span><span class="dl">'</span><span class="p">);</span>
-  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">res</span><span class="p">.</span><span class="nx">data</span><span class="p">);</span>
+  <span class="kd">const</span> <span class="nx">resp</span> <span class="o">=</span> <span class="nx">axios</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">/users</span><span class="dl">'</span><span class="p">);</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">res</span><span class="p">.</span><span class="nx">data</span><span class="p">);</span>
 <span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
 </span></code></pre></div></div>
 
@@ -586,7 +586,7 @@
 
 <p>You need to check for <code class="language-plaintext highlighter-rouge">resp.ok()</code> yourself.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fetch</span><span class="p">(</span><span class="dl">'</span><span class="s1">https://httpbin.org/post</span><span class="dl">'</span><span class="p">).</span><span class="k">catch</span><span class="p">(</span><span class="nx">err</span> <span class="o">=&gt;</span> <span class="p">{</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">fetch</span><span class="p">(</span><span class="dl">'</span><span class="s1">https://httpbin.org/post</span><span class="dl">'</span><span class="p">).</span><span class="nf">catch</span><span class="p">(</span><span class="nx">err</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="cm">/* No error even though the server responded with 405 */</span>
 <span class="p">});</span>
 </code></pre></div></div>
@@ -602,10 +602,10 @@
 
 <p>Serialize JSON body and query params with <code class="language-plaintext highlighter-rouge">fetch</code>:</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">query</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">URLSearchParams</span><span class="p">(</span><span class="nx">query</span><span class="p">).</span><span class="nx">toString</span><span class="p">();</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">query</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">URLSearchParams</span><span class="p">(</span><span class="nx">query</span><span class="p">).</span><span class="nf">toString</span><span class="p">();</span>
 <span class="kd">const</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">`/myendpoint?</span><span class="p">${</span><span class="nx">query</span><span class="p">}</span><span class="s2">`</span><span class="p">;</span>
 
-<span class="kd">const</span> <span class="nx">body</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">body</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">body</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nf">stringify</span><span class="p">(</span><span class="nx">body</span><span class="p">);</span>
 
 <span class="kd">const</span> <span class="nx">options</span> <span class="o">=</span> <span class="p">{</span>
   <span class="na">method</span><span class="p">:</span> <span class="dl">'</span><span class="s1">POST</span><span class="dl">'</span><span class="p">,</span>
@@ -615,7 +615,7 @@
   <span class="nx">body</span><span class="p">,</span>
 <span class="p">}</span>
 
-<span class="kd">const</span> <span class="nx">resp</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">fetch</span><span class="p">(</span>
+<span class="kd">const</span> <span class="nx">resp</span> <span class="o">=</span> <span class="k">await</span> <span class="nf">fetch</span><span class="p">(</span>
   <span class="nx">url</span><span class="p">,</span> 
   <span class="nx">options</span>
 <span class="p">);</span>
@@ -623,7 +623,7 @@
 
 <p>Serialize JSON body and query params with <code class="language-plaintext highlighter-rouge">axios</code>:</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">query</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">URLSearchParams</span><span class="p">(</span><span class="nx">query</span><span class="p">).</span><span class="nx">toString</span><span class="p">();</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">query</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">URLSearchParams</span><span class="p">(</span><span class="nx">query</span><span class="p">).</span><span class="nf">toString</span><span class="p">();</span>
 <span class="kd">const</span> <span class="nx">url</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">/myendpoint</span><span class="dl">'</span>
 
 <span class="kd">const</span> <span class="nx">options</span> <span class="o">=</span> <span class="p">{</span>
@@ -631,7 +631,7 @@
   <span class="nx">body</span>
 <span class="p">};</span>
 
-<span class="kd">const</span> <span class="nx">resp</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">axios</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span>
+<span class="kd">const</span> <span class="nx">resp</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">axios</span><span class="p">.</span><span class="nf">post</span><span class="p">(</span>
   <span class="nx">url</span><span class="p">,</span> 
   <span class="nx">options</span>
 <span class="p">);</span>

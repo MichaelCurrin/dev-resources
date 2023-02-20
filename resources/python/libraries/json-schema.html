@@ -15,7 +15,7 @@
 
     <meta name="twitter:card" content="summary" />
     <meta property="twitter:title" content="JSON schema" />
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.2" />
 
 <meta property="og:locale" content="en_US" />
 
@@ -197,7 +197,7 @@
 
 <p>e.g.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">jsonschema</span> <span class="kn">import</span> <span class="n">validate</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">jsonschema</span> <span class="kn">import</span> <span class="n">validate</span>
 
 <span class="n">schema</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s">"type"</span> <span class="p">:</span> <span class="s">"object"</span><span class="p">,</span>
@@ -208,10 +208,10 @@
 <span class="p">}</span>
 
 <span class="c1"># If no exception is raised by validate(), the instance is valid.
-</span><span class="n">validate</span><span class="p">(</span><span class="n">instance</span><span class="o">=</span><span class="p">{</span><span class="s">"name"</span> <span class="p">:</span> <span class="s">"Eggs"</span><span class="p">,</span> <span class="s">"price"</span> <span class="p">:</span> <span class="mf">34.99</span><span class="p">},</span> <span class="n">schema</span><span class="o">=</span><span class="n">schema</span><span class="p">)</span>
+</span><span class="nf">validate</span><span class="p">(</span><span class="n">instance</span><span class="o">=</span><span class="p">{</span><span class="s">"name"</span> <span class="p">:</span> <span class="s">"Eggs"</span><span class="p">,</span> <span class="s">"price"</span> <span class="p">:</span> <span class="mf">34.99</span><span class="p">},</span> <span class="n">schema</span><span class="o">=</span><span class="n">schema</span><span class="p">)</span>
 
 <span class="c1"># This will raise an error because of the bad type.
-</span><span class="n">validate</span><span class="p">(</span>
+</span><span class="nf">validate</span><span class="p">(</span>
     <span class="n">instance</span><span class="o">=</span><span class="p">{</span><span class="s">"name"</span> <span class="p">:</span> <span class="s">"Eggs"</span><span class="p">,</span> <span class="s">"price"</span> <span class="p">:</span> <span class="s">"Invalid"</span><span class="p">},</span> <span class="n">schema</span><span class="o">=</span><span class="n">schema</span><span class="p">,</span>
 <span class="p">)</span>
 </code></pre></div></div>

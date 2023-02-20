@@ -15,7 +15,7 @@
 
     <meta name="twitter:card" content="summary" />
     <meta property="twitter:title" content="vuex-persist" />
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.2" />
 
 <meta property="og:locale" content="en_US" />
 
@@ -215,21 +215,21 @@
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">createStore</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">vuex</span><span class="dl">"</span><span class="p">;</span>
 <span class="k">import</span> <span class="nx">VuexPersistence</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">vuex-persist</span><span class="dl">"</span><span class="p">;</span>
 
-<span class="kd">const</span> <span class="nx">vuexLocal</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">VuexPersistence</span><span class="p">({</span>
+<span class="kd">const</span> <span class="nx">vuexLocal</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">VuexPersistence</span><span class="p">({</span>
   <span class="na">storage</span><span class="p">:</span> <span class="nb">window</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">,</span>
 <span class="p">});</span>
 
 
-<span class="kd">const</span> <span class="nx">store</span> <span class="o">=</span> <span class="nx">createStore</span><span class="p">({</span>
+<span class="kd">const</span> <span class="nx">store</span> <span class="o">=</span> <span class="nf">createStore</span><span class="p">({</span>
   <span class="na">state</span><span class="p">:</span> <span class="p">{</span>
     <span class="na">path</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
     <span class="na">size</span><span class="p">:</span> <span class="nb">Number</span><span class="p">,</span>
   <span class="p">},</span>
   <span class="na">mutations</span><span class="p">:</span> <span class="p">{</span>
-    <span class="nx">setPath</span><span class="p">(</span><span class="nx">state</span><span class="p">,</span> <span class="nx">path</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nf">setPath</span><span class="p">(</span><span class="nx">state</span><span class="p">,</span> <span class="nx">path</span><span class="p">)</span> <span class="p">{</span>
       <span class="nx">state</span><span class="p">.</span><span class="nx">path</span> <span class="o">=</span> <span class="nx">path</span><span class="p">;</span>
     <span class="p">},</span>
-    <span class="nx">setSize</span><span class="p">(</span><span class="nx">state</span><span class="p">,</span> <span class="nx">size</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nf">setSize</span><span class="p">(</span><span class="nx">state</span><span class="p">,</span> <span class="nx">size</span><span class="p">)</span> <span class="p">{</span>
       <span class="nx">state</span><span class="p">.</span><span class="nx">size</span> <span class="o">=</span> <span class="nx">size</span><span class="p">;</span>
     <span class="p">},</span>
   <span class="p">},</span>

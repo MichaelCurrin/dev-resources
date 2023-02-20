@@ -15,7 +15,7 @@
 
     <meta name="twitter:card" content="summary" />
     <meta property="twitter:title" content="pygame" />
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.2" />
 
 <meta property="og:locale" content="en_US" />
 
@@ -199,9 +199,9 @@
 
 <p>e.g. from the intro docs</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span><span class="p">,</span> <span class="n">pygame</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">sys</span><span class="p">,</span> <span class="n">pygame</span>
 
-<span class="n">pygame</span><span class="p">.</span><span class="n">init</span><span class="p">()</span>
+<span class="n">pygame</span><span class="p">.</span><span class="nf">init</span><span class="p">()</span>
 
 
 <span class="n">size</span> <span class="o">=</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="mi">320</span><span class="p">,</span> <span class="mi">240</span>
@@ -211,22 +211,22 @@
 <span class="n">black</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
 
 
-<span class="n">screen</span> <span class="o">=</span> <span class="n">pygame</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">set_mode</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
+<span class="n">screen</span> <span class="o">=</span> <span class="n">pygame</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="nf">set_mode</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
 
 
-<span class="n">ball</span> <span class="o">=</span> <span class="n">pygame</span><span class="p">.</span><span class="n">image</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="s">"intro_ball.gif"</span><span class="p">)</span>
+<span class="n">ball</span> <span class="o">=</span> <span class="n">pygame</span><span class="p">.</span><span class="n">image</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span><span class="s">"intro_ball.gif"</span><span class="p">)</span>
 
-<span class="n">ballrect</span> <span class="o">=</span> <span class="n">ball</span><span class="p">.</span><span class="n">get_rect</span><span class="p">()</span>
+<span class="n">ballrect</span> <span class="o">=</span> <span class="n">ball</span><span class="p">.</span><span class="nf">get_rect</span><span class="p">()</span>
 
 
 <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
 
-    <span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">pygame</span><span class="p">.</span><span class="n">event</span><span class="p">.</span><span class="n">get</span><span class="p">():</span>
+    <span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">pygame</span><span class="p">.</span><span class="n">event</span><span class="p">.</span><span class="nf">get</span><span class="p">():</span>
 
-        <span class="k">if</span> <span class="n">event</span><span class="p">.</span><span class="nb">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="p">.</span><span class="n">QUIT</span><span class="p">:</span> <span class="n">sys</span><span class="p">.</span><span class="nb">exit</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">event</span><span class="p">.</span><span class="nb">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="p">.</span><span class="n">QUIT</span><span class="p">:</span> <span class="n">sys</span><span class="p">.</span><span class="nf">exit</span><span class="p">()</span>
 
 
-    <span class="n">ballrect</span> <span class="o">=</span> <span class="n">ballrect</span><span class="p">.</span><span class="n">move</span><span class="p">(</span><span class="n">speed</span><span class="p">)</span>
+    <span class="n">ballrect</span> <span class="o">=</span> <span class="n">ballrect</span><span class="p">.</span><span class="nf">move</span><span class="p">(</span><span class="n">speed</span><span class="p">)</span>
 
     <span class="k">if</span> <span class="n">ballrect</span><span class="p">.</span><span class="n">left</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">ballrect</span><span class="p">.</span><span class="n">right</span> <span class="o">&gt;</span> <span class="n">width</span><span class="p">:</span>
 
@@ -237,11 +237,11 @@
         <span class="n">speed</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="n">speed</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 
 
-    <span class="n">screen</span><span class="p">.</span><span class="n">fill</span><span class="p">(</span><span class="n">black</span><span class="p">)</span>
+    <span class="n">screen</span><span class="p">.</span><span class="nf">fill</span><span class="p">(</span><span class="n">black</span><span class="p">)</span>
 
-    <span class="n">screen</span><span class="p">.</span><span class="n">blit</span><span class="p">(</span><span class="n">ball</span><span class="p">,</span> <span class="n">ballrect</span><span class="p">)</span>
+    <span class="n">screen</span><span class="p">.</span><span class="nf">blit</span><span class="p">(</span><span class="n">ball</span><span class="p">,</span> <span class="n">ballrect</span><span class="p">)</span>
 
-    <span class="n">pygame</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">flip</span><span class="p">()</span>
+    <span class="n">pygame</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="nf">flip</span><span class="p">()</span>
 </code></pre></div></div>
 
 

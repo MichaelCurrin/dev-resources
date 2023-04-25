@@ -26,26 +26,29 @@ documentation:
   - title: Releases
     url: https://github.com/rust-lang/rust/releases
     description: tab on the Rust repo.
-
+    
+  - title: Ownership and borrowing
+    description: https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html
 tutorials:
   - title: Rust in 100 seconds
     url: https://youtu.be/5C_HPTJg5ek
-
-  - title: Learn Rust
+    description: YouTube
+  - title: Learn Rust 
     url: https://www.rust-lang.org/learn
+    description: Official site
 
-  - title: Rust by Example
+  - title: Rust by Example (in the docs)
     url: https://doc.rust-lang.org/stable/rust-by-example/
   - title: The Rust Programming Language
     url: https://doc.rust-lang.org/book/
-    description: Online book
+    description: Online book in the docs
 
   - title: What the fork is Rust?
     url: https://illustrated.dev/wtfrust
 
   - title: Getting Started
     url: https://www.rust-lang.org/learn/get-started
-    description: guide on Rust site
+    description: Guide on the Rust site
 
   - title: Rust Beyond the Basics
     url: https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f

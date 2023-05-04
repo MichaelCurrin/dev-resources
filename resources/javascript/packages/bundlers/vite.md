@@ -1,6 +1,6 @@
 ---
 title: Vite
-
+description: A fast builder/bundler with a dev server
 byline: |
    Next generation frontend tooling. It's fast!
 key_links:

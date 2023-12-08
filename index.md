@@ -11,7 +11,7 @@ Here you'll find languages, frameworks, and tools that I have used or an interes
 
 <div align="center" style="padding-bottom: 1em;">
     <a href="{% link resources/index.md %}">
-        <img src="https://img.shields.io/badge/All_resource_topics-blue?style=for-the-badge"
+        <img src="https://img.shields.io/badge/All_resource_topics-3218b1?style=for-the-badge"
             alt="Go to resources"/>
     </a>
 </div>

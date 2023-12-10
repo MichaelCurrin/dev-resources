@@ -210,8 +210,9 @@
             
 
 
+
 <a href="https://github.com/benoitc/gunicorn">
-    <img src="https://img.shields.io/static/v1?label=benoitc&amp;message=gunicorn&amp;color=blue&amp;logo=github"
+    <img src="https://img.shields.io/static/v1?label=benoitc&amp;message=gunicorn&amp;color=3218b1&amp;logo=github"
         alt="repo badge">
     <img src="https://img.shields.io/github/stars/benoitc/gunicorn?style=social" alt="stars badge">
     <img src="https://img.shields.io/github/forks/benoitc/gunicorn?style=social" alt="forks badge">
@@ -235,11 +236,11 @@
 
 <p><code class="language-plaintext highlighter-rouge">myapp.py</code></p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">app</span><span class="p">(</span><span class="n">environ</span><span class="p">,</span> <span class="n">start_response</span><span class="p">):</span>
-    <span class="n">data</span> <span class="o">=</span> <span class="sa">b</span><span class="s">"Hello, World!</span><span class="se">\n</span><span class="s">"</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="sa">b</span><span class="sh">"</span><span class="s">Hello, World!</span><span class="se">\n</span><span class="sh">"</span>
     
-    <span class="nf">start_response</span><span class="p">(</span><span class="s">"200 OK"</span><span class="p">,</span> <span class="p">[</span>
-        <span class="p">(</span><span class="s">"Content-Type"</span><span class="p">,</span> <span class="s">"text/plain"</span><span class="p">),</span>
-        <span class="p">(</span><span class="s">"Content-Length"</span><span class="p">,</span> <span class="nf">str</span><span class="p">(</span><span class="nf">len</span><span class="p">(</span><span class="n">data</span><span class="p">)))</span>
+    <span class="nf">start_response</span><span class="p">(</span><span class="sh">"</span><span class="s">200 OK</span><span class="sh">"</span><span class="p">,</span> <span class="p">[</span>
+        <span class="p">(</span><span class="sh">"</span><span class="s">Content-Type</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">text/plain</span><span class="sh">"</span><span class="p">),</span>
+        <span class="p">(</span><span class="sh">"</span><span class="s">Content-Length</span><span class="sh">"</span><span class="p">,</span> <span class="nf">str</span><span class="p">(</span><span class="nf">len</span><span class="p">(</span><span class="n">data</span><span class="p">)))</span>
     <span class="p">])</span>
     
     <span class="k">return</span> <span class="nf">iter</span><span class="p">([</span><span class="n">data</span><span class="p">])</span>

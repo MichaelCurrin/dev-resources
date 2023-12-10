@@ -200,19 +200,19 @@
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">jsonschema</span> <span class="kn">import</span> <span class="n">validate</span>
 
 <span class="n">schema</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s">"type"</span> <span class="p">:</span> <span class="s">"object"</span><span class="p">,</span>
-    <span class="s">"properties"</span> <span class="p">:</span> <span class="p">{</span>
-        <span class="s">"name"</span> <span class="p">:</span> <span class="p">{</span><span class="s">"type"</span> <span class="p">:</span> <span class="s">"string"</span><span class="p">},</span>
-        <span class="s">"price"</span> <span class="p">:</span> <span class="p">{</span><span class="s">"type"</span> <span class="p">:</span> <span class="s">"number"</span><span class="p">},</span>
+    <span class="sh">"</span><span class="s">type</span><span class="sh">"</span> <span class="p">:</span> <span class="sh">"</span><span class="s">object</span><span class="sh">"</span><span class="p">,</span>
+    <span class="sh">"</span><span class="s">properties</span><span class="sh">"</span> <span class="p">:</span> <span class="p">{</span>
+        <span class="sh">"</span><span class="s">name</span><span class="sh">"</span> <span class="p">:</span> <span class="p">{</span><span class="sh">"</span><span class="s">type</span><span class="sh">"</span> <span class="p">:</span> <span class="sh">"</span><span class="s">string</span><span class="sh">"</span><span class="p">},</span>
+        <span class="sh">"</span><span class="s">price</span><span class="sh">"</span> <span class="p">:</span> <span class="p">{</span><span class="sh">"</span><span class="s">type</span><span class="sh">"</span> <span class="p">:</span> <span class="sh">"</span><span class="s">number</span><span class="sh">"</span><span class="p">},</span>
     <span class="p">},</span>
 <span class="p">}</span>
 
 <span class="c1"># If no exception is raised by validate(), the instance is valid.
-</span><span class="nf">validate</span><span class="p">(</span><span class="n">instance</span><span class="o">=</span><span class="p">{</span><span class="s">"name"</span> <span class="p">:</span> <span class="s">"Eggs"</span><span class="p">,</span> <span class="s">"price"</span> <span class="p">:</span> <span class="mf">34.99</span><span class="p">},</span> <span class="n">schema</span><span class="o">=</span><span class="n">schema</span><span class="p">)</span>
+</span><span class="nf">validate</span><span class="p">(</span><span class="n">instance</span><span class="o">=</span><span class="p">{</span><span class="sh">"</span><span class="s">name</span><span class="sh">"</span> <span class="p">:</span> <span class="sh">"</span><span class="s">Eggs</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">price</span><span class="sh">"</span> <span class="p">:</span> <span class="mf">34.99</span><span class="p">},</span> <span class="n">schema</span><span class="o">=</span><span class="n">schema</span><span class="p">)</span>
 
 <span class="c1"># This will raise an error because of the bad type.
 </span><span class="nf">validate</span><span class="p">(</span>
-    <span class="n">instance</span><span class="o">=</span><span class="p">{</span><span class="s">"name"</span> <span class="p">:</span> <span class="s">"Eggs"</span><span class="p">,</span> <span class="s">"price"</span> <span class="p">:</span> <span class="s">"Invalid"</span><span class="p">},</span> <span class="n">schema</span><span class="o">=</span><span class="n">schema</span><span class="p">,</span>
+    <span class="n">instance</span><span class="o">=</span><span class="p">{</span><span class="sh">"</span><span class="s">name</span><span class="sh">"</span> <span class="p">:</span> <span class="sh">"</span><span class="s">Eggs</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">price</span><span class="sh">"</span> <span class="p">:</span> <span class="sh">"</span><span class="s">Invalid</span><span class="sh">"</span><span class="p">},</span> <span class="n">schema</span><span class="o">=</span><span class="n">schema</span><span class="p">,</span>
 <span class="p">)</span>
 </code></pre></div></div>
 

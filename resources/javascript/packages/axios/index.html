@@ -587,7 +587,7 @@
 
 <p>You need to check for <code class="language-plaintext highlighter-rouge">resp.ok()</code> yourself.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">fetch</span><span class="p">(</span><span class="dl">'</span><span class="s1">https://httpbin.org/post</span><span class="dl">'</span><span class="p">).</span><span class="nf">catch</span><span class="p">(</span><span class="nx">err</span> <span class="o">=&gt;</span> <span class="p">{</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">fetch</span><span class="p">(</span><span class="dl">'</span><span class="s1">https://httpbin.org/post</span><span class="dl">'</span><span class="p">).</span><span class="k">catch</span><span class="p">(</span><span class="nx">err</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="cm">/* No error even though the server responded with 405 */</span>
 <span class="p">});</span>
 </code></pre></div></div>

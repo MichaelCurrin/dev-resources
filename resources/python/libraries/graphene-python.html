@@ -199,8 +199,9 @@
             
 
 
+
 <a href="https://github.com/graphql-python/graphene">
-    <img src="https://img.shields.io/static/v1?label=graphql-python&amp;message=graphene&amp;color=blue&amp;logo=github"
+    <img src="https://img.shields.io/static/v1?label=graphql-python&amp;message=graphene&amp;color=3218b1&amp;logo=github"
         alt="repo badge">
     <img src="https://img.shields.io/github/stars/graphql-python/graphene?style=social" alt="stars badge">
     <img src="https://img.shields.io/github/forks/graphql-python/graphene?style=social" alt="forks badge">
@@ -236,16 +237,16 @@
     <span class="n">hello</span> <span class="o">=</span> <span class="n">graphene</span><span class="p">.</span><span class="nc">String</span><span class="p">()</span>
     
     <span class="k">def</span> <span class="nf">resolve_hello</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">info</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s">'World'</span>
+        <span class="k">return</span> <span class="sh">'</span><span class="s">World</span><span class="sh">'</span>
 
 
 <span class="n">schema</span> <span class="o">=</span> <span class="n">graphene</span><span class="p">.</span><span class="nc">Schema</span><span class="p">(</span><span class="n">query</span><span class="o">=</span><span class="n">Query</span><span class="p">)</span>
 
-<span class="n">schema</span><span class="p">.</span><span class="nf">execute</span><span class="p">(</span><span class="s">"""
+<span class="n">schema</span><span class="p">.</span><span class="nf">execute</span><span class="p">(</span><span class="sh">"""</span><span class="s">
   query {
     hello
   }
-"""</span><span class="p">)</span>
+</span><span class="sh">"""</span><span class="p">)</span>
 </code></pre></div></div>
 
 

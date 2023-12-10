@@ -535,8 +535,9 @@
             
 
 
+
 <a href="https://github.com/11ty/eleventy">
-    <img src="https://img.shields.io/static/v1?label=11ty&amp;message=eleventy&amp;color=blue&amp;logo=github"
+    <img src="https://img.shields.io/static/v1?label=11ty&amp;message=eleventy&amp;color=3218b1&amp;logo=github"
         alt="repo badge">
     <img src="https://img.shields.io/github/stars/11ty/eleventy?style=social" alt="stars badge">
     <img src="https://img.shields.io/github/forks/11ty/eleventy?style=social" alt="forks badge">
@@ -607,12 +608,12 @@
 
 <p>Quoted includes. If <code class="language-plaintext highlighter-rouge">dynamicPartials: true</code> is set then looks for <code class="language-plaintext highlighter-rouge">_includes/user.*</code>, otherwise looks for exact match of <code class="language-plaintext highlighter-rouge">'user'</code>.</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="s1">'user'</span><span class="w"> </span><span class="p">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="s1">'user'</span><span class="w"> </span><span class="cp">%}</span>
 </code></pre></div></div>
 
 <p>Non-quoted includes. Looks for <code class="language-plaintext highlighter-rouge">_includes/user.*</code>.</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">user</span><span class="w"> </span><span class="p">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">user</span><span class="w"> </span><span class="cp">%}</span>
 </code></pre></div></div>
 
 <p>When I was stuck with errors, two things fixed it for me.</p>
@@ -620,14 +621,14 @@
 <p>Remove quotes.</p>
 
 <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;head&gt;
-    <span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>partials/head.html<span class="w"> </span><span class="p">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>partials/head.html<span class="w"> </span><span class="cp">%}</span>
 &lt;/head&gt;
 </code></pre></div></div>
 
 <p>Or keep quotes and set dynamic partials to be <code class="language-plaintext highlighter-rouge">true</code>.</p>
 
 <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;head&gt;
-    <span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="s1">'partials/head.html'</span><span class="w"> </span><span class="p">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="s1">'partials/head.html'</span><span class="w"> </span><span class="cp">%}</span>
 &lt;/head&gt;
 </code></pre></div></div>
 

@@ -187,12 +187,12 @@
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">App.svelte</code>
-    <pre><code class="language-svelte">  &lt;script&gt;
-    const name = 'World';
-  &lt;/script&gt;
+    <div class="language-svelte highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nt">&lt;script&gt;</span>
+    <span class="kd">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">World</span><span class="dl">'</span><span class="p">;</span>
+  <span class="nt">&lt;/script&gt;</span>
 
-  &lt;h1&gt;Hello, {name}!&lt;/h1&gt;
-</code></pre>
+  <span class="nt">&lt;h1&gt;</span>Hello, <span class="si">{</span><span class="nx">name</span><span class="si">}</span>!<span class="nt">&lt;/h1&gt;</span>
+</code></pre></div>    </div>
   </li>
 </ul>
 
@@ -200,18 +200,18 @@
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">App.svelte</code>
-    <pre><code class="language-svelte">  &lt;script&gt;
-      let count = 0;
+    <div class="language-svelte highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nt">&lt;script&gt;</span>
+      <span class="kd">let</span> <span class="nx">count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
-      function handleClick() {
-          count += 1;
-      }
-  &lt;/script&gt;
+      <span class="kd">function</span> <span class="nf">handleClick</span><span class="p">()</span> <span class="p">{</span>
+          <span class="nx">count</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="p">}</span>
+  <span class="nt">&lt;/script&gt;</span>
 
-  &lt;button on:click={handleClick}&gt;
-      Clicked {count} {count === 1 ? 'time' : 'times'}
-  &lt;/button&gt;
-</code></pre>
+  <span class="nt">&lt;button</span> <span class="na">on:click=</span><span class="si">{</span><span class="nx">handleClick</span><span class="si">}</span><span class="nt">&gt;</span>
+      Clicked <span class="si">{</span><span class="nx">count</span><span class="si">}</span> <span class="si">{</span><span class="nx">count</span> <span class="o">===</span> <span class="mi">1</span> <span class="p">?</span> <span class="dl">'</span><span class="s1">time</span><span class="dl">'</span> <span class="p">:</span> <span class="dl">'</span><span class="s1">times</span><span class="dl">'</span><span class="si">}</span>
+  <span class="nt">&lt;/button&gt;</span>
+</code></pre></div>    </div>
   </li>
 </ul>
 
@@ -221,38 +221,38 @@
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">App.svelte</code> template.
-    <pre><code class="language-svelte">  &lt;script&gt;
-    export let name;
-  &lt;/script&gt;
+    <div class="language-svelte highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nt">&lt;script&gt;</span>
+    <span class="k">export</span> <span class="kd">let</span> <span class="nx">name</span><span class="p">;</span>
+  <span class="nt">&lt;/script&gt;</span>
 
-  &lt;main&gt;
-    &lt;h1&gt;Hello {name}!&lt;/h1&gt;
+  <span class="nt">&lt;main&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Hello <span class="si">{</span><span class="nx">name</span><span class="si">}</span>!<span class="nt">&lt;/h1&gt;</span>
       
-    &lt;p&gt;Visit the &lt;a href="https://svelte.dev/tutorial"&gt;Svelte tutorial&lt;/a&gt; to learn how to build Svelte apps.&lt;/p&gt;
-  &lt;/main&gt;
+    <span class="nt">&lt;p&gt;</span>Visit the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://svelte.dev/tutorial"</span><span class="nt">&gt;</span>Svelte tutorial<span class="nt">&lt;/a&gt;</span> to learn how to build Svelte apps.<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/main&gt;</span>
 
-  &lt;style&gt;
-    main {
-      text-align: center;
-      padding: 1em;
-      max-width: 240px;
-      margin: 0 auto;
-    }
+  <span class="nt">&lt;style&gt;</span>
+    <span class="nt">main</span> <span class="p">{</span>
+      <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+      <span class="nl">padding</span><span class="p">:</span> <span class="m">1em</span><span class="p">;</span>
+      <span class="nl">max-width</span><span class="p">:</span> <span class="m">240px</span><span class="p">;</span>
+      <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+    <span class="p">}</span>
 
-    h1 {
-      color: #ff3e00;
-      text-transform: uppercase;
-      font-size: 4em;
-      font-weight: 100;
-    }
+    <span class="nt">h1</span> <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="m">#ff3e00</span><span class="p">;</span>
+      <span class="nl">text-transform</span><span class="p">:</span> <span class="nb">uppercase</span><span class="p">;</span>
+      <span class="nl">font-size</span><span class="p">:</span> <span class="m">4em</span><span class="p">;</span>
+      <span class="nl">font-weight</span><span class="p">:</span> <span class="m">100</span><span class="p">;</span>
+    <span class="p">}</span>
 
-    @media (min-width: 640px) {
-      main {
-        max-width: none;
-      }
-    }
-  &lt;/style&gt;
-</code></pre>
+    <span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="p">:</span> <span class="m">640px</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nt">main</span> <span class="p">{</span>
+        <span class="nl">max-width</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="nt">&lt;/style&gt;</span>
+</code></pre></div>    </div>
   </li>
   <li><code class="language-plaintext highlighter-rouge">main.js</code> JS module to set the value.
     <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">import</span> <span class="nx">App</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./App.svelte</span><span class="dl">'</span><span class="p">;</span>

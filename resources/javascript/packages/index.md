@@ -16,10 +16,10 @@ link_sections:
         url: https://lodash.com
         description: |
          Makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.
-
          Lodash’s modular methods are great for iterating over arrays, objects, and strings, manipulating and testing values, and creating composite functions
       - title: ramda
         url: https://ramdajs.com
+        description: A practical functional library for JavaScript programmers.
       - title: ts-belt
         url: https://mobily.github.io/ts-belt
         description: Fast, modern, and practical utility library for FP in TypeScript.

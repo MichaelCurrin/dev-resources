@@ -7,11 +7,11 @@ key_links:
   wikipedia: https://wikipedia.org/wiki/JavaScript
   
 links:
-  - title: JavaScript
+  - title: JavaScript section
     url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/
     description: Dev Cheatsheets
 
-  - title: JavaScript
+  - title: JavaScript page
     url: https://simple.wikipedia.org/wiki/JavaScript
     description: Simple English Wikipedia
 

@@ -4,8 +4,8 @@ A dev encyclopedia quick reference.
 
 Including:
 
-- Definitions and a short explanation of what something is and why/when to use it
-- Links to the homepage, tutorials and docs
+- Definitions and a short explanation of what something is and why/when to use it.
+- Links to the homepage, tutorials and docs.
 - Links to installation guides (in my gists or other repos).
 
 

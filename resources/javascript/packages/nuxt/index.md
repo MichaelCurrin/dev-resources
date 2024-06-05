@@ -18,8 +18,8 @@ links:
 
 ### Quickstart projects
 
-- [![MichaelCurrin - nuxt-default-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=nuxt-default-quickstart&color=3218b1&logo=github)](https://github.com/MichaelCurrin/nuxt-default-quickstart)
-- [![MichaelCurrin - nuxt-static-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=nuxt-static-quickstart&color=3218b1&logo=github)](https://github.com/MichaelCurrin/nuxt-static-quickstart)
+- [![MichaelCurrin - nuxt-default-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=nuxt-default-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/nuxt-default-quickstart)
+- [![MichaelCurrin - nuxt-static-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=nuxt-static-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/nuxt-static-quickstart)
 
 ### UI
 

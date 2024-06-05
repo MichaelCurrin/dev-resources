@@ -1,7 +1,7 @@
 {% assign repo_parts = include.repo_nwo | split: '/' %}
 {% assign username = repo_parts[0] %}
 {% assign repo_name = repo_parts[1] %}
-{% assign theme_color = '3218b1' %}
+{% assign theme_color = '153292' %}
 <a href="https://github.com/{{ include.repo_nwo }}">
     <img src="https://img.shields.io/static/v1?label={{ username }}&amp;message={{ repo_name }}&amp;color={{ theme_color }}&amp;logo=github"
         alt="repo badge">

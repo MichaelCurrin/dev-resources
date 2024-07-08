@@ -19,8 +19,12 @@ links:
     description: On Kubernetes site
     
   - title: Kubernetes Cheatsheet
-    url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/containers/kubernetes.html
+    url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/containers/kubernetes/
     description: On my Dev Cheatsheets project
+
+  - title: Kubernetes in 100 seconds
+    url: https://www.youtube.com/watch?v=PziYflu8cB8
+    description: YouTube video
 ---
 
 

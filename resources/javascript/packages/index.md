@@ -46,7 +46,15 @@ link_sections:
       - title: ApexCharts
         url: https://apexcharts.com
         description: ApexCharts is a modern JavaScript charting library that offers a sleek and responsive design. It supports a wide range of chart types, including line, area, bar, and heatmap, and comes with built-in features like zooming and panning.
-
+      - title: Recharts
+        url: https://recharts.org
+        description: A composable charting library built on React components
+      - title: Recharts
+        url: https://recharts.org
+        description: A composable charting library built on React components
+      - title: ShadCN charts
+        url: https://ui.shadcn.com/charts
+        description: React-based UI library which provides graphs using Recharts        
 ---
 
 ### Related

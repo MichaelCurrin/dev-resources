@@ -58,10 +58,10 @@ See also [Vue resources][].
 [Eleventy]: {% link resources/javascript/packages/eleventy/index.md %}
 [PrimeVue]: {% link resources/javascript/packages/vue/primevue.md %}
 [Vuetify]:  {% link resources/javascript/packages/vue/vuetify.md %}
-[Next]:     {% link resources/javascript/packages/next/index.md %}
-[Nuxt]:     {% link resources/javascript/packages/nuxt/index.md %}
+[Next]:     {% link resources/javascript/packages/react/next.md %}
+[Nuxt]:     {% link resources/javascript/packages/vue/nuxt.md %}
 [Vue]:      {% link resources/javascript/packages/vue/index.md %}
-[VuePress]: {% link resources/javascript/packages/vuepress/index.md %}
+[VuePress]: {% link resources/javascript/packages/vue/vuepress.md %}
 
 
 ## Content managers

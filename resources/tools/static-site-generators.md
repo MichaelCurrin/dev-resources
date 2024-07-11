@@ -9,9 +9,9 @@ See also [JAMStack][] section.
 - [Hugo]({% link resources/go/packages/hugo.md %})
 - [Eleventy]({% link resources/javascript/packages/eleventy/index.md %})
 - [Jekyll]({% link resources/jekyll/index.md %})
-- [VuePress]({% link resources/javascript/packages/vuepress/index.md %})
-- [Next.js]({% link resources/javascript/packages/next/index.md %})
-- [Nuxt]({% link resources/javascript/packages/nuxt/index.md %})
+- [VuePress]({% link resources/javascript/packages/vue/vuepress.md %})
+- [Next.js]({% link resources/javascript/packages/react/next.md %})
+- [Nuxt]({% link resources/javascript/packages/vue/nuxt.md %})
 
 See those on [Google Trends](https://trends.google.com/trends/explore?cat=5&date=all&q=%2Fm%2F0_s0_f0,%2Fg%2F121bk8f1,Next.js,VuePress,%2Fg%2F11g0wgnhgc). I excluded Hugo because as a term or topic it was too ambiguous.
 

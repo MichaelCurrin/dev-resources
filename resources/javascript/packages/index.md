@@ -49,9 +49,6 @@ link_sections:
       - title: Recharts
         url: https://recharts.org
         description: A composable charting library built on React components
-      - title: Recharts
-        url: https://recharts.org
-        description: A composable charting library built on React components
       - title: ShadCN charts
         url: https://ui.shadcn.com/charts
         description: React-based UI library which provides graphs using Recharts        

@@ -343,16 +343,10 @@
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/ghost/</loc>
 </url>
 <url>
-<loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/next/</loc>
-</url>
-<url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/bundlers/</loc>
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/gatsby/</loc>
-</url>
-<url>
-<loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/nuxt/</loc>
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/nativefier/</loc>
@@ -371,9 +365,6 @@
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/webpack/</loc>
-</url>
-<url>
-<loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/vuepress/</loc>
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/axios/</loc>
@@ -550,6 +541,9 @@
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/netlify/netlify-cli.html</loc>
 </url>
 <url>
+<loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/react/next.html</loc>
+</url>
+<url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/tools/nginx.html</loc>
 </url>
 <url>
@@ -563,6 +557,9 @@
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/python/libraries/data-science/numpy.html</loc>
+</url>
+<url>
+<loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/vue/nuxt.html</loc>
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/other/paradigms/oop.html</loc>
@@ -749,6 +746,9 @@
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/vue/vue3-markdown-it.html</loc>
+</url>
+<url>
+<loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/vue/vuepress.html</loc>
 </url>
 <url>
 <loc>https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/vue/vuetify.html</loc>

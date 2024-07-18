@@ -1,45 +1,38 @@
 # Development
 > Notes for developers working on this project
 
-See [Development](https://github.com/MichaelCurrin/fractal/tree/master/docs/development/) in the theme.
+See [Development](https://github.com/MichaelCurrin/fractal/tree/master/docs/development/) doc in this site's theme.
 
 
-## Resource lists
+## Add content to pages
 
-Here is a template:
+See the [template.md](template.md) file.
 
-```liquid
----
-links:
-  - title:
-    url:
+Update metadata above as required and add content in the body if needed.
 
-  - title:
-    url:
-    description:
----
-```
+Before you could use Forestry's UI to manage the metadata neatly, but this has not been setup since Forestry became TinaCMS - [link](https://tina.io/forestry/).
 
 
 ## Conversion
 
-Regex pattern to convert from bullet list of links to frontmatter.
+Convert from bullet list of links in frontmatter.
 
-Find:
+Use find and replace with regex mode in VS Code.
+
+Find this pattern:
 
 ```re
 - \[(.+)\]\((.+)\)
 ```
 
-Replace:
+Replace with this:
 
 ```
   - title: $1
     url: $2
-
 ```
 
 
 ## Frontmatter
 
-Tip - set a given `.md` file with only frontmatter to use the YAML format. You'll get formatting and validation.
+IDE tip - set a given `.md` file that has frontmatter only to use the YAML format. You'll get formatting and validation.

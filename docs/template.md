@@ -18,54 +18,37 @@ key_links:
   wikipedia: WIKIPEDIA_URL
 
 links:
-  - title: LINK_TITLE_1
-    url: LINK_URL_1
-    description: LINK_DESCRIPTION_1
-  - title: LINK_TITLE_2
-    url: LINK_URL_2
-    description: LINK_DESCRIPTION_2
+  - title: LINK_TITLE
+    url: LINK_URL
+    description: LINK_DESCRIPTION
 
 documentation:
-  - title: DOC_TITLE_1
-    url: DOC_URL_1
-    description: DOC_DESCRIPTION_1
-  - title: DOC_TITLE_2
-    url: DOC_URL_2
-    description: DOC_DESCRIPTION_2
+  - title: DOC_TITLE
+    url: DOC_URL
+    description: DOC_DESCRIPTION
 
 tutorials:
-  - title: TUTORIAL_TITLE_1
-    url: TUTORIAL_URL_1
-    description: TUTORIAL_DESCRIPTION_1
-  - title: TUTORIAL_TITLE_2
-    url: TUTORIAL_URL_2
-    description: TUTORIAL_DESCRIPTION_2
+  - title: TUTORIAL_TITLE
+    url: TUTORIAL_URL
+    description: TUTORIAL_DESCRIPTION
 
 blog_posts:
-  - title: BLOG_POST_TITLE_1
-    url: BLOG_POST_URL_1
-    description: BLOG_POST_DESCRIPTION_1
-  - title: BLOG_POST_TITLE_2
-    url: BLOG_POST_URL_2
-    description: BLOG_POST_DESCRIPTION_2
+  - title: BLOG_POST_TITLE
+    url: BLOG_POST_URL
+    description: BLOG_POST_DESCRIPTION
 
 playgrounds:
-  - title: PLAYGROUND_TITLE_1
-    url: PLAYGROUND_URL_1
-    description: PLAYGROUND_DESCRIPTION_1
-  - title: PLAYGROUND_TITLE_2
-    url: PLAYGROUND_URL_2
-    description: PLAYGROUND_DESCRIPTION_2
+  - title: PLAYGROUND_TITLE
+    url: PLAYGROUND_URL
+    description: PLAYGROUND_DESCRIPTION
 
 link_sections:
-  - title: SECTION_TITLE_1
+  # For anything that doesn't fit into the pre-defined categories above.
+  - title: SECTION_TITLE
     links:
-      - title: SECTION_LINK_TITLE_1
-        url: SECTION_LINK_URL_1
-        description: SECTION_LINK_DESCRIPTION_1
-      - title: SECTION_LINK_TITLE_2
-        url: SECTION_LINK_URL_2
-        description: SECTION_LINK_DESCRIPTION_2
+      - title: SECTION_LINK_TITLE
+        url: SECTION_LINK_URL
+        description: SECTION_LINK_DESCRIPTION
 ---
 
 BODY CONTENT

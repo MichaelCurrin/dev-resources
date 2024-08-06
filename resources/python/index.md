@@ -48,6 +48,11 @@ tutorials:
   - title: Python courses on Codecademy
     url: https://www.codecademy.com/catalog/language/python
     description: Beginner and intermediate. Courses in chatbots, data analysis, blockchain, visualizing data, language analysis, and more.
+  - title: The Complete Python Course | Learn Python by Doing in 2024
+    url: https://and-digital.udemy.com/course/the-complete-python-course/
+    description: |
+      "Go from Beginner to Expert in Python by building projects. The best investment for your Python journey!"
+    
 blog_posts: []
 
 playgrounds:

@@ -19,15 +19,15 @@ Based on [Programming Paradigm][] on Wikipedia.
 
 ## OOP languages 
 
-This list is from [Programming Paradigm][] on Wikipedia.
+Some well-known OOP languages. Based on the list on [Programming Paradigm][] on Wikipedia.
 
-- Simula
-- Smalltalk
-- C++ - from 1979, the first modern OOP language.
-- C# - similar to and based on Java.
-- Eiffel
-- PHP
-- Java - _Everything_ has to exist inside a class, even if it is just a static class with a main method.
-
+- Simula (1967)
+- Smalltalk (1972)
+- C++ (1979) - The first modern OOP language.
+- C# (2000) - Based on Java.
+- Eiffel (1986)
+- Python (1991)
+- PHP (1995)
+- Java (1995) - Everything has to exist inside a class, even if it is just a static class with a main method.
 
 [Programming Paradigm]: https://en.wikipedia.org/wiki/Programming_paradigm

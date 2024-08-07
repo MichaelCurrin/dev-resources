@@ -1,7 +1,7 @@
 # Development
 > Notes for developers working on this project
 
-See [Development](https://github.com/MichaelCurrin/fractal/tree/master/docs/development/) doc in this site's theme.
+See also [Development](https://github.com/MichaelCurrin/fractal/tree/master/docs/development/) doc of this site's theme.
 
 
 ## Add content to pages

@@ -495,6 +495,14 @@
 <ul class="page-list">
     
             <li>
+                <a href="/dev-resources/resources/python/libraries/web-scraping/scrapy.html">
+                    
+
+
+                    <span>Scrapy</span>
+                </a></li>
+        
+            <li>
                 <a href="/dev-resources/resources/python/libraries/web-scraping/requests.html">
                     
 
@@ -511,14 +519,6 @@
                 </a></li>
         
             <li>
-                <a href="/dev-resources/resources/python/libraries/web-scraping/scrapy.html">
-                    
-
-
-                    <span>scrapy</span>
-                </a></li>
-        
-            <li>
                 <a href="/dev-resources/resources/python/libraries/web-scraping/ultimate-sitemap-parser.html">
                     
 
@@ -530,6 +530,174 @@
     <br>
 
     
+    
+        <h2>Content</h2>
+
+        <h3 id="comparison-of-packages">Comparison of packages</h3>
+
+<p>Choose the library that best fits your specific needs, considering factors like the complexity of the websites you’re scraping, the scale of your project, and your familiarity with web technologies.</p>
+
+<p>Overview:</p>
+
+<ol>
+  <li><strong>Scrapy</strong>: A comprehensive framework for <strong>large-scale</strong> web scraping projects such as configuring an adaptor for each target websites and referencing the sitemap. It’s fast and scalable but has a steeper learning curve.</li>
+  <li><strong>Requests-HTML</strong>: Built on top of Requests, it adds JavaScript support and parsing capabilities. It’s good for simpler scraping tasks.</li>
+  <li><strong>Puppeteer</strong>: Originally for Node.js, it’s available in Python via pyppeteer. It offers full browser automation and is excellent for scraping dynamic websites.</li>
+  <li><strong>Selenium</strong>: Primarily for browser automation and <strong>testing</strong>, but also popular for web scraping, especially for sites with complex JavaScript.</li>
+  <li><strong>Requests</strong>: A simple, user-friendly HTTP library. It’s excellent for making HTTP requests but requires additional libraries (like Beautiful Soup or lxml) for parsing HTML. It cannot load JS on a page, so will not handle SPA sites (e.g. React), so use requests-html or Puppeteer.</li>
+  <li><strong>PyQuery</strong>: A parsing library that allows jQuery-like syntax for parsing HTML. Often used with Requests for scraping.</li>
+</ol>
+
+<p>Comparison:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Scrapy</th>
+      <th>Requests-HTML</th>
+      <th>Puppeteer</th>
+      <th>Selenium</th>
+      <th>Requests</th>
+      <th>PyQuery</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Type</strong></td>
+      <td>Full-featured framework</td>
+      <td>Library</td>
+      <td>Library</td>
+      <td>Framework</td>
+      <td>HTTP library</td>
+      <td>Parsing library</td>
+    </tr>
+    <tr>
+      <td><strong>JavaScript Support</strong></td>
+      <td>Limited</td>
+      <td>Yes</td>
+      <td>Full</td>
+      <td>Full</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><strong>Async Support</strong></td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>No (unless with asyncio)</td>
+      <td>No (unless with asyncio)</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><strong>Browser Automation</strong></td>
+      <td>No</td>
+      <td>No</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><strong>CSS Selectors</strong></td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>No (needs parser)</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><strong>XPath Support</strong></td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>No (needs parser)</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><strong>Built-in Concurrency</strong></td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><strong>Ease of Use</strong></td>
+      <td>Moderate</td>
+      <td>Easy</td>
+      <td>Moderate</td>
+      <td>Moderate</td>
+      <td>Very Easy</td>
+      <td>Easy</td>
+    </tr>
+    <tr>
+      <td><strong>Speed</strong></td>
+      <td>Fast</td>
+      <td>Moderate</td>
+      <td>Moderate</td>
+      <td>Slow</td>
+      <td>Fast</td>
+      <td>Fast (parsing only)</td>
+    </tr>
+    <tr>
+      <td><strong>Data Extraction</strong></td>
+      <td>Structured</td>
+      <td>Basic</td>
+      <td>Flexible</td>
+      <td>Flexible</td>
+      <td>Basic</td>
+      <td>Flexible</td>
+    </tr>
+    <tr>
+      <td><strong>Proxy Support</strong></td>
+      <td>Yes (built-in)</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td><strong>User-Agent Rotation</strong></td>
+      <td>Built-in</td>
+      <td>Manual</td>
+      <td>Manual</td>
+      <td>Manual</td>
+      <td>Manual</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td><strong>Learning Curve</strong></td>
+      <td>Steep</td>
+      <td>Shallow</td>
+      <td>Moderate</td>
+      <td>Moderate</td>
+      <td>Very Shallow</td>
+      <td>Shallow</td>
+    </tr>
+    <tr>
+      <td><strong>Best For</strong></td>
+      <td>Large-scale scraping</td>
+      <td>Simple scraping tasks</td>
+      <td>Dynamic websites</td>
+      <td>Complex web interactions</td>
+      <td>Simple HTTP requests</td>
+      <td>jQuery-like parsing</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For JS support</p>
+
+<ul>
+  <li>“Full” support means the library can handle virtually any JavaScript scenario a real user might encounter.</li>
+  <li>“Yes” indicates basic JavaScript rendering capabilities but potentially with some limitations in complex scenarios or interactions.</li>
+</ul>
     
 
         

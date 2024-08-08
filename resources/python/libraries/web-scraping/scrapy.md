@@ -1,6 +1,5 @@
 ---
 title: Scrapy
-logo: scrapy
 
 description: |
   Scrapy is an open-source and collaborative web crawling framework for Python. It's designed for extracting structured data from websites, which can be used for a wide range of applications like data mining, information processing, or historical archival.

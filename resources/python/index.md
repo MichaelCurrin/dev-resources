@@ -32,8 +32,7 @@ links:
   - title: Python Anywhere
     url: https://www.pythonanywhere.com/
     description: Host and run Python code in the cloud, without the hassle of managing infrastructure like on AWS. A convenient way to run Python and shell scripts in the cloud on schedule or host a web app using your choice of framework like Flask or Django. MySQL is available on the free tier, Postgres for paid, and of course SQLite works well for simple cases. There are also interactive consoles for Python, Bash, and MySQL - you can even live share your view by giving someone a link.
-  - title: PEP8
-    url: https://pep8.org/
+
   - title: What's new in Python on Python docs
     url: https://docs.python.org/3/whatsnew/
 tutorials:
@@ -77,6 +76,16 @@ link_sections:
   - title: Google Colab
     url: https://colab.research.google.com/
     description: ''
-
+- title: Styles and formatting
+  links:
+  - title: PEP8 on the Python website
+    url: https://peps.python.org/pep-0008/
+  - title: PEP8 friendly version
+    url: https://pep8.org/
+    description: This stylized presentation of the well-established PEP 8 was created by Kenneth Reitz (for humans).
+  - title: PEP8 article on RealPython
+    url: https://realpython.com/python-pep8/
+  - title: Google's Python style guide
+    url: https://google.github.io/styleguide/pyguide.html
 ---
 

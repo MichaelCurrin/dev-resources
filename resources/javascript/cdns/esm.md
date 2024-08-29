@@ -14,8 +14,22 @@ Supports **ES Modules** i.e. `import` rather than `require`. It appears that the
 
 The name of the site of course reflects ES Modules aka ESM.
 
+## Format
+
+### Basic
+
 URL format: `https://esm.run/PACKAGE`
 
-e.g. `https://esm.run/d3` redirects to `https://cdn.jsdelivr.net/npm/d3/+esm`.
+e.g. [https://esm.run/canvas-confetti](https://esm.run/canvas-confetti)
 
-The result says it was bundled with Rollup and Terser.
+That redirects to `https://cdn.jsdelivr.net/npm/canvas-confetti/+esm`.
+
+### Lock the package version
+
+URL format: `https://esm.run/PACKAGE@VERSION`
+
+e.g. [https://esm.sh/canvas-confetti@1.6.0](https://esm.sh/canvas-confetti@1.6.0)
+
+```javascript
+import confetti from "https://esm.sh/canvas-confetti@1.6.0"
+```

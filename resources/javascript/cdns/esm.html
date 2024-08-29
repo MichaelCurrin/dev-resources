@@ -213,11 +213,24 @@
 
 <p>The name of the site of course reflects ES Modules aka ESM.</p>
 
+<h2 id="format">Format</h2>
+
+<h3 id="basic">Basic</h3>
+
 <p>URL format: <code class="language-plaintext highlighter-rouge">https://esm.run/PACKAGE</code></p>
 
-<p>e.g. <code class="language-plaintext highlighter-rouge">https://esm.run/d3</code> redirects to <code class="language-plaintext highlighter-rouge">https://cdn.jsdelivr.net/npm/d3/+esm</code>.</p>
+<p>e.g. <a href="https://esm.run/canvas-confetti">https://esm.run/canvas-confetti</a></p>
 
-<p>The result says it was bundled with Rollup and Terser.</p>
+<p>That redirects to <code class="language-plaintext highlighter-rouge">https://cdn.jsdelivr.net/npm/canvas-confetti/+esm</code>.</p>
+
+<h3 id="lock-the-package-version">Lock the package version</h3>
+
+<p>URL format: <code class="language-plaintext highlighter-rouge">https://esm.run/PACKAGE@VERSION</code></p>
+
+<p>e.g. <a href="https://esm.sh/canvas-confetti@1.6.0">https://esm.sh/canvas-confetti@1.6.0</a></p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">confetti</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">https://esm.sh/canvas-confetti@1.6.0</span><span class="dl">"</span>
+</code></pre></div></div>
 
 
         

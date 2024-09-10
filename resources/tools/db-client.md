@@ -7,41 +7,48 @@ tools:
     pricing: Free with Pro option
     databases: All popular SQL databases like MySQL, MariaDB, PostgreSQL, SQLite
     link: https://dbeaver.io/
+    
   - name: Navicat
     platform: Windows, macOS, Linux
     pricing: Paid
     databases: MySQL, Postgres, MongoDB, MariaDB, SQL Server, Oracle, possibly more
     link: https://www.navicat.com/
-  - name: 'SQL Server Management Studio (SSMS)'
-    platform: Windows only
-    pricing: Not clear if there is a free option
-    databases: SQL Server
-    link: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
+
   - name: DataGrip
     platform: Windows, macOS, Linux
     pricing: 30-day trial
     databases: SQLite, MS SQL, MySQL, Oracle, Postgres, MariaDB, MongoDB, Redis, and more
     link: https://www.jetbrains.com/datagrip/
+
+  - name: 'SQL Server Management Studio (SSMS)'
+    platform: Windows only
+    pricing: Not clear if there is a free option
+    databases: SQL Server
+    link: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
   - name: MySQL Workbench Community edition
     platform: Windows, macOS, Linux
     pricing: Free
     databases: MySQL
     link: https://dev.mysql.com/downloads/workbench/
+    
   - name: MySQL Workbench Enterprise edition
     platform: Windows, macOS, Linux
     pricing: Free
     databases: MySQL
     link: https://www.mysql.com/products/workbench/
+    
   - name: pgAdmin
     platform: Windows, macOS, Linux
     pricing: Free
     databases: PostgreSQL
     link: https://www.pgadmin.org/
+    
   - name: MongoDB Compass
     platform: Windows, macOS, Linux
     pricing: Free
     databases: MongoDB
     link: https://www.mongodb.com/products/tools/compass
+    
   - name: RedisInsight
     platform: Windows, macOS, Linux
     pricing: Free

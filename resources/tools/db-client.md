@@ -15,12 +15,12 @@ tools:
   - name: 'SQL Server Management Studio (SSMS)'
     platform: Windows only
     pricing: Not clear if there is a free option
-    supports: SQL Server
+    databases: SQL Server
     link: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
   - name: DataGrip
     platform: Windows, macOS, Linux
     pricing: 30-day trial
-    supports: SQLie, MS SQL, MySQL, Oracle, Postgres, MariaDB, MongoDB, Redis, and more
+    databases: SQLite, MS SQL, MySQL, Oracle, Postgres, MariaDB, MongoDB, Redis, and more
     link: https://www.jetbrains.com/datagrip/
   - name: MySQL Workbench Community edition
     platform: Windows, macOS, Linux

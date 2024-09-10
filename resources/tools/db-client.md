@@ -19,7 +19,7 @@ tools:
   - name: DataGrip
     platforms: Windows, macOS, Linux
     pricing: 30-day trial
-    databases: SQL e.g. SQLite, MS SQL, MySQL, Oracle, Postgres, MariaDB. NoSQL e.g. MongoDB, Redis
+    databases: SQL e.g. SQLite, SQL Server, MySQL, Oracle, Postgres, MariaDB. NoSQL e.g. MongoDB, Redis
     link: https://www.jetbrains.com/datagrip/
     description: A database IDE that provides a comprehensive environment for database development.
     

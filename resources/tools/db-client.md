@@ -4,20 +4,20 @@ description: Connect to your SQL or NoSQL DB with a UI
 tools:
   - name: DBeaver
     platform: Windows, macOS, Linux
-    pricing: Free with Pro option
-    databases: All popular SQL databases like MySQL, MariaDB, PostgreSQL, SQLite
+    pricing: Free and Pro options
+    databases: SQL e.g. MySQL, MariaDB, PostgreSQL, SQLite,
     link: https://dbeaver.io/
     
   - name: Navicat
     platform: Windows, macOS, Linux
     pricing: Paid
-    databases: MySQL, Postgres, MongoDB, MariaDB, SQL Server, Oracle, possibly more
+    databases: SQL e.g. MySQL, Postgres, MongoDB, MariaDB, SQL Server, Oracle.
     link: https://www.navicat.com/
 
   - name: DataGrip
     platform: Windows, macOS, Linux
     pricing: 30-day trial
-    databases: SQLite, MS SQL, MySQL, Oracle, Postgres, MariaDB, MongoDB, Redis, and more
+    databases: SQL e.g. SQLite, MS SQL, MySQL, Oracle, Postgres, MariaDB. NoSQL e.g. MongoDB, Redis.
     link: https://www.jetbrains.com/datagrip/
 
   - name: 'SQL Server Management Studio (SSMS)'

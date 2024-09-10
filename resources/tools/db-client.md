@@ -102,6 +102,7 @@ tools:
       <th>Databases</th>
       <th>Platform</th>
       <th>Pricing</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>

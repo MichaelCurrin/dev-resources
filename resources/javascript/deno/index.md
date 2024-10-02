@@ -22,14 +22,16 @@ key_links:
   rosetta_code: ''
   packages: https://deno.land/x
   repo_nwo: denoland/deno
+links:
+- title: 'Deno 2 is here... will it actually kill Node.js this time?'
+  url: https://www.youtube.com/watch?v=pcC4Dr6Wj2Q
 tutorials:
 - title: 100 second intro (YouTube)
   url: https://youtu.be/F0G9lZ7gecE
 - title: Deno Tutorial on LYTY site
   url: https://lyty.dev/deno/deno-tutorial.html
   description: The tutorial is broken into sections like "Hello World" and "Package Management".
-blog_posts: []
-playgrounds: []
+
 link_sections:
 - title: Cheatsheets
   links:
@@ -49,14 +51,3 @@ link_sections:
     description: ''
 
 ---
-
-### Migrating from Node to Deno
-
-- Deno replaces Node as JavaScript runner and bundler.
-- No need for `package.json`.
-- Deno handles TypeScript - no external dependency needed.
-- Deno can be used to format and lint code - no external dependencies needed.
-- Deno handles JSX, so you can use React easily.
-- Deno can be used to bundle multiple JS files, without installing Webpack. You may run into complexity with adding support for `.vue` files though, as Deno doesn't support them. Or you need to restructure your components and views as `.js` files.
-- Deno doesn't support minification. But `npx esbuild --minify ...` is a great choice that is modern and performant.
-- You can easily use `make` and `Makefile` for running tasks in place of using `package.json` scripts.

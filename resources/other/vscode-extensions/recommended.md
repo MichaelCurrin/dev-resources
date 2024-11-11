@@ -66,6 +66,8 @@ link_sections:
 
 ---
 
+See [Swiss Army Knife](https://marketplace.visualstudio.com/items?itemName=mkloubert.vs-swiss-army-knife), a meta extension installing popular extensions. These are linked on the homepage, if you want to install them yourself.
+
 ### Tip
 
 You can also find _any_ extension in the marketplace and find a link to the GH repo. Look at the code yourself and use it as a reference or fork a repo.

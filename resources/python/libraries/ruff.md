@@ -8,4 +8,7 @@ key_links:
 
 > An extremely fast Python linter and code formatter, written in Rust.
 
-> Drop-in parity with Flake8, isort, and Black
+Features to mention:
+
+- Replacment for Flake8, isort, and Black. See [What tools does Ruff replace?](https://docs.astral.sh/ruff/faq/#which-tools-does-ruff-replace).
+- Supports Jupypter notebooks.

@@ -15,3 +15,7 @@ tutorials:
     url: https://realpython.com/lessons/type-hinting
     description: Real Python lesson.
 ---
+
+For relevant libraries, see [Dev Tools][] section.
+
+[Dev Tools]: {% link resources/python/libraries/dev-tools/index.md %}

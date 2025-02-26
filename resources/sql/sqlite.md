@@ -14,3 +14,5 @@ documentation:
   - title: Core functions
     url: https://www.sqlite.org/lang_corefunc.html
 ---
+
+[SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer) extension for VS Code.

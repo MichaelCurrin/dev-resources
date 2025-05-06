@@ -2,7 +2,7 @@
 title: Artificial Intelligence
 
 links:
-  - title: AI
+  - title: Artificial Intelligence topic
     url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/artificial-intelligence/
     description: In Dev Cheatsheets project
 

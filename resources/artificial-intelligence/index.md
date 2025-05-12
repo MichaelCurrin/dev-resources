@@ -57,7 +57,9 @@ link_sections:
         description: By Anthropic
       - title: 'prompts.chat'
         url: https://prompts.chat/
-        
+      - title: Fabric patterns
+        url: https://github.com/danielmiessler/fabric/tree/main/patterns
+        descriptions: Prompts in the GitHub repo, reviewed by the community, intended for use with Fabric CLI but can be used directly in chat
   - title: AI cookbooks
     links:
       - title: OpenAI cookbook

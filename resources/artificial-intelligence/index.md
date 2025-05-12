@@ -18,14 +18,31 @@ link_sections:
 
   - title: Prompt engineering guides to write/rewrite prompts
     links:
-      - title: Prompting guide
-        url: https://www.promptingguide.ai/
-      - title: Gemini API prompting strategies
+      - title: Prompt Engineering
+        url: https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering
+        description: By OpenAI
+      - title: Prompting strategies
         url: https://ai.google.dev/gemini-api/docs/prompting-strategies
-      - title: Prompt engineering tips for ChatGPT, on OpenAI help
+        description: By Google, for Gemini API but will also work in the chat
+
+      - title: Prompt Engineering for Business Performance
+        url: https://www.anthropic.com/news/prompt-engineering-for-business-performance
+        description: By Anthropic
+      - title: Prompt Engineering Interactive Tutorial
+        url: https://github.com/anthropics/prompt-eng-interactive-tutorial
+        description: By Anthropic. This is focused on using Claude AI via the API and Python, but the principles are resuable.
+
+      - title: Prompting Guide
+        url: https://www.promptingguide.ai/
+        description: Dedicated website
+
+      - title: Prompt engineering tips for ChatGPT
         url: https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt
-      - title: OpenAI API prompt engineering, on OpenAI help
+        description: On OpenAI help
+        
+      - title: OpenAI API prompt engineering
         url: https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api
+        description: On OpenAI help
 
   - title: Prompt libraries
     links:

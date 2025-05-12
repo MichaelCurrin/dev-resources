@@ -9,7 +9,7 @@ links:
 link_sections:
   - title: Prompt writing tools
     links:
-      - title: Prompt perfect
+      - title: Prompt Perfect
         url: https://promptperfect.jina.ai/
       - title: Easy Prompt
         url: https://michaelcurrin.github.io/easy-prompt/

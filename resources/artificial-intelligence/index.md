@@ -66,6 +66,8 @@ link_sections:
       - title: Fabric patterns
         url: https://github.com/danielmiessler/fabric/tree/main/patterns
         descriptions: Prompts in the GitHub repo, reviewed by the community, intended for use with Fabric CLI but can be used directly in chat
+      - title: The Big Prompt Library
+        url: https://github.com/0xeb/TheBigPromptLibrary
   - title: AI cookbooks
     links:
       - title: OpenAI cookbook

@@ -7,7 +7,7 @@ documentation:
   - title: Extension overview
     url: https://code.visualstudio.com/api
   - title: Your First Extension
-    url: https://code.visualstudio.com/api/get-started/your-first-extension)
+    url: https://code.visualstudio.com/api/get-started/your-first-extension
   - title: Activation events
     url: https://code.visualstudio.com/api/references/activation-events
   - title: VS Code API

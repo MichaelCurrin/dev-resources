@@ -25,6 +25,9 @@ links:
   - title: Kubernetes in 100 seconds
     url: https://www.youtube.com/watch?v=PziYflu8cB8
     description: YouTube video
+
+  - title: Kubernetes macOS install guide and plugins
+    url: https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/
 ---
 
 

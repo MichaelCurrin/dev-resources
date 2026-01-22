@@ -59,7 +59,7 @@ link_sections:
     description: GitHub repos
     links:
       - title: vue-quickstart
-        url: https://github.com/MichaelCurrin/
+        url: https://github.com/MichaelCurrin/vue-quickstart
         description:
       - title:  vue-typescript-quickstart
         url: https://github.com/MichaelCurrin/vue-typescript-quickstart

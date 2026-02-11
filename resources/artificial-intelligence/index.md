@@ -1,7 +1,9 @@
 ---
 title: Artificial Intelligence
 
-links:
+links: []
+
+link_sections:
   - title: Content on related sites
     links:
       - title: Artificial Intelligence topic
@@ -12,7 +14,6 @@ links:
         url: https://michaelcurrin.github.io/code-cookbook/recipes/artificial-intelligence/
         description: In my Code Cookbook project
 
-link_sections:
   - title: Prompt writing tools
     links:
       - title: Prompt Perfect

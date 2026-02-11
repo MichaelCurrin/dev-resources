@@ -6,11 +6,11 @@ links:
     links:
       - title: Artificial Intelligence topic
         url: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/artificial-intelligence/
-        description: In Dev Cheatsheets project
+        description: In my Dev Cheatsheets project
     
       - title: Artificial Intelligence topic
         url: https://michaelcurrin.github.io/code-cookbook/recipes/artificial-intelligence/
-        description: In Code Cookbook project
+        description: In my Code Cookbook project
 
 link_sections:
   - title: Prompt writing tools

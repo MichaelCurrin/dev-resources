@@ -16,4 +16,8 @@ links:
   - title: End of life 
     url: https://endoflife.date/nodejs
     description: More detailed than the Node Releases page
+
+  - title: Node worker threads quickstart
+    url: https://github.com/MichaelCurrin/node-worker-threads-quickstart
+    description: GitHub repo
 ---

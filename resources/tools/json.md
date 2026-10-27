@@ -1,8 +1,16 @@
 # JSON
 
-[BestJSON](https://bestjson.com/) - format, compare, escape, etc. on JSON text.
+## BestJSON web app
 
-[jq](https://jqlang.org/) - a lightweight and flexible command-line JSON processor
+> [bestjson.com](https://bestjson.com/)
+
+It provides free browser tools for formatting and validating JSON, previewing repairs, and comparing JSON structures. Input is processed locally and no account is required. It may help readers inspect JSON configuration and API response payloads while developing or debugging.
+
+## jq CLI
+
+> [jqlang.org](https://jqlang.org/)
+
+A lightweight and flexible command-line JSON processor
 
 e.g.
 
